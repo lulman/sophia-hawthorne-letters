@@ -1,0 +1,639 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "TEI_Hawthorne.dtd" [<!NOTATION jpg SYSTEM 'JPEG'>
+]>
+<TEI.2 id="OSU_SPECMMS138_5">
+   <teiHeader type="AACR2">
+      <!--The type attribuite in teiHeader element above indicates that the header provides enough information to create a bibliographic record that complies with the Anglo-American Cataloguing Rules, 2nd ed. (1978; rev. 1988).-->
+      <!--The  file description tagged <fileDesc>, contains "a full bibliographical description of the computer file itself, from which a user of the text could derive a proper bibliographic citation, or which a librarian or archivist could use in creating a catalogue entry recording its presence within a library or archive" (TEI P4X, ch. 5).-->
+      <fileDesc>
+         <titleStmt>
+            <title>Letters, 1837-1868, to Elizabeth Palmer Peabody (Letter #5): Electronic Edition.</title>
+            <editor>Sean O'Reilly</editor>
+            <editor>Christopher R. B. Pinner</editor>
+            <editor>Michelle R. Soell</editor>
+            <editor>Chris Stull</editor>
+            <editor>Marianne Johnson</editor>
+            <principal>H. Lewis Ulman</principal>
+            <respStmt>
+               <resp>Creation of machine-readable transcript: </resp>
+               <name type="person">Sean O'Reilly</name>
+               <name type="person">Christopher R. B. Pinner</name>
+               <name type="person">Michelle R. Soell</name>
+               <name type="person">Chris Stull</name>
+               <name type="person">Marianne Johnson</name>
+               <resp>Creation of digital images: </resp>
+               <name type="person">Keith Lazuka</name>
+               <resp>Conversion to TEI.2-conformant markup: </resp>
+               <name type="person">Sean O'Reilly</name>
+               <name type="person">Christopher R. B. Pinner</name>
+               <name type="person">Michelle R. Soell</name>
+               <name type="person">Chris Stull</name>
+               <name type="person">Marianne Johnson</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <p>1st Edition.</p>
+         </editionStmt>
+         <extent>ca. 273 kilobytes </extent>
+         <publicationStmt>
+            <publisher>The Ohio State University Library.
+<address>
+                  <addrLine n="1">327 Main Library</addrLine>
+                  <addrLine n="2">1858 Neil Avenue Mall</addrLine>
+                  <addrLine n="3">Columbus, OH 43210</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Columbus, OH</pubPlace>
+            <idno type="Call no.">SPEC.MMS.138</idno>
+            <availability>
+               <p>Rare Books and Manuscript Department, The Ohio State University</p>
+               <p>URL: http://www.lib.ohio-state.edu/rarweb/</p>
+               <p>The Sophia Peabody Hawthorne / Elisabeth Palmer Peabody correspondence is the
+                        property of the Rare Books and Manuscripts Library of The Ohio State
+                        University Libraries. Any use of the material should acknowledge such ownership.</p>
+            </availability>
+            <date>2003</date>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Name of electronic series, if any</p>
+         </seriesStmt>
+         <notesStmt>
+            <note>Notes about e-text.</note>
+            <note>Any other notes about e-text.</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title id="SPEC.MMS.138" level="u">Letters, 1837-1868, to Elisabeth Palmer Peabody</title>
+                  <!--The "level" attribute "indicates whether this is the title of an article, book, journal, series, or unpublished material, indicated as a, b, j, s, or u" (TEI P4X, ch. 5.2.1).-->
+                  <author>Hawthorne, Sophia Peabody, 1809-1871</author>
+               </titleStmt>
+               <extent>8 pp.</extent>
+               <publicationStmt>
+                  <p>Publication statement from the library.</p>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Note about manuscript.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <!--The encoding description, tagged <encodingDesc>, describes "the relationship between an electronic text and its source or sources" (TEI P4X, ch. 5).-->
+      <encodingDesc>
+         <projectDesc>
+            <p>Project description.</p>
+         </projectDesc>
+         <editorialDecl>
+            <!--In addition to prose description, the Editorial Practices Declaration may contain specialized elements concerned with correction, normalization, quotation, hyphenation, segmentation, date and number format, and interpretive apparatus (TEI P4X, ch. 5.3.3).-->
+            <p>All quotation marks retained as data.</p>
+            <p>Spell-check and verification made against printed text using WordPerfect spell checker.</p>
+            <p>All unambiguous end-of-line hyphens have been removed, and the trailing part of a
+                    word has been joined to the preceding line.</p>
+            <p>The images exist as archived TIFF images, one or more JPEG versions for general
+                    use, and thumbnail GIFs.</p>
+         </editorialDecl>
+         <refsDecl>
+            <p>ID elements are given for each page element and are composed of the text's unique
+                    cryptogram and the given page number, as in AusEmma1 for page one of Jane
+                    Austen's Emma.</p>
+         </refsDecl>
+         <classDecl>
+            <taxonomy id="LCSH">
+               <bibl>
+                  <title>Library of Congress Subject Headings</title>
+               </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <!--The text profile, tagged <profileDesc>, contains "classificatory and contextual information about the text, such as its subject matter, the situation in which it was produced, the individuals described by or participating in producing it, and so forth" (TEI P4X, ch. 5).-->
+      <profileDesc>
+         <creation>
+            <date>20003-03-19</date>
+         </creation>
+         <langUsage>
+            <language id="eng">English</language>
+            <language id="ger">German</language>
+         </langUsage>
+         <handList>
+            <hand id="SPH" scribe="Hawthorne, Sophia Peabody, 1809-1871"/>
+         </handList>
+         <textClass>
+            <keywords>
+               <term>prose</term>
+            </keywords>
+            <keywords scheme="LCSH">
+               <term>LCSH</term>
+            </keywords>
+         </textClass>
+         <textClass>
+            <keywords>
+               <term>KEYWORD</term>
+               <term>KEYWORD</term>
+               <term>KEYWORD</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <!--The revision history, tagged <revisionDesc>, allows "the encoder to provide a history of changes made during the development of the electronic text" (TEI P4X, ch. 5).-->
+      <revisionDesc>
+         <change>
+            <date>Spring 2003</date>
+            <respStmt>
+               <resp>Editors</resp>
+               <name>See listing of editorial team.</name>
+            </respStmt>
+            <item>Initial TEI-compliant XML encoding.</item>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <div1 n="1" type="abstract">
+            <head>
+               <bibl>
+                  <abbr>ALS</abbr>
+                  <extent>8 pp.</extent>
+                  <date value="1868-12-04">4 December 1868</date>
+                  <idno rend="suppress">SPEC.MMS.138_5</idno>
+                  <title>Letter from Sophia Hawthorne to Elisabeth Peabody.</title>
+               </bibl>
+            </head>
+            <p>This letter, written by Sophia Hawthorne to her sister Elisabeth Peabody, discusses the death of their nephew Horace Mann, Jr. and the subsequent reaction of his mother (their sister, Mary Tyler Peabody Mann).</p>
+         </div1>
+      </front>
+      <body>
+         <div1 n="1" type="letter">
+            <head/>
+            
+<!-- Page 1 -->
+<pb mmid="/a/adcfc98f-f4da-419a-9ab8-f56124a153a0" n="1"/>
+
+            <opener><dateline><date value="1868-12-04">December 4<hi rend="superscript">th</hi> 1868</date>
+                <lb/><address><street>46B, <add place="infralinear">^</add> <add place="supralinear">3<hi rend="superscript">d</hi> étage</add> Bautzner Strasse.</street> <name type="place">Dresden.</name></address></dateline> </opener>
+            <p>
+               
+<lb id="L05L001" n="001"/>
+               <name key="" reg="Peabody, Elisabeth" type="person">Oh Elisabeth</name>,<seg>
+                  <note target="n1">1</note>
+               </seg> your letter of Nov<abbr expan="ember">ember</abbr> 12 came 
+<lb id="L05L002" n="002"/>yesterday noon, after immense longing 
+<lb id="L05L003" n="003"/>on my part to hear from you about 
+<lb id="L05L004" n="004"/>
+               <name key="" reg="Mann, Horace, Jr." type="person">Horace</name>
+               <seg>
+                  <note target="n2">2</note>
+               </seg> particularly, and now alas the
+<lb id="L05L005" n="005"/>beloved child has passed into the
+<lb id="L05L006" n="006"/>heavens. From the delay of the letter,
+<lb id="L05L007" n="007"/>I had great fears that either <name key="" reg="Mann, Horace, Jr. " type="person">Horace</name>
+<lb id="L05L008" n="008"/>or <name key="" reg="Mann, Mary Tyler Peabody" type="person">Mary</name>
+               <seg>
+                  <note target="n3">3</note>
+               </seg>were very ill, and that you
+<lb id="L05L009" n="009"/>waited to give me good news. I am 
+<lb id="L05L010" n="010"/>deeply grieved, and notwithstanding 
+<lb id="L05L011" n="011"/>your precaution in preparing the
+<lb id="L05L012" n="012"/>way to tell me finally that he was
+<lb id="L05L013" n="013"/>&quot;still forever.&quot; I was smitten to the
+<lb id="L05L014" n="014"/>heart when I came to that; for I 
+<lb id="L05L015" n="015"/>began to think you told me the details 
+<lb id="L05L016" n="016"/>of his illness as the &quot;sad news&quot; and that 
+<lb id="L05L017" n="017"/>he lived yet here below. Fortunately
+<lb id="L05L018" n="018"/>the blow made me burst into tears 
+<lb id="L05L019" n="019"/>and sobs, (a very rare thing for me now)
+<lb id="L05L020" n="020"/>so that the acute pang did not hurt me
+<lb id="L05L021" n="021"/>so much. But I am in the greatest
+<lb id="L05L022" n="022"/>anxiety about <name key="" reg="Mann, Mary Tyler  Peabody, 1806-1887" type="person">Mary</name>. The
+                    world has 
+<lb id="L05L023" n="023"/>lost a rare person. Where will you find 
+<lb id="L05L024" n="024"/>such fidelity, such devotion, such earnestness, 
+<lb id="L05L025" n="025"/>such perseverance, such solemn 
+<lb id="L05L026" n="026"/>dedication of the talents God has given.
+<lb id="L05L027" n="027"/>I loved him greatly, and my respect 
+<lb id="L05L028" n="028"/>for his life was profound. I mourn
+<lb id="L05L029" n="029"/>for my dear <name key="" reg="Mann, Horace, Jr. ??" type="person">Horace</name> with deepest 
+<lb id="L05L030" n="030"/>sorrow. I did hope to persuade him 
+<lb id="L05L031" n="031"/>to come to us in Dresden for recreation, 
+<lb id="L05L032" n="032"/>change and observation of the gains 
+<lb id="L05L033" n="033"/>of science here. He was so large in
+<lb id="L05L034" n="034"/>his scope. When I asked him once
+<lb id="L05L035" n="035"/>which branch of science he <hi rend="underscore">preferred</hi>
+
+<!-- Page 2 -->
+<pb mmid="/6/6341dfa9-00b3-4d9e-95ee-9b35c247899b" n="2"/>
+               
+<lb id="L05L036" n="036"/>he looked at me with surprise and replied
+<lb id="L05L037" n="037"/>&quot;How can I like one branch of science better
+<lb id="L05L038" n="038"/>than another?&quot; True enough &mdash; how can 
+<lb id="L05L039" n="039"/>anyone &mdash; and yet, how few have this 
+<lb id="L05L040" n="040"/>broad love, and how many keep in 
+<lb id="L05L041" n="041"/>one groove. His was indeed the genuine 
+<lb id="L05L042" n="042"/>love for the widest knowledge. His 
+<lb id="L05L043" n="043"/>magnificent purposes and hopes 
+<lb id="L05L044" n="044"/>probably needed another sphere to 
+<lb id="L05L045" n="045"/>be fulfilled, for oh <name key="" reg="Peabody, Elisabeth Palmer, 1804-1894" type="person">Elisabeth</name>, I
+    <hi rend="underscore">never</hi>
+<lb id="L05L046" n="046"/>believed that <name key="" reg="Mann, Horace, Jr. ??" type="person">Horace</name> would live to 
+<lb id="L05L047" n="047"/>the prime of manhood in this world. 
+<lb id="L05L048" n="048"/><hi rend="underscore">I was sure</hi> he would die young, and 
+<lb id="L05L049" n="049"/>so I am not surprised, however much 
+<lb id="L05L050" n="050"/>I grieve. He had not robustness of 
+<lb id="L05L051" n="051"/>constitution enough to bear such <unclear reason="obscured by ink stain" rend="">constant</unclear>
+<lb id="L05L052" n="052"/> and profound study. He told me once 
+<lb id="L05L053" n="053"/> he was never for one moment rested,
+<lb id="L05L054" n="054"/> and never expected to be! He worked 
+<lb id="L05L055" n="055"/> with pure spirit always, and not 
+<lb id="L05L056" n="056"/> with physical power. Even his 
+<lb id="L05L057" n="057"/> enormous walks and climbings 
+<lb id="L05L058" n="058"/> and reachings in America and 
+<lb id="L05L059" n="059"/> the Sandwich Islands <seg>
+                  <note target="n4">4</note>
+               </seg> and everywhere, 
+<lb id="L05L060" n="060"/> were accomplished because his 
+<lb id="L05L061" n="061"/> will and wish were so omnipotent&mdash;
+<lb id="L05L062" n="062"/> not because he had bodily force 
+<lb id="L05L063" n="063"/> enough. It was sublime and 
+<lb id="L05L064" n="064"/> beautiful to a degree<del hand="SPH" type="overstrike">hardly</del>
+<lb id="L05L065" n="065"/> surpassed. I feel honored that I 
+<lb id="L05L066" n="066"/> was related to him. I think there
+<lb id="L05L067" n="067"/> never was a purer sacrifice offered 
+<lb id="L05L068" n="068"/> to disinterested science. He was a 
+<lb id="L05L069" n="069"/> martyr without stain. When I saw 
+<lb id="L05L070" n="070"/> him first with the seal of death on <add hand="SPH" place="infralinear">his</add>
+
+<!-- Page 3 -->
+<pb mmid="/5/56abce43-d0fa-444a-b653-4ffbbe4c0e40" n="3"/>
+               
+<lb id="L05L071" n="071"/> brow (as I <hi rend="underscore">know</hi>) it was astonishing to 
+<lb id="L05L072" n="072"/> observe the fine beauty of his face&mdash;
+<lb id="L05L073" n="073"/> the intellectual dignity suddenly
+<lb id="L05L074" n="074"/>increased so much. Julian<seg>
+                  <note target="n5">5</note>
+               </seg> remarked 
+<lb id="L05L075" n="075"/>yesterday that when he bade him 
+<lb id="L05L076" n="076"/>goodbye on the eve before we left Boston 
+<lb id="L05L077" n="077"/>that he had never seen him look 
+<lb id="L05L078" n="078"/>so well&mdash;(meaning so fine in expression) 
+<lb id="L05L079" n="079"/>Ah it is we only who are disappointed! 
+<lb id="L05L080" n="080"/>and lamenting&mdash; For just think of him 
+<lb id="L05L081" n="081"/>now with no obstruction between him 
+<lb id="L05L082" n="082"/>and the universe of God. Think how 
+<lb id="L05L083" n="083"/>his face shines with eternal joy as 
+<lb id="L05L084" n="084"/>he apprehends the secrets of creation. 
+<lb id="L05L085" n="085"/>If he had had a stronger body and 
+<lb id="L05L086" n="086"/>tougher health, he would doubtless 
+<lb id="L05L087" n="087"/>have lost in delicacy of perception 
+<lb id="L05L088" n="088"/>and acute sensibility to all the
+<lb id="L05L089" n="089"/>mysterious laws and results of Nature. 
+<lb id="L05L090" n="090"/>Also in living here among less
+<lb id="L05L091" n="091"/>exalted persons <add hand="SPH" place="supralinear">in his vocation</add> he might have 
+<lb id="L05L092" n="093"/>finally<del hand="SPH" type="overstrike"> merged </del>spirit in the matter 
+<lb id="L05L093" n="093"/>that is <add hand="SPH" place="supralinear"> also </add>so wonderful and fine. 
+<lb id="L05L094" n="094"/>He was too susceptible of suffering for 
+<lb id="L05L095" n="095"/>those who loved him vitally, to really 
+<lb id="L05L096" n="096"/>enjoy his progress. I was always in
+<lb id="L05L097" n="097"/>terror of the sudden breaking down 
+<lb id="L05L098" n="098"/>of overtaxed brain and nerves.
+<lb id="L05L099" n="099"/>I thank God he did not lose his 
+<lb id="L05L100" n="100"/>reason under the pressure of his cares. 
+<lb id="L05L101" n="101"/>Oh how much better that he should 
+<lb id="L05L102" n="102"/>enter into endless Rest than to 
+<lb id="L05L103" n="103"/>merely exist<add hand="SPH" place="supralinear"> here </add> without use of reason. 
+<lb id="L05L104" n="104"/>That would surely have broken our hearts.
+
+<!-- Page 4 -->
+<pb mmid="/0/0d5b04f7-5fad-421e-a9e3-a3b283a7eadc" n="4"/>
+               
+<lb id="L05L105" n="105"/> But he entered the mansion prepared 
+<lb id="L05L106" n="106"/> for him in his <add place="supralinear" rend="caret">Heavenly</add> Father's House, living
+<lb id="L05L107" n="107"/> and conscious through all his being. 
+<lb id="L05L108" n="108"/> Were not the words he first heard 
+<lb id="L05L109" n="109"/><q>well done, <add place="supralinear" rend="caret">Thou good and </add>faithful
+                        servant. Thou hast 
+<lb id="L05L110" n="110"/> been faithful over a few things. I will 
+<lb id="L05L111" n="111"/> make thee ruler over many things! <seg>
+                     <note target="n6">6</note>
+                  </seg>
+<lb id="L05L112" n="112"/> Enter thou into the joy of thy Lord. <seg>
+                     <note target="n7">7</note>
+                  </seg>
+<lb id="L05L113" n="113"/> For has not he gained five talents 
+<lb id="L05L114" n="114"/> more than the five which the Lord 
+<lb id="L05L115" n="115"/> delivered unto him?</q>
+               <seg>
+                  <note target="n8">8</note>
+               </seg> Did he ever 
+<lb id="L05L116" n="116"/> fold one in a napkin? When his 
+<lb id="L05L117" n="117"/> mother's first agony of separation is 
+<lb id="L05L118" n="118"/> over, his noble life will come back 
+<lb id="L05L119" n="119"/> to her like an angel of consolation &mdash;; 
+<lb id="L05L120" n="120"/> and she will feel rewarded in a 
+<lb id="L05L121" n="121"/> celestial way for her truly divine 
+<lb id="L05L122" n="122"/> care and sympathy with him. One in 
+<lb id="L05L123" n="123"/> a thousand mothers is she, and it 
+<lb id="L05L124" n="124"/> would indeed be a pity to part such 
+<lb id="L05L125" n="125"/> love. <hi rend="underscore">It is not parted</hi>&mdash; oh no
+                    &mdash;; His 
+<lb id="L05L126" n="126"/> gratitude on earth to her could never
+<lb id="L05L127" n="127"/> reach his gratitude to her in heaven 
+<lb id="L05L128" n="128"/> where he can better appreciate it and 
+<lb id="L05L129" n="129"/> understand her single devotion to 
+<lb id="L05L130" n="130"/> his highest good. And his father is 
+<lb id="L05L131" n="131"/> there to receive and welcome him 
+<lb id="L05L132" n="132"/> without a misgiving! For did not he 
+<lb id="L05L133" n="133"/> rise to his father's most ardent 
+<lb id="L05L134" n="134"/> prayers for him? I am comforting 
+<lb id="L05L135" n="135"/> myself &mdash;; How I wish I could comfort 
+<lb id="L05L136" n="136"/> Mary. God alone can speak to her. 
+<lb id="L05L137" n="137"/> I do not know what it is to lose a son. 
+<lb id="L05L138" n="138"/> God bless and help her, as He surely will.
+
+<!-- Page 5 -->
+<pb mmid="/7/78991fa6-38c3-4481-9b11-32447f50b35f" n="5"/>
+               
+<lb id="L05L139" n="139"/> Her remarkable fortitude will aid her 
+<lb id="L05L140" n="140"/> now, and also her generous tenderness. 
+<lb id="L05L141" n="141"/> I hope she will live for the others. 
+<lb id="L05L142" n="142"/> She said once she wished to live till 
+<lb id="L05L143" n="143"/> Ben<seg>
+                  <note target="n9">9</note>
+               </seg> was 21. I hope she will not 
+<lb id="L05L144" n="144"/> be drawn up into the blessed land 
+<lb id="L05L145" n="145"/> after Horace, and I think she will
+<lb id="L05L146" n="146"/> stay for the rest. She has such 
+<lb id="L05L147" n="147"/> identity of life with her children, 
+<lb id="L05L148" n="148"/> that I cannot conceive of their doing 
+<lb id="L05L149" n="149"/> without her on earth. If Horace could 
+<lb id="L05L150" n="150"/> miss any thing<seg>
+                  <note target="n10">10</note>
+               </seg> in a state, the felicity 
+<lb id="L05L151" n="151"/> of which eye hath not seen nor 
+<lb id="L05L152" n="152"/> ear heard, it would be his mother's 
+<lb id="L05L153" n="153"/> embracing care. But he has that 
+<lb id="L05L154" n="154"/> still, and all else superadded, and
+<lb id="L05L155" n="155"/> as I first exclaimed with sobs 
+<lb id="L05L156" n="156"/> and tears <q>He never will be tired any 
+<lb id="L05L157" n="157"/> more!</q> Human power could never
+<lb id="L05L158" n="158"/> compass what he meant to do, and 
+<lb id="L05L159" n="159"/> not to disappoint him, His Heavenly 
+<lb id="L05L160" n="160"/> Father took him from earthly 
+<lb id="L05L161" n="161"/> obstacles and constant suffering, 
+<lb id="L05L162" n="162"/> where he can never more be cold 
+<lb id="L05L163" n="163"/> nor weary nor interrupted in his 
+<lb id="L05L164" n="164"/> immortal course of knowledge 
+<lb id="L05L165" n="165"/> and aspiration. Two witnesses 
+<lb id="L05L166" n="166"/> have George<seg>
+                  <note target="n11">11</note>
+               </seg> and Ben now 
+<lb id="L05L167" n="167"/> in heaven &mdash;; Two angels to watch and 
+<lb id="L05L168" n="168"/> ward. I trust you have written 
+<lb id="L05L169" n="169"/> again to tell me how they do and 
+<lb id="L05L170" n="170"/> how they bear it. But of Mary 
+<lb id="L05L171" n="171"/> I am most fearful, because she 
+<lb id="L05L172" n="172"/> is frail, and had lately been so ill.
+
+<!-- Page 6 -->
+<pb mmid="/4/4b724d88-f64e-45d2-88aa-a18b6193a0d5" n="6"/>
+               
+<lb id="L05L173" n="173"/> She has such strength of endurance that 
+<lb id="L05L174" n="174"/> I believe she will live here as long 
+<lb id="L05L175" n="175"/> as she desires to live, because also 
+<lb id="L05L176" n="176"/> her wish to live is so unselfish. 
+<lb id="L05L177" n="177"/> She wishes to live for her children 
+<lb id="L05L178" n="178"/> and not for herself. Perhaps by and
+
+<lb id="L05L179" n="179"/> by I can write to her, but how could 
+<lb id="L05L180" n="180"/> I speak to her now. I am dumb
+<lb id="L05L181" n="181"/> before her in this terrible moment.</p>
+
+ <p id="XX" n="X">
+<lb id="L05L182" n="182"/> I think with satisfaction of what
+<lb id="L05L183" n="183"/> is very trifling to others &mdash;; but not to 
+<lb id="L05L184" n="184"/> me. It is that <name key="" reg="Mann, Horace, Jr. " type="person">Horace</name> was always
+<lb id="L05L185" n="185"/> very affectionate and sweet to me 
+<lb id="L05L186" n="186"/> I remember his grasp of hand 
+<lb id="L05L187" n="187"/> and his smile whenever I met 
+<lb id="L05L188" n="188"/> him &mdash;-; and whenever he said <q>Aunt
+<lb id="L05L189" n="189"/> Sophia</q>&mdash;; was always moved, each 
+<lb id="L05L190" n="190"/> time, as if he first said it then. 
+<lb id="L05L191" n="191"/> I also remember well what a respect 
+<lb id="L05L192" n="192"/> and regard my husband had for 
+<lb id="L05L193" n="193"/> him. He always liked to talk 
+<lb id="L05L194" n="194"/> with him and to hear everything 
+<lb id="L05L195" n="195"/> he said. His sincerity, seriousness
+<lb id="L05L196" n="196"/> of purpose and varied knowledge 
+<lb id="L05L197" n="197"/> and intelligence made him 
+<lb id="L05L198" n="198"/> so attractive to Mr. Hawthorne &mdash;; 
+<lb id="L05L199" n="199"/> and in his presence there was such 
+<lb id="L05L200" n="200"/> a modest dignity of manners &mdash;; 
+<lb id="L05L201" n="201"/> so thoughtful an air of 
+<lb id="L05L202" n="202"/> conscientious consideration as 
+<lb id="L05L203" n="203"/> was truly beautiful.
+
+<!-- Page 7 -->
+<pb mmid="/8/81b1ca71-abaa-43b5-a68c-8248df626c64" n="7"/>
+               
+<lb id="L05L204" n="204"/> I believe the last time I saw him 
+<lb id="L05L205" n="205"/> in Concord was when he came in
+<lb id="L05L206" n="206"/> loaded with lovely arethusas &mdash;; and 
+<lb id="L05L207" n="207"/> presented me with a radiant 
+<lb id="L05L208" n="208"/> sheaf of them. I was always thankful 
+<lb id="L05L209" n="209"/> to see him come &mdash;; but how seldom 
+<lb id="L05L210" n="210"/> he came. I felt he could not waste 
+<lb id="L05L211" n="211"/> his time, for seldom anyone so 
+<lb id="L05L212" n="212"/> impressed me with the value of 
+<lb id="L05L213" n="213"/> moments. He never wasted any
+<lb id="L05L214" n="214"/> time! What a marvel! Not since 
+<lb id="L05L215" n="215"/> childhood, when he began to try 
+<lb id="L05L216" n="216"/> chemic experiments. How thoroughly 
+<lb id="L05L217" n="217"/> he obeyed the command<q>Work while 
+<lb id="L05L218" n="218"/> it is day &mdash;</q>;</p>
+
+<p id="X" n="X">
+<lb id="L05L219" n="219"/> When he came home from the 
+<lb id="L05L220" n="220"/> Sandwich Islands,<seg>
+                  <note target="n4">4</note>
+               </seg> there was a knot of 
+<lb id="L05L221" n="221"/> pain on his brow, which did not wear 
+<lb id="L05L222" n="222"/> quite away till I saw the seal of
+<lb id="L05L223" n="223"/> death take its place. I always 
+<lb id="L05L224" n="224"/> wondered what had troubled him. 
+<lb id="L05L225" n="225"/> Perhaps he has now told his mother &mdash;; 
+<lb id="L05L226" n="226"/> but I am sure he had some great 
+<lb id="L05L227" n="227"/> trouble which he thought best to 
+<lb id="L05L228" n="228"/> keep to himself. I sometimes 
+<lb id="L05L229" n="229"/> thought I would ask him to tell 
+<lb id="L05L230" n="230"/> me, as he might be reluctant to 
+<lb id="L05L231" n="231"/> disturb his mother &mdash;; for I thought 
+<lb id="L05L232" n="232"/> he would feel better to relieve 
+<lb id="L05L233" n="233"/> himself of it, whatever he was. 
+<lb id="L05L234" n="234"/> It is no matter now &mdash;-; for when
+<lb id="L05L235" n="235"/> the golden gate turned <add place="supralinear" rend="caret">back</add> on its
+
+<!-- Page 8 -->
+<pb mmid="/0/03ab98df-8b0e-4214-b3a5-b0c5bb8e75b2" n="8"/>
+               
+<lb id="L05L236" n="236"/>
+               <gap extent="one letter" reason="inkblot" rend="unclear letter"/>inges, and shut him in from
+<lb id="L05L237" n="237"/> the world, all cares were left
+<lb id="L05L238" n="238"/> outside, and his brow now is <gap extent="one word" reason="cancelled and illegible" rend="overwritten"/>
+               <add hand="SPH" place="supralinear">smooth</add>
+<lb id="L05L239" n="239"/> with peace. I begin today to be
+<lb id="L05L240" n="240"/> conscious of his peace &mdash;; I could think
+<lb id="L05L241" n="241"/> of only Mary's loss and the loss of
+<lb id="L05L242" n="242"/> us all at first. Today I have written
+<lb id="L05L243" n="243"/> myself into an ecstasy with his gain
+<lb id="L05L244" n="244"/> and relief and I wish I could know
+<lb id="L05L245" n="245"/> soon about Mary. No doubt a letter
+<lb id="L05L246" n="246"/> is on its way to me now. This one
+<lb id="L05L247" n="247"/> of yours may have been at Thode's
+<lb id="L05L248" n="248"/> a few days. Do not send any more
+<lb id="L05L249" n="249"/> to the Bankers. 46 <hi rend="underscore">B</hi>
+               <foreign lang="ger">Bautzner
+<lb id="L05L250" n="250"/> Strasse </foreign> is my address. The Postman
+<lb id="L05L251" n="251"/> is a nice man, and every thing is safe
+<lb id="L05L252" n="252"/> with him. I suppose the Bankers
+<lb id="L05L253" n="253"/> cannot send letters about. </p>
+
+<p>
+<lb id="L05L254" n="254"/> I do not incline to write or think
+<lb id="L05L255" n="255"/> of any thing but Horace and Mary.
+<lb id="L05L256" n="256"/> You have received four letters from me
+<lb id="L05L257" n="257"/> before this time &mdash;; the three last were
+<lb id="L05L258" n="258"/> announcements. I will write again
+<lb id="L05L259" n="259"/> We are all well, and happy to be here.
+<lb id="L05L260" n="260"/> I should like some money very much. I
+<lb id="L05L261" n="261"/> was to have some from Ticknor &amp; Fields<seg>
+                  <note target="n12">12</note>
+               </seg>
+<lb id="L05L262" n="262"/> in November for the former books<seg>
+                  <note target="n13">13</note>
+               </seg>&mdash;; But I hear
+<lb id="L05L263" n="263"/> the firm is dissolved. If so, perhaps I
+<lb id="L05L264" n="264"/> am without redress. I wish Mr Hillard<seg>
+                  <note target="n14">14</note>
+               </seg>
+<lb id="L05L265" n="265"/> could send my January dividend so I
+<lb id="L05L266" n="266"/> can have it by 1st January. What he
+<lb id="L05L267" n="267"/> is <hi rend="underscore">sure</hi> of<unclear reason="unclear punctuation" rend="">.</unclear>he can advance me perhaps.
+<lb id="L05L268" n="268"/> All send love and deep sympathy. We are at
+
+<!-- Page 8 continued. -->
+<pb mmid="/a/adcfc98f-f4da-419a-9ab8-f56124a153a0" n="8 cont."/>
+               
+<lb id="L05L269" n="269"/> <add hand="SPH" place="Left margin">housekeeping since 19th November and taking German lessons. Goodbye</add></p>
+<closer>
+    <lb/><add hand="SPH" place="Left margin"> Yours and Mary's loving sister</add><signed> Sophia</signed>
+    </closer>
+         </div1>
+         <div1 type="postscript" n="2">
+         <head/>
+         <opener/>
+               <p><lb id="L05L270" n="270"/><add hand="SPH" place="Right margin">Do not write the <hi rend="underscore">A</hi> in my name, because I write it here 
+                  Sophia Hawthorne 
+<lb id="L05L271" n="271"/> only. Rose<seg>
+                     <note target="n15">15</note>
+                  </seg> wrote to you last week. </add>
+<lb id="L05L272" n="272"/> <add hand="SPH" place="Top right">PS. The postage is 10 cents to Dresden</add></p>
+</div1>
+      </body>
+      <back>
+         <div1 n="1" type="Annotations">
+            <head>Notes</head>
+            <note id="n1">1. Sophia Hawthorne's sister, Elisabeth Palmer Peabody (1804-1894)<bibl>TPS</bibl>
+            </note>
+            <note id="n2">2. Horace Mann, Jr. son of Horace and Mary Peabody Mann (1844-1868)<bibl>HORACE</bibl>
+            </note>
+            <note id="n3">3. Sophia Hawthorne's sister, Mary Tyler Peabody Mann (1806-1887)<bibl>MARY</bibl>
+            </note>
+            <note id="n4">4. Presumably the Hawaiian Islands. <bibl>HAW</bibl>
+            </note>
+            <note id="n5">5. Julian Hawthorne, son of Sophia Peabody Hawthorne and Nathaniel
+                    Hawthorne (1846-1934)<bibl>RUS</bibl>
+            </note>
+            <note id="n6">6. Sophia wrote an extra quotation mark, apparently accidentally
+                    closing the quotation early.</note>
+            <note id="n7">7. Quotation from King James Bible, Gospel of Matthew, Chapter 25,
+                    Verse 21. <bibl>KJV</bibl>
+            </note>
+            <note id="n8">8. This sentence is a reference to the Gospel of Matthew, Chapter 25,
+                    Verse 22 . <bibl>KJV</bibl>
+            </note>
+            <note id="n9">9. Benjamin Mann, son of Horace and Mary Peabody Mann <bibl>TPS</bibl>
+            </note>
+            <note id="n10">10. Sophia separates &quot;anything&quot; into two separate words.</note>
+            <note id="n11">11. George Mann, son of Horace and Mary Peabody Mann <bibl>TPS</bibl>
+            </note>
+            <note id="n12">12. American publisher of Nathaniel Hawthorne's books <bibl>GALE 497</bibl>
+            </note>
+            <note id="n13">13. Nathaniel Hawthorne's American notebooks, published by Ticknor
+                    and Fields, that Sophia felt she was not getting properly compensated for.
+<bibl>GALE 169</bibl>
+            </note>
+            <note id="n14">14. Family friend and executor of Nathaniel Hawthorne's estate,
+                    George Hillard (1808-1879)<bibl>GALE 230 </bibl>
+            </note>
+            <note id="n15">15. Sophia and Nathaniel Hawthorne's youngest daughter, Rose
+                    Hawthorne Lanthrop (1851-1926)<bibl>GALE 275</bibl>
+            </note>
+         </div1>
+         <div1 n="2" type="Citations">
+            <listBibl>
+               <head>WORKS CITED IN NOTES</head>
+               <bibl id="GALE">
+                  <author>Gale, Robert</author>
+                  <title level="m">A Nathaniel Hawthorne Encyclopedia </title>
+                  <pubPlace>New York </pubPlace>
+                  <publisher>Greenwood Press</publisher>
+                  <date>1991 </date>
+                  <extent>PAGES IN FORM 169-497</extent>
+               </bibl>
+               <bibl id="HORACE">
+                  <author>Hawthorne, Nathaniel</author>
+                  <editor>Charvat, William, et al.</editor>
+                  <title level="m">The Centenary Edition of the Works of Nathaniel Hawthorne</title>
+                  <pubPlace>Columbus, Ohio</pubPlace>
+                  <publisher>Ohio State University Press</publisher>
+                  <date>1962</date>
+               </bibl>
+               <bibl id="TPS">
+                  <author>Ritchie, Susan</author>
+                  <title level="a">The Peabody Sisters</title>
+                  <title level="m">Dictionary of Unitarian &amp; Universalist Biography</title>
+                  <biblScope type="URL">http://www.uua.org/uuhs/duub/articles/peabodysisters.html</biblScope>
+                  <date>2002</date>
+                  <biblScope type="DateOfVisit">17 Feb 2003</biblScope>
+               </bibl>
+              
+               <bibl id="MARY">
+                  <author>Ritchie, Susan</author>
+                  <title level="a">The Peabody Sisters</title>
+                  <title level="m">Dictionary of Unitarian &amp; Universalist Biography</title>
+                  <biblScope type="URL">http://www.uua.org/uuhs/duub/articles/peabodysisters.html</biblScope>
+                  <date>2002</date>
+                  <biblScope type="DateOfVisit">17 Feb 2003</biblScope>
+               </bibl>
+               <bibl id="RUS">
+                  <author>Russell, Henry</author>
+                  <title level="a">Hawthorne, Julian</title>
+                  <title level="m">American National Biography Online</title>
+                  <biblScope type="URL">http://www.anb.org/articles/16/16-00731-article.html</biblScope>
+                  <publisher>Oxford University Press</publisher>
+                  <date>2000</date>
+                  <biblScope type="DateOfVisit">24 Feb 2003</biblScope>
+               </bibl>
+               <bibl id="HAW">
+                  <author></author>
+                  <title level="a">Hawaii's Names</title>
+                  <title level="m">Hawaii School Reports</title>
+                  <biblScope type="URL">http://www.hawaiischoolreports.com/symbols/origins.htm</biblScope>
+                  <date>2002</date>
+                  <biblScope type="DateOfVisit">24 Feb 2003</biblScope>
+               </bibl>
+               <bibl id="KJV">
+                  <title level="m">The Bible, King James Version</title>
+               </bibl>
+            </listBibl>
+         </div1>
+      </back>
+   </text>
+</TEI.2>

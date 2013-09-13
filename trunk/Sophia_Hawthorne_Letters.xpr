@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="15.0">
+    <meta>
+        <filters directoryPatterns="" filePatterns="" positiveFilePatterns="" showHiddenFiles="false"/>
+        <options/>
+    </meta>
+    <projectTree name="Sophia_Hawthorne_Letters.xpr">
+        <file name="EditorialTeam.xsl"/>
+        <file name="keywordSort.xsl"/>
+        <file name="lineByline.xsl"/>
+        <file name="Literary.xsl"/>
+        <file name="OSU_SPECMMS138_1.xml"/>
+        <file name="OSU_SPECMMS138_2.xml"/>
+        <file name="OSU_SPECMMS138_3.xml"/>
+        <file name="OSU_SPECMMS138_4.xml"/>
+        <file name="OSU_SPECMMS138_5.xml"/>
+        <file name="Philological.xsl"/>
+        <file name="sideByside.xsl"/>
+        <file name="TEI_Hawthorne.dtd"/>
+    </projectTree>
+</project>

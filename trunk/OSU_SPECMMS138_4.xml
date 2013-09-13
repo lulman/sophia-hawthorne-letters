@@ -1,0 +1,844 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE TEI.2 SYSTEM 'TEI_Hawthorne.dtd'[
+<!NOTATION jpg SYSTEM "JPEG">
+<!ATTLIST xref url CDATA #IMPLIED>
+<!ATTLIST xref imgref CDATA #IMPLIED>
+]>
+<TEI.2 id="OSU_SPECMMS138_4">
+   <teiHeader type="AACR2">
+      <!-- The type attribuite in teiHeader element above indicates that the 
+      header provides enough information to create a bibliographic record that 
+      complies with the Anglo-American Cataloguing Rules, 2nd ed. (1978; rev. 
+      1988). -->
+      <!-- The file description tagged <fileDesc>, contains "a full 
+      bibliographical description of the computer file itself, from which a 
+      user of the text could derive a proper bibliographic citation, or which 
+      a librarian or archivist could use in creating a catalogue entry 
+      recording its presence within a library or archive" (TEI P4X, ch. 5). -->
+      <fileDesc>
+         <titleStmt>
+            <title>Letters, 1837-1868, to Elizabeth Palmer Peabody (Letter 4): Electronic Edition.</title>
+            <editor>Joseph P. Frazee</editor>
+            <editor>Krista L. Havrilla</editor>
+            <editor>Stacy R. Haynes</editor>
+            <editor>Jose A. Orozco</editor>
+            <principal>H. Lewis Ulman</principal>
+            <respStmt>
+               <resp>Creation of machine-readable transcript: </resp>
+               <name type="person">Joseph P. Frazee</name>
+               <name type="person">Krista L. Havrilla</name>
+               <name type="person">Stacy R. Haynes</name>
+               <name type="person">Jose A. Orozco</name>
+               <resp>Creation of digital images: </resp>
+               <name type="person">Keith Lazuka</name>
+               <resp>Conversion to TEI.2-conformant markup: </resp>
+               <name type="person">Joseph P. Frazee</name>
+               <name type="person">Krista L. Havrilla</name>
+               <name type="person">Stacy R. Haynes</name>
+               <name type="person">Jose A. Orozco</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <p>1st Edition.</p>
+         </editionStmt>
+         <extent>ca. 37 kilobytes</extent>
+         <publicationStmt>
+            <publisher>The Ohio State University Library.<address>
+                  <addrLine n="1">327 Main Library</addrLine>
+                  <addrLine n="2">1858 Neil Avenue Mall</addrLine>
+                  <addrLine n="3">Columbus, OH 43210</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Columbus, OH</pubPlace>
+            <idno type="Call No.">SPEC.MMS.138</idno>
+            <availability>
+               <p>The Sophia Peabody Hawthorne / Elizabeth Palmer Peabody 
+	       correspondence is the property of the Rare Books and Manuscripts
+	       Library of The Ohio State University Libraries. Any use of the
+	       material should acknowledge such ownership.</p>
+            </availability>
+            <date>2003</date>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Name of electronic series, if any</p>
+         </seriesStmt>
+         <notesStmt>
+            <note>Notes about e-text.</note>
+            <note>Any other notes about e-text.</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title id="SPEC.MMS.138" level="u">Letters, 1837-1868, to Elizabeth Palmer Peabody</title>
+                  <!-- The "level" attribute "indicates whether this is the 
+		  title of an article, book, journal, series, or unpublished 
+		  material, indicated as a, b, j, s, or u" 
+		  (TEI P4X, ch. 5.2.1). -->
+                  <author>Hawthorne, Sophia Peabody, 1809-1871</author>
+               </titleStmt>
+               <extent>16 pp.</extent>
+               <publicationStmt>
+                  <p>Publication Statement</p>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Letter to Elizabeth Palmer Peabody ca. 1863</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <!-- The encoding description, tagged <encodingDesc>, describes 
+      "the relationship between an electronic text and its source or sources" 
+      (TEI P4X, ch. 5). -->
+      <encodingDesc>
+         <projectDesc>
+            <p>Project description.</p>
+         </projectDesc>
+         <editorialDecl>
+            <!-- In addition to prose description, the Editorial Practices 
+	    Declaration may contain specialized elements concerned with 
+	    correction, normalization, quotation, hyphenation, segmentation, 
+	    date and number format, and interpretive apparatus 
+	    (TEI P4X, ch. 5.3.3). -->
+            <p>All quotation marks retained as data.</p>
+            <p>Spell-check and verification made against printed text using WordPerfect spell checker.</p>
+            <p>All unambiguous end-of-line hyphens have been removed, and the trailing part of a word has been joined to the preceding line.</p>
+            <p>The images exist as archived TIFF images, one or more JPEG versions for general use, and thumbnail GIFs.</p>
+         </editorialDecl>
+         <refsDecl>
+            <p>ID elements are given for each page element and are composed of the text's unique cryptogram and the given page number, as in Letter4_P1 for page one of Sophia Hawthorne's fourth letter in this collection of her correspondances.</p>
+         </refsDecl>
+         <classDecl>
+            <taxonomy id="LCSH">
+               <bibl>
+                  <title>Library of Congress Subject Headings</title>
+               </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <!-- The text profile, tagged <profileDesc>, contains "classificatory 
+      and contextual information about the text, such as its subject matter, 
+      the situation in which it was produced, the individuals described by or 
+      participating in producing it, and so forth" (TEI P4X, ch. 5). -->
+      <profileDesc>
+         <creation>
+            <date>2003-03-19</date>
+         </creation>
+         <langUsage>
+            <language id="eng">English</language>
+            <language id="lat">Latin</language>
+         </langUsage>
+         <handList>
+            <hand character="" first="yes" id="SPH" ink="" scribe="Sophia Peabody Hawthorne, 1809-1871"/>
+            <hand character="" first="no" id="Unknown" ink="" scribe="Unknown"/>
+         </handList>
+         <textClass>
+            <keywords>
+               <term>prose</term>
+            </keywords>
+            <keywords scheme="LCSH">
+               <term>LCSH</term>
+            </keywords>
+         </textClass>
+         <textClass>
+            <keywords>
+               <term>KEYWORD</term>
+               <term>KEYWORD</term>
+               <term>KEYWORD</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <!-- The revision history, tagged <revisionDesc>, allows "the encoder to 
+      provide a history of changes made during the development of the 
+      electronic text" (TEI P4X, ch. 5). -->
+      <revisionDesc>
+         <change>
+            <date>Spring 2003</date>
+            <respStmt>
+               <resp>Editors</resp>
+               <name>See listing of editorial team.</name>
+            </respStmt>
+            <item>Initial TEI-compliant XML encoding.</item>
+         </change>
+		 <change>
+		 	<date>Autumn 2006</date>
+			<respStmt>
+				<resp>STC</resp>
+				<name>Kovach</name>
+			</respStmt>
+			<item>Correct item id's for new MediaManager id's</item>
+		</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <div1 n="1" type="abstract">
+            <head>
+               <bibl>
+                  <abbr>ALS</abbr>
+                  <extent>16 pp.</extent>
+                  <date>Autumn 1863</date>
+                  <idno rend="suppress">SPEC.MMS.138_4</idno>
+                  <title>Letter from Sophia Hawthorne to Elizabeth Palmer Peabody</title>
+               </bibl>
+            </head>
+            <p>Sophia writes about the economic hardships the family is going through, Rose's current (and Una's past) development through adolescence, and a quarrel with her sister, Mary, about some books.</p>
+         </div1>
+      </front>
+      <body>
+         <div1 n="1" type="letter">
+            <head></head>
+            
+<!-- Page 1 -->
+<pb mmid="/a/a0583997-80b3-449c-ae3e-96caf2f38a87" n="1"/>
+
+            <opener>
+               <seg>
+                  <figure>
+                     <figDesc>Rusty paper clip</figDesc>
+                  </figure>
+               </seg>
+<lb/><seg><figure><head>Stationer's mark. SPEC.MMS.138 Letter4_P1.jpg</head><figDesc><xref url="a0583997-80b3-449c-ae3e-96caf2f38a87?qlt=92&amp;effect=dropshadow,000000,50,8,120,8&amp;RGN=0.053,0.873,0.119,0.086&amp;cell=500,500&amp;effect=text,">[Stationer's mark (click to open image in a new window)]</xref>Stationer's mark, SPEC.MMS.138, Letter4_P1.jpg</figDesc></figure></seg><lb/> 
+<lb id="L04L001" n="001"/>
+            <dateline>
+                  <date>Sunday</date>
+               </dateline>
+               
+<lb id="L04L002" n="002"/>
+               <salute>My dear <name reg="Peabody, Elizabeth Palmer" type="recipient">Elizabeth</name>
+                  <seg>
+                     <note target="n1">1</note>
+                  </seg>
+               </salute>, I have
+               </opener>
+
+<p>
+               
+<lb id="L04L003" n="003"/> become so occupied with 
+<lb id="L04L004" n="004"/>
+               <rs>the unhappy Weiss</rs>
+               <seg>
+                  <note target="n2">2</note>
+               </seg>, that 
+<lb id="L04L005" n="005"/> with my necessary household 
+<lb id="L04L006" n="006"/> cares, mending &amp; making &mdash;
+<lb id="L04L007" n="007"/> I have not had one 
+<lb id="L04L008" n="008"/> moment to answer your 
+<lb id="L04L009" n="009"/> note. It is Sunday and 
+<lb id="L04L010" n="010"/> all the children are at 
+<lb id="L04L011" n="011"/> Church<seg>
+                  <note target="n3">3</note>
+               </seg>, and I have a 
+<lb id="L04L012" n="012"/> few moments of my own &mdash;
+<lb id="L04L013" n="013"/> and out of a hundred 
+<lb id="L04L014" n="014"/> things I want to do, I 
+<lb id="L04L015" n="015"/> take some <add hand="SPH" place="supralinear" rend="caret">time</add> for you. 
+<lb id="L04L016" n="016"/> We could not take 
+<lb id="L04L017" n="017"/> advantage of the free
+<lb id="L04L018" n="018"/> lessons of <name reg="">
+                  <abbr expan="Doctor">Dr.</abbr> Kinner</name>
+<lb id="L04L019" n="019"/> for <name reg="Hawthorne, Una">Una</name>
+               <seg>
+                  <note target="n4">4</note>
+               </seg>, on account
+
+<lb id="L04L020" n="020"/> partly <del hand="SPH" type="overwritten">and</del>of the expense 
+<lb id="L04L021" n="021"/> of railroad fare &mdash; while 
+<lb id="L04L022" n="022"/> there were other reasons 
+<lb id="L04L023" n="023"/>less imperative. I am very sorry, but <seg>
+                  <note target="nstar">*</note>
+               </seg>
+
+<!-- Page 2 -->
+<pb mmid="/9/9bc802ea-2b10-4095-97ab-c4435c71ece8" n="2"/>
+               
+<lb id="L04L024" n="024"/> since there is not 
+<lb id="L04L025" n="025"/> literally money enough 
+<lb id="L04L026" n="026"/> for it &mdash; I accept the 
+<lb id="L04L027" n="027"/> disappointment. For it 
+<lb id="L04L028" n="028"/> is certainly a very plain 
+<lb id="L04L029" n="029"/> duty not to spend other
+
+<lb id="L04L030" n="030"/> peoples' money for 
+<lb id="L04L031" n="031"/> accomplishments &mdash; <add hand="SPH" place="infralinear">^</add><add hand="SPH" place="supralinear">or any thing else</add>. And as 
+<lb id="L04L032" n="032"/> we are very closely pressed 
+<lb id="L04L033" n="033"/> this year &mdash; and feel it 
+<lb id="L04L034" n="034"/> important not to grind 
+<lb id="L04L035" n="035"/>
+               <name reg="Hawthorne, Julian">Julian</name>
+               <seg>
+                  <note target="n5">5</note>
+               </seg> too closely in
+
+<lb id="L04L036" n="036"/>
+               <name reg="Harvard College" type="place">college</name>
+               <seg>
+                  <note target="n6">6</note>
+               </seg>, (though he must 
+<lb id="L04L037" n="037"/> be exceedingly economical 
+<lb id="L04L038" n="038"/> at the best) &mdash; we must 
+<lb id="L04L039" n="039"/> all sacrifice a great 
+<lb id="L04L040" n="040"/> many pleasant things. 
+<lb id="L04L041" n="041"/> If <name reg="Hawthorne, Nathaniel">
+                  <abbr expan="Mister">Mr</abbr> Hawthorne</name> did <seg>
+                  <note target="ndagger">&#134;</note>
+               </seg>
+               
+<lb id="L04L042" n="042"/> not write, we could by 
+<lb id="L04L043" n="043"/> no means make our 
+<lb id="L04L044" n="044"/> expenses come within 
+<lb id="L04L045" n="045"/> our income, and 
+<lb id="L04L046" n="046"/> it is a pain to him
+
+<lb id="L04L047" n="047"/> to be so hard driven 
+<seg>
+                  <note target="nstar">*</note>
+</seg>
+
+<!-- Page 3 -->
+<pb mmid="/8/81cfa20f-fc28-4912-8cfe-e448407f348e" n="3"/>
+               
+<lb id="L04L048" n="048"/> in his present unenergetic 
+<lb id="L04L049" n="049"/> condition, and he 
+<lb id="L04L050" n="050"/> doubts if we can <add hand="SPH" place="supralinear" rend="caret">at any rate</add>
+<lb id="L04L051" n="051"/> easily make the ends 
+<lb id="L04L052" n="052"/> meet. The Smiths have
+<lb id="L04L053" n="053"/> sent for <name reg="Hawthorne, Una">Una</name> and <name reg="Hawthorne, Julian">Julian</name>
+<lb id="L04L054" n="054"/> to go to see them this 
+<lb id="L04L055" n="055"/> winter. But for the 
+<lb id="L04L056" n="056"/> same reason, they cannot 
+<lb id="L04L057" n="057"/> go. It would cost at 
+<lb id="L04L058" n="058"/> least thirty dollars for 
+<lb id="L04L059" n="059"/> travel from our door to theirs, and 
+<lb id="L04L060" n="060"/>
+               <name reg="Hawthorne, Julian"> Julian</name> would have to 
+<lb id="L04L061" n="061"/> have a new suit of 
+<lb id="L04L062" n="062"/> clothes &mdash; costing thirty
+<lb id="L04L063" n="063"/>more &mdash; before he could
+<lb id="L04L064" n="064"/>go. As to me, I am 
+<lb id="L04L065" n="065"/> going without any 
+<lb id="L04L066" n="066"/> thing new whatever 
+<lb id="L04L067" n="067"/> and I only wish I could 
+<lb id="L04L068" n="068"/> give up any thing more	
+<lb id="L04L069" n="069"/> so as to gratify <seg>
+                  <note target="nstar">*</note>
+               </seg>
+<lb id="L04L070" n="070"/> them. As to their father
+
+<!-- Page 4 -->
+<pb mmid="/b/bdbdbb87-3f55-4b1d-850e-b05c92bd7492" n="4"/>
+               
+<lb id="L04L071" n="071"/> he is a perfect <name reg="Diogenes of Sinope">Diogenes</name>
+               <seg>
+                  <note target="n7">7</note>
+               </seg>
+               
+<lb id="L04L072" n="072"/> or a god &mdash; about going 
+<lb id="L04L073" n="073"/> without things. He will 
+<lb id="L04L074" n="074"/> not allow himself the 
+<lb id="L04L075" n="075"/> smallest expenditure. 
+<lb id="L04L076" n="076"/>
+               <name reg="Hawthorne, Julian"> Julian</name> has had expensive 
+<lb id="L04L077" n="077"/> books stolen by some 
+<lb id="L04L078" n="078"/> <sic corr="thieves">theives</sic> among the 
+<lb id="L04L079" n="079"/> Sophomores &mdash; one very 
+<lb id="L04L080" n="080"/>immense Greek Lexicon, 
+<lb id="L04L081" n="081"/> what I should think 
+<lb id="L04L082" n="082"/> must have cost five 
+<lb id="L04L083" n="083"/> dollars at least. 
+<lb id="L04L084" n="084"/>
+               <name reg="Gurney, Ephraim"> Professor Gurney</name>
+               <seg>
+                  <note target="n8">8</note>
+               </seg> says <q>this 
+<lb id="L04L085" n="085"/> is one of the dirtiest 
+<lb id="L04L086" n="086"/> of their dirty tricks</q> and 
+<lb id="L04L087" n="087"/> that there is no redress. 
+<lb id="L04L088" n="088"/>
+               <name reg="Hawthorne, Julian"> Julian</name> gets along 
+<lb id="L04L089" n="089"/> splendidly as a brave 
+<lb id="L04L090" n="090"/> and gentle <add hand="Unknown" place="supralinear" rend="upsidedown">Dear Sir</add> and stalwart 
+<lb id="L04L091" n="091"/> knight. A gentleman 
+<lb id="L04L092" n="092"/> told me he was looked 
+<lb id="L04L093" n="093"/> upon as a powerful 
+<lb id="L04L094" n="094"/> lion &mdash; and one <add hand="SPH" place="supralinear" rend="caret">of</add> his 
+<lb id="L04L095" n="095"/>
+               <del hand="SPH" type="">a</del>names is <q>the Immortal 
+<lb id="L04L096" n="096"/> Hawthorne.</q> He makes no
+
+<!-- Page 5 -->
+<pb mmid="/9/9fe1b3e8-f5b0-4502-8771-655cda41e985" n="5"/>
+ 
+<fw place="top of the page" type="sig">2<hi rend="superscript">d</hi></fw>
+<lb id="L04L097" n="097"/> aggression, but  
+<lb id="L04L098" n="098"/>defends the weak &mdash; <seg>
+                  <note target="nstar">*</note>
+               </seg>
+               
+<lb id="L04L099" n="099"/> and no one dares to
+<lb id="L04L100" n="100"/> touch him &mdash; as they 
+<lb id="L04L101" n="101"/> all know him strong &mdash;
+<lb id="L04L102" n="102"/> and find him valiant.
+<lb id="L04L103" n="103"/> He has not a particle 
+<lb id="L04L104" n="104"/> of low, unchristian vindic <seg type="softhyphen">&dash;</seg>
+<lb id="L04L105" n="105"/> tiveness in his nature &mdash;
+<lb id="L04L106" n="106"/> They make broad 
+<lb id="L04L107" n="107"/> lanes for him to pass
+<lb id="L04L108" n="108"/> when they think he
+<lb id="L04L109" n="109"/> might revenge some
+<lb id="L04L110" n="110"/> classmate's wrong &mdash; 
+<lb id="L04L111" n="111"/> and treat him personally
+<lb id="L04L112" n="112"/> with high respect and
+<lb id="L04L113" n="113"/> the good, gentlemanly 
+<lb id="L04L114" n="114"/> Sophomores are his
+<lb id="L04L115" n="115"/> friends. But if I tell
+<lb id="L04L116" n="116"/> you so much, you will
+<lb id="L04L117" n="117"/> say I am making a 
+<lb id="L04L118" n="118"/> fine story and praising
+<lb id="L04L119" n="119"/> him too much. It is a 
+<lb id="L04L120" n="120"/> pity I cannot talk to
+<lb id="L04L121" n="121"/> a sister without that
+<lb id="L04L122" n="122"/> suspicion &mdash; <sic corr="isn't">is n't</sic> it?
+
+<!-- Page 6 -->
+<pb mmid="/6/60f9c56e-23e5-47d5-948c-5118dc89b964" n="6"/>
+               
+<lb id="L04L123" n="123"/> When I do not answer <seg>
+                  <note target="nstar">*</note>
+               </seg>
+<lb id="L04L124" n="124"/> your notes, dear <name reg="Peabody, Elizabeth Palmer">Elizabeth </name>
+<lb id="L04L125" n="125"/> sometimes, it is not
+<lb id="L04L126" n="126"/> because I accept
+<lb id="L04L127" n="127"/> them, but because I
+<lb id="L04L128" n="128"/> disagree, and think it
+<lb id="L04L129" n="129"/> of no use to discuss
+<lb id="L04L130" n="130"/> the matter. Some things
+<lb id="L04L131" n="131"/> in that long ago note
+<lb id="L04L132" n="132"/> I agreed with, however &mdash;
+<lb id="L04L133" n="133"/>
+               <name reg="Hawthorne, Rose">Rose's</name> face expresses too
+<lb id="L04L134" n="134"/> much critical displeasure
+<lb id="L04L135" n="135"/> I very well see often.
+<lb id="L04L136" n="136"/> She is in precisely the
+<lb id="L04L137" n="137"/> mood that <name reg="Hawthorne, Une">Una</name> was
+<lb id="L04L138" n="138"/> in at her age in <name reg="Rock Ferry" type="place">Rock
+<lb id="L04L139" n="139"/> Ferry</name>
+               <seg>
+                  <note target="n9">9</note>
+               </seg>. <name reg="Hawthorne, Une">Una</name> was then
+<lb id="L04L140" n="140"/> disgusted with every body 
+<lb id="L04L141" n="141"/> and thing that did not 
+<lb id="L04L142" n="142"/> suit her taste &amp; principles
+<lb id="L04L143" n="143"/> and seemed to fail
+<lb id="L04L144" n="144"/> utterly in <abbr expan="Saint">St</abbr> Paul's 
+<lb id="L04L145" n="145"/> Charity<seg>
+                  <note target="n10">10</note>
+               </seg>. I was quite
+               
+<!-- Page 7 -->
+<pb mmid="/3/3da2a08c-a51d-465f-8f22-099c2f6c6f7a" n="7"/>
+               
+<lb id="L04L146" n="146"/> alarmed, until a certain <seg>
+                  <note target="nstar">*</note>
+               </seg>
+<lb id="L04L147" n="147"/>
+               <abbr expan="Mistress">Mrs.</abbr>
+               <name reg="Allbut">Allbut</name>
+               <seg>
+                  <note target="n11">11</note>
+               </seg> told me
+<lb id="L04L148" n="148"/> that I need not fear
+<lb id="L04L149" n="149"/> at all, for that when
+<lb id="L04L150" n="150"/>
+               <name reg="Hawthorne, Una">Una</name> was eighteen she
+<lb id="L04L151" n="151"/> would be all right, and
+<lb id="L04L152" n="152"/> that this fastidiousness
+<lb id="L04L153" n="153"/> at her age was the
+<lb id="L04L154" n="154"/> most hopeful of all
+<lb id="L04L155" n="155"/> states. I find it true.
+<lb id="L04L156" n="156"/>
+               <name reg="Hawthorne, Una">Una</name> is always excusing
+<lb id="L04L157" n="157"/> every body now, and 
+<lb id="L04L158" n="158"/> finding good points
+<lb id="L04L159" n="159"/> in every one, and no
+<lb id="L04L160" n="160"/> soul is more full of
+<lb id="L04L161" n="161"/> generous, self sacrificing
+<lb id="L04L162" n="162"/> love. Every person I
+<lb id="L04L163" n="163"/> know in <name reg="Concord, Massachusetts" type="place">Concord</name>
+<lb id="L04L164" n="164"/> bursts out to me about
+<lb id="L04L165" n="165"/> her in enthusiastic
+<lb id="L04L166" n="166"/> praise &mdash; not moderate 
+<lb id="L04L167" n="167"/> but enthusiastic praise.
+<lb id="L04L168" n="168"/> You get all your evil
+<lb id="L04L169" n="169"/>
+               <sic corr="impressions">impressons</sic> of her
+               
+<!-- Page 8 -->
+<pb mmid="/5/51b98994-23c6-4481-a15f-c59ed31acb4b" n="8"/>
+               
+<lb id="L04L170" n="170"/> from the <name reg="Alcott">Alcotts</name> probably, <seg>
+                  <note target="nstar">*</note>
+               </seg>
+<lb id="L04L171" n="171"/> as no one else maligns 
+<lb id="L04L172" n="172"/> her. Mrs 
+               <name reg="Emerson">Emerson</name>, all
+<lb id="L04L173" n="173"/> the <name reg="Emerson">Emersons</name>, the 
+<lb id="L04L174" n="174"/>
+               <name reg="Pritchard">Pritchards</name>
+               <seg>
+                  <note target="n12">12</note>
+               </seg>, the <name reg="MacKay">MacKays</name>
+               <seg>
+                  <note target="n13">13</note>
+               </seg>,
+<lb id="L04L175" n="175"/> the <name reg="Hoars">Hoars</name>
+               <seg>
+                  <note target="n14">14</note>
+               </seg>, the all
+<lb id="L04L176" n="176"/> the world of <name reg="Concord, Massachusetts" type="place">Concord</name>
+<lb id="L04L177" n="177"/> agree in love to her.
+<lb id="L04L178" n="178"/> They call her <q>loveliest</q>
+<lb id="L04L179" n="179"/>
+               <q>the most devoted</q>
+               <q>the
+<lb id="L04L180" n="180"/> most generous</q> and
+<lb id="L04L181" n="181"/> all sorts of pretty names.
+<lb id="L04L182" n="182"/>
+               <name reg="Hawthorne, Rose">Miss Rose</name> deserves your
+<lb id="L04L183" n="183"/> censure, but as she
+<lb id="L04L184" n="184"/> has a world of adoring
+<lb id="L04L185" n="185"/> love in her, I hope she
+<lb id="L04L186" n="186"/> will <unclear reason="obscured by ink stain" rend="">soon</unclear>love all 
+<lb id="L04L187" n="187"/> her fellow creatures
+<lb id="L04L188" n="188"/> as she now loves
+<lb id="L04L189" n="189"/> some of them. I
+<lb id="L04L190" n="190"/> talk with her a great &mdash;
+<lb id="L04L191" n="191"/> deal about the propriety 
+<lb id="L04L192" n="192"/> of feeling genial and 
+<lb id="L04L193" n="193"/> pleased in society &mdash;
+<lb id="L04L194" n="194"/> and I shall continue to
+
+<!-- Page 9 -->
+<pb mmid="/6/6ba80fb7-3718-4fbd-b96f-ddd8e5886b45" n="9"/>
+
+<fw place="top of the page" type="sig">3<hi rend="superscript">d</hi></fw>
+<lb id="L04L0195" n="195"/> adjure her.  But 
+               <seg>
+                  <note target="nstar">*</note>
+               </seg>
+<lb id="L04L196" n="196"/> I do not doubt she 
+<lb id="L04L197" n="197"/> will be a loving and 
+<lb id="L04L198" n="198"/> gracious person. For
+<lb id="L04L199" n="199"/> you do not know what 
+<lb id="L04L200" n="200"/> a power of generosity 
+<lb id="L04L201" n="201"/> she has &mdash; and all in
+<lb id="L04L202" n="202"/> the true Christ<abbr expan="ian">&mdash;</abbr> spirit 
+<lb id="L04L203" n="203"/> of not letting the right 
+<lb id="L04L204" n="204"/> hand know &amp; c. For 
+<lb id="L04L205" n="205"/> this is one thing they
+<lb id="L04L206" n="206"/> were born with as 
+<lb id="L04L207" n="207"/> I have brought out &mdash;
+<lb id="L04L208" n="208"/> to make no show of 
+<lb id="L04L209" n="209"/> any thing they can 
+<lb id="L04L210" n="210"/> do or feel . . . They are 
+<lb id="L04L212" n="212"/> genuine &amp; and all 
+<lb id="L04L213" n="213"/> as true as heaven itself. 
+<lb id="L04L214" n="214"/> Oh dear &mdash; now I am 
+<lb id="L04L215" n="215"/> off on this eulogistic 
+<lb id="L04L216" n="216"/> track. But really if 
+<lb id="L04L217" n="217"/> you lived with them 
+<lb id="L04L218" n="218"/> you would not love 
+<lb id="L04L219" n="219"/> them little. And if 
+<lb id="L04L220" n="220"/> you could see how <name reg="Hawthorne, Julian"> Julian's </name>
+
+<!-- Page 10 -->
+<pb mmid="/b/bd6db89f-fc0f-49ce-851c-42ee4fe48427" n="10"/>
+               
+<lb id="L04L221" n="221"/> innocence is becoming 
+<lb id="L04L223" n="223"/> virtue, you would be 
+<lb id="L04L224" n="224"/> glad as I am; and
+<lb id="L04L225" n="225"/> overflow sometimes. 
+<lb id="L04L226" n="226"/> Religious principle is 
+<lb id="L04L227" n="227"/> the only sure guard
+<lb id="L04L228" n="228"/> angelic, and I am sure 
+<lb id="L04L229" n="229"/> they all have it. They 
+<lb id="L04L230" n="230"/> are all reverent. 
+<lb id="L04L231" n="231"/> I think a cultivated 
+<lb id="L04L232" n="232"/> imagination and a 
+<lb id="L04L233" n="233"/> delicate &mdash; or <sic corr="not smothered">unsmothered</sic>
+<lb id="L04L234" n="234"/> conscience are the diamond 
+<lb id="L04L235" n="235"/> shield against evil. 
+<lb id="L04L236" n="236"/>
+               <name reg="Hawthorne, Julian">Julian's</name> memory scintillates 
+<lb id="L04L237" n="237"/> with high, heroic thoughts 
+<lb id="L04L238" n="238"/> and deeds. His father 
+<lb id="L04L239" n="239"/> put into him, reading 
+<lb id="L04L240" n="240"/> aloud, every noble story 
+<lb id="L04L241" n="241"/> of literature. He has 
+<lb id="L04L242" n="242"/> therefore kept the 
+<lb id="L04L243" n="243"/> highest society &mdash; and 
+<lb id="L04L244" n="244"/> has no love for
+
+<!-- Page 11 -->
+<pb mmid="/7/7bb7c439-45f5-4da7-b3e9-347a9713e1a9" n="11"/>
+               
+<lb id="L04L245" n="245"/> low persons &mdash; no <seg>
+                  <note target="nstar">*</note>
+               </seg>
+<lb id="L04L246" n="246"/> tastes that are ignoble. 
+<lb id="L04L247" n="247"/> But I will stop this 
+<lb id="L04L248" n="248"/> talk &mdash; whether or no. 
+<lb id="L04L249" n="249"/> Who told the <name reg="Mann, Mary Tyler Peabody">Queen of 
+<lb id="L04L250" n="250"/> the Angels</name>
+               <seg>
+                  <note target="n15">15</note>
+               </seg> that I 
+<lb id="L04L251" n="251"/> complained about the 
+<lb id="L04L252" n="252"/> injury of the books? I 
+<lb id="L04L253" n="253"/> did not &mdash; and I never 
+<lb id="L04L254" n="254"/> asked any one to tell 
+<lb id="L04L255" n="255"/> her &mdash; I never thought it 
+<lb id="L04L256" n="256"/> owing to her carelessness &mdash;
+<lb id="L04L257" n="257"/> for I know she is 
+<lb id="L04L258" n="258"/> never careless. But 
+<lb id="L04L259" n="259"/> all the fly leaves were 
+<lb id="L04L260" n="260"/> torn out up to the
+<lb id="L04L261" n="261"/> very commencement 
+<lb id="L04L262" n="262"/> of the text in very 
+<lb id="L04L263" n="263"/> many. It seemed as 
+<lb id="L04L264" n="264"/> if they were torn out 
+<lb id="L04L265" n="265"/> for waste paper. 
+<lb id="L04L266" n="266"/> Somebody did it &mdash; but 
+<lb id="L04L267" n="267"/> I never supposed
+
+<!-- Page 12 -->
+<pb mmid="/a/a8d4e8bf-e170-4f57-afec-85b722dc2118" n="12"/>
+               
+<lb id="L04L268" n="268"/>
+               <name reg="Mann, Mary Tyler Peabody">Margaret</name>
+               <seg>
+                  <note target="n16">16</note>
+               </seg>allowed
+<lb id="L04L269" n="269"/> it or knew of it.
+<lb id="L04L270" n="270"/> She will not be so
+<lb id="L04L271" n="271"/> angry therefore with
+<lb id="L04L272" n="272"/> me &mdash; who sent her no
+<lb id="L04L273" n="273"/> reproach nor message
+<lb id="L04L274" n="274"/> and would have
+<lb id="L04L275" n="275"/> forbidden anyone to
+<lb id="L04L276" n="276"/> say a word to her &mdash;
+<lb id="L04L277" n="277"/> she will not punish
+<lb id="L04L278" n="278"/> me, so innocent, by
+<lb id="L04L279" n="279"/> never borrowing
+<lb id="L04L280" n="280"/> another book from me!
+<lb id="L04L281" n="281"/> And she too, the <name reg="Mann, Mary Tyler Peabody">Queen
+<lb id="L04L282" n="282"/> of the Angels</name>! Tell
+<lb id="L04L283" n="283"/> her then to lay off her
+<lb id="L04L284" n="284"/> crown, for she is not
+<lb id="L04L285" n="285"/> the <foreign lang="lat">Regina angelorum</foreign>
+<lb id="L04L286" n="286"/> any longer. I wish
+<lb id="L04L287" n="287"/> folk would leave me
+<lb id="L04L288" n="288"/> to do my own fault &mdash; 
+<lb id="L04L289" n="289"/> finding &mdash; my own duty, in
+<lb id="L04L290" n="290"/> short &mdash; and not try to do it for me
+
+<!-- Page 13 -->
+<pb mmid="/0/04b67535-74ea-4328-96ba-b87d4e0bf736" n="13"/>
+
+<fw type="sig" place="top of the page">4<hi rend="superscript">th</hi></fw>
+<lb id="L04L291" n="291"/> The reason I do not
+<lb id="L04L292" n="292"/> fancy <name reg="Pugh, ??">Mrs Pugh</name>
+               <seg>
+                  <note target="n17">17</note>
+               </seg> is because
+<lb id="L04L293" n="293"/> she disenchanted herself
+<lb id="L04L294" n="294"/> by her artificialness and
+<lb id="L04L295" n="295"/> an effect of unveritable
+<lb id="L04L296" n="296"/>ness. At first I went
+<lb id="L04L297" n="297"/> upon your impression
+<lb id="L04L298" n="298"/> of her, and your talk of
+<lb id="L04L299" n="299"/> her to me. But very
+<lb id="L04L300" n="300"/> soon she became
+<lb id="L04L301" n="301"/>
+               <unclear rend="" resp="" cert="" hand="SPH">oppressive</unclear> and sultry
+<lb id="L04L302" n="302"/> and not genuine to
+<lb id="L04L303" n="303"/> me. And I declare I
+<lb id="L04L304" n="304"/> cannot help this.
+<lb id="L04L305" n="305"/> It is her fault, not
+<lb id="L04L306" n="306"/> mine. No reasoning
+<lb id="L04L307" n="307"/> no developments of
+<lb id="L04L308" n="308"/> her life will help it.
+<lb id="L04L309" n="309"/> Every person must stand
+<lb id="L04L310" n="310"/> or fall upon their character
+<lb id="L04L311" n="311"/> as evidenced by their
+<lb id="L04L312" n="312"/> presences.  It is a
+<lb id="L04L313" n="313"/> law of the universe
+<lb id="L04L314" n="314"/> and no talk will alter it.
+<!-- Page 14 -->
+<pb mmid="/e/ee010eb9-0bcb-464c-8191-a8b8a867093b" n="14"/>
+               
+<lb id="L04L315" n="315"/> I take a fancy to
+<lb id="L04L316" n="316"/>
+               <name reg="Turner, Mr. and Mrs.">Mr. &amp; Mrs. Turner
+               </name>
+               <seg>
+                  <note target="n18">18</note>
+               </seg>, of
+<lb id="L04L317" n="317"/> whom you speak very
+<lb id="L04L318" n="318"/>
+               <unclear rend="" reason="" resp="" cert="" hand="SPH">Sneeringly</unclear> because they
+<lb id="L04L319" n="319"/> are single, simple, true,
+<lb id="L04L320" n="320"/> lovely and refined &mdash;
+<lb id="L04L321" n="321"/> These are very good
+<lb id="L04L322" n="322"/> reasons, and very good
+<lb id="L04L323" n="323"/> qualities.</p><p>
+<lb id="L04L324" n="324"/> I am sorry I have
+<lb id="L04L325" n="325"/> no drawings for your
+<lb id="L04L326" n="326"/> babies this week.
+<lb id="L04L327" n="327"/> But I have been
+<lb id="L04L328" n="328"/>
+               <sic corr="overwhelmed">overwhemed</sic>since
+<lb id="L04L329" n="329"/> the suicide of <name reg="Weis, Adelaide"> Adelaide
+<lb id="L04L330" n="330"/> Weis</name>
+               <seg>
+                  <note target="n19">19</note>
+               </seg> with cares
+<lb id="L04L331" n="331"/> for the rest of them &mdash;
+<lb id="L04L332" n="332"/> I have had to 
+<lb id="L04L333" n="333"/> neglect many things &mdash;
+<lb id="L04L334" n="334"/> not however so imperative
+
+<!-- Page 15 -->
+<pb mmid="/b/bd063794-051a-4f33-bfb1-4fde84df2e22" n="15"/>
+ 
+               <figure>
+                  <figDesc>stationer's mark.</figDesc>
+               </figure>
+               
+<lb id="L04L335" n="335"/> as their needs.</p><p>
+<lb id="L04L336" n="336"/> I have the comfort of
+<lb id="L04L337" n="337"/> a perfect peace and
+<lb id="L04L338" n="338"/> order &amp; intelligence
+<lb id="L04L339" n="339"/> in the kitchen &mdash; for
+<lb id="L04L340" n="340"/> which I am most
+<lb id="L04L341" n="341"/> thankful &mdash; for I
+<lb id="L04L342" n="342"/> dreaded <name reg="???, Ann"> Ann's</name>
+               <seg>
+                  <note target="n20">20</note>
+               </seg> going
+<lb id="L04L343" n="343"/> to <name reg="California" type="place">California</name>&mdash; away
+<lb id="L04L344" n="344"/> from me.  There are
+<lb id="L04L345" n="345"/> other treasures, I
+<lb id="L04L346" n="346"/> find among the
+<lb id="L04L347" n="347"/>
+               <unclear rend="" reason="" resp="" cert="" hand="SPH">Irish</unclear> besides her.
+<lb id="L04L348" n="348"/> Indeed I knew this
+<lb id="L04L349" n="349"/> but feared not to
+<lb id="L04L350" n="350"/> become possessed
+<lb id="L04L351" n="351"/> of them.</p><p>
+<lb id="L04L352" n="352"/> I hope you are very
+<lb id="L04L353" n="353"/> well and that the
+<lb id="L04L354" n="354"/>
+               <name reg="Mann, Mary Tyler Peabody">Queen of the Angels</name>
+<lb id="L04L355" n="355"/> is well this autumn.
+
+<!-- Page 16 -->
+<pb mmid="/3/3ca8f540-0f9b-4bf4-ab05-32caad1a23bd" n="16"/>
+               
+<lb id="L04L356" n="356"/> Give my love to
+<lb id="L04L357" n="357"/> her.
+</p>
+            <closer>
+                <lb id="L04L358" n="358"/> Ever yours, 
+                <lb id="L04L359" n="359"/><signed>
+                  <name type="sender">Sophia</name>
+               </signed>
+               <add hand="Unknown" place="right margin">Mrs. Hawthorne</add>
+            </closer>
+         </div1>
+      </body>
+      <back>
+         <div1 n="1" type="Annotations">
+            <head>Notes</head>
+            <note id="n1">1. Elizabeth Palmer Peabody. <bibl>Bibl Entry.</bibl>
+               <xref url="http://www.uua.org/uuhs/duub/articles/peabodysisters.html" imgref="images/elizabeth.jpg">Elizabeth Palmer Peabody</xref>.</note>
+            <note id="n2">2. Adelaide Weiss or Adelaide Weis, cf. <xref url="#n19">note 19</xref>. <bibl>Bibl Entry, checked CEN.</bibl>
+            </note>
+            <note id="n3">3. The Hawthorne's Church. <bibl>Bibl entry, checked CEN.</bibl>
+            </note>
+            <note id="n4">4. Sophia Hawthorne's first daughter, Una Hawthorne (1844-1877). <bibl>Bassan. Hawthorne's Son. 5,115.</bibl>
+               <xref url="http://www.hawthorneinsalem.org/images/fullpageimage.php?name=MMD368" imgref="images/una.jpg">Una Hawthorne</xref>
+            </note>
+            <note id="n5">5. Sophia Hawthorne's only son, Julian Hawthorne (1846-1934) <bibl>Bassan. Hawthorne's Son. 5,224.</bibl>
+               <xref url="http://www.hawthorneinsalem.org/images/fullpageimage.php?name=MMD368" imgref="images/julian.jpg">Julian Hawthorne</xref>
+            </note>
+            <note id="n6">6. Harvard College. <bibl>Bassan. Hawthorne's Son. 3.</bibl>
+            </note>
+            <note id="n7">7. Greek Cynic who practiced abstinence and self-control, Diogenes of Sinope (4 BCE.) <bibl>Feiser. Diogenes of Sinope.</bibl>
+            </note>
+            <note id="n8">8. First Dean of Harvard though the position was not yet officially established, Ephraim Gurney. <bibl>Records of the Dean of Harvard College.</bibl>
+            </note>
+            <note id="n9">9. Rock Ferry. <bibl>Bibl entry.</bibl>
+            </note>
+            <note id="n10">10. St. Pauls Charity. <bibl>Bibl entry.</bibl>
+            </note>
+            <note id="n11">11. Mrs. Allbut. <bibl>Bibl entry.</bibl>
+            </note>
+            <note id="n12">12. The Pritchards. <bibl>Bibl entry.</bibl>
+            </note>
+            <note id="n13">13. The MacKays. <bibl>Bibl entry.</bibl>
+            </note>
+            <note id="n14">14. The Hoars. <bibl>Bibl entry.</bibl>
+            </note>
+            <note id="n15">15. Presumably Sophia's sister, Mary Tyler Peabody Mann. <bibl>Bibl entry.</bibl>
+            </note>
+            <note id="n16">16. Presumably Sophia's sister, Mary Tyler Peabody Mann. <bibl>Bibl entry.</bibl>
+            </note>
+            <note id="n17">17. Mrs Pugh. <bibl>Bibl entry.</bibl>
+            </note>
+            <note id="n18">18. Mr. and Mrs. Turner. <bibl>Bibl entry.</bibl>
+            </note>
+            <note id="n19">19. Adelaide Weiss or Adelaid Weis, unclear reading. <bibl>Bibl entry.</bibl>
+            </note>
+            <note id="n20">20. Ann, last name unknown. <bibl>Bibl entry.</bibl>
+            </note>
+            <note id="nstar">* A stationer's mark, a star bearing the enscription "PARIS", is on this line. <xref url="" imgref="">Stationer's mark, a star bearing the enscription "PARIS"</xref>.</note>
+            <note id="ndagger">&#134; A charcoal marking resembling the letter S is present in the right margin. <xref url="" imgref="">A charcoal marking resembling the letter S in the right margin</xref>.</note>
+         </div1>
+         <div1 n="2" type="Citations">
+            <listBibl>
+               <head>WORKS CITED IN NOTES</head>
+               <bibl id="BASSAN_HS">
+                  <author>Bassan, Maurice</author>
+                  <title level="m">Hawthorne's Son</title>
+                  <pubPlace>Columbus, Ohio</pubPlace>
+                  <publisher>Ohio State University Press</publisher>
+                  <date>1970</date>
+               </bibl>
+               <bibl id="RUSSEL_ANB">
+                  <author>Russel, Henry</author>
+                  <title level="a">Hawthorne, Julian</title>
+                  <title level="m">American National Biography Online</title>
+                  <biblScope type="URL">http://www.anb.org/</biblScope>
+                  <date>2000</date>
+                  <biblScope type="DateOfVisit">21 Feb 2003</biblScope>
+               </bibl>
+               <bibl id="FIESER_DIOGENES">
+                  <editor>Fieser, James</editor>
+                  <title level="a">Diogenes of Sinope</title>
+                  <title level="m">Internet Encyclopedia of Philosophy</title>
+                  <biblScope type="URL">http://www.utm.edu/research/iep/d/diogsino.htm</biblScope>
+                  <date>2001</date>
+                  <biblScope type="DateOfVisit">03 Feb 2003</biblScope>
+               </bibl>
+               <bibl id="HUA_RDHC">
+                  <title level="a">Records of the Dean of Harvard College, 1889-1995 </title>
+                  <title level="m">Harvard University Archives</title>
+                  <biblScope type="URL">http://oasis.harvard.edu/html/hua04000.html</biblScope>
+                  <date>2000</date>
+                  <biblScope type="DateOfVisit">14 Feb 2003</biblScope>
+               </bibl>
+            </listBibl>
+         </div1>
+      </back>
+   </text>
+</TEI.2>
