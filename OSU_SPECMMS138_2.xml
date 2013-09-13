@@ -1,0 +1,388 @@
+<?xml version="1.0"?>
+<!DOCTYPE TEI.2 SYSTEM 'TEI_Hawthorne.dtd'[
+
+        <!NOTATION jpg SYSTEM "JPEG">   
+	
+ ]>
+<TEI.2 id="OSU_SPECMMS138_2">
+   <teiHeader type="AACR2">
+      <!--The type attribuite in teiHeader element above indicates that the header provides enough information to create 
+      a bibliographic record that complies with the Anglo-American Cataloguing Rules, 2nd ed. (1978; rev. 1988).-->
+      <!--The  file description tagged <fileDesc>, contains "a full bibliographical description of the computer file itself, 
+      from which a user of the text could derive a proper bibliographic citation, or which a librarian or archivist could use in 
+      creating a catalogue entry recording its presence within a library or archive" (TEI P4X, ch. 5).-->
+      <fileDesc>
+         <titleStmt>
+            <title>Letters, 1837-1868, to Elizabeth Palmer Peabody (Letter #): Electronic Edition.</title>
+            <editor>John DiCamillo</editor>
+            <editor>Anthony DiCola</editor>
+            <editor>Thomas J. Firestone</editor>
+            <principal>H. Lewis Ulman</principal>
+            <respStmt>
+               <resp>Creation of machine-readable transcript: </resp>
+               <name type="person">John DiCamillo</name>
+               <name type="person">Anthony DiCola</name>
+               <name type="person">Thomas J. Firestone</name>
+               <resp>Creation of digital images: </resp>
+               <name type="person">Keith Lazuka</name>
+               <resp>Conversion to TEI.2-conformant markup: </resp>
+               <name type="person">John DiCamillo</name>
+               <name type="person">Anthony DiCola</name>
+               <name type="person">Thomas J. Firestone</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <p>1st Edition.</p>
+         </editionStmt>
+         <extent>ca. 22 kilobytes </extent>
+         <publicationStmt>
+            <publisher>The Ohio State University Library.
+<address>
+                  <addrLine n="1">327 Main Library</addrLine>
+                  <addrLine n="2">1858 Neil Avenue Mall</addrLine>
+                  <addrLine n="3">Columbus, OH 43210</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Columbus, OH</pubPlace>
+            <idno type="RBMS">How will RBMS catalog the e-text?</idno>
+            <availability>
+               <p>Rare Books and Manuscript Department, The Ohio State University</p>
+               <p>URL: http://www.lib.ohio-state.edu/rarweb/</p>
+            </availability>
+            <date>2003</date>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Name of electronic series, if any</p>
+         </seriesStmt>
+         <notesStmt>
+            <note>Notes about e-text.</note>
+            <note>Any other notes about e-text.</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title level="u" id="SPEC.MMS.138">Letters, 1837-1868, to Elizabeth Palmer Peabody</title>
+                  <!--The "level" attribute "indicates whether this is the title of an article, book, journal, series, or unpublished material, 
+                  indicated as a, b, j, s, or u" (TEI P4X, ch. 5.2.1).-->
+                  <author>Hawthorne, Sophia Peabody, 1809-1871</author>
+               </titleStmt>
+               <extent>4 pp.</extent>
+               <publicationStmt>
+                  <p>Need a publication statement from Library here.</p>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Note about manuscript.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <!--The encoding description, tagged <encodingDesc>, describes "the relationship between an electronic text and its 
+      source or sources" (TEI P4X, ch. 5).-->
+      <encodingDesc>
+         <projectDesc>
+            <p>Project description.</p>
+         </projectDesc>
+         <editorialDecl>
+            <!--In addition to prose description, the Editorial Practices Declaration may contain specialized elements concerned 
+            with correction, normalization, quotation, hyphenation, segmentation, date and number format, and interpretive 
+            apparatus (TEI P4X, ch. 5.3.3).-->
+            <p>All quotation marks retained as data.</p>
+            <p>Spell-check and verification made against printed text using WordPerfect spell checker.</p>
+            <p>All unambiguous end-of-line hyphens have been removed, and the trailing part of a word has been joined to the preceding line.</p>
+            <p>The images exist as archived TIFF images, one or more JPEG versions for general use, and thumbnail GIFs.</p>
+         </editorialDecl>
+         <refsDecl>
+            <p>ID elements are given for each page element and are composed of the text's unique cryptogram and the given page number, as in AusEmma1 for page one of Jane Austen's Emma.</p>
+         </refsDecl>
+         <classDecl>
+            <taxonomy id="LCSH">
+               <bibl>
+                  <title>Library of Congress Subject Headings</title>
+               </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <!--The text profile, tagged <profileDesc>, contains "classificatory and contextual information about the text, 
+      such as its subject matter, the situation in which it was produced, the individuals described by or participating 
+      in producing it, and so forth" (TEI P4X, ch. 5).-->
+      <profileDesc>
+         <creation>
+            <date>2003-03-19</date>
+         </creation>
+         <langUsage>
+            <language id="EN">English</language>
+         </langUsage>
+         <handList>
+            <hand scribe="Hawthorne, Sophia Peabody, 1809-1871" id="SPH" ink="" character="" first="yes"/>
+            <hand scribe="Unknown" id="Unknown" ink="pencil" character="" first="no"/>
+         </handList>
+         <textClass>
+            <keywords>
+               <term>prose</term>
+            </keywords>
+            <keywords scheme="LCSH">
+               <term>LCSH</term>
+            </keywords>
+         </textClass>
+         <textClass>
+            <keywords>
+               <term>KEYWORD</term>
+               <term>KEYWORD</term>
+               <term>KEYWORD</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <!--The revision history, tagged <revisionDesc>, allows "the encoder to provide a history of changes made during 
+      the development of the electronic text" (TEI P4X, ch. 5).-->
+      <revisionDesc>
+         <change>
+             <date>Spring 2003</date>
+            <respStmt>
+               <resp>Editors</resp>
+               <name>See listing of editorial team.</name>
+            </respStmt>
+            <item>Initial TEI-compliant XML encoding.</item>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <div1 type="abstract" n="1">
+            <head>
+               <bibl>
+                  <abbr>ALS</abbr>
+                  <extent>4 pp.</extent>
+                  <date value="1839-11-19">19 November 1839</date>
+                  <idno rend="suppress">SPEC.MMS.138_2</idno>
+                  <title>Letter from Sophia Hawthorne to Elizabeth Peabody</title>
+               </bibl>
+            </head>
+            <p>Sophia describes events surrounding her brother George's last illness, including a visit from Rev. Edward Thomson Taylor.</p>
+         </div1>
+      </front>
+      <body>
+         <div1 type="letter" n="1">
+            <head></head>
+
+<!-- Page 1 -->
+<pb mmid="/5/5e42ca89-802c-4893-97f6-10f789789b0c" n="1"/>
+
+            <opener>
+               <dateline>
+                  <date value="1839-11-19">Tuesday 1/2 4. Nov<abbr expan="ember">ember</abbr> 19th
+<handShift old="SPH" new="Unknown"/>1839</date>
+               </dateline>
+               <salute>My dear <name type="recipient">Lizzie,</name>
+                  <seg>
+                     <note target="n1">1</note>
+                  </seg>
+               </salute>
+            </opener>
+
+<p n="1" id="L002P001">
+<lb id="L02L001" n="001"/>I suppose that <name type="person" reg="Edward Thomson Taylor (1793-1871)" key="ETT">Mr. Taylor</name>
+               <seg>
+                  <note target="n2">2</note>
+               </seg> has
+<lb id="L02L002" n="002"/>told you of <name type="person" reg="Peabody, George" key="GP">George</name>'s <seg>
+                  <note target="n3">3</note>
+               </seg> perfect frame
+<lb id="L02L003" n="003"/>of mind &mdash; of his experience of
+<lb id="L02L004" n="004"/>that divine glow which was so
+<lb id="L02L005" n="005"/>unaccountable &mdash; but so sweet &amp;
+<lb id="L02L006" n="006"/>refreshing to him &mdash; &amp; seemed so like
+<lb id="L02L007" n="007"/>an intimation from GOD that
+<lb id="L02L008" n="008"/>it was well with him &mdash;; but he
+<lb id="L02L009" n="009"/>would not tell you how like
+<lb id="L02L010" n="010"/>a tender &amp; strong angel he <add place="infralinear" hand="SPH"> &#94;</add>
+               <add place="supralinear" hand="SPH"> himself </add> was
+<lb id="L02L0011" n="011"/>to us all &mdash; what a wonderful
+<lb id="L02L0012" n="012"/>prayer he offered &mdash; which seemed
+<lb id="L02L0013" n="013"/>to bring the host of heaven
+<lb id="L02L0014" n="014"/>down to watch &amp; duly ward -
+<lb id="L02L0015" n="015"/>which brought heaven into
+<lb id="L02L0016" n="016"/>
+               <name type="person">George</name>'s chamber &amp; carried us
+<lb id="L02L0017" n="017"/>all as on Dove's wings into
+<lb id="L02L0018" n="018"/>the spiritual world.  It was the
+<lb id="L02L0019" n="019"/>most fervid &mdash; the most affectionate,
+<lb id="L02L020" n="020"/>tender &amp; divine uplifting of 
+<lb id="L02L021" n="021"/>soul to the infinite father &mdash;
+<lb id="L02L022" n="022"/>that I ever heard.  He prayed for 
+<lb id="L02L023" n="023"/>each &mdash; for the <q>Mother, <seg>
+                     <note target="n4">4</note>
+                  </seg> the tender
+<lb id="L02L024" n="024"/>Mother &mdash; who hung around her life</q>
+<lb id="L02L025" n="025"/>for the Father's <seg>
+                  <note target="n5">5</note>
+               </seg> manly heart &mdash;
+<lb id="L02L026" n="026"/>for the sister <seg>
+                  <note target="n6">6</note>
+               </seg> whose duty called
+<lb id="L02L027" n="027"/>her away &mdash; <q> &amp; oh bless &mdash; <hi rend="underline">our dear <name type="person">Mary</name>
+                     <seg>
+                        <note target="n7">7</note>
+                     </seg></hi>
+<!-- Page 2 -->
+<pb mmid="/0/022feeb4-0e17-4d03-a876-dd5a73b13a27" n="2"/>
+                  
+<lb id="L02L028" n="028"/>he said &mdash; let not that peaceful
+<lb id="L02L029" n="029"/>stream be disturbed &mdash; </q> " he prayed
+<lb id="L02L030" n="030"/>for the sister present<seg>
+                  <note target="n8">8</note>
+               </seg>  &mdash; 'she with
+<lb id="L02L031" n="031"/>the delicate nerves &mdash;' For <name type="person">Aunt
+<lb id="L02L032" n="032"/>Pickman</name>
+               <seg>
+                  <note target="n9">9</note>
+               </seg> too he petitioned
+<lb id="L02L033" n="033"/>heaven &mdash;     The tears were at
+<lb id="L02L034" n="034"/>last loosened from my brain
+<lb id="L02L035" n="035"/>which I had kept back so long
+<lb id="L02L036" n="036"/>that I began to feel as if they
+<lb id="L02L037" n="037"/>were accumulating there &mdash;
+<lb id="L02L038" n="038"/>&amp; they flowed down my face
+<lb id="L02L039" n="039"/>like a summer rain without
+<lb id="L02L040" n="040"/>convulsion.  After he rose
+<lb id="L02L041" n="041"/>from his knees, <name type="person">George</name> stretched 
+<lb id="L02L042" n="042"/>out his arms &amp; Mr. Taylor
+<lb id="L02L043" n="043"/>clasped him to his heart in
+<lb id="L02L044" n="044"/>a long, long embrace &mdash; Every
+<lb id="L02L045" n="045"/>moment ejaculating "The Lord
+<lb id="L02L046" n="046"/>bless you!  Bless you!  Bless you!"
+<lb id="L02L047" n="047"/>in such a thrilling tone that
+<lb id="L02L048" n="048"/>it seemed as if blessings must
+<lb id="L02L049" n="049"/>come in legions at the call &mdash;
+<lb id="L02L050" n="050"/>
+               <name type="person">George</name>'s thin white hands were
+
+<!-- Page 3 -->
+<pb mmid="/6/68d56136-930a-47b7-ba9f-e4b3602eb38c" n="3"/>
+
+<lb id="L02L051" n="051"/>so firmly fastened round his neck
+<lb id="L02L052" n="052"/>that I thought he would never
+<lb id="L02L053" n="053"/>let the angel go &mdash; even after he
+<lb id="L02L054" n="054"/>had blessed him &mdash; but at last
+<lb id="L02L055" n="055"/>he relaxed his hold. Then <name type="person">
+                  <sic corr="Mr.">Mr</sic>
+<lb id="L02L056" n="056"/>Taylor</name> turned to me &amp; took both
+<lb id="L02L057" n="057"/>hands. <q>Be strong</q> said he. <q>
+                  <hi rend="underline">It is</hi>
+<lb id="L02L058" n="058"/><hi rend="underline">very pleasant on the other side</hi>. Be
+<lb id="L02L059" n="059"/>quiet <del hand="SPH" type="overwritten">a</del>like a May morning.</q>
+               <lb id="L02L060" n="060"/>He came with me into my room.
+<lb id="L02L061" n="061"/>
+               <q>Oh <name type="person">George</name> is a perfect lamb! A
+<lb id="L02L062" n="062"/>perfect lamb. He is moonlight &mdash;
+<lb id="L02L063" n="063"/>so clear &mdash; mild &mdash; I would not but
+<lb id="L02L064" n="064"/>have seen him for the world. It
+<lb id="L02L065" n="065"/>was worth coming just to look at
+<lb id="L02L066" n="066"/>him. He never looked so handsome
+<lb id="L02L067" n="067"/>in his life. There is no distortion
+<lb id="L02L068" n="068"/>there. All is right. All is right.</q>
+<lb id="L02L069" n="069"/>I cannot tell you all he said now.
+<lb id="L02L070" n="070"/>Oh he is the most helpful &mdash; the
+<lb id="L02L071" n="071"/>divinest spirit &mdash; is he not?
+<lb id="L02L072" n="072"/>
+               <name type="person">George</name> said there could not be such
+<lb id="L02L073" n="073"/>a prayer conceived of. <q>
+                  <name type="person">Mr. Taylor</name>
+ <lb id="L02L074" n="074"/>is no sham</q> &mdash; he said.
+<lb id="L02L075" n="075"/>
+               <name type="person">George</name> is very much revived this
+<lb id="L02L076" n="076"/>afternoon. He had not a bad
+<lb id="L02L077" n="077"/>chill this morning &mdash; hardly any &mdash; &amp;
+<lb id="L02L078" n="078"/>yesterday it was
+<lb id="L02L079" n="079"/>two hours long 
+
+<!--Page 4 -->
+<pb mmid="/8/8f5d4ec8-e235-477b-a9f4-5f7b29094cf1" n="4"/>
+
+<lb id="L02L080" n="080"/>
+               <name>Mary</name> came today &amp; staid two hours
+<lb id="L02L081" n="081"/>I carried her your letter this afternoon
+<lb id="L02L082" n="082"/>&amp; she had <sic corr="received">recieved</sic> no harm.
+<lb id="L02L083" n="083"/>
+               <name type="person">George</name> thinks it would not be
+<lb id="L02L084" n="084"/>right for you to come on
+<lb id="L02L085" n="085"/>Wednesday. He thinks of
+<lb id="L02L086" n="086"/>every thing in all relations
+<lb id="L02L087" n="087"/>with exactest precision.
+<lb id="L02L088" n="088"/>Yesterday he wandered a
+<lb id="L02L089" n="089"/>little several times, &amp; this
+<lb id="L02L090" n="090"/>afternoon while I was rubbing
+<lb id="L02L091" n="091"/>his arm, he was saying
+<lb id="L02L092" n="092"/>something &mdash; &amp; then said something
+<lb id="L02L093" n="093"/>I did not hear. <q>What did
+<lb id="L02L094" n="094"/>you say</q> I asked. <q>It <unclear reason="illegible">
+                     <del type="overstrike" hand="SPH">belies</del>
+                  </unclear>
+<lb id="L02L095" n="095"/>was nothing to the purpose, he
+<lb id="L02L096" n="096"/>replied. <hi rend="underline">I was wandering</hi>.</q>
+<lb id="L02L097" n="097"/>I never saw such clearness. He
+<lb id="L02L098" n="098"/>looks from some high place
+<lb id="L02L099" n="099"/>even upon his aberrations.
+<lb id="L02L100" n="100"/>I can write no more now
+<lb id="L02L101" n="101"/>I <sic corr="received">received</sic> a blessed refreshment
+<lb id="L02L102" n="102"/>yesterday P.M. beside <name type="person">
+                  <sic corr="Mr.">Mr</sic>
+<lb id="L02L103" n="103"/>Taylor</name>, a long &mdash; closely written letter</p>
+
+<closer>
+<lb/> Your most aff<abbr expan="ectionate">ectionate</abbr>
+<lb/> <signed>
+                  <name type="sender" reg="Hawthorne, Sophia Peabody (1809-1871)">Sophy</name>
+               </signed>
+               <lb id="L02L106" n=""/>
+               <add place="Left margin" hand="SPH">
+		My love to <name type="person">Connie</name><note target="n10">10</note>
+               </add>
+            </closer>
+         </div1>
+      </body>
+      <back>
+         <div1 type="Annotations" n="1">
+            <head>Notes</head>
+            <note id="n1">1. Sophia Hawthorne's sister Elizabeth Palmer Peabody (1804-1894). <bibl>ANB</bibl></note>
+            <note id="n2">2. Edward Thompson Taylor (1793-1871, a Methodist preacher and minister for nearly forty years at the 
+               Seamen's Bethel, Boston, Massachusetts. <bibl>CEN 15:421-22; Mott</bibl>
+            </note>
+            <note id="n3">3. George Francis Peabody (1813-1839), Sophia's brother, who suffered from spinal tuberculosis, died in Elizabeth's care on November 25, 1839, six days after the writing of this letter. <bibl>CEN 15; 360-375</bibl>
+            </note>
+            <note id="n4">4. Elizabeth Palmer Peabody (1778-1853), Sophia's mother. <bibl>Turner 103</bibl>
+            </note>
+            <note id="n5">5. Dr. Nathaniel Peabody (1774-1855, Sophia's father. <bibl>Turner 103</bibl>
+            </note>
+            <note id="n6">6. Elizabeth Palmer Peabody, who was in . . . 
+            </note>
+            <note id="n7">7. Sophia Hawthorne's sister, Mary Tyler Peabody Mann (1807-1887). <bibl>CEN 15:25</bibl></note>
+            <note id="n8">8. Sophia Hawthorne.</note>
+            <note id="n9">9. Sophia Palmer Pickman (1786-1862), Sophia Hawthorne's aunt. CEN 16:14</note>
+            <note id="n10">10. Unidentified.</note>
+         </div1>
+         <div1 type="Citations" n="1">
+            <listBibl>
+               <head>Works Cited In Notes</head>
+               
+               <bibl id="CEN">
+                  <author>Hawthorne, Nathaniel</author>
+                  <editor>Charvat, William, et al.</editor>
+                  <title level="m">The Centenary Edition of the Works of Nathaniel Hawthorne</title>
+                  <pubPlace>Columbus, Ohio</pubPlace>
+                  <publisher>Ohio State University Press</publisher>
+                  <date>1962</date>
+               </bibl>
+<bibl id="Mott">
+   <author >Mott, Wesley, T</author>
+   <title level="a" >Taylor, Edward Thompson</title>
+   <title level="m" >American National Biography</title>
+   <biblScope type="URL">http://www.anb.org.proxy.lib.ohio-state.edu/articles/08/08-01505.html</biblScope>
+   <date>2000</date>
+   <biblScope type="DateOfVisit">27 Jul 2006</biblScope>
+</bibl>
+              
+            </listBibl>
+         </div1>
+      </back>
+   </text>
+</TEI.2>

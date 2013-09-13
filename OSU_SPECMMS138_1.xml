@@ -1,0 +1,581 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "TEI_Hawthorne.dtd" [<!NOTATION jpg SYSTEM 'JPEG'>
+<!ATTLIST xref url CDATA #IMPLIED> 
+]>
+<TEI.2 id="OSU_SPECMMS138_1">
+   <teiHeader type="AACR2">
+      <!--The type attribute in teiHeader element above indicates that the header provides enough information to create 
+      a bibliographic record that complies with the Anglo-American Cataloguing Rules, 2nd ed. (1978; rev. 1988).-->
+      <fileDesc>
+         <!--The  file description tagged <fileDesc>, contains "a full bibliographical description of the computer file itself, from 
+         which a user of the text could derive a proper bibliographic citation, or which a librarian or archivist could use in creating 
+         a catalogue entry recording its presence within a library or archive" (TEI P4X, ch. 5).-->
+         <titleStmt>
+            <title>Letters, 1837-1868, to Elizabeth Palmer Peabody (Letter 1): Electronic Edition.</title>
+            <editor>Michael Albrecht</editor>
+            <editor>Karen D. Anderson</editor>
+            <editor>Sue Carlson</editor>
+            <editor>David Carrino</editor>
+            <editor>H. Lewis Ulman</editor>
+            <principal>H. Lewis Ulman</principal>
+            <respStmt>
+               <resp>Creation of machine-readable transcript: </resp>
+               <name type="person">Michael Albrecht</name>
+               <name type="person">Karen D. Anderson</name>
+               <name type="person">Sue Carlson</name>
+               <name type="person">David Carrino</name>
+               <name type="person">H. Lewis Ulman</name>
+               <resp>Creation of digital images: </resp>
+               <name type="person">Keith Lazuka</name>
+               <resp>Conversion to TEI.2-conformant markup: </resp>
+               <name type="person">Michael Albrecht</name>
+               <name type="person">Karen D. Anderson</name>
+               <name type="person">Sue Carlson</name>
+               <name type="person">David Carrino</name>
+               <name type="person">H. Lewis Ulman</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <p>1st Edition.</p>
+         </editionStmt>
+         <extent>ca. 40 kilobytes </extent>
+         <publicationStmt>
+            <publisher>The Ohio State University Library.
+               <address>
+                  <addrLine n="1">Rare Books and Manuscripts Library</addrLine>   
+                  <addrLine n="2">327 Main Library</addrLine>
+                  <addrLine n="3">1858 Neil Avenue Mall</addrLine>
+                  <addrLine n="4">Columbus, OH 43210</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Columbus, OH</pubPlace>
+            <idno type="call no.">SPEC.MMS.138</idno>
+            <availability>
+               <p>The Sophia Peabody Hawthorne / Elizabeth Palmer Peabody correspondence is the
+                        property of the Rare Books and Manuscripts Library of The Ohio State
+                        University Libraries. Any use of the material should acknowledge such ownership.</p>
+            </availability>
+            <date>2005</date>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title id="SPEC.MMS.138" level="u">Letters, 1837-1868, to Elizabeth Palmer Peabody</title>
+                  <!--The "level" attribute "indicates whether this is the title of an article, book, journal, series, or unpublished 
+                  material, indicated as a, b, j, s, or u" (TEI P4X, ch. 5.2.1).-->
+                  <author>Hawthorne, Sophia Peabody, 1809-1871</author>
+               </titleStmt>
+               <extent>4 pp.</extent>
+               <publicationStmt>
+                  <p>Pulbication statement from the library.</p>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Note about manuscript.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <!--The encoding description, tagged <encodingDesc>, describes "the relationship between an electronic text and its 
+         source or sources" (TEI P4X, ch. 5).-->
+         <projectDesc>
+            <p>"My  Dear Elizabeth: Letters from Sophia Peabody Hawthorne to Elizabeth Palmer Peabody,  
+               1837-1868" is an electronic edition of five letters written  by Sophia Peabody Hawthorne (1809-1871) 
+               to her sister Elizabeth  Palmer Peabody (1804-1894).</p>
+         </projectDesc>
+         <editorialDecl>
+            <!--In addition to prose description, the Editorial Practices Declaration may contain specialized elements concerned 
+            with correction, normalization, quotation, hyphenation, segmentation, date and number format, and interpretive 
+            apparatus (TEI P4X, ch. 5.3.3).-->
+            <p>All quotation marks are retained as data.</p>
+            <p>The images exist as archived TIFF images and one JPEG version stored on an
+               image server (http://media.cohums.ohio-state.edu).</p>
+         </editorialDecl>
+         <refsDecl>
+            <p>ID elements given for each page element consist of the filename of 
+               the corresponding page image stored, as of 2005-04-30, at 
+               http://media.cohums.ohio-state.edu/people/ulman1/SHawthorne_Letters/, 
+               as in "Letter1_P1a" for view "a" of page one of the first letter in the collection.</p>
+         </refsDecl>
+         <classDecl>
+            <taxonomy id="LCSH">
+               <bibl>
+                  <title>Library of Congress Subject Headings</title>
+               </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <!--The text profile, tagged <profileDesc>, contains "classificatory and contextual information about the text, such as its 
+         subject matter, the situation in which it was produced, the individuals described by or participating in producing it, and 
+         so forth" (TEI P4X, ch. 5).-->
+         <creation>
+            <date>2003-03-19</date>
+         </creation>
+         <langUsage>
+            <language id="eng">English</language>
+            <language id="lat">Latin</language>
+         </langUsage>
+         <handList>
+            <hand id="SPH" scribe="Hawthorne, Sophia Peabody, 1809-1871"/>
+            <hand id="MTPM" scribe="Mann, Mary Tyler Peabody, 1806-1887"/>
+            <hand id="UNK" scribe="Unknown"/>
+         </handList>
+         <textClass>
+            <keywords>
+               <term>Letters</term>
+               <term>United States -- Intellectual life -- 19th century</term>
+               <term>Massachusetts -- Intellectual life -- 19th century</term>
+               <term>Salem (Mass.)</term>
+               <term>Authors' spouses -- United States</term>
+               <term>Sisters</term>
+               <term>Fault-finding</term>
+               <term>Hawthorne, Sophia Peabody, 1809-1871</term>
+               <term>Peabody, Elizabeth Palmer, 1804-1894</term>
+               <term>Hawthorne, Nathaniel, 1804-1864</term>
+               <term>Alcott, Abigail May, 1800-1877</term>
+               <term>Mann, Mary Tyler Peabody, 1806-1887</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <!--The revision history, tagged <revisionDesc>, allows "the encoder to provide a history of changes made during the 
+         development of the electronic text" (TEI P4X, ch. 5).-->
+         <change>
+            <date>2003-06-10</date>
+            <respStmt>
+               <resp>Editors</resp>
+               <name>See listing of editorial team.</name>
+            </respStmt>
+            <item>Initial TEI-compliant XML encoding.</item>
+         </change>
+         <change>
+            <date>2005-04-30</date>
+            <respStmt>
+            <resp>Coordinating Editor</resp>
+            <name>H. Lewis Ulman</name>
+            </respStmt>
+            <item>Final corrections to text and markup.</item>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <div1 n="1" type="abstract">
+            <head>
+               <bibl>
+                  <title>Letter from Sophia Hawthorne to Elizabeth Palmer Peabody</title>
+                  <date>ca. 1837</date>
+                  <abbr>ALS</abbr>
+                  <extent>4 pp.</extent>
+                  <idno rend="suppress">SPEC.MMS.138_1</idno>
+               </bibl>
+            </head>
+            <p>In this letter, Sophia Peabody attempts to correct misunderstandings between herself and her sister 
+               Elizabeth regarding Sophia's estimation of Abigail May Alcott [Mrs. Bronson Alcott] and, more generally, 
+               the sisters' differing attitudes toward "fault-finding." Before mailing the letter to Elizabeth, Sophia gives it 
+               to her sister Mary, who adds her own perspective on the misunderstanding, asking for sympathy 
+               and peace as well as communicating her frustrations with both of her sisters.</p>
+         </div1>
+      </front>
+      <body>
+         <div1 n="1" type="letter">
+<!--The transcription of the letter begins here.-->
+            <head/>
+            
+<!-- Page 1 -->
+<pb mmid="/a/af7b3aae-2543-478e-9f75-0c6b3eead1c6" n="1"/>
+<!-- The opener tag contains any dateline and salutation appearing at the head of the letter. Note that dates and names are tagged with standard versions in order to improve searching. -->
+            <opener>
+               <dateline>
+                  <date value="1837-8-8">8th August</date>
+               </dateline>
+               <salute>My dear <name type="recipient">
+                     <name key="EPP" reg="Elizabeth Palmer Peabody (1804-1890)" type="person">Elizabeth</name>,</name>
+                  <seg>
+                     <note target="EPP">1</note>
+                  </seg>
+                  
+<lb/>
+               </salute>
+            </opener>
+            <p>
+ <!-- Beginning with the body of the letter, lines have been numbered to allow for cross references and numbered display. Note, too, that recoverable deletions are identified in the markup. -->              
+<lb id="L01L001" n="001"/> I have just read your long letter. 
+<lb id="L01L002" n="002"/> I cannot wait a moment before disabusing you 
+<lb id="L01L003" n="003"/> of one entire<del hand="SPH" type="overstrike">ly</del> mistake, which is your impres<seg type="softhyphen">&dash;</seg><lb id="L01L004" n="004"/>sion of my estimation of <name key="AMA" reg="Abigail May Alcott (1800-1877)" type="person">Mrs. Alcott</name>
+               <seg>
+                  <note target="AMA">2</note>
+               </seg>. You <hi rend="underline">never</hi>
+               
+<lb id="L01L005" n="005"/> heard me express for her a want of respect 
+<lb id="L01L006" n="006"/> or love, for from the beginning &amp; through all 
+<lb id="L01L007" n="007"/> I have thought her a sort of sublime phe<seg type="softhyphen">&dash;</seg><lb id="L01L008" n="008"/>nomenon &mdash; a terrible power made up of 
+<lb id="L01L009" n="009"/>divinest tenderness&mdash; vast humanity &mdash; infinite
+<lb id="L01L010" n="010"/> self sacrifice &mdash; a perfect juggernaut devotion 
+<lb id="L01L011" n="011"/> to the Right. I have loved her dearly always.
+<lb id="L01L012" n="012"/> How can you think otherwise<sic corr="?">.</sic> Don't you remember 
+<lb id="L01L013" n="013"/> at that time my sympathy with her &mdash; &amp; afterwards 
+<lb id="L01L014" n="014"/> my writing often to her, &amp; ever since the affectionate 
+<lb id="L01L015" n="015"/> way in which we have ever met<sic corr="?">.</sic> I have always 
+<lb id="L01L016" n="016"/> felt the utmost tenderness for her. I scarcely 
+<lb id="L01L017" n="017"/> ever saw a person who seemed to me so full 
+<lb id="L01L018" n="018"/> of pathos &mdash; amounting to the fearful. I am at a
+<lb id="L01L019" n="019"/> loss to imagine how you have such an idea in 
+<lb id="L01L020" n="020"/> your mind. Does it not show what complete,
+<lb id="L01L021" n="021"/> misunderstandings may exist &mdash;<add hand="SPH" place="supralinear"> I <hi rend="underline">never</hi> thought her deformed, </add> never moved by earthly passion.
+</p><p>
+<lb id="L01L022" n="022"/> I had a long talk with <name key="MTPM" reg="Mann, Mary Tyler Peabody, 1806-1887" type="person">Mary</name>
+               <seg>
+                  <note target="MTPMn">3</note>
+               </seg> the other 
+<lb id="L01L023" n="023"/> evening about this discussing of people's faults. 
+<lb id="L01L024" n="024"/> She said she never before understood what
+<lb id="L01L025" n="025"/> I meant, &amp; she did not believe you did.
+<lb id="L01L026" n="026"/> It is not that I do not see people do wrong &mdash; &amp; that 
+<lb id="L01L027" n="027"/> therefore I necessarily am unjust &mdash; but I have 
+<lb id="L01L028" n="028"/> understood Christ to teach that if each one looked 
+<lb id="L01L029" n="029"/> only to his own errors, perhaps there would be <sic corr="more just">juster</sic>
+<lb id="L01L030" n="030"/> judgment &amp; greater improvement in individuals. 
+<lb id="L01L031" n="031"/> When he speaks plainly I prefer to understand 
+<lb id="L01L032" n="032"/> him plainly, for I find it the most fruitful 
+<lb id="L01L033" n="033"/> of good. It has not been a personal feeling 
+<lb id="L01L034" n="034"/> for particular persons &mdash; for <name key="ABA" reg="Amos Bronson Alcott (1799-1888)" type="person">Mr. Alcott</name>
+               <seg>
+                  <note target="ABA">4</note>
+               </seg> for
+                    instance, 
+<lb id="L01L035" n="035"/> but this general principle, which would make
+<lb id="L01L036" n="036"/> me feel the same if a person I never knew
+
+<!-- Page 2 -->
+<pb mmid="/0/0075ca3e-0777-427c-a4b6-5aa7ca9b1938" n="2"/>
+               
+<lb id="L01L037" n="037"/> were <sic corr="analyze">analysed</sic> &amp; decided upon. I know 
+<lb id="L01L038" n="038"/> that GOD only can know a person truly, 
+<lb id="L01L039" n="039"/> from my own experience, &amp; I know that immense 
+<lb id="L01L040" n="040"/> mistakes are made in sweeping or even in what
+<lb id="L01L041" n="041"/> seem cool, rational judgments of others. 
+<lb id="L01L042" n="042"/> But as the seeing mind cannot but observe 
+<lb id="L01L043" n="043"/> I have thought that each person had better 
+<lb id="L01L044" n="044"/> not <add hand="SPH" place="supralinear">by <hi rend="underline">talking</hi>
+               </add> emphasize bad opinions of men &mdash;<gap extent="one word" hand="SPH" reason="cancelled and illegible" rend="overwritten"/> arguing 
+<lb id="L01L045" n="045"/> pronouncing &amp; deciding upon their motives &amp; actions, 
+<lb id="L01L046" n="046"/> which ever must be somewhat in the dark &mdash;
+<lb id="L01L047" n="047"/> but let the opinion be constantly modified
+<lb id="L01L048" n="048"/> or changed <add hand="SPH" place="supralinear">in the mind</add> by the evolving of circumstances &amp; 
+<lb id="L01L049" n="049"/> the influx of more light. Then no one would 
+<lb id="L01L050" n="050"/> be so cruelly wronged as some are &mdash; &amp; there 
+<lb id="L01L051" n="051"/> would be more time &amp; room for the interchange 
+<lb id="L01L052" n="052"/> of thought about things which are eternal &mdash;
+<lb id="L01L053" n="053"/> Christ might say <q>Woe unto you, hypocrites!</q> Because 
+<lb id="L01L054" n="054"/> there was no mote in his eye to take out,<seg>
+                  <note target="n1">5</note>
+               </seg> &amp; he 
+<lb id="L01L055" n="055"/> could see with<del hand="SPH" type="overstrike">out</del> clear vision, what was in 
+<lb id="L01L056" n="056"/> man, but it is not so with the less exalted. 
+<lb id="L01L057" n="057"/> I have said to myself Oh let me enjoy &amp; speak 
+<lb id="L01L058" n="058"/> of the good I see &mdash;
+<lb id="L01L059" n="059"/> &amp; be silent of the evil I see. 
+<lb id="L01L060" n="060"/>You <del hand="SPH" type="overstrike">have</del>&amp; <name key="MTPM" reg="Mann, Mary Tyler Peabody, 1806-1887" type="person">Mary</name> have thought me morbid about 
+<lb id="L01L061" n="061"/> hearing certain people spoken of &mdash; I always knew
+<lb id="L01L062" n="062"/> this was not the truth. It was not the person 
+<lb id="L01L063" n="063"/> but the thing that I struggled against. 
+<lb id="L01L064" n="064"/> Even when I have mutely listened, I have 
+<lb id="L01L065" n="065"/> always had a mental reservation that perhaps 
+<lb id="L01L066" n="066"/> it was not so &mdash; for GOD alone could see the heart &mdash;
+<lb id="L01L067" n="067"/> &amp; comprehend all the grounds upon which it 
+<lb id="L01L068" n="068"/> acted. I can see good in being openeyed
+<lb id="L01L069" n="069"/>&amp; not acting with a rash confidence &mdash; but I
+<lb id="L01L070" n="070"/> suspect I shall live forever &amp; not see good
+
+<!-- Page 3 -->
+<pb mmid="/5/56c3b183-e536-46b7-ad15-b2050541bf8e" n="3"/>
+               
+<lb id="L01L999" n="071"/>in dwelling upon personal faults. For my life
+<lb id="L01L071" n="072"/>I <hi rend="underline">cannot</hi>
+               <sic corr="perceive">percieve</sic> the least use in talking
+<lb id="L01L072" n="073"/>about them. I never hear of a great crime
+<lb id="L01L073" n="074"/>committed that I do not wish I had a hundred
+<lb id="L01L074" n="075"/>thousand arms &amp; powers to guard the person
+<lb id="L01L075" n="076"/>from being utterly condemned, because no <del hand="SPH" type="overwritten">one</del>man
+<lb id="L01L076" n="077"/>can know the tragedy, the struggle, the woe,
+<lb id="L01L077" n="078"/>the misery of the being's inward life who
+<lb id="L01L078" n="079"/>transgressed&mdash;and it is an infinite comfort to me
+<lb id="L01L079" n="080"/>always to know that GOD knows all &amp; will accordingly
+<lb id="L01L080" n="081"/>award with infinite tenderness&mdash; &amp; allow for <del hand="SPH" type="overstrike">all</del>
+<lb id="L01L081" n="082"/>want of light. A murder which horrifies the
+<lb id="L01L082" n="083"/>community never seems to me so dreadful or wrong
+<lb id="L01L083" n="084"/>in the eye of Heaven as the animadversions of
+<lb id="L01L084" n="085"/>those who think they are more righteous than the
+<lb id="L01L085" n="086"/>murderer. <hi rend="underline">Nevertheless</hi>, I can <del hand="SPH" type="overwritten">s</del> certainly suppose
+<lb id="L01L086" n="087"/>that to you it may seem quite otherwise about
+<lb id="L01L087" n="088"/>this matter, &amp; that you do your duty in a way
+<lb id="L01L088" n="089"/>of proceeding, which with my idea&mdash;it would
+<lb id="L01L089" n="090"/>manifestly be wrong for me to adopt.
+<lb id="L01L090" n="091"/>I <hi rend="underline">never thought it want of charity</hi> in you
+<lb id="L01L091" n="092"/>or <name key="" reg="Mann, Mary Tyler Peabody, 1806-1887" type="person">Mary</name>
+to<del hand="SPH" type="overstrike">talk of</del>
+               <add hand="SPH" place="supralinear">
+                  <sic corr="perceive">percieve</sic>
+               </add> failings&mdash;but that it did
+<lb id="L01L092" n="093"/>more harm than good to talk about them&mdash;
+<lb id="L01L093" n="094"/>because I know it is impossible for an intelligent
+<lb id="L01L094" n="095"/>mind <hi rend="underline">not</hi> to take observations. But to<gap agent="wax seal apparently tore page when letter opened" extent="XX mm" reason="torn page"/>
+<lb id="L01L095" n="096"/>it has been productive of more good to <gap agent="wax seal apparently tore page when letter opened" extent="XX mm" reason="torn page"/>
+<lb id="L01L096" n="097"/><del hand="SPH" type="overstrike">this</del> reflect as little as possible upon the shadow
+<lb id="L01L097" n="098"/>
+               <del hand="SPH" type="overstrike">but</del>
+               <del hand="SPH" type="overstrike">&amp; I</del> &amp; live &amp; expand in the
+                    light &amp; <del hand="SPH" type="overwritten">&amp;</del> I feel
+<lb id="L01L098" n="099"/>more love &amp; charity &amp; see more every day.
+<lb id="L01L099" n="100"/>GOD will give the increase to <hi rend="underline">both</hi> our sowings
+<lb id="L01L100" n="101"/>
+               <del hand="SPH" type="overstrike">ways</del>since <hi rend="underline">both</hi>
+                    are <del hand="SPH" type="overstrike">followed</del>
+               <add hand="SPH" place="supralinear">sown</add> in obedience
+<lb id="L01L101" n="102"/>to the conscience. I never considered myself
+<lb id="L01L102" n="103"/>better than you or <name key="MTPM" reg="Mann, Mary Tyler Peabody, 1806-1887" type="person">Mary</name>
+               or whoever &mdash; but in
+<lb id="L01L103" n="104"/>some things I am very <hi rend="underline">different</hi> in my habits
+<lb id="L01L104" n="105"/>of mind. I never compare myself wi<gap extent="two letters" reason="overwritten"/>th others &mdash; I
+<lb id="L01L105" n="106"/>try to <hi rend="underline">be</hi> as simply
+                    as possible without<gap extent="one word" hand="SPH" reason="cancelled and illegible" rend="overstrike"/> thinking
+<lb id="L01L106" n="107"/>how I am&mdash; &amp; I never feel how I am except when I
+
+<!-- Page 4 -->
+<pb mmid="/a/a8824eb4-080d-4d9e-9e42-ce5cc5de7d32" n="4"/>
+               
+<lb id="L01L107" n="108"/>fall short as I often do of the mark. I am conscious
+<lb id="L01L108" n="109"/>of it &amp; feel remorse. It is only in remorse that 
+<lb id="L01L109" n="110"/>I feel myself &mdash; when I am unjust to others &mdash; or 
+<lb id="L01L110" n="111"/>impatient &mdash; then I am smitten as with a rod &mdash; &amp; 
+<lb id="L01L111" n="112"/>feel how much better others are then I &mdash; but the 
+<lb id="L01L112" n="113"/>contrary never occupies my thoughts. <del hand="SPH" type="overstrike">I am</del>
+<lb id="L01L113" n="114"/>If I have verged to either extreme it has been that
+<lb id="L01L114" n="115"/>every body was better then I, <foreign lang="lat">ceteris paribus.</foreign>
+<lb id="L01L115" n="116"/>Do not suppose I extend this fault finding face 
+<lb id="L01L116" n="117"/>to face. I think this is good &amp; productive of great benefit 
+<lb id="L01L117" n="118"/>&mdash; for then the two persons being all that 
+<lb id="L01L118" n="119"/>are concerned in the matter can take care of
+<lb id="L01L119" n="120"/>themselves, &amp; be improved by each other's lights. 
+<lb id="L01L120" n="121"/><del hand="SPH" type="overstrike">It is bad</del> But to talk &amp; judge of a person 
+<lb id="L01L121" n="122"/>who is not present to have his or her dictum
+<lb id="L01L122" n="123"/><del hand="SPH" type="overwritten">wi</del>may cause great harm &amp; wrong. But do not
+
+<!-- Page 4 continued on Letter1_P1b. -->
+<pb mmid="/0/0bca9d3c-aea0-4db8-9add-17d9541e05c8" n="4 cont."/>
+<addSpan to="SPHcont" hand="SPH"/>
+                  
+<lb id="L01L123" n="124"/>ever take for granted by inference a harsh judgment. Now both
+<lb id="L01L124" n="125"/>you &amp; <name key="MTPM" reg="Mann, Mary Tyler Peabody, 1806-1887" type="person">Mary</name> have taken up this idea of my view of Mrs. Alcott
+<lb id="L01L125" n="126"/>because I had said she was violent &amp; said tremendous things to
+<lb id="L01L126" n="127"/>her husband. But you should have stopped at my words &mdash; &amp; then you
+<lb id="L01L127" n="128"/>would
+<lb id="L01L128" n="129"/>have been 
+<lb id="L01L129" n="130"/>more just &mdash;
+<lb id="L01L130" n="131"/>I never
+<lb id="L01L131" n="132"/>said I 
+<lb id="L01L132" n="133"/>did not 
+<lb id="L01L133" n="134"/>respect 
+<lb id="L01L134" n="135"/>&amp; love her &mdash;
+<lb id="L01L135" n="136"/>nor implied 
+<lb id="L01L136" n="137"/>it intention<seg type="softhyphen">&dash;</seg><lb id="L01L137" n="138"/>ally &mdash; I 
+<lb id="L01L138" n="139"/>think we 
+<lb id="L01L139" n="140"/>always 
+<lb id="L01L140" n="141"/>come 
+<lb id="L01L141" n="142"/>nearest 
+<lb id="L01L142" n="143"/>right when 
+<lb id="L01L143" n="144"/>we infer 
+<lb id="L01L144" n="145"/>the best 
+<lb id="L01L145" n="146"/>instead 
+<lb id="L01L146" n="147"/>of the 
+<lb id="L01L147" n="148"/>worst 
+<lb id="L01L148" n="149"/>thing &mdash;
+<lb id="L01L149" n="150"/>I wish 
+<lb id="L01L150" n="151"/>you would 
+<lb id="L01L151" n="152"/>not think 
+<lb id="L01L152" n="153"/>you know 
+<lb id="L01L153" n="154"/>what I 
+<lb id="L01L154" n="155"/>never express.
+<lb id="L01L155" n="156"/>As to 
+<lb id="L01L156" n="157"/>Beauty 
+<lb id="L01L157" n="158"/>I would
+
+<!-- Page 4 continued on Letter1_P2b. -->
+<pb mmid="/5/5fa82f69-475d-466e-89b5-84958618e649" n="4 cont."/>
+
+<lb id="L01L158" n="159"/>never sacrifice one iota of goodness or truth to it as you might suppose &mdash;
+<lb id="L01L159" n="160"/>but Christ was even beautiful &mdash; &amp; my aim is to do so, as well as true &amp;
+<lb id="L01L160" n="161"/>good &mdash; for I think Beauty is the result of the two. But I never was
+
+<!-- Page 4 continued on Letter1_P3b. -->
+<pb mmid="/f/fb60c84d-425d-4a84-a3a6-e7a9e29535be" n="4 cont."/>
+
+<lb id="L01L161" n="162"/> aware of seeking beauty in the first place. By keeping my heart
+<lb id="L01L162" n="163"/> right, <sic corr="wh">which</sic> is goodness, I hope to see truth, &amp; then Beauty
+<lb id="L01L163" n="164"/> will flow. This is my order &mdash; not the contrary. I have scarcely
+<lb id="L01L164" n="165"/> taken the first step; but I feel that this is
+<lb id="L01L165" n="166"/> the way to go. 
+<lb id="L01L166" n="167"/>You say it is not my tas<gap extent="two words" reason="torn" rend="blank"/> <hi rend="underline">think</hi> of <name key="MRA" reg="Amos Bronson Alcott (1799-1888)" type="person">Mr. Alcott's</name>
+                  failings &mdash; this I did not say
+<lb id="L01L167" n="168"/>but it is my taste <gap extent="two words" reason="torn" rend="blank"/>
+                  <hi rend="underline"> talk of any body </hi>'s failings. Don't you see why I do not
+<lb id="L01L168" n="169"/>like to say anything. You misunderstand me
+
+<!-- Page 4 continued on Letter1_P4b. -->
+<pb mmid="/f/fcf8ae1f-34f9-4be3-bd9f-ba71be7cc7ae" n="4 cont."/>
+               
+<lb id="L01L169" n="170"/> almost always &mdash; or give it with 
+<lb id="L01L170" n="171"/> your mind a little different
+<lb id="L01L172" n="172"/>aspect. That saying <add hand="SPH" place="infralinear">^</add>
+           <add hand="SPH" place="supralinear">you repeat </add>about the imagination
+<lb id="L01L173" n="173"/> is <add hand="SPH" place="infralinear">^</add><add hand="SPH" place="supralinear">not </add> just as I meant it
+<lb id="L01L174" n="174"/> but no matter. I hate
+<lb id="L01L175" n="175"/>to explain.</p>
+
+<!-- Closer begins here. -->
+    
+            <closer> <lb/>Your affectionate
+                <lb/>Sister<signed>
+                  <name reg="Hawthorne, Sophia Peabody" type="person">Sophia</name>
+               </signed>
+            </closer>
+            <anchor id="SPHcont"/>
+         </div1>
+         <div1 n="2" type="note">
+            <!-- Mary's note begins here. -->
+            <head/>
+            <opener/>
+            <p>
+               <addSpan place="margins" to="MPMNote"/>
+               
+<lb id="L01L176" n="176"/>
+               <handShift new="MTPM" old="SPH"/>
+               <name key="SPH" reg="Sophia Peabody Hawthorne (1809-1871)" type="person">Sophy</name>
+               has given me this to read
+
+<lb id="L01L177" n="177"/> and send, &amp; I hope it is the
+<lb id="L01L178" n="178"/> last document <add hand="SPH" place="infralinear">^</add> <add hand="SPH" place="supralinear">of the sort</add> that will pas<gap extent="presumably one letter" reason="edge of page"/>
+<lb id="L01L179" n="179"/> She wrote it with difficulty
+<lb id="L01L180" n="180"/> for she had a raging headache 
+<lb id="L01L181" n="181"/>  &amp; has been on the bed &amp; dizzy.
+<lb id="L01L182" n="182"/> When she finished y<abbr expan="ou">r</abbr> letter she 
+<lb id="L01L183" n="183"/>burst into tears. I told her I 
+<lb id="L01L184" n="184"/> hope that would give her
+<lb id="L01L185" n="185"/> pleasure &mdash; she said it did,
+<lb id="L01L186" n="186"/> but she could not help crying &mdash;
+<lb id="L01L187" n="187"/> &amp; that you did not understand
+<lb id="L01L188" n="188"/> her about <name key="AMA" reg="Abigail May Alcott (1800-1877)" type="person">Mrs. Alcott</name>
+      &amp; c. &dash;(what
+<lb id="L01L189" n="189"/> she has said to you here) I told 
+<lb id="L01L190" n="190"/>her I felt as if all was settled
+<lb id="L01L191" n="191"/> now, &amp; I think she does
+<lb id="L01L192" n="192"/> but I did not persist in
+<lb id="L01L193" n="193"/> talking, for she said she felt
+<lb id="L01L194" n="194"/> as if her body was just where 
+<lb id="L01L195" n="195"/> it was seven months ago tho'
+<lb id="L01L196" n="196"/> her mind was in a different
+<lb id="L01L197" n="197"/> state. Now don't tell her I 
+<lb id="L01L198" n="198"/> told you this about her body, for*
+
+<!-- Page 4 continued on Letter1_P5a. -->
+<pb mmid="/a/a88dc91c-cbc3-4532-bb72-221b84c8b5fa" n="4 cont."/>
+               
+<lb id="L01L199" n="199"/> *if you wish to have her tranquil, you must let her alone 
+<lb id="L01L200" n="200"/> more. I believe if you &amp; she have any more cryings 
+<lb id="L01L201" n="201"/> about each other I shall die. I have often wished you
+
+<!-- Page 4 continued on Letter1_P1b. -->
+<pb mmid="/0/0bca9d3c-aea0-4db8-9add-17d9541e05c8" n="4 cont."/>
+               
+<lb id="L01L202" n="202"/> both dead, &amp; I shall never enjoy you
+<lb id="L01L203" n="203"/> till I think this matter is not to be
+<lb id="L01L204" n="204"/> alluded to again. I hope you will not
+<lb id="L01L205" n="205"/> say Alcott for one year if you can help
+<lb id="L01L206" n="206"/> it, for the word is the touchstone to
+<lb id="L01L207" n="207"/> all this emotion. There is no temper
+<lb id="L01L208" n="208"/> in her crying now if there ever was&mdash;it
+<lb id="L01L209" n="209"/> is pure <add hand="SPH" place="supralinear">physical</add> agony &mdash; but she only apprehends now
+<lb id="L01L210" n="210"/> that it will be perhaps difficult to appear
+<lb id="L01L211" n="211"/> natural, at least for a time &amp; that you
+<lb id="L01L212" n="212"/> will misconstrue that. I have assured
+<lb id="L01L213" n="213"/> her that you will allow for that, and now
+<lb id="L01L214" n="214"/> the rest must be left to you. My happiness waits upon 
+<lb id="L01L215" n="215"/> your good judgment. y<abbr expan="ou">r</abbr> <rs reg="Mann, Mary Tyler Peabody (1807-1887)" type="person">M.</rs>
+<lb id="L01L216" n="216"/> I'm going to send for Harriet <seg><note target="HAR">6</note></seg> &amp; <name key="MAB" reg="An unidentified Mrs. Abbot" type="person">Mrs
+<lb id="L01L217" n="217"/>Abbot</name>
+               <seg>
+                  <note target="MAB">7</note>
+               </seg> to come &amp; spend a day &amp; a night
+<lb id="L01L218" n="218"/> Monday or Tuesday &mdash;<del hand="MTPM" rend="erased">before</del>
+<lb id="L01L219" n="219"/><rs reg="Mann, Mary Tyler Peabody (1807-1887)" type="person">M</rs><anchor id="MPMNote"/>
+            </p>
+            <closer/>
+         </div1>
+         <div1 n="3" type="Address and postmarks">
+            <!-- Address and postmarks starts here -->
+            <head/>
+            <opener/>
+            <p>
+
+<!-- Address Letter1_P5b. -->
+<pb mmid="/d/dd40fb99-4b05-4412-b661-619753a121e2" n="Address"/>
+
+<lb/> charge no 85
+<lb/><figure><head>Postmaster's stamps SPEC.MMS.138 Letter1_P5b.jpg</head><figDesc><xref url="letter1_P5b.jpg?qlt=92&amp;effect=dropshadow,000000,50,8,120,8&amp;RGN=0.073,0.173,0.622,0.4537&amp;cell=500,500&amp;effect=text,">[Postmaster's stamps (click to open image in a new window)]</xref>Postmaster's stamps, SPEC.MMS.138, Letter1_P5b.jpg</figDesc></figure>
+<lb/><address><addrLine><name key="EPP" reg="Elizabeth Palmer Peabody (1804-1890)" type="person">Miss E. P. Peabody</name>
+         </addrLine>
+<lb/> <addrLine>Care of <name key="RTP" reg="Rev. Theodore Parker (1810-1860)" type="person">Rev. Theodore Parker</name>
+               <seg>
+                  <note target="RTP">8</note>
+               </seg></addrLine>
+               
+<lb/> <addrLine><name key="WRM" reg="West Roxbury, MA" type="place">West Roxbury</name>
+          </addrLine></address>
+<lb/><figure><head>Wax seal SPEC.MMS.138 Letter1_P5b.jpg</head><figDesc><xref url="letter1_P5b.jpg?qlt=92&amp;effect=dropshadow,000000,50,8,120,8&amp;RGN=0.269,0.719,0.252,0.24&amp;cell=500,500&amp;effect=text,">[Wax seal (click to open image in a new window)]</xref></figDesc></figure>
+            </p>
+            <closer/>
+         </div1>
+      </body>
+      <back>
+          <div1 type="Annotations" n="1">
+             <!-- Annotations begin here. -->       
+             <head>Notes</head>
+            <note id="EPP">1. Sophia Hawthorne's sister, Elizabeth Palmer Peabody (1804-1894). <bibl><title>ANB.</title></bibl>
+            </note>
+            <note id="AMA">2. Abigail May Alcott
+               (1800-1877).<bibl><title>CEN</title> 18: 481</bibl>
+            </note>
+             <note id="MTPMn">3. Sophia Hawthorne's sister, Mary Tyler Peabody Mann (1807-1887).
+                <bibl><title>CEN</title> 15: 25</bibl>
+            </note>
+            <note id="ABA">4. Amos Bronson Alcott (1799-1888). <bibl><title>ANB.</title></bibl>
+            </note>
+            <note id="n1">5. Matt. 7: 3-5.
+            </note>
+            <note id="HAR">6. Unidentified.
+</note>
+            <note id="MAB">7. Unidentified.
+</note>
+            <note id="RTP">8. Rev. Theodore Parker (1810-1860), social reformer and pastor at West Roxbury Unitarian Church <bibl><title>ANB.</title></bibl>
+            </note>
+         </div1>
+         <div1 type="Citations" n="2">
+            <!--List of Works Cited begins here-->
+            <listBibl>
+               <head>Works Cited in Notes</head>
+               <bibl id="ANB"><title level="m">American National Biography</title><pubPlace>Oxford</pubPlace><publisher>Oxford UP</publisher><date>1999</date></bibl>
+               <bibl id="CEN">
+                  <author>Hawthorne, Nathaniel</author>
+                  <title level="m">The Centenary Edition of the Works of Nathaniel Hawthorne</title>
+                  <editor>Charvat, William, et al.</editor>
+                  <pubPlace>Columbus, Ohio</pubPlace>
+                  <publisher>Ohio State University Press</publisher>
+                  <date>1962</date>
+               </bibl>
+            </listBibl>
+         </div1>
+      </back>
+   </text>
+</TEI.2>

@@ -1,0 +1,474 @@
+<?xml version="1.0"?>
+<!DOCTYPE TEI.2 SYSTEM 'TEI_Hawthorne.dtd'[
+
+        <!NOTATION jpg SYSTEM "JPEG">   
+	
+ ]>
+<TEI.2 id="OSU_SPECMMS138_3">
+   <teiHeader type="AACR2">
+      <!--The type attribuite in teiHeader element above indicates that the header provides 
+enough information to create a bibliographic record that complies with the Anglo-American 
+Cataloguing Rules, 2nd ed. (1978; rev. 1988).-->
+      <!--The  file description tagged <fileDesc>, contains "a full bibliographical description 
+of the computer file itself, from which a user of the text could derive a proper bibliographic 
+citation, or which a librarian or archivist could use in creating a catalogue entry recording its 
+presence within a library or archive" (TEI P4X, ch. 5).-->
+      <fileDesc>
+         <titleStmt>
+            <title>Letters, 1837-1868, to Elizabeth Palmer Peabody (Letter 3): Electronic 
+Edition.</title>
+            <editor>John DiCamillo</editor>
+            <editor>Anthony DiCola</editor>
+            <editor>Thomas J. Firestone</editor>
+            <principal>H. Lewis Ulman</principal>
+            <respStmt>
+               <resp>Creation of machine-readable transcript: </resp>
+               <name type="person">John DiCamillo</name>
+               <name type="person">Anthony DiCola</name>
+               <name type="person">Thomas J. Firestone</name>
+               <resp>Creation of digital images: </resp>
+               <name type="person">Keith Lazuka</name>
+               <resp>Conversion to TEI.2-conformant markup: </resp>
+               <name type="person">John DiCamillo</name>
+               <name type="person">Anthony DiCola</name>
+               <name type="person">Thomas J. Firestone</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <p>1st Edition.</p>
+         </editionStmt>
+         <extent>ca. 22 kilobytes </extent>
+         <publicationStmt>
+            <publisher>The Ohio State University Library.
+<address>
+                  <addrLine n="1">327 Main Library</addrLine>
+                  <addrLine n="2">1858 Neil Avenue Mall</addrLine>
+                  <addrLine n="3">Columbus, OH 43210</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Columbus, OH</pubPlace>
+            <idno type="RBMS">How will RBMS catalog the e-text?</idno>
+            <availability>
+               <p>Rare Books and Manuscript Department, The Ohio State University</p>
+               <p>URL: http://www.lib.ohio-state.edu/rarweb/</p>
+            </availability>
+            <date>2003</date>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Name of electronic series, if any</p>
+         </seriesStmt>
+         <notesStmt>
+            <note>Notes about e-text.</note>
+            <note>Any other notes about e-text.</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title level="u" id="SPEC.MMS.138">Letters, 1837-1868, to Elizabeth Palmer 
+Peabody</title>
+                  <!--The "level" attribute "indicates whether this is the title of an article, book, 
+journal, series, or unpublished material, indicated as a, b, j, s, or u" (TEI P4X, ch. 5.2.1).-->
+                  <author>Hawthorne, Sophia Peabody, 1809-1871</author>
+               </titleStmt>
+               <extent>4 pp.</extent>
+               <publicationStmt>
+                  <p>Publication statement from the library.</p>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Note about manuscript.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <!--The encoding description, tagged <encodingDesc>, describes "the relationship 
+between an electronic text and its source or sources" (TEI P4X, ch. 5).-->
+      <encodingDesc>
+         <projectDesc>
+            <p>Project description.</p>
+         </projectDesc>
+         <editorialDecl>
+            <!--In addition to prose description, the Editorial Practices Declaration may contain 
+specialized elements concerned with correction, normalization, quotation, hyphenation, 
+segmentation, date and number format, and interpretive apparatus (TEI P4X, ch. 5.3.3).-->
+            <p>All quotation marks retained as data.</p>
+            <p>Spell-check and verification made against printed text using WordPerfect spell 
+checker.</p>
+            <p>All unambiguous end-of-line hyphens have been removed, and the trailing part 
+of a word has been joined to the preceding line.</p>
+            <p>The images exist as archived TIFF images, one or more JPEG versions for 
+general use, and thumbnail GIFs.</p>
+         </editorialDecl>
+         <refsDecl>
+            <p>Convention follows that of image files.</p>
+         </refsDecl>
+         <classDecl>
+            <taxonomy id="LCSH">
+               <bibl>
+                  <title>Library of Congress Subject Headings</title>
+               </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <!--The text profile, tagged <profileDesc>, contains "classificatory and contextual 
+information about the text, such as its subject matter, the situation in which it was produced, 
+the individuals described by or participating in producing it, and so forth" (TEI P4X, ch. 5).-->
+      <profileDesc>
+         <creation>
+            <date>2003-03-19</date>
+         </creation>
+         <langUsage>
+            <language id="EN">English</language>
+            <language id="FR">French</language>
+         </langUsage>
+         <handList>
+            <hand scribe="Hawthorne, Sophia Peabody, 1809-1871" id="SPH" ink="" character="" first="yes"/>
+            <hand scribe="Unknown" id="Unknown" ink="pencil" character="" first="no"/>
+         </handList>
+         <textClass>
+            <keywords>
+               <term>prose</term>
+            </keywords>
+            <keywords scheme="LCSH">
+               <term>LCSH</term>
+            </keywords>
+         </textClass>
+         <textClass>
+            <keywords>
+               <term>KEYWORD</term>
+               <term>KEYWORD</term>
+               <term>KEYWORD</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <!--The revision history, tagged <revisionDesc>, allows "the encoder to provide a 
+history of changes made during the development of the electronic text" (TEI P4X, ch. 5).-->
+      <revisionDesc>
+         <change>
+            <date>Spring 2003</date>
+            <respStmt>
+               <resp>Editors</resp>
+               <name>See listing of editorial team.</name>
+            </respStmt>
+         <item>Initial TEI-compliant XML encoding.</item>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <div1 type="abstract" n="1">
+            <head>
+               <bibl>
+                  <abbr>ALS</abbr>
+                  <extent>4 pp.</extent>
+                  <date value="1859-01-08">08 01 1859</date>
+                  <idno rend="suppress">SPEC.MMS.138_3</idno>
+                  <title>Letter from Sophia Peabody Hawthorne to 
+Elizabeth Palmer Peabody</title>
+               </bibl>
+            </head>
+            <p> Sophia and family are in Rome recovering from sickness.  The family plans to stay in Rome for February, March, and half of April.  From there the famly will travel to Venice, northern Italian cities, Geneva, and Paris.  Sophia informs Elizabeth on the status of her friends in Italy.</p>
+         </div1>
+      </front>
+      <body>
+         <div1 type="letter" n="1">
+            <head>Letter from Sophia Peabody Hawthorne to 
+Elizabeth Palmer Peabody - January 8th, 1859</head>
+
+<!-- Page 1 -->
+<pb mmid="/1/196aae78-c619-4c1d-af07-e32c2f35e5d4" n="1"/>
+
+            <opener>
+               <dateline>
+                  <name type="place">Rome</name>.
+<date value="1859-01-08">January 8th 1859</date>
+               </dateline>
+               
+<lb/><add hand="Unknown" place="centered below dateline">Mrs H</add>
+<lb id="L03001" n="001"/>
+               <salute>My dear <name type="Recipient">Elizabeth</name>,
+                 <seg>
+                     <note target="n1">1</note>
+                  </seg>
+               </salute>
+            </opener>
+            <p id="L003P01" n="1">I am really
+
+<lb id="L03L002" n="002"/>too tired to write a letter,
+<lb id="L03L003" n="003"/>but cannot bear to let a
+<lb id="L03L004" n="004"/>chance slip. <name type="person">Una</name>
+               <seg>
+                  <note target="n2">2</note>
+               </seg>
+	has
+
+<lb id="L03L005" n="005"/>written a sad letter which
+<lb id="L03L006" n="006"/>I fear will make your
+<lb id="L03L007" n="007"/>heart ache. I am glad
+<lb id="L03L008" n="008"/>to say that the Roman
+<lb id="L03L009" n="009"/>fever seems to have been
+<lb id="L03L010" n="010"/>arrested in her &mdash;; for she
+<lb id="L03L011" n="011"/>has had no chills for two
+<lb id="L03L012" n="012"/>days. She is a lily now,
+<lb id="L03L013" n="013"/>her lifelong roses snatched
+<lb id="L03L014" n="014"/>away, but during these
+<lb id="L03L015" n="015"/>two days I have thought
+<lb id="L03L016" n="016"/>to see a dawn of roses
+<lb id="L03L017" n="017"/>in her cheeks and lips,
+<lb id="L03L018" n="018"/>though she is now suffering
+<lb id="L03L019" n="019"/>from influenza.</p>
+
+<p n="2" id="L003P02">
+    
+<lb id="L03L020" n="020"/>
+               <name type="person">Ada's</name>
+               <seg>
+                  <note target="n3">3</note>
+               </seg>
+	fever is past. She
+
+<lb id="L03L021" n="021"/>is well of that today, but has
+<lb id="L03L022" n="022"/>a very painful shoulder &mdash;;
+<lb id="L03L023" n="023"/>and lies in bed still.
+
+<!-- Page 2 -->
+<pb mmid="/5/51bc2458-2f58-442d-b224-5525a57d8ce6" n="2"/>
+               
+<lb id="L03L024" n="024"/> I have had no moment to 
+<lb id="L03L025" n="025"/> write to you in all these 
+<lb id="L03L026" n="026"/> weeks &mdash;; having been ill 
+<lb id="L03L027" n="027"/> myself in the interval 
+<lb id="L03L028" n="028"/> of nursing others.  No Rome 
+<lb id="L03L029" n="029"/> this winter for us so far. 
+<lb id="L03L030" n="030"/> My journal is left in the 
+<lb id="L03L031" n="031"/> middle of a sentence, which 
+<lb id="L03L032" n="032"/> can never be recalled 
+<lb id="L03L033" n="033"/> now, <del type="overstrike" hand="SPH">though,</del> and I am 
+<lb id="L03L034" n="034"/> sorry, because I had an 
+<lb id="L03L035" n="035"/> idea of the <unclear rend="" reason="could be either Faun or 
+Fauna" resp="" cert="" hand="SPH">Faun</unclear> at that moment. </p>
+
+<p id="L0303" n="3">
+               
+<lb id="L03L036" n="036"/> Perhaps we shall have 
+<lb id="L03L037" n="037"/> February and March 
+<lb id="L03L038" n="038"/> for a little enjoyment 
+<lb id="L03L039" n="039"/> of Rome, and half of April. 
+<lb id="L03L040" n="040"/> Then we leave it for aye 
+<lb id="L03L041" n="041"/> and go to Venice and thence 
+<lb id="L03L042" n="042"/> to the cities in the north 
+<lb id="L03L043" n="043"/> of Italy &amp; to Geneva and 
+<lb id="L03L044" n="044"/> Paris. </p>
+            <p id="L0304" n="4">
+               
+<lb id="L03L045" n="045"/>
+               <name type="person">Mrs. Ward</name>
+               <seg>
+                  <note target="n4">4</note>
+               </seg> is here and I 
+               
+<lb id="L03L046" n="046"/> have not had a moment 
+<lb id="L03L047" n="047"/> to go and see her.  But I had 
+<lb id="L03L048" n="048"/> a long note from her. She
+
+<!-- Page 3 -->
+<pb mmid="/e/e3971fc5-3142-4469-ab62-6adca0de01cd" n="3"/>
+               
+<lb id="L03L049" n="049"/> is very happy and content in her 
+<lb id="L03L050" n="050"/> sunny sky-parlor in the Hotel 
+<lb id="L03L051" n="051"/> d'Angliterre &mdash; <q>with no cares, no 
+<lb id="L03L052" n="052"/> anxieties, only hopes</q> she says. 
+<lb id="L03L053" n="053"/> She suffered terribly from the 
+<lb id="L03L054" n="054"/> severe treatment of <name type="person">Dr Simpson</name>
+<lb id="L03L055" n="055"/> but expects to feel benefit 
+<lb id="L03L056" n="056"/> next summer from it. 
+<lb id="L03L057" n="057"/> Neither have I been able to see 
+<lb id="L03L058" n="058"/> once <name type="person">Mrs Browning</name>
+               <seg>
+                  <note target="n5">5</note>
+               </seg>, and 
+               
+<lb id="L03L059" n="059"/> only once <name type="person">Mr Browning</name>
+               <seg>
+                  <note target="n6">6</note>
+               </seg>who 
+               
+<lb id="L03L060" n="060"/> has been three times to see 
+<lb id="L03L061" n="061"/> us.  Mrs Browning does not 
+<lb id="L03L062" n="062"/> make visits. <name type="person">Mary Motley</name>
+               <seg>
+                  <note target="n7">7</note>
+               </seg>
+               
+<lb id="L03L063" n="063"/> I see here sometimes.  I 
+<lb id="L03L064" n="064"/> have read the Dutch Republic <seg>
+                  <note target="n8">8</note>
+               </seg>
+               
+<lb id="L03L065" n="065"/> during my watches, and the 
+<lb id="L03L066" n="066"/> book is superb, I think. 
+<lb id="L03L067" n="067"/>
+               <name type="person">Miss Cushman</name>
+               <seg>
+                  <note target="n9">9</note>
+               </seg> has been here, 
+               
+<lb id="L03L068" n="068"/> but I could not see her. 
+<lb id="L03L069" n="069"/> <name type="person">Mr. Hawthorne</name> saw her. 
+<lb id="L03L070" n="070"/> No society for me this winter. 
+<lb id="L03L071" n="071"/><rs id="RHL" reg="Hawthorne, Rose">Rosebud</rs> is exquisitely good 
+<lb id="L03L072" n="072"/> generous and considerate in 
+<lb id="L03L073" n="073"/> these times, but I can give 
+<lb id="L03L074" n="074"/> you no Altar of Roses now. 
+<lb id="L03L075" n="075"/> <name type="person">Mr. Hawthorne</name> is quite 
+<lb id="L03L076" n="076"/> well.  Here is cause for 
+<lb id="L03L077" n="077"/> great joy &mdash; for last winter he 
+
+<!-- Page 4 -->
+<pb mmid="/c/ca08174b-ea5d-450a-8de1-35f29885e224" n="4"/>
+               
+<lb id="L03L0O78" n="078"/> had the Grippe three months. 
+<lb id="L03L079" n="079"/> <name type="person">Julian</name>
+               <seg>
+                  <note target="n10">10</note>
+               </seg> also is well with 
+               
+<lb id="L03L080" n="080"/> only slight nose cold. 
+<lb id="L03L081" n="081"/> <name type="person">Rose</name>
+               <seg>
+                  <note target="n11">11</note>
+               </seg> has today gone to 
+               
+<lb id="L03L082" n="082"/> the Palazzo Galitzin <seg>
+                  <note target="n12">12</note>
+               </seg> to see 
+<lb id="L03L083" n="083"/><name type="person">the Westons</name>, who delight in 
+<lb id="L03L084" n="084"/> her.  She draws with a 
+<lb id="L03L085" n="085"/> wonderful expression. 
+<lb id="L03L086" n="086"/> Julian copies <name type="person">Flaxman</name>
+               <seg>
+                  <note target="n13">13</note>
+               </seg>
+               
+<lb id="L03L087" n="087"/><foreign lang="FR">a merveille.</foreign></p>
+
+<p id="L0305" n="5">
+               
+<lb id="L03L088" n="088"/> I long to answer all 
+<lb id="L03L089" n="089"/> your letters one by one &mdash; 
+<lb id="L03L090" n="090"/> and I long to tell you much. 
+<lb id="L03L091" n="091"/> I have sent some letters 
+<lb id="L03L092" n="092"/> of Una to you and Mary 
+<lb id="L03L093" n="093"/> lately.  I never got 
+<lb id="L03L094" n="094"/> yours and Mary's letters 
+<lb id="L03L095" n="095"/> directed to Florence.  Though 
+<lb id="L03L096" n="096"/> Mr. Browning has written 
+<lb id="L03L097" n="097"/> about <del type="overwritten" cert="unclear">?</del>them to the Post Office 
+<lb id="L03L098" n="098"/> they do not come.  I have 
+<lb id="L03L099" n="099"/> lost all your account of dear 
+<lb id="L03L100" n="100"/> <name type="person">Dr. Wesselhoeft</name>. <seg>
+                  <note target="n14">14</note>
+               </seg> I endure 
+<lb id="L03L101" n="101"/> astonishingly through all 
+<lb id="L03L102" n="102"/> things.  Goodbye with 
+<lb id="L03L103" n="103"/> thousand blessings<unclear>.</unclear> </p>
+            <closer> Yours ever 
+<lb/>
+               <signed>
+                  <name type="sender">Sophia</name>
+               </signed>
+            </closer>
+         </div1>
+      </body>
+      <back>
+         <div1 type="Annotations" n="1">
+            <head>Notes</head>
+            <note id="n1">
+	1. Sophia Hawthorne's sister, Elizabeth Palmer Peabody (1804-1894).
+<bibl>
+		CEN 15:20,27
+</bibl>
+            </note>
+            <note id="n2">
+	2. Sophia Hawthorne's daughter, Una Hawthorne (1844-1877).
+<bibl>
+		CEN 15:33
+</bibl>
+            </note>
+            <note id="n3">
+	3. Hawthorne children's governess, Ada Shepard (1835-74).
+<bibl>
+		CEN 18:84
+</bibl>
+            </note>
+            <note id="n4">4. Anna Hazard Barker Ward (1813-1900) She had known Sophia Hawthorne and her sisters since 1832. <bibl> CEN 16:298 </bibl>
+            </note>
+            <note id="n5">5. Elizabeth Barrett Browning (1806-1861), Poet, wrote <q>Sonnets from the Portugese</q>, published in 1850, wife to Robert Browning.</note>
+            <bibl>CEN 16:520</bibl>
+            <note id="n6">6. Robert Browning, Poet, husband to poet Elizabeth Browning.</note>
+            <bibl>CEN 15:87</bibl>
+            <note id="n7">7. Mary Motley, wife to John Lothrop Motley (1814-1877)
+author of <q>The Rise of the Dutch Republic</q> published in 1855.</note>
+            <bibl>CEN 18:174</bibl>
+            <note id="n8">8. <q> The rise of the Dutch republic</q> published in 1855, 
+written by John Lothrop Motley. <bibl>RDR</bibl>
+            </note>
+            <note id="n9">9. Charlotte Saunders Cushman (1816-1876), actress, the first of her 
+profession to be elected to the Hall of Fame for Great Americans in 1915. <bibl>CEN 16:532</bibl>
+            </note>
+            <note id="n10">10. Julian Hawthorne (1816-76), Sophia Hawthorne's son. <bibl>CEN 15:33</bibl>
+            </note>
+            <note id="n11">11. Rose Hawthorne (1851-1926), Sophia Hawthorne's daughter. <bibl>CEN 15:33</bibl>
+            </note>
+            <note id="n12">12. A fashionable district in the 19th century located in the 
+center of Rome, just off the Tiber in Via della Scrofia #117 <bibl>ROM 208-209</bibl>
+            </note>
+            <note id="n13">13. John Flaxman (1755-1826) the principal representative 
+of the classical tendency in English sculpture. <bibl>MGB</bibl>
+            </note>
+            <note id="n14">14. Dr. Robert Wesselhoeft, lived in same village as 
+Nathaniel Hawthorne, West Rosbury, in the summer of 1842. Homeopathic doctor, used 
+"the healing powers of water". <bibl>CEN 16:71</bibl>
+            </note>
+         </div1>
+         <div1 type="Citations" n="4">
+            <listBibl>
+               <head>Works Cited In Notes</head>
+               <bibl id="CEN">
+                  <author>Hawthorne, Nathaniel</author>
+                  <editor>Charvat, William, et al.</editor>
+                  <title level="m">The Centenary Edition of the Works of Nathaniel Hawthorne</title>
+                  <pubPlace>Columbus, Ohio</pubPlace>
+                  <publisher>The Ohio State University Press</publisher>
+                  <date>1962</date>
+               </bibl>
+               <bibl id="RDR">
+                  <author>Motley, John Lothrop</author>
+                  <title level="a"></title>
+                  <title level="m">The Rise of the Dutch Republic</title>
+                  <pubPlace>New York</pubPlace>
+                  <publisher>Harper &amp; brothers</publisher>
+                  <date>1855</date>
+                  <extent></extent>
+               </bibl>
+               <bibl id="ROM">
+                  <author>Touring Club Italiano</author>
+                  <title level="a"></title>
+                  <title level="m">Roma: Guida D'Italia</title>
+                  <pubPlace>Milan</pubPlace>
+                  <publisher>Settima Edizone</publisher>
+                  <date>1977</date>
+                  <extent></extent>
+               </bibl>
+               <bibl id="MGB">
+                  <author>McNeil, Russell</author>
+                  <title level="a">Biography of John Flaxman</title>
+                  <title level="m">John Flaxman Biography site</title>
+                  <biblScope type="URL">http://www.malaspina.com/site/person_482.asp?period_id=none&amp;category_id=none</biblScope>
+                  <date>1998-1999</date>
+                  <biblScope type="DateOfVisit">10 Mar 2003</biblScope>
+               </bibl>
+            </listBibl>
+         </div1>
+      </back>
+   </text>
+</TEI.2>
