@@ -1,0 +1,1 @@
+Electronic textual edition of five letters by Sophia Peabody Hawthorne housed in the Rare Books and Manuscripts Collection of The Ohio State University Libraries.
