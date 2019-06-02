@@ -1,10 +1,7 @@
 <TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="OSU_SPECMMS138_1">
-   <teiHeader type="AACR2"><!--The type attribute in teiHeader element above indicates that the header provides enough information to create 
-      a bibliographic record that complies with the Anglo-American Cataloguing Rules, 2nd ed. (1978; rev. 1988).--><fileDesc>
-         <!--The  file description tagged <fileDesc>, contains "a full bibliographical description of the computer file itself, from 
-         which a user of the text could derive a proper bibliographic citation, or which a librarian or archivist could use in creating 
-         a catalogue entry recording its presence within a library or archive" (TEI P4X, ch. 5).-->
-         <titleStmt>
+   <teiHeader>
+      <fileDesc>
+      <titleStmt>
             <title>Letters, 1837-1868, to Elizabeth Palmer Peabody (Letter 1): Electronic Edition.</title>
             <editor role="editor">Michael Albrecht</editor>
             <editor role="editor">Karen D. Anderson</editor>
@@ -227,7 +224,7 @@
 <lb xml:id="L01L042" n="042"/> But as the seeing mind cannot but observe 
 <lb xml:id="L01L043" n="043"/> I have thought that each person had better 
 <lb xml:id="L01L044" n="044"/> not <add hand="#SPH" place="supralinear">by <hi rend="underline">talking</hi>
-               </add> emphasize bad opinions of men —<gap extent="one word" hand="#SPH" reason="cancelled and illegible" rend="overwritten"/> arguing 
+               </add> emphasize bad opinions of men —<gap extent="one word" reason="cancelled and illegible" rend="overwritten"/> arguing 
 <lb xml:id="L01L045" n="045"/> pronouncing &amp; deciding upon their motives &amp; actions, 
 <lb xml:id="L01L046" n="046"/> which ever must be somewhat in the dark —
 <lb xml:id="L01L047" n="047"/> but let the opinion be constantly modified
@@ -308,7 +305,7 @@ to<del hand="#SPH" type="overstrike">talk of</del>
 <lb xml:id="L01L103" n="104"/>some things I am very <hi rend="underline">different</hi> in my habits
 <lb xml:id="L01L104" n="105"/>of mind. I never compare myself wi<gap extent="two letters" reason="overwritten"/>th others — I
 <lb xml:id="L01L105" n="106"/>try to <hi rend="underline">be</hi> as simply
-                    as possible without<gap extent="one word" hand="#SPH" reason="cancelled and illegible" rend="overstrike"/> thinking
+                    as possible without<gap extent="one word" reason="cancelled and illegible" rend="overstrike"/> thinking
 <lb xml:id="L01L106" n="107"/>how I am— &amp; I never feel how I am except when I
 
 <!-- Page 4 -->
