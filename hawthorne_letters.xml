@@ -238,6 +238,35 @@
                <death when="1894-01-03"></death>
                <bibl>Shuman</bibl>
              </person>
+             <person xml:id="AMA" source="CEN">
+               <persName>Alcott, Abigail May</persName>
+               <note type="biographical"></note>
+               <birth when="1800"><placeName></placeName></birth>
+               <death when="1877"><placeName></placeName></death>
+               <bibl><ref target="#CEN">18: 481</ref></bibl>
+             </person>
+             <person xml:id="MTPM" source="CEN">
+               <persName>Mann, Mary Tyler Peabody</persName>
+               <note type="biographical"></note>
+               <birth when="1807"><placeName></placeName></birth>
+               <death when="1887"><placeName></placeName></death>
+               <bibl><ref target="CEN">15: 25</ref></bibl>
+             </person>
+             <person xml:id="ABA" source="ANB">
+               <persName>Alcott, Amos Bronson</persName>
+               <note type="biographical"></note>
+               <birth when="1799"><placeName></placeName></birth>
+               <death when="1888"><placeName></placeName></death>
+               <bibl><ref target="#ANB"></ref></bibl>
+             </person>
+             <person xml:id="parker" source="ANB">
+               <persName>Parker, Rev. Theodore</persName>
+               <note type="biographical"></note>
+               <birth when="1810"><placeName></placeName></birth>
+               <death when="1860"><placeName></placeName></death>
+               <bibl><ref target="#ANB"></ref></bibl>
+             </person>
+             
              
            </listPerson>
            
@@ -259,6 +288,7 @@
          <handNotes>
            <handNote xml:id="SPHink" medium="ink">Hawthorne, Sophia Peabody</handNote>
            <handNote xml:id="MTPMink" medium="ink">Mann, Mary Tyler Peabody</handNote>
+           <handNote xml:id="Unknown">Unknown</handNote>
          </handNotes>
          
          <!-- FOR EACH LETTER, UPDATE LCSH KEYWORDS -->
@@ -373,11 +403,9 @@
           <p>
             <lb/> I have just read your long letter. 
             <lb/> I cannot wait a moment before disabusing you 
-            <lb/> of one entire<del hand="#SPH" type="overstrike">ly</del> mistake, which is your impres<seg type="softhyphen">‐</seg><lb/>sion of my estimation of <name key="AMA" type="person">Mrs. Alcott</name>
-            <seg>
-              <note target="#AMA" anchored="true">2</note>
-            </seg>. You <hi rend="underline">never</hi>
-            
+            <lb/> of one entire<del hand="#SPH" type="overstrike">ly</del> mistake, which is your
+            impres<seg type="softhyphen">‐
+            <lb/></seg>sion of my estimation of <name key="AMA" type="person">Mrs. Alcott</name>. You <hi rend="underline">never</hi>
             <lb/> heard me express for her a want of respect 
             <lb/> or love, for from the beginning &amp; through all 
             <lb/> I have thought her a sort of sublime phe<seg type="softhyphen">‐</seg><lb/>nomenon — a terrible power made up of 
@@ -395,10 +423,7 @@
             <lb/> your mind. Does it not show what complete,
             <lb/> misunderstandings may exist —<add hand="#SPH" place="supralinear"> I <hi rend="underline">never</hi> thought her deformed, </add> never moved by earthly passion.
           </p><p>
-            <lb/> I had a long talk with <name key="MTPM" type="person">Mary</name>
-            <seg>
-              <note target="#MTPMn" anchored="true">3</note>
-            </seg> the other 
+            <lb/> I had a long talk with <name key="MTPM" type="person">Mary</name> the other 
             <lb/> evening about this discussing of people's faults. 
             <lb/> She said she never before understood what
             <lb/> I meant, &amp; she did not believe you did.
@@ -410,11 +435,7 @@
             <lb/> When he speaks plainly I prefer to understand 
             <lb/> him plainly, for I find it the most fruitful 
             <lb/> of good. It has not been a personal feeling 
-            <lb/> for particular persons — for <name key="ABA" type="person">Mr. Alcott</name>
-            <seg>
-              <note target="#ABA" anchored="true">4</note>
-            </seg> for
-            instance, 
+            <lb/> for particular persons — for <name key="ABA" type="person">Mr. Alcott</name> for instance, 
             <lb/> but this general principle, which would make
             <lb/> me feel the same if a person I never knew
             
@@ -439,9 +460,7 @@
             <lb/> would be more time &amp; room for the interchange 
             <lb/> of thought about things which are eternal —
             <lb/> Christ might say <q>Woe unto you, hypocrites!</q> Because 
-            <lb/> there was no mote in his eye to take out,<seg>
-              <note target="#n1" anchored="true">5</note>
-            </seg> &amp; he 
+            <lb/> there was no mote in his eye to take out,<ptr type="noteAnchor" target="mote"/><note resp="ed" xml:id="mote">See Matt. 7: 3-5.</note> &amp; he 
             <lb/> could see with<del hand="#SPH" type="overstrike">out</del> clear vision, what was in 
             <lb/> man, but it is not so with the less exalted. 
             <lb/> I have said to myself Oh let me enjoy &amp; speak 
@@ -661,13 +680,10 @@
               <lb/> her that you will allow for that, and now
               <lb/> the rest must be left to you. My happiness waits upon 
               <lb/> your good judgment. y<choice><abbr>r</abbr><expan>ou</expan></choice> <rs type="person">M.</rs>
-              <lb/> I'm going to send for Harriet <seg><note target="#HAR" anchored="true">6</note></seg> &amp; <name key="MAB" type="person">Mrs
-                <lb/>Abbot</name>
-              <seg>
-                <note target="#MAB" anchored="true">7</note>
-              </seg> to come &amp; spend a day &amp; a night
+              <lb/> I'm going to send for Harriet &amp; <name key="MAB" type="person">Mrs
+              <lb/>Abbot</name> to come &amp; spend a day &amp; a night
               <lb/> Monday or Tuesday —<del hand="#MTPM" rend="erased">before</del>
-              <lb/><rs type="person">M</rs><anchor xml:id="MPMNote"/>
+              <lb/><rs ref="#MTPM">M</rs>
             </p>
           </postscript>
         </div>
