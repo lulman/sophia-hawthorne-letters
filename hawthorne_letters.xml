@@ -316,6 +316,83 @@
                <death when="1862"><placeName></placeName></death>
                <bibl>CEN 16:14</bibl>
              </person>
+             <person xml:id="AHBW" source="CEN">
+               <persName>Ward, Anna Hazard Barker</persName>
+               <note type="biographical"></note>
+               <birth when="1813"><placeName></placeName></birth>
+               <death when="1900"><placeName></placeName></death>
+               <bibl>CEN 16:298</bibl>
+             </person>
+             <person xml:id="EBbrowning" source="CEN">
+               <persName>Browning, Elizabeth Barrett</persName>
+               <note type="biographical">Poet, wrote <title level="m">Sonnets from the Portugese</title> published in 1850, wife to Robert Browning.</note>
+               <birth when="1806"><placeName></placeName></birth>
+               <death when="1861"><placeName></placeName></death>
+               <state from="1846" to="1861"><p>Married to Robert Browning</p></state>
+               <bibl>CEN 16:520</bibl>
+             </person>
+             <person xml:id="Rbrowning" source="CEN">
+               <persName>Browning, Robert</persName>
+               <note type="biographical">Poet, husband to poet Elizabeth Browning.</note>
+               <birth when="1812-05-07"><placeName></placeName></birth>
+               <death when="1889-12-12"><placeName></placeName></death>
+               <state from="1846" to="1861"><p>Married to Elizabeth Barrett Browning</p></state>
+               <bibl>CEN 15:87</bibl>
+             </person>
+             <person xml:id="Mmotley" source="CEN">
+               <persName>Motley, Mary</persName>
+               <note type="biographical">Wife of John Lothrop Motley</note>
+               <birth when="1814"><placeName></placeName></birth>
+               <death when="1877"><placeName></placeName></death>
+               <bibl>CEN 18:174</bibl>
+             </person>
+             <person xml:id="JLmotley" source="RDR">
+               <persName>Motley, John Robert</persName>
+               <note type="biographical">Diplomat and author of <title level="a">The Rise
+               of the Dutch Republic</title> (1855).</note>
+               <birth when="1814-04-15"><placeName></placeName></birth>
+               <death when="1877-05-29"><placeName></placeName></death>
+               <bibl></bibl>
+             </person>
+             <person xml:id="CScushman" source="CEN">
+               <persName>Cushman, Charlotte Saunders</persName>
+               <note type="biographical">actress, the first of her 
+                 profession to be elected to the Hall of Fame for Great Americans in 1915.</note>
+               <birth when="1816"><placeName></placeName></birth>
+               <death when="1876"><placeName></placeName></death>
+               <bibl>CEN 16:532</bibl>
+             </person>
+             <person xml:id="Jhawthorne" source="CEN">
+               <persName>Hawthorne, Julian</persName>
+               <note type="biographical">Sophia and Nathaniel Hawthorne's son.</note>
+               <birth when="1816"><placeName></placeName></birth>
+               <death when="1876"><placeName></placeName></death>
+               <bibl>CEN 15:33</bibl>
+             </person>
+             <person xml:id="Rhawthorne" source="CEN">
+               <persName>Hawthorne, Rose</persName>
+               <note type="biographical">Sophia and Nathaniel Hawthorne's daughter.</note>
+               <birth when="1851"><placeName></placeName></birth>
+               <death when="1926"><placeName></placeName></death>
+               <bibl>CEN 15:33</bibl>
+             </person>
+             <person xml:id="Jflaxman" source="MGB">
+               <persName>Flaxman, John</persName>
+               <note type="biographical">The principal representative 
+                 of the classical tendency in English sculpture.</note>
+               <birth when="1755"><placeName></placeName></birth>
+               <death when="1826"><placeName></placeName></death>
+               <bibl></bibl>
+             </person>
+             <person xml:id="RWesselhoeft" source="CEN">
+               <persName>Wesselhoeft, Dr. Robert</persName>
+               <note type="biographical">lived in same village as 
+                 Nathaniel Hawthorne, West Rosbury, in the summer of 1842. Homeopathic doctor, used 
+                 "the healing powers of water."</note>
+               <birth when="1838"><placeName>Weimar, Germany</placeName></birth>
+               <death when="1920-08-17"><placeName>Cambridge, Massachusetts</placeName></death>
+               <bibl>CEN 16:71</bibl>
+             </person>
              
              
            </listPerson>
@@ -336,6 +413,7 @@
          <langUsage>
            <language ident="eng">English</language>
            <language ident="lat">Latin</language>
+           <language ident="fr">French</language>
          </langUsage>
 
          <handNotes>
@@ -999,6 +1077,113 @@
     </text>
   </TEI>
 
+  <TEI xml:id="SPH_1859-01-08" n="1859-01-08">
+    <!-- FIRST, COPY THIS TEI ELEMENT -->
+    <!-- ADD EDITOR(S) TO THE LIST -->
+    <!-- MAKE SURE TO ADD WORKS CITED -->
+    <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>Letter from Sophia Peabody Hawthorne to Elizabeth Palmer Peabody, January 8th, 1859</title>
+          <author>Hawthorne, Sophia Peabody</author>
+        </titleStmt>
+        <publicationStmt>
+          <p>
+            <!-- PUBLICATION STATEMENT FROM THE LIBRARY -->
+          </p>
+        </publicationStmt>
+        <sourceDesc>
+          <msDesc>
+            <msIdentifier>
+              <country>USA</country>
+              <settlement>Columbus, OH</settlement>
+              <repository>Rare Books and Manuscripts, The Ohio State University</repository>
+              <collection>Letters, 1837-1868, to Elizabeth Palmer Peabody</collection>
+              <idno>SPEC.RARE.MMS.0138</idno>
+            </msIdentifier>
+            <msContents>
+              <p> Sophia and family are in Rome recovering from sickness. The family plans to stay
+                in Rome for February, March, and half of April. From there the famly will travel to
+                Venice, northern Italian cities, Geneva, and Paris. Sophia informs Elizabeth on the
+                status of her friends in Italy. </p>
+            </msContents>
+            <physDesc>
+              <p>
+                ALS. 4 pp.
+              </p>
+              <accMat></accMat>
+            </physDesc>
+            <additional>
+              <adminInfo>
+                <!-- Info from the finding aid -->
+                <note></note>
+              </adminInfo>
+            </additional>
+          </msDesc>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    
+    <text>
+      <body>
+        <div type="letter" xml:id="SPH_1859-01-08_let">
+          <!-- REPLACE WITH FILENAME FOR FIRST PAGE OF THE LETTER -->
+          <pb facs="Letter01_pg1"/>
+          <head type="letterhead"></head>
+          <figure rend="link">
+            <head></head>
+            <graphic url=""></graphic>
+            <figDesc></figDesc>
+          </figure>
+          <lb/>
+          <opener>
+            <!-- REPLACE WITH INFO FROM NEW LETTER -->
+            <lb/><dateline><date when="1862-06-16"></date>June 16/62</dateline>
+            <lb/><salute>My Dear<rs type="recipient">Wife</rs></salute>
+          </opener>
+          <p>
+            <!-- TEXT OF THE LETTER GOES HERE -->
+          </p>
+          <!-- REPLACE WITH CLOSER AND SIGNATURE INFORMATION FROM LETTER -->
+          <closer>
+            <lb/><salute>Your affectionate</salute>
+            <lb/><rs ref="#SPH">Sister</rs> <signed><persName ref="#SPH">Sophia</persName></signed>
+          </closer>
+          <!-- If there were a <postscript>, we have a tag for that. -->
+        </div>
+        <div type="address_and_postmarks">
+          <pb facs="XXX.jpg"/>
+          <ab type="postalAddress">
+            <address>
+              <addrLine></addrLine>
+              <addrLine></addrLine>
+              <addrLine></addrLine>
+              <addrLine></addrLine>
+            </address>
+          </ab>
+          <ab type="returnAddress">
+            <address>
+              <addrLine></addrLine>
+              <addrLine></addrLine>
+            </address>
+          </ab>
+          <ab>
+            <stamp type="date"></stamp>
+            <stamp type="postmark"></stamp>
+            <stamp type="cancellation"></stamp>
+            <stamp type="seal">
+              <figure></figure>
+            </stamp>
+          </ab>
+          <ab>
+            <figure></figure>
+          </ab>
+        </div>
+        
+      </body>
+    </text>
+  </TEI>
+  
   <TEI xml:id="SPH_18000202" n="1800-01-01">
     <!-- FIRST, COPY THIS TEI ELEMENT -->
     <!-- ADD EDITOR(S) TO THE LIST -->
@@ -1105,6 +1290,5 @@
     </text>
   </TEI>
   
-
   <!-- More TEI Documents -->
 </teiCorpus>
