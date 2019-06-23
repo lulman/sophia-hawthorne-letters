@@ -387,7 +387,7 @@
       <body>
         <div type="letter" hand="#SPH" xml:id="SPH_18370808_let">
           <!-- REPLACE WITH FILENAME FOR FIRST PAGE OF THE LETTER -->
-          <pb facs="Letter1_P1a.jpg"/>
+          <pb facs="Letter1_P1a"/>
           <head type="letterhead"></head>
           <figure rend="link">
             <head></head>
@@ -440,7 +440,7 @@
             <lb/> me feel the same if a person I never knew
             
             <!-- Page 2 -->
-            <pb facs="Letter1_P2a.jpg"/>
+            <pb facs="Letter1_P2a"/>
             
             <lb/> were <choice><sic>analysed</sic><corr>analyze</corr></choice> &amp; decided upon. I know 
             <lb/> that GOD only can know a person truly, 
@@ -479,7 +479,7 @@
             <lb/> suspect I shall live forever &amp; not see good
             
             <!-- Page 3 -->
-            <pb facs="Letter1_P3a.jpg"/>
+            <pb facs="Letter1_P3a"/>
             
             <lb/>in dwelling upon personal faults. For my life
             <lb/>I <hi rend="underline">cannot</hi>
@@ -533,7 +533,7 @@
             <lb/>how I am— &amp; I never feel how I am except when I
             
             <!-- Page 4 -->
-            <pb facs="Letter1_P4a.jpg"/>
+            <pb facs="Letter1_P4a"/>
             
             <lb/>fall short as I often do of the mark. I am conscious
             <lb/>of it &amp; feel remorse. It is only in remorse that 
@@ -553,7 +553,7 @@
             <lb/><del hand="#SPH" type="overwritten">wi</del>may cause great harm &amp; wrong. But do not
             
             <!-- Page 4 continued on Letter1_P1b. -->
-            <pb facs="Letter1_P1b.jpg"/>
+            <pb facs="Letter1_P1b"/>
             <handShift scribe="SPH"/>
             
             <lb/>ever take for granted by inference a harsh judgment. Now both
@@ -592,14 +592,14 @@
             <lb/>I would
             
             <!-- Page 4 continued on Letter1_P2b. -->
-            <pb facs="Letter1_P2b.jpg"/>
+            <pb facs="Letter1_P2b"/>
             
             <lb/>never sacrifice one iota of goodness or truth to it as you might suppose —
             <lb/>but Christ was even beautiful — &amp; my aim is to do so, as well as true &amp;
             <lb/>good — for I think Beauty is the result of the two. But I never was
             
             <!-- Page 4 continued on Letter1_P3b. -->
-            <pb facs="Letter1_P3b.jpg"/>
+            <pb facs="Letter1_P3b"/>
             
             <lb/> aware of seeking beauty in the first place. By keeping my heart
             <lb/> right, <choice><sic>which</sic><corr>wh</corr></choice> is goodness, I hope to see truth, &amp; then Beauty
@@ -613,7 +613,7 @@
             <lb/>like to say anything. You misunderstand me
             
             <!-- Page 4 continued on Letter1_P4b. -->
-            <pb facs="Letter1_P4b.jpg"/>
+            <pb facs="Letter1_P4b"/>
             
             <lb/> almost always — or give it with 
             <lb/> your mind a little different
@@ -657,14 +657,14 @@
               <lb/> told you this about her body, for*
               
               <!-- Page 4 continued on Letter1_P5a. -->
-              <pb facs="Letter1_P5a.jpg"/>
+              <pb facs="Letter1_P5a"/>
               
               <lb/> *if you wish to have her tranquil, you must let her alone 
               <lb/> more. I believe if you &amp; she have any more cryings 
               <lb/> about each other I shall die. I have often wished you
               
               <!-- Page 4 continued on Letter1_P1b. -->
-              <pb facs="Letter1_P1b.jpg"/>
+              <pb facs="Letter1_P1b"/>
               
               <lb/> both dead, &amp; I shall never enjoy you
               <lb/> till I think this matter is not to be
@@ -688,7 +688,7 @@
           </postscript>
         </div>
         <div type="address_and_postmarks">
-          <pb facs="Letter1_P5b.jpg"/>
+          <pb facs="Letter1_P5b"/>
           <ab type="postalAddress">
             <address>
               <addrLine>charge no 85</addrLine>

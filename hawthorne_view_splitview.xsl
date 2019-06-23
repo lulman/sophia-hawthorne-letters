@@ -61,7 +61,8 @@
       }
       
       .pageview {
-      margin-bottom:200px;
+      <!-- Space below page image  -->
+      margin-bottom:500px;
       float:left;
       }
       .pagebreak {
