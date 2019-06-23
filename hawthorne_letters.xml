@@ -11,6 +11,9 @@
                <editor><persName ref="SC">Sue Carlson</persName></editor>
                <editor><persName ref="DC">David Carrino</persName></editor>
                <editor><persName ref="HLU">H. Lewis Ulman</persName></editor>
+               <editor><persName ref="JDi">John DiCamillo</persName></editor>
+               <editor><persName ref="ADi">Anthony DiCola</persName></editor>
+               <editor><persName ref="TJF">Thomas J. Firestone</persName></editor>
                
            <respStmt>
              <resp>Creation of digital scans of manuscript pages: </resp>
@@ -24,6 +27,9 @@
              <persName ref="SC">Sue Carlson</persName>
              <persName ref="DC">David Carrino</persName>
              <persName ref="HLU">H. Lewis Ulman</persName>
+             <persName ref="JDi">John DiCamillo</persName>
+             <persName ref="ADi">Anthony DiCola</persName>
+             <persName ref="TJF">Thomas J. Firestone</persName>
            </respStmt>
                
            <respStmt>
@@ -33,6 +39,9 @@
              <persName ref="SC">Sue Carlson</persName>
              <persName ref="DC">David Carrino</persName>
              <persName ref="HLU">H. Lewis Ulman</persName>
+             <persName ref="JDi">John DiCamillo</persName>
+             <persName ref="ADi">Anthony DiCola</persName>
+             <persName ref="TJF">Thomas J. Firestone</persName>
            </respStmt>    
            
          </titleStmt>
@@ -148,13 +157,18 @@
                <bibl xml:id="Shuman" n="Shuman">Shuman, R. Baird.<title level="a">Peabody, Elizabeth Palmer.</title>
                  <title level="m">American National Biography</title>. Oxford: Oxford UP, 2000. https://www-anb-org
                </bibl>
-               <bibl xml:id="CEN">
+               <bibl xml:id="CEN" n="hawthorne_nathaniel">
                  <author>Hawthorne, Nathaniel</author>
                  <title level="m">The Centenary Edition of the Works of Nathaniel Hawthorne</title>
                  <editor role="editor">Charvat, William, et al.</editor>
                  <pubPlace>Columbus, Ohio</pubPlace>
                  <publisher>Ohio State University Press</publisher>
                  <date>1962</date>
+               </bibl>
+               <bibl xml:id="Mott" n="Mott">
+                 <author >Mott, Wesley, T.</author>
+                 <title level="a" >Taylor, Edward Thompson</title>
+                 <title level="m" >American National Biography</title>. Oxford: Oxford UP, 2000.
                </bibl>
                
              </listBibl>
@@ -238,6 +252,13 @@
                <death when="1894-01-03"></death>
                <bibl>Shuman</bibl>
              </person>
+             <person xml:id="EPPelder" source="CEN">
+               <persName>Peabody, Elizabeth Palmer</persName>
+               <note type="biographical">Sophia's mother.</note>
+               <birth when="1778"><placeName></placeName></birth>
+               <death when="1853"><placeName></placeName></death>
+               <bibl>Turner 103</bibl>
+             </person>
              <person xml:id="AMA" source="CEN">
                <persName>Alcott, Abigail May</persName>
                <note type="biographical"></note>
@@ -266,6 +287,35 @@
                <death when="1860"><placeName></placeName></death>
                <bibl><ref target="#ANB"></ref></bibl>
              </person>
+             <person xml:id="taylor" source="CEN">
+               <persName>Taylor, Edward Thompson</persName>
+               <note type="biographical">A Methodist preacher and minister for nearly forty years at the 
+                 Seamen's Bethel, Boston, Massachusetts.</note>
+               <birth when="1793"><placeName></placeName></birth>
+               <death when="1871"><placeName></placeName></death>
+               <bibl>CEN 15:421-22; Mott</bibl>
+             </person>
+             <person xml:id="georgepeabody" source="CEN">
+               <persName>Peabody, George Francis</persName>
+               <note type="biographical">Sophia's brother, who suffered from spinal tuberculosis, died in Elizabeth's care on November 25, 1839, six days after the writing of this letter.</note>
+               <birth when="1813"><placeName></placeName></birth>
+               <death when="1839"><placeName></placeName></death>
+               <bibl>CEN 15:360-375</bibl>
+             </person>
+             <person xml:id="drpeabody" source="CEN">
+               <persName>Peabody, Dr. Nathaniel</persName>
+               <note type="biographical">Sophia's father.</note>
+               <birth when="1774"><placeName></placeName></birth>
+               <death when="1855"><placeName></placeName></death>
+               <bibl>Turner 103</bibl>
+             </person>
+             <person xml:id="sophiapickman" source="CEN">
+               <persName>Pickman, Sophia Palmer</persName>
+               <note type="biographical"></note>
+               <birth when="1786"><placeName></placeName></birth>
+               <death when="1862"><placeName></placeName></death>
+               <bibl>CEN 16:14</bibl>
+             </person>
              
              
            </listPerson>
@@ -277,6 +327,9 @@
              <person><persName ref="SC">Sue Carlson</persName></person>
              <person><persName ref="DC">David Carrino</persName></person>
              <person><persName ref="HLU">H. Lewis Ulman</persName></person>
+             <person><persName ref="JDi">John DiCamillo</persName></person>
+             <person><persName ref="ADi">Anthony DiCola</persName></person>
+             <person><persName ref="TJF">Thomas J. Firestone</persName></person>
            </listPerson>
          </particDesc>
          
@@ -719,6 +772,233 @@
     </text>
   </TEI>
 
+  <TEI xml:id="SPH_18391119" n="1839-11-19">
+    <!-- FIRST, COPY THIS TEI ELEMENT -->
+    <!-- ADD EDITOR(S) TO THE LIST -->
+    <!-- MAKE SURE TO ADD WORKS CITED -->
+    <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>Letter from Sophia Peabody Hawthorne to Elizabeth Palmer Peabody, 11 November 1839</title>
+          <author>Hawthorne, Sophia Peabody</author>
+        </titleStmt>
+        <publicationStmt>
+          <p>
+            <!-- PUBLICATION STATEMENT FROM THE LIBRARY -->
+          </p>
+        </publicationStmt>
+        <sourceDesc>
+          <msDesc>
+            <msIdentifier>
+              <country>USA</country>
+              <settlement>Columbus, OH</settlement>
+              <repository>Rare Books and Manuscripts, The Ohio State University</repository>
+              <collection>Letters, 1837-1868, to Elizabeth Palmer Peabody</collection>
+              <idno>SPEC.RARE.MMS.0138</idno>
+            </msIdentifier>
+            <msContents>
+              <p>
+                Sophia describes events surrounding her brother George's last illness, 
+                including a visit from Rev. Edward Thomson Taylor.
+              </p>
+            </msContents>
+            <physDesc>
+              <p>
+                ALS. 4 pp.
+              </p>
+              <accMat></accMat>
+            </physDesc>
+            <additional>
+              <adminInfo>
+                <!-- Info from the finding aid -->
+                <note></note>
+              </adminInfo>
+            </additional>
+          </msDesc>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    
+    <text>
+      <body>
+        <div type="letter" xml:id="SPH_18391119_let">
+          <!-- REPLACE WITH FILENAME FOR FIRST PAGE OF THE LETTER -->
+          <pb facs="/5/5e42ca89-802c-4893-97f6-10f789789b0c"/>
+          <head type="letterhead"></head>
+          <figure rend="link">
+            <head></head>
+            <graphic url=""></graphic>
+            <figDesc></figDesc>
+          </figure>
+          <lb/>
+          <opener>
+            <!-- REPLACE WITH INFO FROM NEW LETTER -->
+            <lb/><dateline><date when="1839-11-19">Tuesday 1/2 4. <choice><expan>November</expan><abbr>Nov</abbr></choice> 19th 
+              1839</date></dateline>
+            <lb/><salute>My dear<persName type="nickname" ref="#EPP">Lizzie,</persName></salute>
+          </opener>
+          <p>
+            <lb/>I suppose that <name type="person" ref="Edward Thomson Taylor (1793-1871)" key="ETT">Mr. Taylor</name>
+            <seg>
+              <note target="n2">2</note>
+            </seg> has
+            <lb/>told you of <name type="person" ref="Peabody, George" key="GP">George</name>'s <seg>
+              <note target="n3">3</note>
+            </seg> perfect frame
+            <lb/>of mind — of his experience of
+            <lb/>that divine glow which was so
+            <lb/>unaccountable — but so sweet &amp;
+            <lb/>refreshing to him — &amp; seemed so like
+            <lb/>an intimation from GOD that
+            <lb/>it was well with him —; but he
+            <lb/>would not tell you how like
+            <lb/>a tender &amp; strong angel he <add place="infralinear" hand="SPH"> &#94;</add>
+            <add place="supralinear" hand="SPH"> himself </add> was
+            <lb/>to us all — what a wonderful
+            <lb/>prayer he offered — which seemed
+            <lb/>to bring the host of heaven
+            <lb/>down to watch &amp; duly ward -
+            <lb/>which brought heaven into
+            <lb/><name type="person">George</name>'s chamber &amp; carried us
+            <lb/>all as on Dove's wings into
+            <lb/>the spiritual world.  It was the
+            <lb/>most fervid — the most affectionate,
+            <lb/>tender &amp; divine uplifting of 
+            <lb/>soul to the infinite father —
+            <lb/>that I ever heard.  He prayed for 
+            <lb/>each — for the <q>Mother, <seg>
+              <note target="n4">4</note>
+            </seg> the tender
+              <lb/>Mother — who hung around her life</q>
+            <lb/>for the Father's <seg>
+              <note target="n5">5</note>
+            </seg> manly heart —
+            <lb/>for the sister <seg>
+              <note target="n6">6</note>
+            </seg> whose duty called
+            <lb/>her away — <q> &amp; oh bless — <hi rend="underline">our dear <name type="person">Mary</name>
+              <seg>
+                <note target="n7">7</note>
+              </seg></hi>
+              <!-- Page 2 -->
+              <pb facs="/0/022feeb4-0e17-4d03-a876-dd5a73b13a27" n="2"/>
+              
+              <lb/>he said — let not that peaceful
+              <lb/>stream be disturbed — </q> " he prayed
+            <lb/>for the sister present<seg>
+              <note target="n8">8</note>
+            </seg>  — 'she with
+            <lb/>the delicate nerves —' For <name type="person">Aunt
+              <lb/>Pickman</name>
+            <seg>
+              <note target="n9">9</note>
+            </seg> too he petitioned
+            <lb/>heaven —     The tears were at
+            <lb/>last loosened from my brain
+            <lb/>which I had kept back so long
+            <lb/>that I began to feel as if they
+            <lb/>were accumulating there —
+            <lb/>&amp; they flowed down my face
+            <lb/>like a summer rain without
+            <lb/>convulsion.  After he rose
+            <lb/>from his knees, <name type="person">George</name> stretched 
+            <lb/>out his arms &amp; Mr. Taylor
+            <lb/>clasped him to his heart in
+            <lb/>a long, long embrace — Every
+            <lb/>moment ejaculating "The Lord
+            <lb/>bless you!  Bless you!  Bless you!"
+            <lb/>in such a thrilling tone that
+            <lb/>it seemed as if blessings must
+            <lb/>come in legions at the call —
+            <lb/>
+            <name type="person">George</name>'s thin white hands were
+            
+            <!-- Page 3 -->
+            <pb facs="/6/68d56136-930a-47b7-ba9f-e4b3602eb38c" n="3"/>
+            
+            <lb/>so firmly fastened round his neck
+            <lb/>that I thought he would never
+            <lb/>let the angel go — even after he
+            <lb/>had blessed him — but at last
+            <lb/>he relaxed his hold. Then <name type="person"> Mr
+              <lb/>Taylor</name> turned to me &amp; took both
+            <lb/>hands. <q>Be strong</q> said he. <q>
+              <hi rend="underline">It is</hi>
+              <lb/><hi rend="underline">very pleasant on the other side</hi>. Be
+              <lb/>quiet <del hand="SPH" type="overwritten">a</del>like a May morning.</q>
+            <lb/>He came with me into my room.
+            <lb/>
+            <q>Oh <name type="person">George</name> is a perfect lamb! A
+              <lb/>perfect lamb. He is moonlight —
+              <lb/>so clear — mild — I would not but
+              <lb/>have seen him for the world. It
+              <lb/>was worth coming just to look at
+              <lb/>him. He never looked so handsome
+              <lb/>in his life. There is no distortion
+              <lb/>there. All is right. All is right.</q>
+            <lb/>I cannot tell you all he said now.
+            <lb/>Oh he is the most helpful — the
+            <lb/>divinest spirit — is he not?
+            <lb/>
+            <name type="person">George</name> said there could not be such
+            <lb/>a prayer conceived of. <q>
+              <name type="person">Mr. Taylor</name>
+              <lb/>is no sham</q> — he said.
+            <lb/>
+            <name type="person">George</name> is very much revived this
+            <lb/>afternoon. He had not a bad
+            <lb/>chill this morning — hardly any — &amp;
+            <lb/>yesterday it was
+            <lb/>two hours long 
+            
+            <!--Page 4 -->
+            <pb facs="/8/8f5d4ec8-e235-477b-a9f4-5f7b29094cf1" n="4"/>
+            
+            <lb/>
+            <name>Mary</name> came today &amp; staid two hours
+            <lb/>I carried her your letter this afternoon
+            <lb/>&amp; she had <choice><corr>received</corr><sic>recieved</sic></choice> no harm.
+            <lb/>
+            <name type="person">George</name> thinks it would not be
+            <lb/>right for you to come on
+            <lb/>Wednesday. He thinks of
+            <lb/>every thing in all relations
+            <lb/>with exactest precision.
+            <lb/>Yesterday he wandered a
+            <lb/>little several times, &amp; this
+            <lb/>afternoon while I was rubbing
+            <lb/>his arm, he was saying
+            <lb/>something — &amp; then said something
+            <lb/>I did not hear. <q>What did
+              <lb/>you say</q> I asked. <q>It <unclear reason="illegible">
+                <del type="overstrike" hand="SPH">belies</del>
+              </unclear>
+                <lb/>was nothing to the purpose, he
+                <lb/>replied. <hi rend="underline">I was wandering</hi>.</q>
+            <lb/>I never saw such clearness. He
+            <lb/>looks from some high place
+            <lb/>even upon his aberrations.
+            <lb/>I can write no more now
+            <lb/>I <choice><corr>received</corr><sic>recieved</sic></choice> a blessed refreshment
+            <lb/>yesterday P.M. beside <name type="person"> Mr
+              <lb/>Taylor</name>, a long — closely written letter
+              </p>
+          <!-- REPLACE WITH CLOSER AND SIGNATURE INFORMATION FROM LETTER -->
+          <closer>
+            <lb/><salute>Your most <choice><expan>affectionate</expan><abbr>aff</abbr></choice></salute>
+            <lb/><signed><persName type="nickname" ref="#SPH">Sophy</persName></signed>
+          </closer>
+          <!-- If there were a <postscript>, we have a tag for that. -->
+          <postscript>
+            <p>
+              <lb/> <add place="margin" hand="#SPH">My love to <persName>Connie</persName></add>
+            </p>
+          </postscript>
+        </div>        
+      </body>
+    </text>
+  </TEI>
+
   <TEI xml:id="SPH_18000202" n="1800-01-01">
     <!-- FIRST, COPY THIS TEI ELEMENT -->
     <!-- ADD EDITOR(S) TO THE LIST -->
@@ -825,5 +1105,6 @@
     </text>
   </TEI>
   
+
   <!-- More TEI Documents -->
 </teiCorpus>
