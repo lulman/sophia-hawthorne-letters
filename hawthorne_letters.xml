@@ -1037,7 +1037,7 @@
       <body>
         <div type="letter" xml:id="SPH_18391119_let">
           <!-- REPLACE WITH FILENAME FOR FIRST PAGE OF THE LETTER -->
-          <pb facs="/5/5e42ca89-802c-4893-97f6-10f789789b0c"/>
+          <pb facs="Letter2_P1"/>
           <head type="letterhead"></head>
           <figure rend="link">
             <head></head>
@@ -1095,7 +1095,7 @@
                 <note target="n7">7</note>
               </seg></hi>
               <!-- Page 2 -->
-              <pb facs="/0/022feeb4-0e17-4d03-a876-dd5a73b13a27" n="2"/>
+              <pb facs="Letter2_P2.jpg" n="2"/>
               
               <lb/>he said — let not that peaceful
               <lb/>stream be disturbed — </q> " he prayed
@@ -1128,7 +1128,7 @@
             <name type="person">George</name>'s thin white hands were
             
             <!-- Page 3 -->
-            <pb facs="/6/68d56136-930a-47b7-ba9f-e4b3602eb38c" n="3"/>
+            <pb facs="Letter2_P3.jpg" n="3"/>
             
             <lb/>so firmly fastened round his neck
             <lb/>that I thought he would never
@@ -1166,7 +1166,7 @@
             <lb/>two hours long 
             
             <!--Page 4 -->
-            <pb facs="/8/8f5d4ec8-e235-477b-a9f4-5f7b29094cf1" n="4"/>
+            <pb facs="Letter2_P4.jpg" n="4"/>
             
             <lb/>
             <name>Mary</name> came today &amp; staid two hours
@@ -1264,7 +1264,7 @@
       <body>
         <div type="letter" xml:id="SPH_1859-01-08_let">
           <!-- REPLACE WITH FILENAME FOR FIRST PAGE OF THE LETTER -->
-          <pb facs="/1/196aae78-c619-4c1d-af07-e32c2f35e5d4"/>
+          <pb facs="Letter3_P1"/>
           <head type="letterhead"></head>
           <figure rend="link">
             <head></head>
@@ -1309,7 +1309,7 @@
               <lb/>and lies in bed still.
               
               <!-- Page 2 -->
-              <pb facs="/5/51bc2458-2f58-442d-b224-5525a57d8ce6"/>
+              <pb facs="Letter3_P2"/>
               
               <lb/> I have had no moment to 
               <lb/> write to you in all these 
@@ -1344,7 +1344,7 @@
               <lb/> a long note from her. She
               
               <!-- Page 3 -->
-              <pb facs="/e/e3971fc5-3142-4469-ab62-6adca0de01cd"/>
+              <pb facs="Letter3_P3"/>
               
               <lb/> is very happy and content in her 
               <lb/> sunny sky-parlor in the Hotel 
@@ -1377,7 +1377,7 @@
               <lb/> great joy — for last winter he 
               
               <!-- Page 4 -->
-              <pb facs="/c/ca08174b-ea5d-450a-8de1-35f29885e224"/>
+              <pb facs="Letter3_P4"/>
               
               <lb/> had the Grippe three months. 
               <lb/> <persName ref="#JHawthorne">Julian</persName> also is well with 
@@ -1472,7 +1472,7 @@
       <body>
         <div type="letter" xml:id="SPH_1863_let">
           <!-- REPLACE WITH FILENAME FOR FIRST PAGE OF THE LETTER -->
-          <pb facs="/a/a0583997-80b3-449c-ae3e-96caf2f38a87"/>
+          <pb facs="Letter4_P1"/>
           <head type="letterhead"></head>
           <figure rend="link">
             <head>Stationer's mark</head>
@@ -1509,7 +1509,7 @@
 <lb/>less imperative. I am very sorry, but *
 
 <!-- Page 2 -->
-<pb facs="/9/9bc802ea-2b10-4095-97ab-c4435c71ece8"/>
+<pb facs="Letter4_P2"/>
                
 <lb/> since there is not 
 <lb/> literally money enough 
@@ -1537,7 +1537,7 @@
 <lb/> to be so hard driven 
 
 <!-- Page 3 -->
-<pb facs="/8/81cfa20f-fc28-4912-8cfe-e448407f348e"/>
+<pb facs="Letter4_P3"/>
                
 <lb/> in his present unenergetic 
 <lb/> condition, and he 
@@ -1564,7 +1564,7 @@
 <lb/> them. As to their father
 
 <!-- Page 4 -->
-<pb facs="/b/bdbdbb87-3f55-4b1d-850e-b05c92bd7492"/>
+<pb facs="Letter4_P4"/>
                
 <lb/> he is a perfect <persName ref="#Diogenes">Diogenes</persName>
 <lb/> or a god — about going 
@@ -1594,7 +1594,7 @@
 <lb/> Hawthorne.</q> He makes no
 
 <!-- Page 5 -->
-<pb facs="/9/9fe1b3e8-f5b0-4502-8771-655cda41e985"/>
+<pb facs="Letter4_P5"/>
  
 <fw place="top of the page" type="sig">2<hi rend="superscript">d</hi></fw>
 <lb/> aggression, but  
@@ -1625,7 +1625,7 @@
 <lb/> suspicion — is <choice><corr>not</corr><sic>n't</sic></choice> it?
 
 <!-- Page 6 -->
-<pb facs="/6/60f9c56e-23e5-47d5-948c-5118dc89b964"/>
+<pb facs="Letter4_P6"/>
                
 <lb/> When I do not answer 
 <lb/> your notes, dear <persName ref="#EPPeabody">Elizabeth </persName>
@@ -1652,7 +1652,7 @@
 <lb/> Charity. I was quite
                
 <!-- Page 7 -->
-<pb facs="/3/3da2a08c-a51d-465f-8f22-099c2f6c6f7a"/>
+<pb facs="Letter4_P7"/>
                
 <lb/> alarmed, until a certain 
 <lb/> <persName ref="#Allbut">Mrs. Allbut</persName> told me
@@ -1680,7 +1680,7 @@
 <lb/> <choice><corr>impressions</corr><sic>impressons</sic></choice> of her
                
 <!-- Page 8 -->
-<pb facs="/5/51b98994-23c6-4481-a15f-c59ed31acb4b"/>
+<pb facs="Letter4_P8"/>
                
 <lb/> from the <persName ref="#Alcott">Alcotts</persName> probably,
 <lb/> as no one else maligns 
@@ -1709,7 +1709,7 @@
 <lb/> and I shall continue to
 
 <!-- Page 9 -->
-<pb facs="/6/6ba80fb7-3718-4fbd-b96f-ddd8e5886b45"/>
+<pb facs="Letter4_P9"/>
 
 <fw place="top of the page" type="sig">3<hi rend="superscript">d</hi></fw>
 <lb/> adjure her. But
@@ -1739,7 +1739,7 @@
 <lb/> you could see how <persName ref="#JHawthorne"> Julian's</persName>
 
 <!-- Page 10 -->
-<pb facs="/b/bd6db89f-fc0f-49ce-851c-42ee4fe48427"/>
+<pb facs="Letter4_P10"/>
                
 <lb/> innocence is becoming 
 <lb/> virtue, you would be 
@@ -1766,7 +1766,7 @@
 <lb/> has no love for
 
 <!-- Page 11 -->
-<pb facs="/7/7bb7c439-45f5-4da7-b3e9-347a9713e1a9"/>
+<pb facs="Letter4_P11"/>
                
 <lb/> low persons — no
 <lb/> tastes that are ignoble. 
@@ -1794,7 +1794,7 @@
 <lb/> I never supposed
 
 <!-- Page 12 -->
-<pb facs="/a/a8d4e8bf-e170-4f57-afec-85b722dc2118"/>
+<pb facs="Letter4_P12"/>
                
 <lb/> <persName ref="#MTPMann">Margaret</persName><ptr type="noteAnchor" target="margaret"/><note resp="ed" xml:id="margaret">Presumably
     Sophia's sister, Mary Tyler Peabody Mann.</note> allowed
@@ -1822,7 +1822,7 @@
 <lb/> short — and not try to do it for me
 
 <!-- Page 13 -->
-<pb facs="/0/04b67535-74ea-4328-96ba-b87d4e0bf736"/>
+<pb facs="Letter4_P13"/>
 
 <fw type="sig" place="top of the page">4<hi rend="superscript">th</hi></fw>
 <lb/> The reason I do not
@@ -1850,7 +1850,7 @@
 <lb/> law of the universe
 <lb/> and no talk will alter it.
 <!-- Page 14 -->
-<pb facs="/e/ee010eb9-0bcb-464c-8191-a8b8a867093b"/>
+<pb facs="Letter4_P14"/>
                
 <lb/> I take a fancy to
 <lb/> <persName ref="#Turners">Mr. &amp; Mrs. Turner</persName>, of
@@ -1876,7 +1876,7 @@
 <lb/> not however so imperative
 
 <!-- Page 15 -->
-<pb facs="/b/bd063794-051a-4f33-bfb1-4fde84df2e22"/>
+<pb facs="Letter4_P15"/>
                <figure>
                   <figDesc>stationer's mark.</figDesc>
                </figure>
@@ -1905,7 +1905,7 @@
 <lb/> is well this autumn.
 
 <!-- Page 16 -->
-<pb facs="/3/3ca8f540-0f9b-4bf4-ab05-32caad1a23bd"/>
+<pb facs="Letter4_P16"/>
                
 <lb/> Give my love to
 <lb/> her.
@@ -1970,7 +1970,7 @@
       <body>
         <div type="letter" xml:id="SPH_1868-12-04_let">
           <!-- REPLACE WITH FILENAME FOR FIRST PAGE OF THE LETTER -->
-          <pb facs="/a/adcfc98f-f4da-419a-9ab8-f56124a153a0"/>
+          <pb facs="Letter5_P1"/>
           <head type="letterhead"></head>
           <figure rend="link">
             <head></head>
@@ -2021,7 +2021,7 @@
 <lb/>which branch of science he <hi rend="underscore">preferred</hi>
 
 <!-- Page 2 -->
-<pb facs="/6/6341dfa9-00b3-4d9e-95ee-9b35c247899b"/>
+<pb facs="Letter5_P2"/>
                
 <lb/>he looked at me with surprise and replied
 <lb/>&quot;How can I like one branch of science better
@@ -2061,7 +2061,7 @@
 <lb/> him first with the seal of death on <add hand="#SPHawthorne" place="infralinear">his</add>
 
 <!-- Page 3 -->
-<pb facs="/5/56abce43-d0fa-444a-b653-4ffbbe4c0e40"/>
+<pb facs="Letter5_P3"/>
                
 <lb/> brow (as I <hi rend="underscore">know</hi>) it was astonishing to 
 <lb/> observe the fine beauty of his face—
@@ -2099,7 +2099,7 @@
 <lb/>That would surely have broken our hearts.
 
 <!-- Page 4 -->
-<pb facs="/0/0d5b04f7-5fad-421e-a9e3-a3b283a7eadc"/>
+<pb facs="Letter5_P4"/>
                
 <lb/> But he entered the mansion prepared 
 <lb/> for him in his <add place="supralinear" rend="caret" hand="#SPHawthorne">Heavenly</add> Father's House, living
@@ -2138,7 +2138,7 @@
 <lb/> God bless and help her, as He surely will.
 
 <!-- Page 5 -->
-<pb facs="/7/78991fa6-38c3-4481-9b11-32447f50b35f"/>
+<pb facs="Letter5_P5"/>
                
 <lb/> Her remarkable fortitude will aid her 
 <lb/> now, and also her generous tenderness. 
@@ -2176,7 +2176,7 @@
 <lb/> is frail, and had lately been so ill.
 
 <!-- Page 6 -->
-<pb facs="/4/4b724d88-f64e-45d2-88aa-a18b6193a0d5"></pb>
+<pb facs="Letter5_P6.jpg"></pb>
                
 <lb/> She has such strength of endurance that 
 <lb/> I believe she will live here as long 
@@ -2214,7 +2214,7 @@
 <lb/> was truly beautiful.
 
 <!-- Page 7 -->
-<pb facs="/8/81b1ca71-abaa-43b5-a68c-8248df626c64"></pb>
+<pb facs="Letter5_P7.jpg"></pb>
                
 <lb/> I believe the last time I saw him 
 <lb/> in Concord was when he came in
@@ -2252,7 +2252,7 @@
 <lb/> the golden gate turned <add place="supralinear" rend="caret">back</add> on its
 
 <!-- Page 8 -->
-<pb facs="/0/03ab98df-8b0e-4214-b3a5-b0c5bb8e75b2"/>
+<pb facs="Letter5_P8"/>
                
 <lb/><gap extent="one letter" reason="inkblot"/>inges, and shut him in from
 <lb/> the world, all cares were left
@@ -2296,7 +2296,7 @@
 <lb/> All send love and deep sympathy. We are at
 
 <!-- Page 8 continued. -->
-<pb facs="/a/adcfc98f-f4da-419a-9ab8-f56124a153a0"/>
+<pb facs="Letter5_P1"/>
                
 <lb/> <add hand="#SPHawthorne" place="margin">housekeeping since 19th November and taking German lessons. Goodbye</add>
 </p>
