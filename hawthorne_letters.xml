@@ -18,6 +18,11 @@
                <editor><persName ref="KLH">Krista L. Havrilla</persName></editor>
                <editor><persName ref="SRH">Stacy R. Haynes</persName></editor>
                <editor><persName ref="JAO">Jose A. Orozco</persName></editor>
+               <editor><persName ref="SOR">Sean O'Reilly</persName></editor>
+               <editor><persName ref="CRBP">Christopher R. B. Pinner</persName></editor>
+               <editor><persName ref="MRS">Michelle R. Soell</persName></editor>
+               <editor><persName ref="CS">Chris Stull</persName></editor>
+               <editor><persName ref="MJ">Marianne Johnson</persName></editor>
                
            <respStmt>
              <resp>Creation of digital scans of manuscript pages: </resp>
@@ -38,6 +43,11 @@
              <persName ref="KLH">Krista L. Havrilla</persName>
              <persName ref="SRH">Stacy R. Haynes</persName>
              <persName ref="JAO">Jose A. Orozco</persName>
+             <persName ref="SOR">Sean O'Reilly</persName>
+             <persName ref="CRBP">Christopher R. B. Pinner</persName>
+             <persName ref="MRS">Michelle R. Soell</persName>
+             <persName ref="CS">Chris Stull</persName>
+             <persName ref="MJ">Marianne Johnson</persName>
            </respStmt>
                
            <respStmt>
@@ -54,6 +64,11 @@
              <persName ref="KLH">Krista L. Havrilla</persName>
              <persName ref="SRH">Stacy R. Haynes</persName>
              <persName ref="JAO">Jose A. Orozco</persName>
+             <persName ref="SOR">Sean O'Reilly</persName>
+             <persName ref="CRBP">Christopher R. B. Pinner</persName>
+             <persName ref="MRS">Michelle R. Soell</persName>
+             <persName ref="CS">Chris Stull</persName>
+             <persName ref="MJ">Marianne Johnson</persName>
            </respStmt>    
            
          </titleStmt>
@@ -157,6 +172,12 @@
                  <state type="school" from="1848" to="2008"></state>
                  <desc>A private catholic women's school in Wheeling, WV established in 1848.</desc>
                </org>
+               <org xml:id="ticknor" source="source">
+                 <orgName>Ticknor and Fields</orgName>
+                 <state type="company"></state>
+                 <desc>American publisher of Nathaniel Hawthorne's books.</desc>
+               </org>
+               
              </listOrg>
              
              <!-- FOR EACH LETTER, UPDATE BIBLIOGRAPHY -->
@@ -206,6 +227,10 @@
                <bibl xml:id="HUA_RDHC">
                  <title level="a">Records of the Dean of Harvard College, 1889-1995.</title>
                  <title level="m">Harvard University Archives</title>. 2000. 14 Feb 2003. http://oasis.harvard.edu/html/hua04000.html
+               </bibl>
+               <bibl xml:id="Ritchie" n="ritchie">
+                 Ritchie, Susan. 
+                 <title level="a">The Peabody Sisters.</title> <title level="m">Dictionary of Unitarian &amp; Universalist Biography</title>. 2002. 17 Feb. 2003. http://www.uua.org/uuhs/duub/articles/peabodysisters.html
                </bibl>
                
              </listBibl>
@@ -468,9 +493,35 @@
                <death when="1886"><placeName></placeName></death>
                <bibl></bibl>
              </person>
-             
-             
-             
+             <person xml:id="HMannjr" source="source">
+               <persName>Mann, Horace Jr.</persName>
+               <note type="biographical">Son of Horace and Mary Peabody Mann.</note>
+               <birth when="1844"><placeName></placeName></birth>
+               <death when="1868"><placeName></placeName></death>
+               <bibl></bibl>
+             </person>
+             <person xml:id="BMann" source="source">
+               <persName>Mann, Benjamin</persName>
+               <note type="biographical">Son of Horace and Mary Peabody Mann.</note>
+               <birth when="1800"><placeName></placeName></birth>
+               <death when="1800"><placeName></placeName></death>
+               <bibl></bibl>
+             </person>
+             <person xml:id="GMann" source="source">
+               <persName>Mann, George</persName>
+               <note type="biographical">Son of Horace and Mary Peabody Mann.</note>
+               <birth when="1800"><placeName></placeName></birth>
+               <death when="1800"><placeName></placeName></death>
+               <bibl></bibl>
+             </person>
+             <person xml:id="GHillard" source="source">
+               <persName>Hillard, George</persName>
+               <note type="biographical">Family friend and executor of Nathaniel Hawthorne's estate.</note>
+               <birth when="1808"><placeName></placeName></birth>
+               <death when="1879"><placeName></placeName></death>
+               <bibl></bibl>
+             </person>
+              
            </listPerson>
            
            <listPerson type="editors">
@@ -487,6 +538,11 @@
              <person><persName ref="KLH">Krista L. Havrilla</persName></person>
              <person><persName ref="SRH">Stacy R. Haynes</persName></person>
              <person><persName ref="JAO">Jose A. Orozco</persName></person>
+             <person><persName ref="SOR">Sean O'Reilly</persName></person>
+             <person><persName ref="CRBP">Christopher R. B. Pinner</persName></person>
+             <person><persName ref="MRS">Michelle R. Soell</persName></person>
+             <person><persName ref="CS">Chris Stull</persName></person>
+             <person><persName ref="MJ">Marianne Johnson</persName></person>
            </listPerson>
          </particDesc>
          
@@ -1373,7 +1429,7 @@
     <teiHeader>
       <fileDesc>
         <titleStmt>
-          <title>Letter from Sophia Peabody Hawthorne to Her Sister, Elizabeth Palmer Peabody, DATE</title>
+          <title>Letter from Sophia Peabody Hawthorne to Her Sister, Elizabeth Palmer Peabody, 1863</title>
           <author>Hawthorne, Sophia Peabody</author>
         </titleStmt>
         <publicationStmt>
@@ -1866,14 +1922,14 @@
     </text>
   </TEI>
 
-  <TEI xml:id="SPH_18000202" n="1800-01-01">
+  <TEI xml:id="SPH_1868-12-04" n="1868-12-04">
     <!-- FIRST, COPY THIS TEI ELEMENT -->
     <!-- ADD EDITOR(S) TO THE LIST -->
     <!-- MAKE SURE TO ADD WORKS CITED -->
     <teiHeader>
       <fileDesc>
         <titleStmt>
-          <title>Letter from Sophia Peabody Hawthorne to Her Sister, Elizabeth Palmer Peabody, DATE</title>
+          <title>Letter from Sophia Peabody Hawthorne to Elizabeth Palmer Peabody, 4 December 1868</title>
           <author>Hawthorne, Sophia Peabody</author>
         </titleStmt>
         <publicationStmt>
@@ -1891,14 +1947,12 @@
               <idno>SPEC.RARE.MMS.0138</idno>
             </msIdentifier>
             <msContents>
-              <p>
-                <!-- SHORT SUMMARY OF CONTENTS -->
-              </p>
+              <p> This letter, written by Sophia Hawthorne to her sister Elisabeth Peabody,
+                discusses the death of their nephew Horace Mann, Jr. and the subsequent reaction of
+                his mother (their sister, Mary Tyler Peabody Mann). </p>
             </msContents>
             <physDesc>
-              <p>
-                <!-- PHYSICAL DESCRIPTION OF THE LETTER -->
-              </p>
+              <p> ALS. 8 pp. </p>
               <accMat></accMat>
             </physDesc>
             <additional>
@@ -1914,9 +1968,9 @@
     
     <text>
       <body>
-        <div type="letter" xml:id="SPH_18000202_let">
+        <div type="letter" xml:id="SPH_1868-12-04_let">
           <!-- REPLACE WITH FILENAME FOR FIRST PAGE OF THE LETTER -->
-          <pb facs="Letter01_pg1"/>
+          <pb facs="/a/adcfc98f-f4da-419a-9ab8-f56124a153a0"/>
           <head type="letterhead"></head>
           <figure rend="link">
             <head></head>
@@ -1926,48 +1980,340 @@
           <lb/>
           <opener>
             <!-- REPLACE WITH INFO FROM NEW LETTER -->
-            <lb/><dateline><date when="1862-06-16"></date>June 16/62</dateline>
-            <lb/><salute>My Dear<rs type="recipient">Wife</rs></salute>
+            <lb/><dateline><date when="1868-12-04"></date>December 4<hi rend="superscript">th</hi> 1868
+            <lb/><address><street>46B, <add place="infralinear">^</add> <add place="supralinear">3<hi rend="superscript">d</hi> étage</add> Bautzner Strasse.</street> <name type="place">Dresden.</name></address></dateline>
           </opener>
           <p>
-            <!-- TEXT OF THE LETTER GOES HERE -->
-          </p>
+<lb/> Oh <persName ref="#EPPeabody">Elisabeth</persName>, your letter of <choice><expan>November</expan><abbr>Nov</abbr></choice> 12 came 
+<lb/> yesterday noon, after immense longing 
+<lb/> on my part to hear from you about 
+<lb/> <persName ref="#HMannjr">Horace</persName> particularly, and now alas the
+<lb/>beloved child has passed into the
+<lb/>heavens. From the delay of the letter,
+            <lb/>I had great fears that either <persName ref="#HMannjr">Horace</persName>
+<lb/>or <persName ref="#MTPMann">Mary</persName> were very ill, and that you
+<lb/>waited to give me good news. I am 
+<lb/>deeply grieved, and notwithstanding 
+<lb/>your precaution in preparing the
+<lb/>way to tell me finally that he was
+<lb/>&quot;still forever.&quot; I was smitten to the
+<lb/>heart when I came to that; for I 
+<lb/>began to think you told me the details 
+<lb/>of his illness as the &quot;sad news&quot; and that 
+<lb/>he lived yet here below. Fortunately
+<lb/>the blow made me burst into tears 
+<lb/>and sobs, (a very rare thing for me now)
+<lb/>so that the acute pang did not hurt me
+<lb/>so much. But I am in the greatest
+<lb/>anxiety about <persName ref="#MTPMann">Mary</persName>. The world has 
+<lb/>lost a rare person. Where will you find 
+<lb/>such fidelity, such devotion, such earnestness, 
+<lb/>such perseverance, such solemn 
+<lb/>dedication of the talents God has given.
+<lb/>I loved him greatly, and my respect 
+<lb/>for his life was profound. I mourn
+            <lb/>for my dear <persName ref="#HMannjr">Horace</persName> with deepest 
+<lb/>sorrow. I did hope to persuade him 
+<lb/>to come to us in Dresden for recreation, 
+<lb/>change and observation of the gains 
+<lb/>of science here. He was so large in
+<lb/>his scope. When I asked him once
+<lb/>which branch of science he <hi rend="underscore">preferred</hi>
+
+<!-- Page 2 -->
+<pb facs="/6/6341dfa9-00b3-4d9e-95ee-9b35c247899b"/>
+               
+<lb/>he looked at me with surprise and replied
+<lb/>&quot;How can I like one branch of science better
+<lb/>than another?&quot; True enough — how can 
+<lb/>anyone — and yet, how few have this 
+<lb/>broad love, and how many keep in 
+<lb/>one groove. His was indeed the genuine 
+<lb/>love for the widest knowledge. His 
+<lb/>magnificent purposes and hopes 
+<lb/>probably needed another sphere to 
+<lb/>be fulfilled, for oh <persName ref="#EPPeabody">Elisabeth</persName>, I
+    <hi rend="underscore">never</hi>
+<lb/>believed that <persName ref="#HMannjr">Horace</persName> would live to 
+<lb/>the prime of manhood in this world. 
+<lb/><hi rend="underscore">I was sure</hi> he would die young, and 
+<lb/>so I am not surprised, however much 
+<lb/>I grieve. He had not robustness of 
+<lb/>constitution enough to bear such <unclear reason="obscured by ink stain">constant</unclear>
+<lb/> and profound study. He told me once 
+<lb/> he was never for one moment rested,
+<lb/> and never expected to be! He worked 
+<lb/> with pure spirit always, and not 
+<lb/> with physical power. Even his 
+<lb/> enormous walks and climbings 
+<lb/> and reachings in America and 
+<lb/> the Sandwich Islands<ptr type="noteAnchor" target="sandwich"/><note resp="ed" xml:id="sandwich">The Hawaiian Islands.<bibl></bibl>.</note> and everywhere, 
+<lb/> were accomplished because his 
+<lb/> will and wish were so omnipotent—
+<lb/> not because he had bodily force 
+<lb/> enough. It was sublime and 
+<lb/> beautiful to a degree<del hand="#SPHawthorne" type="overstrike">hardly</del>
+<lb/> surpassed. I feel honored that I 
+<lb/> was related to him. I think there
+<lb/> never was a purer sacrifice offered 
+<lb/> to disinterested science. He was a 
+<lb/> martyr without stain. When I saw 
+<lb/> him first with the seal of death on <add hand="#SPHawthorne" place="infralinear">his</add>
+
+<!-- Page 3 -->
+<pb facs="/5/56abce43-d0fa-444a-b653-4ffbbe4c0e40"/>
+               
+<lb/> brow (as I <hi rend="underscore">know</hi>) it was astonishing to 
+<lb/> observe the fine beauty of his face—
+<lb/> the intellectual dignity suddenly
+<lb/>increased so much. <persName ref="#JHawthorne">Julian</persName> remarked 
+<lb/>yesterday that when he bade him 
+<lb/>goodbye on the eve before we left Boston 
+<lb/>that he had never seen him look 
+<lb/>so well—(meaning so fine in expression) 
+<lb/>Ah it is we only who are disappointed! 
+<lb/>and lamenting— For just think of him 
+<lb/>now with no obstruction between him 
+<lb/>and the universe of God. Think how 
+<lb/>his face shines with eternal joy as 
+<lb/>he apprehends the secrets of creation. 
+<lb/>If he had had a stronger body and 
+<lb/>tougher health, he would doubtless 
+<lb/>have lost in delicacy of perception 
+<lb/>and acute sensibility to all the
+<lb/>mysterious laws and results of Nature. 
+<lb/>Also in living here among less
+<lb/>exalted persons <add hand="#SPHawthorne" place="supralinear">in his vocation</add> he might have 
+<lb/>finally<del hand="#SPHawthorne" type="overstrike"> merged </del>spirit in the matter 
+<lb/>that is <add hand="#SPHawthorne" place="supralinear"> also </add>so wonderful and fine. 
+<lb/>He was too susceptible of suffering for 
+<lb/>those who loved him vitally, to really 
+<lb/>enjoy his progress. I was always in
+<lb/>terror of the sudden breaking down 
+<lb/>of overtaxed brain and nerves.
+<lb/>I thank God he did not lose his 
+<lb/>reason under the pressure of his cares. 
+<lb/>Oh how much better that he should 
+<lb/>enter into endless Rest than to 
+<lb/>merely exist<add hand="#SPHawthorne" place="supralinear"> here </add> without use of reason. 
+<lb/>That would surely have broken our hearts.
+
+<!-- Page 4 -->
+<pb facs="/0/0d5b04f7-5fad-421e-a9e3-a3b283a7eadc"/>
+               
+<lb/> But he entered the mansion prepared 
+<lb/> for him in his <add place="supralinear" rend="caret" hand="#SPHawthorne">Heavenly</add> Father's House, living
+<lb/> and conscious through all his being. 
+<lb/> Were not the words he first heard 
+<lb/><q>well done, <add place="supralinear" rend="caret" hand="#SPHawthorne">Thou 
+  good and </add>faithful servant. Thou hast 
+<lb/> been faithful over a few things. I will 
+<lb/> make thee ruler over many things!
+<lb/> Enter thou into the joy of thy Lord.<ptr type="noteAnchor" target="joy"/><note resp="ed" xml:id="joy">Matt. 25:21.</note>
+<lb/> For has not he gained five talents 
+<lb/> more than the five which the Lord 
+<lb/> delivered unto him?</q><ptr type="noteAnchor" target="five"/><note resp="ed" xml:id="five">Matt. 25:21.</note> Did he ever 
+<lb/> fold one in a napkin? When his 
+<lb/> mother's first agony of separation is 
+<lb/> over, his noble life will come back 
+<lb/> to her like an angel of consolation —; 
+<lb/> and she will feel rewarded in a 
+<lb/> celestial way for her truly divine 
+<lb/> care and sympathy with him. One in 
+<lb/> a thousand mothers is she, and it 
+<lb/> would indeed be a pity to part such 
+<lb/> love. <hi rend="underscore">It is not parted</hi>— oh non —; His 
+<lb/> gratitude on earth to her could never
+<lb/> reach his gratitude to her in heaven 
+<lb/> where he can better appreciate it and 
+<lb/> understand her single devotion to 
+<lb/> his highest good. And his father is 
+<lb/> there to receive and welcome him 
+<lb/> without a misgiving! For did not he 
+<lb/> rise to his father's most ardent 
+<lb/> prayers for him? I am comforting 
+<lb/> myself —; How I wish I could comfort 
+<lb/> Mary. God alone can speak to her. 
+<lb/> I do not know what it is to lose a son. 
+<lb/> God bless and help her, as He surely will.
+
+<!-- Page 5 -->
+<pb facs="/7/78991fa6-38c3-4481-9b11-32447f50b35f"/>
+               
+<lb/> Her remarkable fortitude will aid her 
+<lb/> now, and also her generous tenderness. 
+<lb/> I hope she will live for the others. 
+<lb/> She said once she wished to live till 
+<lb/> <persName ref="#BMann">Ben</persName> was 21. I hope she will not 
+<lb/> be drawn up into the blessed land 
+<lb/> after Horace, and I think she will
+<lb/> stay for the rest. She has such 
+<lb/> identity of life with her children, 
+<lb/> that I cannot conceive of their doing 
+<lb/> without her on earth. If <persName ref="#HMannjr">Horace</persName> could 
+<lb/> miss any thing in a state, the felicity 
+<lb/> of which eye hath not seen nor 
+<lb/> ear heard, it would be his mother's 
+<lb/> embracing care. But he has that 
+<lb/> still, and all else superadded, and
+<lb/> as I first exclaimed with sobs 
+<lb/> and tears <q>He never will be tired any 
+<lb/> more!</q> Human power could never
+<lb/> compass what he meant to do, and 
+<lb/> not to disappoint him, His Heavenly 
+<lb/> Father took him from earthly 
+<lb/> obstacles and constant suffering, 
+<lb/> where he can never more be cold 
+<lb/> nor weary nor interrupted in his 
+<lb/> immortal course of knowledge 
+<lb/> and aspiration. Two witnesses 
+<lb/> have <persName ref="#GMann">George</persName> and <persName ref="#BMann">Ben</persName> now 
+<lb/> in heaven —; Two angels to watch and 
+<lb/> ward. I trust you have written 
+<lb/> again to tell me how they do and 
+<lb/> how they bear it. But of Mary 
+<lb/> I am most fearful, because she 
+<lb/> is frail, and had lately been so ill.
+
+<!-- Page 6 -->
+<pb facs="/4/4b724d88-f64e-45d2-88aa-a18b6193a0d5"></pb>
+               
+<lb/> She has such strength of endurance that 
+<lb/> I believe she will live here as long 
+<lb/> as she desires to live, because also 
+<lb/> her wish to live is so unselfish. 
+<lb/> She wishes to live for her children 
+<lb/> and not for herself. Perhaps by and
+
+<lb/> by I can write to her, but how could 
+<lb/> I speak to her now. I am dumb
+<lb/> before her in this terrible moment.</p>
+
+<p>
+<lb/> I think with satisfaction of what
+<lb/> is very trifling to others —; but not to 
+<lb/> me. It is that <persName ref="#HMannjr">Horace</persName> was always
+<lb/> very affectionate and sweet to me 
+<lb/> I remember his grasp of hand 
+<lb/> and his smile whenever I met 
+<lb/> him —-; and whenever he said <q>Aunt
+<lb/> Sophia</q>—; was always moved, each 
+<lb/> time, as if he first said it then. 
+<lb/> I also remember well what a respect 
+<lb/> and regard my husband had for 
+<lb/> him. He always liked to talk 
+<lb/> with him and to hear everything 
+<lb/> he said. His sincerity, seriousness
+<lb/> of purpose and varied knowledge 
+<lb/> and intelligence made him 
+<lb/> so attractive to Mr. Hawthorne —; 
+<lb/> and in his presence there was such 
+<lb/> a modest dignity of manners —; 
+<lb/> so thoughtful an air of 
+<lb/> conscientious consideration as 
+<lb/> was truly beautiful.
+
+<!-- Page 7 -->
+<pb facs="/8/81b1ca71-abaa-43b5-a68c-8248df626c64"></pb>
+               
+<lb/> I believe the last time I saw him 
+<lb/> in Concord was when he came in
+<lb/> loaded with lovely arethusas —; and 
+<lb/> presented me with a radiant 
+<lb/> sheaf of them. I was always thankful 
+<lb/> to see him come —; but how seldom 
+<lb/> he came. I felt he could not waste 
+<lb/> his time, for seldom anyone so 
+<lb/> impressed me with the value of 
+<lb/> moments. He never wasted any
+<lb/> time! What a marvel! Not since 
+<lb/> childhood, when he began to try 
+<lb/> chemic experiments. How thoroughly 
+<lb/> he obeyed the command<q>Work while 
+<lb/> it is day —</q>;</p>
+
+<p>
+<lb/> When he came home from the 
+<lb/> Sandwich Islands, there was a knot of 
+<lb/> pain on his brow, which did not wear 
+<lb/> quite away till I saw the seal of
+<lb/> death take its place. I always 
+<lb/> wondered what had troubled him. 
+<lb/> Perhaps he has now told his mother —; 
+<lb/> but I am sure he had some great 
+<lb/> trouble which he thought best to 
+<lb/> keep to himself. I sometimes 
+<lb/> thought I would ask him to tell 
+<lb/> me, as he might be reluctant to 
+<lb/> disturb his mother —; for I thought 
+<lb/> he would feel better to relieve 
+<lb/> himself of it, whatever he was. 
+<lb/> It is no matter now —-; for when
+<lb/> the golden gate turned <add place="supralinear" rend="caret">back</add> on its
+
+<!-- Page 8 -->
+<pb facs="/0/03ab98df-8b0e-4214-b3a5-b0c5bb8e75b2"/>
+               
+<lb/><gap extent="one letter" reason="inkblot"/>inges, and shut him in from
+<lb/> the world, all cares were left
+<lb/> outside, and his brow now is <gap extent="one word" reason="cancelled and illegible" rend="overwritten"/>
+ <add hand="#SPHawthorne" place="supralinear">smooth</add>
+<lb/> with peace. I begin today to be
+<lb/> conscious of his peace —; I could think
+<lb/> of only Mary's loss and the loss of
+<lb/> us all at first. Today I have written
+<lb/> myself into an ecstasy with his gain
+<lb/> and relief and I wish I could know
+<lb/> soon about Mary. No doubt a letter
+<lb/> is on its way to me now. This one
+<lb/> of yours may have been at Thode's
+<lb/> a few days. Do not send any more
+<lb/> to the Bankers. 46 <hi rend="underscore">B</hi>
+ <foreign xml:lang="ger">Bautzner
+<lb/> Strasse</foreign> is my address. The Postman
+<lb/> is a nice man, and every thing is safe
+<lb/> with him. I suppose the Bankers
+<lb/> cannot send letters about. </p>
+
+<p>
+<lb/> I do not incline to write or think
+<lb/> of any thing but Horace and Mary.
+<lb/> You have received four letters from me
+<lb/> before this time —; the three last were
+<lb/> announcements. I will write again
+<lb/> We are all well, and happy to be here.
+<lb/> I should like some money very much. I
+<lb/> was to have some from <orgName ref="#Ticknor">Ticknor &amp; Fields</orgName>
+  <lb/> in November for the former booksptr type="noteAnchor" target="notebooks"/><note resp="ed" xml:id="notebooks">Nathaniel Hawthorne's 
+    <title level="m">American Notebooks</title>, published by Ticknor
+    and Fields, that Sophia felt she was not being properly compensated for.
+    <bibl>GALE 169</bibl>.</note>—; But I hear
+<lb/> the firm is dissolved. If so, perhaps I
+<lb/> am without redress. I wish <persName ref="#GHillard">Mr Hillard</persName>
+<lb/> could send my January dividend so I
+<lb/> can have it by 1st January. What he
+<lb/> is <hi rend="underscore">sure</hi> of<unclear reason="unclear punctuation">.</unclear>he can advance me perhaps.
+<lb/> All send love and deep sympathy. We are at
+
+<!-- Page 8 continued. -->
+<pb facs="/a/adcfc98f-f4da-419a-9ab8-f56124a153a0"/>
+               
+<lb/> <add hand="#SPHawthorne" place="margin">housekeeping since 19th November and taking German lessons. Goodbye</add>
+</p>
           <!-- REPLACE WITH CLOSER AND SIGNATURE INFORMATION FROM LETTER -->
           <closer>
-            <lb/><salute>Your affectionate</salute>
-            <lb/><rs ref="#SPH">Sister</rs> <signed><persName ref="#SPH">Sophia</persName></signed>
-          </closer>
+            <lb/><salute><add hand="#SPHawthorne" place="Left margin">Yours and Mary's loving sister</add></salute><signed> <persName ref="#SPHawthorne">Sophia</persName></signed>
+           </closer>
           <!-- If there were a <postscript>, we have a tag for that. -->
+          <postscript>
+            <p>
+              <lb/><add hand="#SPHawthorne" place="margin">Do not write the <hi rend="underscore">A</hi> in my name, because I write it here 
+                Sophia Hawthorne 
+              <lb/> only. <persName ref="#RHawthorne">Rose</persName> wrote to you last week. </add>
+              <lb/> <add hand="#SPHawthorne" place="margin">PS. The postage is 10 cents to Dresden</add> 
+            </p>
+          </postscript>
         </div>
-        <div type="address_and_postmarks">
-          <pb facs="XXX.jpg"/>
-          <ab type="postalAddress">
-            <address>
-              <addrLine></addrLine>
-              <addrLine></addrLine>
-              <addrLine></addrLine>
-              <addrLine></addrLine>
-            </address>
-          </ab>
-          <ab type="returnAddress">
-            <address>
-              <addrLine></addrLine>
-              <addrLine></addrLine>
-            </address>
-          </ab>
-          <ab>
-            <stamp type="date"></stamp>
-            <stamp type="postmark"></stamp>
-            <stamp type="cancellation"></stamp>
-            <stamp type="seal">
-              <figure></figure>
-            </stamp>
-          </ab>
-          <ab>
-            <figure></figure>
-          </ab>
-        </div>
-        
       </body>
     </text>
   </TEI>
