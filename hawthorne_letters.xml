@@ -158,17 +158,22 @@
                  <title level="m">American National Biography</title>. Oxford: Oxford UP, 2000. https://www-anb-org
                </bibl>
                <bibl xml:id="CEN" n="hawthorne_nathaniel">
-                 <author>Hawthorne, Nathaniel</author>
-                 <title level="m">The Centenary Edition of the Works of Nathaniel Hawthorne</title>
-                 <editor role="editor">Charvat, William, et al.</editor>
-                 <pubPlace>Columbus, Ohio</pubPlace>
-                 <publisher>Ohio State University Press</publisher>
-                 <date>1962</date>
+                 Hawthorne, Nathaniel. <title level="m">The Centenary Edition of the Works of Nathaniel Hawthorne</title>.
+                 Ed. William Charvat, et al. Columbus, Ohio: The Ohio State University Press, 1962.
                </bibl>
                <bibl xml:id="Mott" n="Mott">
                  <author >Mott, Wesley, T.</author>
                  <title level="a" >Taylor, Edward Thompson</title>
                  <title level="m" >American National Biography</title>. Oxford: Oxford UP, 2000.
+               </bibl>
+               <bibl xml:id="roma" n="roma">
+                 <title level="m">Roma: Guida D'Italia</title>. Touring Club Italiano. Milan:
+                 Settima Edizone, 1977.
+               </bibl>
+               <bibl xml:id="mcneil" n="mcneil">
+                 <author>McNeil, Russell</author>. <title level="a">Biography of John Flaxman</title>. 
+                 <title level="m">John Flaxman Biography site</title>. 1998–1999. 10 Mar 2003.
+                 http://www.malaspina.com/site/person_482.asp?period_id=none&amp;category_id=none
                </bibl>
                
              </listBibl>
@@ -236,7 +241,7 @@
          <particDesc>
            <listPerson type="mentioned">
              <head>People Mentioned in Sophia Hawthorne's Letters</head>
-             <person xml:id="SPH" source="ANB">
+             <person xml:id="SPHawthorne" source="ANB">
                <persName>Hawthorne, Sophia Peabody</persName>
                <note type="biographical">Married to Nathaniel Hawthorn</note>
                <birth when="1809-09-21"><placeName>Salem, Massachusetts</placeName></birth>
@@ -246,7 +251,7 @@
                </label></state>
                <bibl>Pennell</bibl>
              </person>
-             <person xml:id="EPP" source="ANB">
+             <person xml:id="EPPeabody" source="ANB">
                <persName>Peabody, Elizabeth Palmer</persName>
                <birth when="1804-05-16"><placeName>Billerica, Massachusetts</placeName></birth>
                <death when="1894-01-03"></death>
@@ -259,35 +264,35 @@
                <death when="1853"><placeName></placeName></death>
                <bibl>Turner 103</bibl>
              </person>
-             <person xml:id="AMA" source="CEN">
+             <person xml:id="AMAlcott" source="CEN">
                <persName>Alcott, Abigail May</persName>
                <note type="biographical"></note>
                <birth when="1800"><placeName></placeName></birth>
                <death when="1877"><placeName></placeName></death>
                <bibl><ref target="#CEN">18: 481</ref></bibl>
              </person>
-             <person xml:id="MTPM" source="CEN">
+             <person xml:id="MTPMann" source="CEN">
                <persName>Mann, Mary Tyler Peabody</persName>
                <note type="biographical"></note>
                <birth when="1807"><placeName></placeName></birth>
                <death when="1887"><placeName></placeName></death>
                <bibl><ref target="CEN">15: 25</ref></bibl>
              </person>
-             <person xml:id="ABA" source="ANB">
+             <person xml:id="ABAlcott" source="ANB">
                <persName>Alcott, Amos Bronson</persName>
                <note type="biographical"></note>
                <birth when="1799"><placeName></placeName></birth>
                <death when="1888"><placeName></placeName></death>
                <bibl><ref target="#ANB"></ref></bibl>
              </person>
-             <person xml:id="parker" source="ANB">
+             <person xml:id="TParker" source="ANB">
                <persName>Parker, Rev. Theodore</persName>
                <note type="biographical"></note>
                <birth when="1810"><placeName></placeName></birth>
                <death when="1860"><placeName></placeName></death>
                <bibl><ref target="#ANB"></ref></bibl>
              </person>
-             <person xml:id="taylor" source="CEN">
+             <person xml:id="ETTaylor" source="CEN">
                <persName>Taylor, Edward Thompson</persName>
                <note type="biographical">A Methodist preacher and minister for nearly forty years at the 
                  Seamen's Bethel, Boston, Massachusetts.</note>
@@ -295,35 +300,35 @@
                <death when="1871"><placeName></placeName></death>
                <bibl>CEN 15:421-22; Mott</bibl>
              </person>
-             <person xml:id="georgepeabody" source="CEN">
+             <person xml:id="GPeabody" source="CEN">
                <persName>Peabody, George Francis</persName>
                <note type="biographical">Sophia's brother, who suffered from spinal tuberculosis, died in Elizabeth's care on November 25, 1839, six days after the writing of this letter.</note>
                <birth when="1813"><placeName></placeName></birth>
                <death when="1839"><placeName></placeName></death>
                <bibl>CEN 15:360-375</bibl>
              </person>
-             <person xml:id="drpeabody" source="CEN">
+             <person xml:id="NPeabody" source="CEN">
                <persName>Peabody, Dr. Nathaniel</persName>
                <note type="biographical">Sophia's father.</note>
                <birth when="1774"><placeName></placeName></birth>
                <death when="1855"><placeName></placeName></death>
                <bibl>Turner 103</bibl>
              </person>
-             <person xml:id="sophiapickman" source="CEN">
+             <person xml:id="SPickman" source="CEN">
                <persName>Pickman, Sophia Palmer</persName>
                <note type="biographical"></note>
                <birth when="1786"><placeName></placeName></birth>
                <death when="1862"><placeName></placeName></death>
                <bibl>CEN 16:14</bibl>
              </person>
-             <person xml:id="AHBW" source="CEN">
+             <person xml:id="AHBWard" source="CEN">
                <persName>Ward, Anna Hazard Barker</persName>
                <note type="biographical"></note>
                <birth when="1813"><placeName></placeName></birth>
                <death when="1900"><placeName></placeName></death>
                <bibl>CEN 16:298</bibl>
              </person>
-             <person xml:id="EBbrowning" source="CEN">
+             <person xml:id="EBBrowning" source="CEN">
                <persName>Browning, Elizabeth Barrett</persName>
                <note type="biographical">Poet, wrote <title level="m">Sonnets from the Portugese</title> published in 1850, wife to Robert Browning.</note>
                <birth when="1806"><placeName></placeName></birth>
@@ -331,7 +336,7 @@
                <state from="1846" to="1861"><p>Married to Robert Browning</p></state>
                <bibl>CEN 16:520</bibl>
              </person>
-             <person xml:id="Rbrowning" source="CEN">
+             <person xml:id="RBrowning" source="CEN">
                <persName>Browning, Robert</persName>
                <note type="biographical">Poet, husband to poet Elizabeth Browning.</note>
                <birth when="1812-05-07"><placeName></placeName></birth>
@@ -339,14 +344,14 @@
                <state from="1846" to="1861"><p>Married to Elizabeth Barrett Browning</p></state>
                <bibl>CEN 15:87</bibl>
              </person>
-             <person xml:id="Mmotley" source="CEN">
+             <person xml:id="MMotley" source="CEN">
                <persName>Motley, Mary</persName>
                <note type="biographical">Wife of John Lothrop Motley</note>
                <birth when="1814"><placeName></placeName></birth>
                <death when="1877"><placeName></placeName></death>
                <bibl>CEN 18:174</bibl>
              </person>
-             <person xml:id="JLmotley" source="RDR">
+             <person xml:id="JLMotley" source="RDR">
                <persName>Motley, John Robert</persName>
                <note type="biographical">Diplomat and author of <title level="a">The Rise
                of the Dutch Republic</title> (1855).</note>
@@ -354,29 +359,43 @@
                <death when="1877-05-29"><placeName></placeName></death>
                <bibl></bibl>
              </person>
-             <person xml:id="CScushman" source="CEN">
+             <person xml:id="CSCushman" source="CEN">
                <persName>Cushman, Charlotte Saunders</persName>
-               <note type="biographical">actress, the first of her 
+               <note type="biographical">Actress, the first of her 
                  profession to be elected to the Hall of Fame for Great Americans in 1915.</note>
                <birth when="1816"><placeName></placeName></birth>
                <death when="1876"><placeName></placeName></death>
                <bibl>CEN 16:532</bibl>
              </person>
-             <person xml:id="Jhawthorne" source="CEN">
+             <person xml:id="JHawthorne" source="CEN">
                <persName>Hawthorne, Julian</persName>
                <note type="biographical">Sophia and Nathaniel Hawthorne's son.</note>
                <birth when="1816"><placeName></placeName></birth>
                <death when="1876"><placeName></placeName></death>
                <bibl>CEN 15:33</bibl>
              </person>
-             <person xml:id="Rhawthorne" source="CEN">
+             <person xml:id="UHawthorne" source="CEN">
+               <persName>Hawthorne, Una</persName>
+               <note type="biographical">Sophia and Nathaniel Hawthorne's daughter.</note>
+               <birth when="1844"><placeName></placeName></birth>
+               <death when="1877"><placeName></placeName></death>
+               <bibl>CEN 15:33</bibl>
+             </person>
+             <person xml:id="AShephard" source="CEN">
+               <persName>Shepard Ada</persName>
+               <note type="biographical">The Hawthorne children's governess.</note>
+               <birth when="1835"><placeName></placeName></birth>
+               <death when="1874"><placeName></placeName></death>
+               <bibl>CEN 16:298</bibl>
+             </person>
+             <person xml:id="RHawthorne" source="CEN">
                <persName>Hawthorne, Rose</persName>
                <note type="biographical">Sophia and Nathaniel Hawthorne's daughter.</note>
                <birth when="1851"><placeName></placeName></birth>
                <death when="1926"><placeName></placeName></death>
                <bibl>CEN 15:33</bibl>
              </person>
-             <person xml:id="Jflaxman" source="MGB">
+             <person xml:id="JFlaxman" source="MGB">
                <persName>Flaxman, John</persName>
                <note type="biographical">The principal representative 
                  of the classical tendency in English sculpture.</note>
@@ -1128,7 +1147,7 @@
       <body>
         <div type="letter" xml:id="SPH_1859-01-08_let">
           <!-- REPLACE WITH FILENAME FOR FIRST PAGE OF THE LETTER -->
-          <pb facs="Letter01_pg1"/>
+          <pb facs="/1/196aae78-c619-4c1d-af07-e32c2f35e5d4"/>
           <head type="letterhead"></head>
           <figure rend="link">
             <head></head>
@@ -1138,16 +1157,147 @@
           <lb/>
           <opener>
             <!-- REPLACE WITH INFO FROM NEW LETTER -->
-            <lb/><dateline><date when="1862-06-16"></date>June 16/62</dateline>
-            <lb/><salute>My Dear<rs type="recipient">Wife</rs></salute>
+            <lb/><dateline><placeName>Rome</placeName> <date when="1859-01-08"></date>January 8th 1859</dateline>
+            <lb/><add hand="#Unknown" place="below">Mrs H</add>
+            <lb/><salute>My Dear <persName ref="#EPPeabody">Elizabeth</persName></salute>
           </opener>
           <p>
-            <!-- TEXT OF THE LETTER GOES HERE -->
+              <lb/>I am really
+              <lb/>too tired to write a letter,
+              <lb/>but cannot bear to let a
+              <lb/>chance slip. <persName ref="#UHawthorne">Una</persName> has
+              
+              <lb/>written a sad letter which
+              <lb/>I fear will make your
+              <lb/>heart ache. I am glad
+              <lb/>to say that the Roman
+              <lb/>fever seems to have been
+              <lb/>arrested in her —; for she
+              <lb/>has had no chills for two
+              <lb/>days. She is a lily now,
+              <lb/>her lifelong roses snatched
+              <lb/>away, but during these
+              <lb/>two days I have thought
+              <lb/>to see a dawn of roses
+              <lb/>in her cheeks and lips,
+              <lb/>though she is now suffering
+              <lb/>from influenza.
+            
           </p>
+          <p>
+              
+              <lb/><persName ref="#AShephard">Ada</persName>'s fever is past. She
+              <lb/>is well of that today, but has
+              <lb/>a very painful shoulder —;
+              <lb/>and lies in bed still.
+              
+              <!-- Page 2 -->
+              <pb facs="/5/51bc2458-2f58-442d-b224-5525a57d8ce6"/>
+              
+              <lb/> I have had no moment to 
+              <lb/> write to you in all these 
+              <lb/> weeks —; having been ill 
+              <lb/> myself in the interval 
+              <lb/> of nursing others.  No Rome 
+              <lb/> this winter for us so far. 
+              <lb/> My journal is left in the 
+              <lb/> middle of a sentence, which 
+              <lb/> can never be recalled 
+              <lb/> now, <del type="overstrike" hand="SPH">though,</del> and I am 
+              <lb/> sorry, because I had an 
+              <lb/> idea of the <unclear>Faun</unclear> at that moment. 
+            </p>
+        
+            <p>
+              <lb/> Perhaps we shall have 
+              <lb/> February and March 
+              <lb/> for a little enjoyment 
+              <lb/> of Rome, and half of April. 
+              <lb/> Then we leave it for aye 
+              <lb/> and go to Venice and thence 
+              <lb/> to the cities in the north 
+              <lb/> of Italy &amp; to Geneva and 
+              <lb/> Paris. 
+            </p>
+            <p>
+              
+              <lb/><persName ref="#AHBWard">Mrs. Ward</persName> is here and I 
+              <lb/> have not had a moment 
+              <lb/> to go and see her.  But I had 
+              <lb/> a long note from her. She
+              
+              <!-- Page 3 -->
+              <pb facs="/e/e3971fc5-3142-4469-ab62-6adca0de01cd"/>
+              
+              <lb/> is very happy and content in her 
+              <lb/> sunny sky-parlor in the Hotel 
+              <lb/> d'Angliterre — <q>with no cares, no 
+              <lb/> anxieties, only hopes</q> she says. 
+              <lb/> She suffered terribly from the 
+              <lb/> severe treatment of <persName>Dr Simpson</persName>
+              <lb/> but expects to feel benefit 
+              <lb/> next summer from it. 
+              <lb/> Neither have I been able to see 
+              <lb/> once <persName ref="#EBBrowning">Mrs Browning</persName>, and 
+              <lb/> only once <persName ref="#RBrowning">Mr Browning</persName> who 
+              <lb/> has been three times to see 
+              <lb/> us.  <persName ref="#EBBrowning">Mrs Browning</persName> does not 
+              <lb/> make visits. <persName ref="#MMotley">Mary Motley</persName>
+              <lb/> I see here sometimes.  I 
+              <lb/> have read the Dutch Republic<ptr type="noteAnchor" target="dutch"/><note resp="ed" xml:id="dutch">Note about <title level="m">The Dutch Republic</title>.<bibl></bibl>.</note>
+             <lb/> during my watches, and the 
+              <lb/> book is superb, I think. 
+              <lb/> <persName ref="#CSCushman">Miss Cushman</persName> has been here, 
+              <lb/> but I could not see her. 
+              <lb/> <persName ref="#NHawthorne">Mr. Hawthorne</persName> saw her. 
+              <lb/> No society for me this winter. 
+              <lb/> <persName type="nickname" ref="#RHawthorne">Rosebud</persName> is exquisitely good 
+              <lb/> generous and considerate in 
+              <lb/> these times, but I can give 
+              <lb/> you no Altar of Roses now. 
+              <lb/> <persName ref="#NHawthorne">Mr. Hawthorne</persName> is quite 
+              <lb/> well.  Here is cause for 
+              <lb/> great joy — for last winter he 
+              
+              <!-- Page 4 -->
+              <pb facs="/c/ca08174b-ea5d-450a-8de1-35f29885e224"/>
+              
+              <lb/> had the Grippe three months. 
+              <lb/> <persName ref="#JHawthorne">Julian</persName> also is well with 
+              <lb/> only slight nose cold. 
+              <lb/> <persName ref="#RHawthorne">Rose</persName> has today gone to 
+              <lb/> the <placeName>Palazzo Galitzin</placeName><ptr type="noteAnchor" target="galitzin"/><note resp="ed" xml:id="galitzin">
+                A fashionable district in the 19th century located in the 
+                center of Rome, just off the Tiber in Via della Scrofia #117 <bibl>ROM 208-209</bibl>.</note> to see 
+              <lb/><persName>the Westons</persName>, who delight in 
+              <lb/> her.  She draws with a 
+              <lb/> wonderful expression. 
+              <lb/> <placeName ref="#JHawthorne">Julian</placeName> copies <persName ref="#JFlaxman">Flaxman</persName>
+              <lb/> <foreign xml:lang="fr">a merveille</foreign>.
+            </p>
+            
+            <p>
+              <lb/> I long to answer all 
+              <lb/> your letters one by one — 
+              <lb/> and I long to tell you much. 
+              <lb/> I have sent some letters 
+              <lb/> of Una to you and Mary 
+              <lb/> lately.  I never got 
+              <lb/> yours and Mary's letters 
+              <lb/> directed to Florence.  Though 
+              <lb/> Mr. Browning has written 
+              <lb/> about <del type="overwritten" cert="medium">?</del>them to the Post Office 
+              <lb/> they do not come.  I have 
+              <lb/> lost all your account of dear 
+              <lb/> <persName ref="#RWesselhoeft">Dr. Wesselhoeft</persName>. I endure 
+              <lb/> astonishingly through all 
+              <lb/> things.  Goodbye with 
+              <lb/> thousand blessings<unclear>.</unclear> 
+            </p>
           <!-- REPLACE WITH CLOSER AND SIGNATURE INFORMATION FROM LETTER -->
           <closer>
-            <lb/><salute>Your affectionate</salute>
-            <lb/><rs ref="#SPH">Sister</rs> <signed><persName ref="#SPH">Sophia</persName></signed>
+            <lb/><salute>Yours ever</salute>
+            <lb/><signed><persName ref="#SPHawthorne">Sophia</persName></signed>
           </closer>
           <!-- If there were a <postscript>, we have a tag for that. -->
         </div>
