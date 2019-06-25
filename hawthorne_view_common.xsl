@@ -87,18 +87,18 @@
             <div class="masthead">
                <div id="navigation">
                   <ul class="nav">
-                     <li class="link"><a class="main"  href="./stephens_letters.html#StephensIntroduction">Historical Introduction</a>
+                     <li class="link"><a class="main"  href="./hawthorne_letters.html#HawthorneIntroduction">Historical Introduction</a>
                         <ul class="sub">
-                           <li><a href="./stephens_letters.html#letters">Letters and Letter Writing</a></li>
-                           <li><a href="./stephens_letters.html#west">Tourism and Commerce</a></li>
+                           <li><a href="./hawthorne_letters.html#letters">Letters and Letter Writing</a></li>
+                           <li><a href="./hawthorne_letters.html#west">Tourism and Commerce</a></li>
                         </ul>
                      </li>
                      <li class="link"><a class="main"  href="./stephens_letters.html#projectDescription">Editorial Introduction</a>
                         <ul class="sub">
-                           <li><a href="./stephens_letters.html#projectDescription">Project Description</a></li>
-                           <li><a href="./stephens_letters.html#source">The Source Document</a></li>
-                           <li><a href="./stephens_letters.html#edition">The Electronic Edition</a></li>
-                           <li><a href="./stephens_letters.html#revision">Revision History</a></li>
+                           <li><a href="./hawthorne_letters.html#projectDescription">Project Description</a></li>
+                           <li><a href="./hawthorne_letters.html#source">The Source Document</a></li>
+                           <li><a href="./hawthorne_letters.html#edition">The Electronic Edition</a></li>
+                           <li><a href="./hawthorne_letters.html#revision">Revision History</a></li>
                         </ul>
                      </li>
                      <li class="link"><a class="main"  href="">Views of the Diary</a>
@@ -110,27 +110,27 @@
                      </li>
                      <li class="link"><a class="main"  href="">Appendices</a>
                         <ul class="sub">
-                           <li><a href="./appendices-stephens_markup.html">Markup Guidelines</a></li>
-                           <li><a href="./appendices-stephens_hand.html">Guide to Cox's Hand</a></li>
-                           <li><a href="./appendices-stephens_msimages.html">Images of the MS Pages</a></li>
-                           <li><a href="./appendices-stephens_maps.html">Maps</a></li>
-                           <li><a href="./stephens_letters.html#worksCited">Works Cited</a></li>
-                           <li><a href="./stephens_letters.html#revision">Revision History</a></li>
-                           <li><a href="./appendices-stephens_acknowledgements.html">Acknowledgements</a></li>
-                           <li><a href="./appendices-stephens_editors.html">About the Editors</a></li>
+                           <li><a href="./hawthorne_appendices_markup.html">Markup Guidelines</a></li>
+                           <li><a href="./hawthorne_appendices_hand.html">Guide to Cox's Hand</a></li>
+                           <li><a href="./hawthorne_appendices_msimages.html">Images of the MS Pages</a></li>
+                           <li><a href="./hawthorne_appendices_maps.html">Maps</a></li>
+                           <li><a href="./hawthorne_letters.html#worksCited">Works Cited</a></li>
+                           <li><a href="./hawthorne_letters.html#revision">Revision History</a></li>
+                           <li><a href="./hawthorne_appendices_acknowledgements.html">Acknowledgements</a></li>
+                           <li><a href="./hawthorne_appendices_editors.html">About the Editors</a></li>
                         </ul>
                      </li>
                      <li class="link"><a class="main"  href="">Source Files</a>
                         <ul class="sub">
-                           <li><a href="./StephensCorpus.xml">TEI: Source Markup</a></li>
-                           <li><a href="./Stephens-Common.xsl">XSL: Base Stylesheet</a></li>
-                           <li><a href="./Stephens_Diplomatic.xsl">XSL: MS Page View</a></li>
-                           <li><a href="./Stephens_Reading.xsl">XSL: Entry View</a></li>
-                           <li><a href="./Stephens_CombinedView.xsl">XSL: Text/Facs View</a></li>
-                           <li><a href="./Stephens_Edintro.xsl">XSL: Ed. Intro</a></li>
-                           <li><a href="./Stephens-CommonCSS.css">CSS: Style Sheet</a></li>
-                           <li><a href="./stephens_letters.odd.txt">ODD: TEI Customization</a></li>
-                           <li><a href="./stephens_letters.rng.txt">RNG: Schema</a></li>
+                           <li><a href="./hawthorne_letters.xml">TEI: Source Markup</a></li>
+                           <li><a href="./hawthorne_view_common.xsl">XSL: Base Stylesheet</a></li>
+                           <li><a href="./hawthorne_view_diplomatic.xsl">XSL: MS Page View</a></li>
+                           <li><a href="./hawthorne_view_reading.xsl">XSL: Entry View</a></li>
+                           <li><a href="./hawthorne_view_splitview.xsl">XSL: Text/Facs View</a></li>
+                           <li><a href="./hawthorne_view_edintro.xsl">XSL: Ed. Intro</a></li>
+                           <li><a href="./hawthorne_letters.css">CSS: Style Sheet</a></li>
+                           <li><a href="./hawthorne_letters.odd.txt">ODD: TEI Customization</a></li>
+                           <li><a href="./hawthorne_letters.rng.txt">RNG: Schema</a></li>
                         </ul>
                      </li>
                   </ul> <!-- End ul class nav -->
@@ -148,26 +148,27 @@
             <div id="navBar">
                
                <div id="display1"><!-- Begin display1 -->
-                  <button class="modalb" id="b1"><img id="myImg1" src="image_sscox_portrait.jpg" alt="Portrait of Samuel Sullivan Cox (undated). Frontispiece. Cox and Northrup, 1899." title="Portrait of Samuel Sullivan Cox (undated)" width="100"/></button>
+                  <button class="modalb" id="b1"><img id="myImg1" src="image_Sophia_Peabody_Hawthorne.jpg" alt="Portrait of Sophia Peabody Hawthorne (ca. 1845)." title="Portrait of Sophia Peabody Hawthorne (ca. 1845)" width="100"/></button>
                   <div id="myModal1" class="modal">
-                     <a href="image_sscox_portrait_longdesc.html" class="description">[Description]</a><br/>
+                     <a href="image_Sophia_Peabody_Hawthorne_longdesc.html" class="description">[Description]</a><br/>
                      <button class="modalb close" onclick="document.getElementById('myModal1').style.display='none'">[Close]</button>
-                     <img class="modal-content" id="img1" src="image_sscox_portrait.jpg" alt="Portrait of Samuel Sullivan Cox (undated). Frontispiece. Cox and Northrup, 1899"/>
+                     <img class="modal-content" id="img1" src="image_Sophia_Peabody_Hawthorne.jpg" alt="Portrait of Sophia Peabody Hawthorne (ca. 1845)."/>
                      <div id="caption1">
-                        Portrait of Samuel Sullivan Cox (undated)<br>Frontispiece. Cox and Northrup, 1899</br>
+                        Portrait of Sophia Peabody Hawthorne (ca. 1845).
+                        <br/>Frontispiece, Nathaniel Hawthorne and His Wife: A Biography, Vol. II (1891), by Julian Hawthorne 
                      </div>
                   </div> <!-- End myModal1 -->
                </div> <!-- End display1 -->
                
                <!-- Begin display2 -->
                <div id="display2">
-                  <button class="modalb" id="b2"><img id="myImg2" src="image_sscox_1854_DecorativeTitle.jpg" alt="Decorative Title Page from A Buckeye Abroad (1854)." title="Decorative Title Page from A Buckeye Abroad (1854)" width="100"/></button>
+                  <button class="modalb" id="b2"><img id="myImg2" src="image_Elizabeth_Palmer_Peabody.jpg" alt="Portrait of Elizabeth Palmer Peabody (ca. 1894)." title="Portrait of Elizabeth Palmer Peabody (ca. 1894)" width="100"/></button>
                   <div id="myModal2" class="modal">
-                     <a href="image_sscox_1854_DecorativeTitle_longdesc.html" class="description">[Description]</a><br/>
+                     <a href="image_Elizabeth_Palmer_Peabody_longdesc.html" class="description">[Description]</a><br/>
                      <button class="modalb close" onclick="document.getElementById('myModal2').style.display='none'">[Close]</button>
-                     <img class="modal-content" id="img2" src="image_sscox_1854_DecorativeTitle.jpg" alt="Decorative Title Page from A Buckeye Abroad (1854)"/>
+                     <img class="modal-content" id="img2" src="image_Elizabeth_Palmer_Peabody.jpg" alt="Portrait of Elizabeth Palmer Peabody (ca. 1894)."/>
                      <div id="caption2">
-                        Decorative Title Page<br>from <cite>A Buckeye Abroad</cite>. Cincinnati: Moore, Anderson, 1854</br>
+                        Portrait of Elizabeth Palmer Peabody (ca. 1894).<br>Library of Congress Prints and Photographs Online Catalog</br>
                      </div>
                   </div> <!-- End myModal2 -->
                   <script>		
@@ -196,13 +197,13 @@
                
                <!-- Begin display3 -->         
                <div id="display3">
-                  <button class="modalb" id="b3"><img id="myImg3" src="image_sscox_rmsAsia.jpg" alt="Royal Mail Steam Ship Asia. New York: N. Currier, 1851" title="Royal Mail Steam Ship Asia" width="100"/></button>
+                  <button class="modalb" id="b3"><img id="myImg3" src="image_Mary_Peabody_Mann.jpg" alt="Portrait of Mary Tyler Peabody Mann (undated)" title="Portrait of Mary Tyler Peabody Mann (undated)" width="100"/></button>
                   <div id="myModal3" class="modal">
-                     <a href="image_sscox_rmsAsia_longdesc.html" class="description">[Description]</a><br/>
+                     <a href="image_Mary_Peabody_Mann_longdesc.html" class="description">[Description]</a><br/>
                      <button class=" modalb close" onclick="document.getElementById('myModal3').style.display='none'">[Close]</button>
-                     <img class="modal-content" id="img3" src="image_sscox_rmsAsia.jpg" alt="Royal Mail Steam Ship Asia. New York: N. Currier, 1851"/>
+                     <img class="modal-content" id="img3" src="image_Mary_Peabody_Mann.jpg" alt="Portrait of Mary Tyler Peabody Mann (undated)"/>
                      <div id="caption3">
-                        Royal Mail Steamship Asia<br/>New York: N. Currier, 1851<br>Library of Congress https://www.loc.gov/pictures/item/2001704213/</br>
+                        Portrait of Mary Tyler Peabody Mann (undated)<br/>The Bostonian v.3, no.4, Jan. 1896
                      </div>
                   </div> <!-- End myModal3 -->
                   <script>
@@ -233,13 +234,15 @@
                <!-- Begin display4 -->
                
                <div id="display4">
-                  <button class="modalb" id="b4"><img id="myImg4" src="image_sscox_illus_PoetsCorner.jpg" alt="Poet's Corner, Westminster Abbey. Illustration from A Buckeye Abroad (1854)" title="Poet's Corner, Westminster Abbey. Illustration from A Buckeye Abroad (1854)" width="100"/></button>
+                  <button class="modalb" id="b4"><img id="myImg4" src="image_Hawthorne_children.jpg" alt="Una, Julian, and Rose Hawthorne, ca. 1862" title="Una, Julian, and Rose Hawthorne, ca. 1862" width="100"/></button>
                   <div id="myModal4" class="modal">
-                     <a href="image_sscox_illus_PoetsCorner_longdesc.html" class="description">[Description]</a><br/>
+                     <a href="image_Hawthorne_children_longdesc.html" class="description">[Description]</a><br/>
                      <button class="modalb close" onclick="document.getElementById('myModal4').style.display='none'">[Close]</button>
-                     <img class="modal-content" id="img4" src="image_sscox_illus_PoetsCorner.jpg" alt="Poet's Corner, Westminster Abbey. Illustration from A Buckeye Abroad (1854)."/>
+                     <img class="modal-content" id="img4" src="image_Hawthorne_children.jpg" alt="Una, Julian, and Rose Hawthorne, ca. 1862"/>
                      <div id="caption4">
-                        Poet's Corner, Westminster Abbey.<br/>Illustration from <cite>A Buckeye Abroad</cite><br/>Cincinnati: Moore, Anderson, 1854.
+                        Photograph of Una, Julian, and Rose, Hawthorne's children, ca. 1862<br/>
+                        Photograph by Silsbee and Case<br/>
+                        http://www.hawthorneinsalem.org/images/image.php?name=MMD368
                      </div> <!-- End myModal4 -->
                      <script>
                         
@@ -267,9 +270,11 @@
                   </div> <!-- End modal4 -->
                </div> <!-- End display 4 -->
                
-               <!-- Begin display5 -->
                
-               <div id="display5">
+               <!-- Begin display5 -->
+               <!-- 
+                  
+                  <div id="display5">
                   <button class="modalb" id="b5"><img id="myImg5" src="image_sscox_illus_Pompeii.jpg" alt="A Villa in Pompeii. Illustration from A Buckeye Abroad (1854)" title="A Villa in Pompeii. Illustration from A Buckeye Abroad (1854)" width="100"/></button>
                   <div id="myModal5" class="modal">
                      <a href="image_sscox_illus_Pompeii_longdesc.html" class="description">[Description]</a><br/>
@@ -278,7 +283,7 @@
                      <div id="caption5">
                         A Villa in Pompeii<br/>Illustration from <cite>A Buckeye Abroad</cite> <br/>Cincinnati: Moore, Anderson, 1854
                      </div>
-                  </div> <!-- End myModal5 -->
+                  </div> <!-\- End myModal5 -\->
                   <script>
                      
                      // Get the modal
@@ -302,7 +307,9 @@
                      modal5.style.display = "none";
                      }
                   </script>
-               </div> <!-- End display5 -->
+               </div>
+               --> 
+               <!-- End display5 -->
                <script>
                   // Get the first modal
                   var modal1 = document.getElementById('myModal1');
