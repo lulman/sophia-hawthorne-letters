@@ -155,7 +155,7 @@
                      <img class="modal-content" id="img1" src="image_Sophia_Peabody_Hawthorne.jpg" alt="Portrait of Sophia Peabody Hawthorne (ca. 1845)."/>
                      <div id="caption1">
                         Portrait of Sophia Peabody Hawthorne (ca. 1845).
-                        <br/>Frontispiece, Nathaniel Hawthorne and His Wife: A Biography, Vol. II (1891), by Julian Hawthorne 
+                        <br/>Frontispiece, <cite>Nathaniel Hawthorne and His Wife: A Biography</cite>, Vol. II (1891),<br/> by Julian Hawthorne 
                      </div>
                   </div> <!-- End myModal1 -->
                </div> <!-- End display1 -->
@@ -203,7 +203,7 @@
                      <button class=" modalb close" onclick="document.getElementById('myModal3').style.display='none'">[Close]</button>
                      <img class="modal-content" id="img3" src="image_Mary_Peabody_Mann.jpg" alt="Portrait of Mary Tyler Peabody Mann (undated)"/>
                      <div id="caption3">
-                        Portrait of Mary Tyler Peabody Mann (undated)<br/>The Bostonian v.3, no.4, Jan. 1896
+                        Portrait of Mary Tyler Peabody Mann (undated)<br/><cite>The Bostonian</cite> v.3, no.4, Jan. 1896
                      </div>
                   </div> <!-- End myModal3 -->
                   <script>
