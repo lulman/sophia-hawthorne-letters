@@ -130,50 +130,55 @@
             <div class="masthead">
                <div id="navigation">
                   <ul class="nav">
-                     <li class="link"><a class="main"  href="./anderson_letters.html#AndersonIntroduction">Historical Introduction</a>
+                     <li class="link"><a class="main"  href="./hawthorne_letters.html#HawthorneIntro">Historical Introduction</a>
                         <ul class="sub">
-                           <li><a href="./anderson_letters.html#letters">Letters and Letter Writing</a></li>
-                           <li><a href="./anderson_letters.html#west">Tourism and Commerce</a></li>
+                           <!-- 
+                           <li><a href="./hawthorne_letters.html#letters">Letters and Letter Writing</a></li>
+                           <li><a href="./hawthorne_letters.html#west">Tourism and Commerce</a></li>
+-->                        
                         </ul>
                      </li>
-                     <li class="link"><a class="main"  href="./stephens_letters.html#projectDescription">Editorial Introduction</a>
+                     <li class="link"><a class="main"  href="./hawthorne_letters.html#projectDescription">Editorial Introduction</a>
                         <ul class="sub">
-                           <li><a href="./anderson_letters.html#projectDescription">Project Description</a></li>
-                           <li><a href="./anderson_letters.html#source">The Source Document</a></li>
-                           <li><a href="./anderson_letters.html#edition">The Electronic Edition</a></li>
-                           <li><a href="./anderson_letters.html#revision">Revision History</a></li>
+                           <li><a href="./hawthorne_letters.html#projectDescription">Project Description</a></li>
+                           <li><a href="./hawthorne_letters.html#source">The Source Document</a></li>
+                           <li><a href="./hawthorne_letters.html#edition">The Electronic Edition</a></li>
+                           <li><a href="./hawthorne_letters.html#revision">Revision History</a></li>
                         </ul>
                      </li>
                      <li class="link"><a class="main"  href="">Views of the Diary</a>
                         <ul class="sub">
-                           <li><a href="./anderson_reading.html">By Letter</a></li>
-                           <li><a href="./anderson_diplomatic.html">By MS Page</a></li>
-                           <li><a href="./anderson_combined.html">Facsimile/Text</a></li>
+                           <li><a href="./hawthorne_reading.html">By Letter</a></li>
+                           <li><a href="./hawthorne_diplomatic.html">By MS Page</a></li>
+                           <li><a href="./hawthorne_splitview.html">Facsimile/Text</a></li>
                         </ul>
                      </li>
                      <li class="link"><a class="main"  href="">Appendices</a>
                         <ul class="sub">
-                           <li><a href="./appendices-anderson_markup.html">Markup Guidelines</a></li>
-                           <li><a href="./appendices-anderson_hand.html">Guide to Cox's Hand</a></li>
-                           <li><a href="./appendices-anderson_msimages.html">Images of the MS Pages</a></li>
-                           <li><a href="./appendices-anderson_maps.html">Maps</a></li>
-                           <li><a href="./anderson_letters.html#worksCited">Works Cited</a></li>
-                           <li><a href="./anderson_letters.html#revision">Revision History</a></li>
-                           <li><a href="./appendices-anderson_acknowledgements.html">Acknowledgements</a></li>
-                           <li><a href="./appendices-anderson_editors.html">About the Editors</a></li>
+                           <li><a href="./hawthorne_appendices_markup.html">Markup Guidelines</a></li>
+                           <li><a href="./hawthorne_appendices_hand.html">Guide to Hawthorne's Hand</a></li>
+                           <li><a href="./hawthorne_appendices_msimages.html">Images of the MS Pages</a></li>
+                           <li><a href="./hawthorne_appendices_maps.html">Maps</a></li>
+                           <li><a href="./hawthorne_letters.html#worksCited">Works Cited</a></li>
+                           <li><a href="./hawthorne_letters.html#peopleMentioned">People Mentioned</a></li>
+                           <li><a href="./hawthorne_letters.html#placesMentioned">Places Mentioned</a></li>
+                           <li><a href="./hawthorne_letters.html#organizationsMentioned">Organizations Mentioned</a></li>
+                           <li><a href="./hawthorne_letters.html#revision">Revision History</a></li>
+                           <li><a href="./hawthorne_appendices_acknowledgements.html">Acknowledgements</a></li>
+                           <li><a href="./hawthorne_appendices_editors.html">About the Editors</a></li>
                         </ul>
                      </li>
                      <li class="link"><a class="main"  href="">Source Files</a>
                         <ul class="sub">
-                           <li><a href="./AndersonCorpus.xml">TEI: Source Markup</a></li>
-                           <li><a href="./Anderson-Common.xsl">XSL: Base Stylesheet</a></li>
-                           <li><a href="./Anderson_Diplomatic.xsl">XSL: MS Page View</a></li>
-                           <li><a href="./Anderson_Reading.xsl">XSL: Entry View</a></li>
-                           <li><a href="./Anderson_CombinedView.xsl">XSL: Text/Facs View</a></li>
-                           <li><a href="./anderson_Edintro.xsl">XSL: Ed. Intro</a></li>
-                           <li><a href="./anderson-letters.css">CSS: Style Sheet</a></li>
-                           <li><a href="./anderson_letters.odd.txt">ODD: TEI Customization</a></li>
-                           <li><a href="./anderson_letters.rng.txt">RNG: Schema</a></li>
+                           <li><a href="./hawthorne_letters.xml">TEI: Source Markup</a></li>
+                           <li><a href="./hawthorne_view_common.xsl">XSL: Base Stylesheet</a></li>
+                           <li><a href="./hawthorne_view_diplomatic.xsl">XSL: MS Page View</a></li>
+                           <li><a href="./hawthorne_view_reading.xsl">XSL: Entry View</a></li>
+                           <li><a href="./hawthorne_view_splitview.xsl">XSL: Text/Facs View</a></li>
+                           <li><a href="./hawthorne_view_edintro.xsl">XSL: Ed. Intro</a></li>
+                           <li><a href="./hawthorne_letters.css">CSS: Style Sheet</a></li>
+                           <li><a href="./hawthorne_letters.odd.txt">ODD: TEI Customization</a></li>
+                           <li><a href="./hawthorne_letters.rng.txt">RNG: Schema</a></li>
                         </ul>
                      </li>
                   </ul> <!-- End ul class nav -->
@@ -181,36 +186,37 @@
                
                <div id="titleBar">
                   <p align="center"><span class="projectTitle"><xsl:apply-templates
-                     select="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/></span><br/></p>
+                     select="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/></span><br/><br/></p>
                   <hr/>
                </div> <!-- END titleBar -->
             </div> <!-- END masthead -->
        
             <!-- BUILD THE VERTICAL IMAGE BAR -->
-       
+            
             <div id="navBar">
-                
+               
                <div id="display1"><!-- Begin display1 -->
-                  <button class="modalb" id="b1"><img id="myImg1" src="image_sscox_portrait.jpg" alt="Portrait of Samuel Sullivan Cox (undated). Frontispiece. Cox and Northrup, 1899." title="Portrait of Samuel Sullivan Cox (undated)" width="100"/></button>
-                     <div id="myModal1" class="modal">
-                        <a href="image_sscox_portrait_longdesc.html" class="description">[Description]</a><br/>
-                        <button class="modalb close" onclick="document.getElementById('myModal1').style.display='none'">[Close]</button>
-                        <img class="modal-content" id="img1" src="image_sscox_portrait.jpg" alt="Portrait of Samuel Sullivan Cox (undated). Frontispiece. Cox and Northrup, 1899"/>
-                        <div id="caption1">
-                           Portrait of Samuel Sullivan Cox (undated)<br>Frontispiece. Cox and Northrup, 1899</br>
-                        </div>
-                     </div> <!-- End myModal1 -->
+                  <button class="modalb" id="b1"><img id="myImg1" src="image_Sophia_Peabody_Hawthorne.jpg" alt="Portrait of Sophia Peabody Hawthorne (ca. 1845)." title="Portrait of Sophia Peabody Hawthorne (ca. 1845)" width="100"/></button>
+                  <div id="myModal1" class="modal">
+                     <a href="image_Sophia_Peabody_Hawthorne_longdesc.html" class="description">[Description]</a><br/>
+                     <button class="modalb close" onclick="document.getElementById('myModal1').style.display='none'">[Close]</button>
+                     <img class="modal-content" id="img1" src="image_Sophia_Peabody_Hawthorne.jpg" alt="Portrait of Sophia Peabody Hawthorne (ca. 1845)."/>
+                     <div id="caption1">
+                        Portrait of Sophia Peabody Hawthorne (ca. 1845).
+                        <br/>Frontispiece, <cite>Nathaniel Hawthorne and His Wife: A Biography</cite>, Vol. II (1891),<br/> by Julian Hawthorne 
+                     </div>
+                  </div> <!-- End myModal1 -->
                </div> <!-- End display1 -->
                
                <!-- Begin display2 -->
                <div id="display2">
-                  <button class="modalb" id="b2"><img id="myImg2" src="image_sscox_1854_DecorativeTitle.jpg" alt="Decorative Title Page from A Buckeye Abroad (1854)." title="Decorative Title Page from A Buckeye Abroad (1854)" width="100"/></button>
+                  <button class="modalb" id="b2"><img id="myImg2" src="image_Elizabeth_Palmer_Peabody.jpg" alt="Portrait of Elizabeth Palmer Peabody (ca. 1894)." title="Portrait of Elizabeth Palmer Peabody (ca. 1894)" width="100"/></button>
                   <div id="myModal2" class="modal">
-                     <a href="image_sscox_1854_DecorativeTitle_longdesc.html" class="description">[Description]</a><br/>
+                     <a href="image_Elizabeth_Palmer_Peabody_longdesc.html" class="description">[Description]</a><br/>
                      <button class="modalb close" onclick="document.getElementById('myModal2').style.display='none'">[Close]</button>
-                     <img class="modal-content" id="img2" src="image_sscox_1854_DecorativeTitle.jpg" alt="Decorative Title Page from A Buckeye Abroad (1854)"/>
+                     <img class="modal-content" id="img2" src="image_Elizabeth_Palmer_Peabody.jpg" alt="Portrait of Elizabeth Palmer Peabody (ca. 1894)."/>
                      <div id="caption2">
-                        Decorative Title Page<br>from <cite>A Buckeye Abroad</cite>. Cincinnati: Moore, Anderson, 1854</br>
+                        Portrait of Elizabeth Palmer Peabody (ca. 1894).<br>Library of Congress Prints and Photographs Online Catalog</br>
                      </div>
                   </div> <!-- End myModal2 -->
                   <script>		
@@ -227,148 +233,154 @@
                      captionText2.innerHTML = this.alt;
                      }
                      
-                      // Get the span element that closes the modal 
-                        var span = document.getElementsByClassName("close")[0];
-                        
-                        // When the user clicks on span (x), close the modal 
-                           span.onclick = function() {
-                           modal2.style.display = "none";
-                           }
+                     // Get the span element that closes the modal 
+                     var span = document.getElementsByClassName("close")[0];
+                     
+                     // When the user clicks on span (x), close the modal 
+                     span.onclick = function() {
+                     modal2.style.display = "none";
+                     }
                   </script>
                </div> <!-- End display2 -->
                
                <!-- Begin display3 -->         
                <div id="display3">
-                  <button class="modalb" id="b3"><img id="myImg3" src="image_sscox_rmsAsia.jpg" alt="Royal Mail Steam Ship Asia. New York: N. Currier, 1851" title="Royal Mail Steam Ship Asia" width="100"/></button>
-                     <div id="myModal3" class="modal">
-                        <a href="image_sscox_rmsAsia_longdesc.html" class="description">[Description]</a><br/>
-                        <button class=" modalb close" onclick="document.getElementById('myModal3').style.display='none'">[Close]</button>
-                        <img class="modal-content" id="img3" src="image_sscox_rmsAsia.jpg" alt="Royal Mail Steam Ship Asia. New York: N. Currier, 1851"/>
-                        <div id="caption3">
-                           Royal Mail Steamship Asia<br/>New York: N. Currier, 1851<br>Library of Congress https://www.loc.gov/pictures/item/2001704213/</br>
-                        </div>
-                     </div> <!-- End myModal3 -->
-                     <script>
-                        
-                        // Get the modal
-                        var modal3 = document.getElementById('myModal3');
-                        
-                        // Get the image and insert it inside the modal - use its "alt" text as a caption
-                        var img3 = document.getElementById('b3');
-                        var modalImg3 = document.getElementById("img3");
-                        var captionText3 = document.getElementById("caption3");
-                        img3.onclick = function(){
-                        modal3.style.display = "block";
-                        modalImg3.src = this.img.src;
-                        captionText3.innerHTML = this.alt;
-                        }
-                        
-                        // Get the span element that closes the modal
-                           var span = document.getElementsByClassName("close")[0];
-                           
-                           // When the user clicks on span (x), close the modal
-                              span.onclick = function() {
-                              modal3.style.display = "none";
-                              }
-                     </script>
+                  <button class="modalb" id="b3"><img id="myImg3" src="image_Mary_Peabody_Mann.jpg" alt="Portrait of Mary Tyler Peabody Mann (undated)" title="Portrait of Mary Tyler Peabody Mann (undated)" width="100"/></button>
+                  <div id="myModal3" class="modal">
+                     <a href="image_Mary_Peabody_Mann_longdesc.html" class="description">[Description]</a><br/>
+                     <button class=" modalb close" onclick="document.getElementById('myModal3').style.display='none'">[Close]</button>
+                     <img class="modal-content" id="img3" src="image_Mary_Peabody_Mann.jpg" alt="Portrait of Mary Tyler Peabody Mann (undated)"/>
+                     <div id="caption3">
+                        Portrait of Mary Tyler Peabody Mann (undated)<br/><cite>The Bostonian</cite> v.3, no.4, Jan. 1896
+                     </div>
+                  </div> <!-- End myModal3 -->
+                  <script>
+                     
+                     // Get the modal
+                     var modal3 = document.getElementById('myModal3');
+                     
+                     // Get the image and insert it inside the modal - use its "alt" text as a caption
+                     var img3 = document.getElementById('b3');
+                     var modalImg3 = document.getElementById("img3");
+                     var captionText3 = document.getElementById("caption3");
+                     img3.onclick = function(){
+                     modal3.style.display = "block";
+                     modalImg3.src = this.img.src;
+                     captionText3.innerHTML = this.alt;
+                     }
+                     
+                     // Get the span element that closes the modal
+                     var span = document.getElementsByClassName("close")[0];
+                     
+                     // When the user clicks on span (x), close the modal
+                     span.onclick = function() {
+                     modal3.style.display = "none";
+                     }
+                  </script>
                </div> <!-- End display3 -->
                
                <!-- Begin display4 -->
                
                <div id="display4">
-                  <button class="modalb" id="b4"><img id="myImg4" src="image_sscox_illus_PoetsCorner.jpg" alt="Poet's Corner, Westminster Abbey. Illustration from A Buckeye Abroad (1854)" title="Poet's Corner, Westminster Abbey. Illustration from A Buckeye Abroad (1854)" width="100"/></button>
-                     <div id="myModal4" class="modal">
-                        <a href="image_sscox_illus_PoetsCorner_longdesc.html" class="description">[Description]</a><br/>
-                        <button class="modalb close" onclick="document.getElementById('myModal4').style.display='none'">[Close]</button>
-                        <img class="modal-content" id="img4" src="image_sscox_illus_PoetsCorner.jpg" alt="Poet's Corner, Westminster Abbey. Illustration from A Buckeye Abroad (1854)."/>
-                        <div id="caption4">
-                           Poet's Corner, Westminster Abbey.<br/>Illustration from <cite>A Buckeye Abroad</cite><br/>Cincinnati: Moore, Anderson, 1854.
-                        </div> <!-- End myModal4 -->
-                        <script>
-                           
-                           // Get the modal
-                           var modal4 = document.getElementById('myModal4');
-                           
-                           // Get the image and insert it inside the modal - use its "alt" text as a caption
-                           var img4 = document.getElementById('b4');
-                           var modalImg4 = document.getElementById("img4");
-                           var captionText4 = document.getElementById("caption4");
-                           img4.onclick = function(){
-                           modal4.style.display = "block";
-                           modalImg4.src = this.img.src;
-                           captionText4.innerHTML = this.alt;
-                           }
-                           
-                           // Get the span element that closes the modal
-                              var span = document.getElementsByClassName("close")[0];
-                              
-                              // When the user clicks on span (x), close the modal
-                                 span.onclick = function() {
-                                 modal4.style.display = "none";
-                                 }
-                        </script>
-                     </div> <!-- End modal4 -->
-               </div> <!-- End display 4 -->
-                     
-                     <!-- Begin display5 -->
-                     
-                     <div id="display5">
-                        <button class="modalb" id="b5"><img id="myImg5" src="image_sscox_illus_Pompeii.jpg" alt="A Villa in Pompeii. Illustration from A Buckeye Abroad (1854)" title="A Villa in Pompeii. Illustration from A Buckeye Abroad (1854)" width="100"/></button>
-                           <div id="myModal5" class="modal">
-                              <a href="image_sscox_illus_Pompeii_longdesc.html" class="description">[Description]</a><br/>
-                              <button class="modalb close" onclick="document.getElementById('myModal5').style.display='none'">[Close]</button>
-                              <img class="modal-content" id="img5" src="image_sscox_illus_Pompeii.jpg" alt="A Villa in Pompeii. Illustration from A Buckeye Abroad (1854) "/>
-                              <div id="caption5">
-                                 A Villa in Pompeii<br/>Illustration from <cite>A Buckeye Abroad</cite> <br/>Cincinnati: Moore, Anderson, 1854
-                              </div>
-                           </div> <!-- End myModal5 -->
-                           <script>
-                              
-                              // Get the modal
-                              var modal5 = document.getElementById('myModal5');
-                              
-                              // Get the image and insert it inside the modal - use its "alt" text as a caption
-                              var img5 = document.getElementById('b5');
-                              var modalImg5 = document.getElementById("img5");
-                              var captionText5 = document.getElementById("caption5");
-                              img5.onclick = function(){
-                              modal5.style.display = "block";
-                              modalImg5.src = this.img.src;
-                              captionText5.innerHTML = this.alt;
-                              }
-                              
-                              // Get the span element that closes the modal
-                                 var span = document.getElementsByClassName("close")[0];
-                                 
-                                 // When the user clicks on span (x), close the modal
-                                    span.onclick = function() {
-                                    modal5.style.display = "none";
-                                    }
-                           </script>
-                     </div> <!-- End display5 -->
+                  <button class="modalb" id="b4"><img id="myImg4" src="image_Hawthorne_children.jpg" alt="Una, Julian, and Rose Hawthorne, ca. 1862" title="Una, Julian, and Rose Hawthorne, ca. 1862" width="100"/></button>
+                  <div id="myModal4" class="modal">
+                     <a href="image_Hawthorne_children_longdesc.html" class="description">[Description]</a><br/>
+                     <button class="modalb close" onclick="document.getElementById('myModal4').style.display='none'">[Close]</button>
+                     <img class="modal-content" id="img4" src="image_Hawthorne_children.jpg" alt="Una, Julian, and Rose Hawthorne, ca. 1862"/>
+                     <div id="caption4">
+                        Photograph of Una, Julian, and Rose, Hawthorne's children, ca. 1862<br/>
+                        Photograph by Silsbee and Case<br/>
+                        http://www.hawthorneinsalem.org/images/image.php?name=MMD368
+                     </div> <!-- End myModal4 -->
                      <script>
-                        // Get the first modal
-                        var modal1 = document.getElementById('myModal1');
+                        
+                        // Get the modal
+                        var modal4 = document.getElementById('myModal4');
                         
                         // Get the image and insert it inside the modal - use its "alt" text as a caption
-                        var img1 = document.getElementById('b1');
-                        var modalImg1 = document.getElementById("img1");
-                        var captionText1 = document.getElementById("caption1");
-                        img1.onclick = function(){
-                        modal1.style.display = "block";
-                        modalImg1.src = this.img.src;
-                        captionText1.innerHTML = this.alt;
+                        var img4 = document.getElementById('b4');
+                        var modalImg4 = document.getElementById("img4");
+                        var captionText4 = document.getElementById("caption4");
+                        img4.onclick = function(){
+                        modal4.style.display = "block";
+                        modalImg4.src = this.img.src;
+                        captionText4.innerHTML = this.alt;
                         }
                         
                         // Get the span element that closes the modal
-                           var span = document.getElementsByClassName("close")[0];
-                           
-                           // When the user clicks on span (x), close the modal
-                              span.onclick = function() {
-                              modal1.style.display = "none";
-                              }
+                        var span = document.getElementsByClassName("close")[0];
+                        
+                        // When the user clicks on span (x), close the modal
+                        span.onclick = function() {
+                        modal4.style.display = "none";
+                        }
                      </script>
-
+                  </div> <!-- End modal4 -->
+               </div> <!-- End display 4 -->
+               
+               
+               <!-- Begin display5 -->
+               <!-- 
+                  
+                  <div id="display5">
+                  <button class="modalb" id="b5"><img id="myImg5" src="image_sscox_illus_Pompeii.jpg" alt="A Villa in Pompeii. Illustration from A Buckeye Abroad (1854)" title="A Villa in Pompeii. Illustration from A Buckeye Abroad (1854)" width="100"/></button>
+                  <div id="myModal5" class="modal">
+                     <a href="image_sscox_illus_Pompeii_longdesc.html" class="description">[Description]</a><br/>
+                     <button class="modalb close" onclick="document.getElementById('myModal5').style.display='none'">[Close]</button>
+                     <img class="modal-content" id="img5" src="image_sscox_illus_Pompeii.jpg" alt="A Villa in Pompeii. Illustration from A Buckeye Abroad (1854) "/>
+                     <div id="caption5">
+                        A Villa in Pompeii<br/>Illustration from <cite>A Buckeye Abroad</cite> <br/>Cincinnati: Moore, Anderson, 1854
+                     </div>
+                  </div> <!-\- End myModal5 -\->
+                  <script>
+                     
+                     // Get the modal
+                     var modal5 = document.getElementById('myModal5');
+                     
+                     // Get the image and insert it inside the modal - use its "alt" text as a caption
+                     var img5 = document.getElementById('b5');
+                     var modalImg5 = document.getElementById("img5");
+                     var captionText5 = document.getElementById("caption5");
+                     img5.onclick = function(){
+                     modal5.style.display = "block";
+                     modalImg5.src = this.img.src;
+                     captionText5.innerHTML = this.alt;
+                     }
+                     
+                     // Get the span element that closes the modal
+                     var span = document.getElementsByClassName("close")[0];
+                     
+                     // When the user clicks on span (x), close the modal
+                     span.onclick = function() {
+                     modal5.style.display = "none";
+                     }
+                  </script>
+               </div>
+               --> 
+               <!-- End display5 -->
+               <script>
+                  // Get the first modal
+                  var modal1 = document.getElementById('myModal1');
+                  
+                  // Get the image and insert it inside the modal - use its "alt" text as a caption
+                  var img1 = document.getElementById('b1');
+                  var modalImg1 = document.getElementById("img1");
+                  var captionText1 = document.getElementById("caption1");
+                  img1.onclick = function(){
+                  modal1.style.display = "block";
+                  modalImg1.src = this.img.src;
+                  captionText1.innerHTML = this.alt;
+                  }
+                  
+                  // Get the span element that closes the modal
+                  var span = document.getElementsByClassName("close")[0];
+                  
+                  // When the user clicks on span (x), close the modal
+                  span.onclick = function() {
+                  modal1.style.display = "none";
+                  }
+               </script>
+               
             </div> <!-- End div id NavBar -->
             
             <!-- END THE VERTICAL IMAGE BAR -->
@@ -444,9 +456,9 @@
                <strong>About this Editorial Introduction</strong>
             </p>
             <p><a name="view"/>Text on this page is derived from the
-               edition's XML source document, StephensCorpus.xml.</p>
+               edition's XML source document, hawthorne_letters.xml.</p>
             <hr/>
-            <p>&#x2192; <a href="StephensReading.html">Link to the text of the journal</a>.
+            <p>&#x2192; <a href="hawthorne_reading.html">Link to the text of the journal</a>.
             </p>
          </xsl:element> <!-- END maintext -->
          <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
@@ -457,7 +469,7 @@
    
    <!-- Format the introductory notes. -->
    <xsl:template match="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:biblFull/tei:notesStmt/tei:note[@type='introductory']">
-      <h2><xsl:attribute name="id"><xsl:value-of select="@xml:id"/></xsl:attribute>Introduction: Anderson Letters Intro Title</h2>
+      <h2><xsl:attribute name="id"><xsl:value-of select="@xml:id"/></xsl:attribute>Introduction: Hawthorne Letters Intro Title</h2>
       <xsl:apply-templates/>
    </xsl:template>
    
@@ -600,7 +612,7 @@
    
    
    <xsl:template match="tei:listPlace">
-      <a name="PlacesMentioned"/>
+      <a name="placesMentioned"/>
       <h3>List of Places Mentioned in the Letters</h3>
       <xsl:for-each select="tei:place">
          <xsl:sort select="tei:geogName"/>

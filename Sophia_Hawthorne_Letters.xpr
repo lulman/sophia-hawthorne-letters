@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="21.1">
     <meta>
-        <filters directoryPatterns="" filePatterns="*.jpg,*.png,*.js,*.xpr,*bbprojectd" positiveFilePatterns="" showHiddenFiles="false"/>
+        <filters directoryPatterns="*bbprojectd" filePatterns="*.jpg,*.png,*.js,*.xpr,*.html" positiveFilePatterns="" showHiddenFiles="false"/>
         <options>
             <serialized version="21.1" xml:space="preserve">
                 <serializableOrderedMap>
@@ -12,36 +12,6 @@
                     <entry>
                         <String>scenario.associations</String>
                         <scenarioAssociation-array>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>hawthorne_view_reading.xsl</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>hawthorne_view_reading</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XML</String>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>hawthorne_view_diplomatic.xsl</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>hawthorne_view_diplomatic</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XML</String>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
                                     <String>hawthorne_view_splitview.xsl</String>
@@ -64,6 +34,36 @@
                                 <field name="scenarioIds">
                                     <list>
                                         <String>hawthorne_view_edintro</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XML</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>hawthorne_view_reading.xsl</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>hawthorne_view_reading</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XML</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>hawthorne_view_diplomatic.xsl</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>hawthorne_view_diplomatic</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -204,7 +204,7 @@
                                     <Boolean>true</Boolean>
                                 </field>
                                 <field name="outputResource">
-                                    <String>hawthorne_edintro.html</String>
+                                    <String>hawthorne_letters.html</String>
                                 </field>
                                 <field name="openOtherLocationInBrowser">
                                     <Boolean>false</Boolean>
@@ -287,7 +287,7 @@
                                     <Boolean>true</Boolean>
                                 </field>
                                 <field name="outputResource">
-                                    <String>hawthorne_letters.html</String>
+                                    <String>hawthorne_reading.html</String>
                                 </field>
                                 <field name="openOtherLocationInBrowser">
                                     <Boolean>false</Boolean>

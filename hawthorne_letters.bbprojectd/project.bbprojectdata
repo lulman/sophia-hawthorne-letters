@@ -11,6 +11,7 @@
 		<string>FF5B3A53-2DCE-440E-BCAD-EE7CF0AA6586</string>
 		<string>1C7A064A-86E3-4207-BD70-032519DBDB96</string>
 		<string>2F761A35-0402-4045-BCDC-097A0AD10F8B</string>
+		<string>4C439BA7-F86D-4DD6-AB7F-A5752A857061</string>
 	</array>
 	<key>ProjectItems</key>
 	<dict>
@@ -161,6 +162,55 @@
 			</dict>
 			<key>ItemName</key>
 			<string>hawthorne_appendices_maps.html</string>
+			<key>ItemType</key>
+			<string>FileReference</string>
+		</dict>
+		<key>4C439BA7-F86D-4DD6-AB7F-A5752A857061</key>
+		<dict>
+			<key>ItemData</key>
+			<dict>
+				<key>BookmarkData</key>
+				<data>
+				Ym9va1gDAAAAAAQQMAAAAJW1rKjsOzVGJPBLi00J6wR5
+				D4FqwvQUgVWTgVXuQDxVVAIAAAQAAAADAwAAAAgAKAUA
+				AAABAQAAVXNlcnMAAAALAAAAAQEAAGxld2lzX3VsbWFu
+				AAkAAAABAQAARG9jdW1lbnRzAAAACAAAAAEBAABSZXNl
+				YXJjaBIAAAABAQAAUmVsaWFibGUgV2l0bmVzc2VzAAAY
+				AAAAAQEAAHNvcGhpYS1oYXd0aG9ybmUtbGV0dGVycxYA
+				AAABAQAAaGF3dGhvcm5lX2xldHRlcnMuaHRtbAAAHAAA
+				AAEGAAAQAAAAIAAAADQAAABIAAAAWAAAAHQAAACUAAAA
+				CAAAAAQDAAB60BUAAAAAAAgAAAAEAwAAfNAVAAAAAAAI
+				AAAABAMAAJTbFQAAAAAACAAAAAQDAAAOCRcAAAAAAAgA
+				AAAEAwAAOU4XAAAAAAAIAAAABAMAAFxrFwAAAAAACAAA
+				AAQDAAB9ZY0AAAAAABwAAAABBgAA2AAAAOgAAAD4AAAA
+				CAEAABgBAAAoAQAAOAEAAAgAAAAABAAAQcFj8zYhGTwY
+				AAAAAQIAAAEAAAAAAAAADwAAAAAAAAAAAAAAAAAAAAgA
+				AAAEAwAABQAAAAAAAAAEAAAAAwMAAPUBAAAIAAAAAQkA
+				AGZpbGU6Ly8vBAAAAAEBAABITFUzCAAAAAQDAAAAsGBu
+				dAAAAAgAAAAABAAAQbgiMsMAAAAkAAAAAQEAAENDQTVD
+				QjRDLUY0QkQtNEE2MC05NzY5LUVENTlGNTlGQTVBMRgA
+				AAABAgAAgQAAAAEAAADvEwAAAQAAAAAAAAAAAAAAAQAA
+				AAEBAAAvAAAAAAAAAAEFAADMAAAA/v///wEAAAAAAAAA
+				EAAAAAQQAAC0AAAAAAAAAAUQAABIAQAAAAAAABAQAAB8
+				AQAAAAAAAEAQAABsAQAAAAAAAAIgAABAAgAAAAAAAAUg
+				AAC4AQAAAAAAABAgAADIAQAAAAAAABEgAAD0AQAAAAAA
+				ABIgAADUAQAAAAAAABMgAADkAQAAAAAAACAgAAAgAgAA
+				AAAAADAgAABMAgAAAAAAAAHAAACcAQAAAAAAABHAAAAg
+				AAAAAAAAABLAAACsAQAAAAAAABDQAAAEAAAAAAAAAA==
+				</data>
+				<key>FileURL</key>
+				<string>file:///Users/lewis_ulman/Documents/Research/Reliable%20Witnesses/sophia-hawthorne-letters/hawthorne_letters.html</string>
+				<key>HasSecurityScope</key>
+				<true/>
+				<key>RelativePath</key>
+				<string>./hawthorne_letters.html</string>
+				<key>TypeID</key>
+				<string>_CFileLocator</string>
+				<key>Version</key>
+				<integer>1</integer>
+			</dict>
+			<key>ItemName</key>
+			<string>hawthorne_letters.html</string>
 			<key>ItemType</key>
 			<string>FileReference</string>
 		</dict>

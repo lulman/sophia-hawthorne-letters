@@ -129,7 +129,7 @@
 	               <note type="descriptive">
 
 	               </note>
-	               <note type="introductory">
+	               <note xml:id="HawthorneIntro" type="introductory">
 	                 <p>
 	                   <figure rend="embed" n="250">
 	                     <head>TEXT</head>

@@ -87,10 +87,12 @@
             <div class="masthead">
                <div id="navigation">
                   <ul class="nav">
-                     <li class="link"><a class="main"  href="./hawthorne_letters.html#HawthorneIntroduction">Historical Introduction</a>
+                     <li class="link"><a class="main"  href="./hawthorne_letters.html#HawthorneIntro">Historical Introduction</a>
                         <ul class="sub">
+                           <!-- 
                            <li><a href="./hawthorne_letters.html#letters">Letters and Letter Writing</a></li>
                            <li><a href="./hawthorne_letters.html#west">Tourism and Commerce</a></li>
+-->                        
                         </ul>
                      </li>
                      <li class="link"><a class="main"  href="./stephens_letters.html#projectDescription">Editorial Introduction</a>
@@ -103,18 +105,21 @@
                      </li>
                      <li class="link"><a class="main"  href="">Views of the Diary</a>
                         <ul class="sub">
-                           <li><a href="./stephens_reading.html">By Letter</a></li>
-                           <li><a href="./stephens_diplomatic.html">By MS Page</a></li>
-                           <li><a href="./stephens_combined.html">Facsimile/Text</a></li>
+                           <li><a href="./hawthorne_reading.html">By Letter</a></li>
+                           <li><a href="./hawthorne_diplomatic.html">By MS Page</a></li>
+                           <li><a href="./hawthorne_splitview.html">Facsimile/Text</a></li>
                         </ul>
                      </li>
                      <li class="link"><a class="main"  href="">Appendices</a>
                         <ul class="sub">
                            <li><a href="./hawthorne_appendices_markup.html">Markup Guidelines</a></li>
-                           <li><a href="./hawthorne_appendices_hand.html">Guide to Cox's Hand</a></li>
+                           <li><a href="./hawthorne_appendices_hand.html">Guide to Hawthorne's Hand</a></li>
                            <li><a href="./hawthorne_appendices_msimages.html">Images of the MS Pages</a></li>
                            <li><a href="./hawthorne_appendices_maps.html">Maps</a></li>
                            <li><a href="./hawthorne_letters.html#worksCited">Works Cited</a></li>
+                           <li><a href="./hawthorne_letters.html#peopleMentioned">People Mentioned</a></li>
+                           <li><a href="./hawthorne_letters.html#placesMentioned">Places Mentioned</a></li>
+                           <li><a href="./hawthorne_letters.html#organizationsMentioned">Organizations Mentioned</a></li>
                            <li><a href="./hawthorne_letters.html#revision">Revision History</a></li>
                            <li><a href="./hawthorne_appendices_acknowledgements.html">Acknowledgements</a></li>
                            <li><a href="./hawthorne_appendices_editors.html">About the Editors</a></li>
