@@ -392,17 +392,23 @@
                   <!--<p id="font-size"></p>-->
                   <p style="font-size:smaller">
                      <strong>Edited by</strong><br/>
-                     Robert Eugene Conaster<br/>
-                     Jonathan H. Holmes<br/>
-                     William C. Kurlinkus<br/>
-                     Jonathan Paul Leidheiser-Stoddard<br/>
-                     C. Marie Meza<br/>
-                     Victoria M. Munoz<br/>
-                     Ashley Cole Owens<br/>
-                     Evan B. Thomas<br/>
-                     Marion Aikens Wolfe<br/>
+                     Michael Albrecht<br/>
+                     Karen D. Anderson<br/>
+                     Sue Carlson<br/>
+                     David Carrino<br/>
+                     John DiCamillo<br/>
+                     Anthony DiCola<br/>
+                     Thomas J. Firestone<br/>
+                     Joseph P. Frazee<br/>
+                     Krista L. Havrilla<br/>
+                     Stacy R. Haynes<br/>
+                     Marianne Johnson<br/>
+                     Sean O'Reilly<br/>
+                     Jose A. Orozco<br/>
+                     Christopher R. B. Pinner<br/>
+                     Michelle R. Soell<br/>
+                     Chris Stull<br/>
                      H. Lewis Ulman<br/>
-                     Rachel M. Waymel<br/>
                   </p>
                   <!-- Start NINES Widget -->
                   <form method="get"
