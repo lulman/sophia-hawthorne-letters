@@ -21,14 +21,14 @@
 			<dict>
 				<key>BookmarkData</key>
 				<data>
-				Ym9va2QDAAAAAAQQMAAAAMF0swrIiIbLu0GQ255kzdKZ
-				Ie7fAE/A1rnOwxecAbIbYAIAAAQAAAADAwAAAAgAKAUA
+				Ym9va6ADAAAAAAQQMAAAANymG+BPYQRDsdXl5YzDOsvp
+				nNMXYICp6z9hELA+AmwCkAIAAAQAAAADAwAAAAgAKAUA
 				AAABAQAAVXNlcnMAAAALAAAAAQEAAGxld2lzX3VsbWFu
 				AAkAAAABAQAARG9jdW1lbnRzAAAACAAAAAEBAABSZXNl
 				YXJjaBIAAAABAQAAUmVsaWFibGUgV2l0bmVzc2VzAAAY
-				AAAAAQEAAHNvcGhpYS1oYXd0aG9ybmUtbGV0dGVycyQA
-				AAABAQAAaGF3dGhvcm5lX2FwcGVuZGljZXNfcGFnZWlt
-				YWdlcy5odG1sHAAAAAEGAAAQAAAAIAAAADQAAABIAAAA
+				AAAAAQEAAHNvcGhpYS1oYXd0aG9ybmUtbGV0dGVycyIA
+				AAABAQAAaGF3dGhvcm5lX2FwcGVuZGljZXNfbXNpbWFn
+				ZXMuaHRtbAAAHAAAAAEGAAAQAAAAIAAAADQAAABIAAAA
 				WAAAAHQAAACUAAAACAAAAAQDAAB60BUAAAAAAAgAAAAE
 				AwAAfNAVAAAAAAAIAAAABAMAAJTbFQAAAAAACAAAAAQD
 				AAAOCRcAAAAAAAgAAAAEAwAAOU4XAAAAAAAIAAAABAMA
@@ -40,28 +40,30 @@
 				CAAAAAQDAAAAsGBudAAAAAgAAAAABAAAQbgiMsMAAAAk
 				AAAAAQEAAENDQTVDQjRDLUY0QkQtNEE2MC05NzY5LUVE
 				NTlGNTlGQTVBMRgAAAABAgAAgQAAAAEAAADvEwAAAQAA
-				AAAAAAAAAAAAAQAAAAEBAAAvAAAAAAAAAAEFAADMAAAA
-				/v///wEAAAAAAAAAEAAAAAQQAADAAAAAAAAAAAUQAABU
-				AQAAAAAAABAQAACIAQAAAAAAAEAQAAB4AQAAAAAAAAIg
-				AABMAgAAAAAAAAUgAADEAQAAAAAAABAgAADUAQAAAAAA
-				ABEgAAAAAgAAAAAAABIgAADgAQAAAAAAABMgAADwAQAA
-				AAAAACAgAAAsAgAAAAAAADAgAABYAgAAAAAAAAHAAACo
-				AQAAAAAAABHAAAAgAAAAAAAAABLAAAC4AQAAAAAAABDQ
-				AAAEAAAAAAAAAA==
+				AAAAAAAAAAAAAQAAAAEBAAAvAAAAAAAAAAEFAAAaAAAA
+				AQEAAE5TVVJMRG9jdW1lbnRJZGVudGlmaWVyS2V5AAAE
+				AAAAAwMAAGMCAADYAAAA/v///wEAAAAAAAAAEQAAAAQQ
+				AADAAAAAAAAAAAUQAABUAQAAAAAAABAQAACIAQAAAAAA
+				AEAQAAB4AQAAAAAAAAIgAABMAgAAAAAAAAUgAADEAQAA
+				AAAAABAgAADUAQAAAAAAABEgAAAAAgAAAAAAABIgAADg
+				AQAAAAAAABMgAADwAQAAAAAAACAgAAAsAgAAAAAAADAg
+				AABYAgAAAAAAAAHAAACoAQAAAAAAABHAAAAgAAAAAAAA
+				ABLAAAC4AQAAAAAAABDQAAAEAAAAAAAAAGACAICEAgAA
+				AAAAAA==
 				</data>
 				<key>FileURL</key>
-				<string>file:///Users/lewis_ulman/Documents/Research/Reliable%20Witnesses/sophia-hawthorne-letters/hawthorne_appendices_pageimages.html</string>
+				<string>file:///Users/lewis_ulman/Documents/Research/Reliable%20Witnesses/sophia-hawthorne-letters/hawthorne_appendices_msimages.html</string>
 				<key>HasSecurityScope</key>
 				<true/>
 				<key>RelativePath</key>
-				<string>./hawthorne_appendices_pageimages.html</string>
+				<string>./hawthorne_appendices_msimages.html</string>
 				<key>TypeID</key>
 				<string>_CFileLocator</string>
 				<key>Version</key>
 				<integer>1</integer>
 			</dict>
 			<key>ItemName</key>
-			<string>hawthorne_appendices_pageimages.html</string>
+			<string>hawthorne_appendices_msimages.html</string>
 			<key>ItemType</key>
 			<string>FileReference</string>
 		</dict>
