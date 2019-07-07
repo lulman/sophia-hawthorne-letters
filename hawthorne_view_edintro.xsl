@@ -386,7 +386,7 @@
             <!-- END THE VERTICAL IMAGE BAR -->
             <!-- START RIGHT MENU -->   
             <div id="viewMenu">
-               <p class="aboutView"><a href="./sscox_journal.html#view">About this page.</a></p>
+               <p class="aboutView"><a href="./hawthorne_letters.html#view">About this page.</a></p>
                <div class="container">
                   <p class="font-size-label">Font Size <button id="up">+</button> <button id="down">-</button></p>
                   <!--<p id="font-size"></p>-->

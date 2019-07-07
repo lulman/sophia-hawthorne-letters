@@ -473,7 +473,7 @@
             <hr/>
             <!-- Insert link to home page, creation date, and licensing statement.-->
             <p align="left">
-               <a href="stephens_edintro.html"
+               <a href="hawthorne_letters.html"
                   target="self">Home</a>
                <br/>
                <br/>
