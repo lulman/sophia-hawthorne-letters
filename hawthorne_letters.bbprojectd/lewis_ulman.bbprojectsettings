@@ -5,13 +5,52 @@
 	<key>EmbeddedEditorHidden:lewis_ulman</key>
 	<false/>
 	<key>ExpandedEditorWidth:lewis_ulman:displays([(0, 0), (2048, 1152)]:[(2048, 0), (1440, 900)])</key>
-	<integer>1135</integer>
+	<integer>1047</integer>
 	<key>ExpandedItems:lewis_ulman</key>
 	<array/>
 	<key>FileFilterMode:lewis_ulman</key>
 	<integer>0</integer>
 	<key>OpenDocuments:lewis_ulman</key>
 	<array>
+		<dict>
+			<key>BookmarkData</key>
+			<data>
+			Ym9va5wDAAAAAAQQMAAAALimLrhxWzGpFTa3ilkC90f2kgMJhliF
+			Vxh7OSRK4kyDjAIAAAQAAAADAwAAAAgAKAUAAAABAQAAVXNlcnMA
+			AAALAAAAAQEAAGxld2lzX3VsbWFuAAkAAAABAQAARG9jdW1lbnRz
+			AAAACAAAAAEBAABSZXNlYXJjaBIAAAABAQAAUmVsaWFibGUgV2l0
+			bmVzc2VzAAAYAAAAAQEAAHNvcGhpYS1oYXd0aG9ybmUtbGV0dGVy
+			cx4AAAABAQAAaGF3dGhvcm5lX2FwcGVuZGljZXNfaGFuZC5odG1s
+			AAAcAAAAAQYAABAAAAAgAAAANAAAAEgAAABYAAAAdAAAAJQAAAAI
+			AAAABAMAAHrQFQAAAAAACAAAAAQDAAB80BUAAAAAAAgAAAAEAwAA
+			lNsVAAAAAAAIAAAABAMAAA4JFwAAAAAACAAAAAQDAAA5ThcAAAAA
+			AAgAAAAEAwAAXGsXAAAAAAAIAAAABAMAAGX6hwAAAAAAHAAAAAEG
+			AADgAAAA8AAAAAABAAAQAQAAIAEAADABAABAAQAACAAAAAAEAABB
+			wVTb2QGV4hgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAAAAAAAAAA
+			CAAAAAQDAAAFAAAAAAAAAAQAAAADAwAA9QEAAAgAAAABCQAAZmls
+			ZTovLy8EAAAAAQEAAEhMVTMIAAAABAMAAACwYG50AAAACAAAAAAE
+			AABBuCIywwAAACQAAAABAQAAQ0NBNUNCNEMtRjRCRC00QTYwLTk3
+			NjktRUQ1OUY1OUZBNUExGAAAAAECAACBAAAAAQAAAO8TAAABAAAA
+			AAAAAAAAAAABAAAAAQEAAC8AAAAAAAAAAQUAABoAAAABAQAATlNV
+			UkxEb2N1bWVudElkZW50aWZpZXJLZXkAAAQAAAADAwAAYAIAANgA
+			AAD+////AQAAAAAAAAARAAAABBAAALwAAAAAAAAABRAAAFABAAAA
+			AAAAEBAAAIQBAAAAAAAAQBAAAHQBAAAAAAAAAiAAAEgCAAAAAAAA
+			BSAAAMABAAAAAAAAECAAANABAAAAAAAAESAAAPwBAAAAAAAAEiAA
+			ANwBAAAAAAAAEyAAAOwBAAAAAAAAICAAACgCAAAAAAAAMCAAAFQC
+			AAAAAAAAAcAAAKQBAAAAAAAAEcAAACAAAAAAAAAAEsAAALQBAAAA
+			AAAAENAAAAQAAAAAAAAAXAIAgIACAAAAAAAA
+			</data>
+			<key>FileURL</key>
+			<string>file:///Users/lewis_ulman/Documents/Research/Reliable%20Witnesses/sophia-hawthorne-letters/hawthorne_appendices_hand.html</string>
+			<key>HasSecurityScope</key>
+			<true/>
+			<key>RelativePath</key>
+			<string>./hawthorne_appendices_hand.html</string>
+			<key>TypeID</key>
+			<string>_CFileLocator</string>
+			<key>Version</key>
+			<integer>1</integer>
+		</dict>
 		<dict>
 			<key>BookmarkData</key>
 			<data>
@@ -83,45 +122,6 @@
 			<true/>
 			<key>RelativePath</key>
 			<string>./hawthorne_appendices_editors.html</string>
-			<key>TypeID</key>
-			<string>_CFileLocator</string>
-			<key>Version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>BookmarkData</key>
-			<data>
-			Ym9va5wDAAAAAAQQMAAAALimLrhxWzGpFTa3ilkC90f2kgMJhliF
-			Vxh7OSRK4kyDjAIAAAQAAAADAwAAAAgAKAUAAAABAQAAVXNlcnMA
-			AAALAAAAAQEAAGxld2lzX3VsbWFuAAkAAAABAQAARG9jdW1lbnRz
-			AAAACAAAAAEBAABSZXNlYXJjaBIAAAABAQAAUmVsaWFibGUgV2l0
-			bmVzc2VzAAAYAAAAAQEAAHNvcGhpYS1oYXd0aG9ybmUtbGV0dGVy
-			cx4AAAABAQAAaGF3dGhvcm5lX2FwcGVuZGljZXNfaGFuZC5odG1s
-			AAAcAAAAAQYAABAAAAAgAAAANAAAAEgAAABYAAAAdAAAAJQAAAAI
-			AAAABAMAAHrQFQAAAAAACAAAAAQDAAB80BUAAAAAAAgAAAAEAwAA
-			lNsVAAAAAAAIAAAABAMAAA4JFwAAAAAACAAAAAQDAAA5ThcAAAAA
-			AAgAAAAEAwAAXGsXAAAAAAAIAAAABAMAAGX6hwAAAAAAHAAAAAEG
-			AADgAAAA8AAAAAABAAAQAQAAIAEAADABAABAAQAACAAAAAAEAABB
-			wVTb2QGV4hgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAAAAAAAAAA
-			CAAAAAQDAAAFAAAAAAAAAAQAAAADAwAA9QEAAAgAAAABCQAAZmls
-			ZTovLy8EAAAAAQEAAEhMVTMIAAAABAMAAACwYG50AAAACAAAAAAE
-			AABBuCIywwAAACQAAAABAQAAQ0NBNUNCNEMtRjRCRC00QTYwLTk3
-			NjktRUQ1OUY1OUZBNUExGAAAAAECAACBAAAAAQAAAO8TAAABAAAA
-			AAAAAAAAAAABAAAAAQEAAC8AAAAAAAAAAQUAABoAAAABAQAATlNV
-			UkxEb2N1bWVudElkZW50aWZpZXJLZXkAAAQAAAADAwAAYAIAANgA
-			AAD+////AQAAAAAAAAARAAAABBAAALwAAAAAAAAABRAAAFABAAAA
-			AAAAEBAAAIQBAAAAAAAAQBAAAHQBAAAAAAAAAiAAAEgCAAAAAAAA
-			BSAAAMABAAAAAAAAECAAANABAAAAAAAAESAAAPwBAAAAAAAAEiAA
-			ANwBAAAAAAAAEyAAAOwBAAAAAAAAICAAACgCAAAAAAAAMCAAAFQC
-			AAAAAAAAAcAAAKQBAAAAAAAAEcAAACAAAAAAAAAAEsAAALQBAAAA
-			AAAAENAAAAQAAAAAAAAAXAIAgIACAAAAAAAA
-			</data>
-			<key>FileURL</key>
-			<string>file:///Users/lewis_ulman/Documents/Research/Reliable%20Witnesses/sophia-hawthorne-letters/hawthorne_appendices_hand.html</string>
-			<key>HasSecurityScope</key>
-			<true/>
-			<key>RelativePath</key>
-			<string>./hawthorne_appendices_hand.html</string>
 			<key>TypeID</key>
 			<string>_CFileLocator</string>
 			<key>Version</key>
@@ -326,7 +326,7 @@
 	<key>OpenDocumentsExpanded</key>
 	<true/>
 	<key>OpenDocumentsSplitterProportion</key>
-	<real>0.79883040935672511</real>
+	<real>0.79463243873978995</real>
 	<key>ProjectItemsExpanded</key>
 	<true/>
 	<key>ProjectViewVisible</key>
@@ -335,7 +335,7 @@
 	<array>
 		<dict>
 			<key>Date</key>
-			<date>2019-07-08T14:48:28Z</date>
+			<date>2019-07-10T19:07:29Z</date>
 			<key>Location</key>
 			<dict>
 				<key>BookmarkData</key>
@@ -379,7 +379,7 @@
 		</dict>
 		<dict>
 			<key>Date</key>
-			<date>2019-07-08T14:48:28Z</date>
+			<date>2019-07-10T19:07:29Z</date>
 			<key>Location</key>
 			<dict>
 				<key>BookmarkData</key>
@@ -426,7 +426,7 @@
 		</dict>
 		<dict>
 			<key>Date</key>
-			<date>2019-07-08T14:48:28Z</date>
+			<date>2019-07-10T19:07:29Z</date>
 			<key>Location</key>
 			<dict>
 				<key>BookmarkData</key>
@@ -472,7 +472,7 @@
 		</dict>
 		<dict>
 			<key>Date</key>
-			<date>2019-07-08T14:48:28Z</date>
+			<date>2019-07-10T19:07:29Z</date>
 			<key>Location</key>
 			<dict>
 				<key>BookmarkData</key>
@@ -518,7 +518,7 @@
 		</dict>
 		<dict>
 			<key>Date</key>
-			<date>2019-07-08T14:48:28Z</date>
+			<date>2019-07-10T19:07:29Z</date>
 			<key>Location</key>
 			<dict>
 				<key>BookmarkData</key>
@@ -564,7 +564,7 @@
 		</dict>
 		<dict>
 			<key>Date</key>
-			<date>2019-07-08T14:48:28Z</date>
+			<date>2019-07-10T19:07:29Z</date>
 			<key>Location</key>
 			<dict>
 				<key>BookmarkData</key>
@@ -611,7 +611,7 @@
 		</dict>
 		<dict>
 			<key>Date</key>
-			<date>2019-07-08T14:48:28Z</date>
+			<date>2019-07-10T19:07:29Z</date>
 			<key>Location</key>
 			<dict>
 				<key>BookmarkData</key>
@@ -658,7 +658,7 @@
 		</dict>
 		<dict>
 			<key>Date</key>
-			<date>2019-07-08T14:48:28Z</date>
+			<date>2019-07-10T19:07:29Z</date>
 			<key>Location</key>
 			<dict>
 				<key>BookmarkData</key>
@@ -713,8 +713,8 @@
 	<key>ToolbarVisible:lewis_ulman</key>
 	<false/>
 	<key>ViewSplitterPosition:lewis_ulman</key>
-	<real>0.2118055522441864</real>
+	<real>0.22559171915054321</real>
 	<key>WindowFrame:lewis_ulman:displays([(0, 0), (2048, 1152)]:[(2048, 0), (1440, 900)])</key>
-	<string>rect(82,67,937,1507)</string>
+	<string>rect(70,53,927,1405)</string>
 </dict>
 </plist>
