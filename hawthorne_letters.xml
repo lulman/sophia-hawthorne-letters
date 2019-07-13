@@ -581,18 +581,11 @@
        <!-- UPDATE LIST OF CHANGES -->
        
        <revisionDesc>
-         <change>
-           <date>2005-04-30</date>
-           <name>
-             H. Lewis Ulman
-           </name>
-           <label>Corrections to text and markup.</label>
-         </change>
-         <change>
-           <date>2003-06-10</date>
-           <name>Editors</name>
-           <label>Initial TEI-compliant encoding completed.</label>
-         </change>
+         <change when="2019-01-01" who="#HLU">Redesign of the edition to match the design approved by NINES peer reviewers;
+           editing and proofreading of all files.<roleName>H. Lewis Ulman</roleName></change>
+         <change when="2005-04-30">Corrections to text and markup.<roleName>H. Lewis Ulman</roleName></change>
+         <change when="2003-06-10">Initial TEI-compliant encoding completed during an undergraduate
+           class in textual editing.<roleName>The editors.</roleName></change>
        </revisionDesc>
      </teiHeader>
     

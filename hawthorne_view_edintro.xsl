@@ -652,9 +652,11 @@
             <td>
                <h3>Date</h3>
             </td>
-            <td>
+<!--
+               <td>
                <h3>Role</h3>
             </td>
+-->
             <td>
                <h3>Name</h3>
             </td>
@@ -666,16 +668,13 @@
             <tr class="revTable" valign="top">
                <td nowrap="nowrap">
                   <xsl:value-of select="@when"/>
-               </td>
-               <td nowrap="nowrap">
+            </td>
+            <td nowrap="nowrap">
                   <xsl:value-of select="tei:roleName"/>
-               </td>
-               <td nowrap="nowrap">
-                  <a><xsl:attribute name="HREF"><xsl:value-of select="@who"/></xsl:attribute>HLU</a>
-               </td>
-               <td>
+            </td>
+            <td>
                   <xsl:value-of select="text()"/>
-               </td>
+            </td>
             </tr>
          </xsl:for-each>
       </table>
