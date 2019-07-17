@@ -1,7 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="hawthorne_letters.rnc" type="application/relax-ng-compact-syntax"?>
 <teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
-     <teiHeader ana="AACR2">
+     <teiHeader>
          <fileDesc>
            <!-- For each letter, add editor, scanner, and initial markup -->
              <titleStmt>
