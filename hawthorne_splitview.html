@@ -6,14 +6,7 @@
          1837-1868
       </title>
       <link rel="stylesheet" href="jquery-ui.css">
-      <link href="hawthorne_letters.css" rel="stylesheet" type="text/css"><script src="jquery-1.8.3.min.js"></script><script src="jquery-ui-1.9.2.custom.js"></script><script>
-               $(document).ready(function(){
-               $("button").click(function(){
-               $(".pencil").toggleClass("penciltoggle");
-               $(".ink").toggleClass("inktoggle");
-               });
-               });
-            </script><style type="text/css">
+      <link href="hawthorne_letters.css" rel="stylesheet" type="text/css"><script src="jquery-1.8.3.min.js"></script><script src="jquery-ui-1.9.2.custom.js"></script><style type="text/css">
       #maintext {
       float:right;
       top:100px;
@@ -179,7 +172,7 @@
          <div id="titleBar">
             <p align="center"><span class="projectTitle">My Dear Elizabeth: Letters from Sophia Peabody Hawthorne to Elizabeth Palmer Peabody,
                   1837-1868</span><br><br></p>
-            <hr>
+            <hr style="border: 2px solid crimson;">
          </div>
       </div>
       <div id="navBar">
@@ -295,15 +288,15 @@
          <p class="aboutView"><a href="#View">About this page.</a></p>
          <div class="container">
             <p class="font-size-label">Font Size <button id="up">+</button><button id="down">-</button></p>
-            <p><button>Switch between Cox's original pencilled text and overwritten and altered inked text.</button></p>
-            <p><span class="pencil">Pencil text displayed.</span><span class="ink inktoggle">Ink changes displayed.</span></p>
             <form method="get" style="font-size-adjust:none;font-style:normal;font-variant:normal;font-weight:normal;line-height:1.231;color:#000000;" action="http://www.nines.org/search">
                <div style="background:url(image-widget_tower_white.jpg) no-repeat scroll left top;height:56px;width:157px;font-size:12px;margin:0;padding:125px 0 0 22px;text-align:left;font-family:'Times New Roman',Times,serif;font-size-adjust:none;font-style:normal;font-variant:normal;font-weight:normal;line-height:1.231;color:#000000;"><a href="http://nines.org" style="text-decoration:none; float:left; margin-top:-125px; height:120px; width:120px;">&nbsp;</a><input type="text" name="q" onclick="this.form.target='_blank';return true;" size="16" maxlength="255" value="" style="width:100px;-x-system-font:none;font-family:arial,helvetica,clean,sans-serif;font-size-adjust:none;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;line-height:normal;margin:0;margin-top:3px;margin-bottom:5px;padding:0;text-align:left;color:#000000;"><input type="submit" value="Search NINES" style="width:100px;padding:1px;-x-system-font:none;font-family:arial,helvetica,clean,sans-serif;font-size:99%;font-size-adjust:none;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;line-height:normal;margin:0;margin-left:7px;text-align:left;color:#000000;"></div>
             </form>
          </div>
       </div>
-      <div class="contents-notes">
-         <h1>Contents — Facsimile/Diplomatic View</h1>
+      <div id="maintext">
+         <div id="maincontent"></div>
+         <h1>Contents</h1>
+         <hr>
          ¤ <a href="#SPH_18370808_let">Letter from Sophia Peabody Hawthorne to Her Sister, Elizabeth Palmer Peabody, 8 August
             1837</a><br><p style="font-size:.85em;">
             
@@ -335,10 +328,8 @@
          ¤ <a href="#SPH_1868-12-04_let">Letter from Sophia Peabody Hawthorne to Elizabeth Palmer Peabody, 4 December 1868</a><br><p style="font-size:.85em;"> This letter, written by Sophia Hawthorne to her sister Elisabeth Peabody,
             discusses the death of their nephew Horace Mann, Jr. and the subsequent reaction of
             his mother (their sister, Mary Tyler Peabody Mann). 
-         </p><br><hr>
-      </div>
-      <div id="maintext">
-         <div id="maincontent"></div>
+         </p><br><hr style="border:2px solid crimson;">
+         <h1>Letters</h1>
          <hr><a class="TOCtarget" name="SPH_18370808_let"></a><div class="letter">
             
             <br><div class="pagebreak"> [Page&nbsp;-&nbsp;1&nbsp; (<a href="Letter1_P1a.jpg" target="top">click to open page image in a new window</a>)]<br><a href="Letter1_P1a.jpg" target="top"><img class="pageview" src="Letter1_P1a_small.jpg" width="425"></a></div>
@@ -1087,8 +1078,8 @@
             
             
          </div>
-         <hr class="half-width">
-         <p class="msDesc">
+         <hr style="margin-left:200px;margin-right:200px;">
+         <p class="msDesc"><span style="font-weight:bold;">MS Description. </span>
             
             ALS. 4 pp.
             
@@ -1483,8 +1474,8 @@
             
             
          </div>
-         <hr class="half-width">
-         <p class="msDesc">
+         <hr style="margin-left:200px;margin-right:200px;">
+         <p class="msDesc"><span style="font-weight:bold;">MS Description. </span>
             ALS. 4 pp.
             
          </p>
@@ -1858,8 +1849,8 @@
             
             
          </div>
-         <hr class="half-width">
-         <p class="msDesc">
+         <hr style="margin-left:200px;margin-right:200px;">
+         <p class="msDesc"><span style="font-weight:bold;">MS Description. </span>
             ALS. 4 pp.
             
          </p>
@@ -3023,8 +3014,8 @@
             
             
          </div>
-         <hr class="half-width">
-         <p class="msDesc">
+         <hr style="margin-left:200px;margin-right:200px;">
+         <p class="msDesc"><span style="font-weight:bold;">MS Description. </span>
             ALS. 16 pp.
             
          </p>
@@ -3921,49 +3912,53 @@
             
             
          </div>
-         <hr class="half-width">
-         <p class="msDesc"> ALS. 8 pp. </p>
-      </div>
-      <hr>
-      <div class="contents-notes">
-         <h1>Explanatory Annotations</h1>
-         <p class="hang15"><a name="nmote"></a>1.&nbsp;See Matt. 7: 3-5.<a href="#pmote" class="annotation">
-               [Back]
-               </a></p>
-         <p class="hang15"><a name="ndutch"></a>2.&nbsp;Note about <cite>The Dutch Republic</cite>.().<a href="#pdutch" class="annotation">
-               [Back]
-               </a></p>
-         <p class="hang15"><a name="ngalitzin"></a>3.&nbsp;
-            A fashionable district in the 19th century located in the 
-            center of Rome, just off the Tiber in Via della Scrofia #117 (ROM 208-209).<a href="#pgalitzin" class="annotation">
-               [Back]
-               </a></p>
-         <p class="hang15"><a name="nangels"></a>4.&nbsp;Presumably
-            Sophia's sister, Mary Tyler Peabody Mann.<a href="#pangels" class="annotation">
-               [Back]
-               </a></p>
-         <p class="hang15"><a name="nmargaret"></a>5.&nbsp;Presumably
-            Sophia's sister, Mary Tyler Peabody Mann.<a href="#pmargaret" class="annotation">
-               [Back]
-               </a></p>
-         <p class="hang15"><a name="nsandwich"></a>6.&nbsp;The Hawaiian Islands.().<a href="#psandwich" class="annotation">
-               [Back]
-               </a></p>
-         <p class="hang15"><a name="njoy"></a>7.&nbsp;Matt. 25:21.<a href="#pjoy" class="annotation">
-               [Back]
-               </a></p>
-         <p class="hang15"><a name="nfive"></a>8.&nbsp;Matt. 25:21.<a href="#pfive" class="annotation">
-               [Back]
-               </a></p>
-         <p class="hang15"><a name="nnotebooks"></a>9.&nbsp;Nathaniel Hawthorne's 
-            <cite>American Notebooks</cite>, published by Ticknor
-            and Fields, that Sophia felt she was not being properly compensated for.
-            (GALE 169).<a href="#pnotebooks" class="annotation">
-               [Back]
-               </a></p>
-      </div>
-      <div class="contents-notes">
-         <p><strong>About this View of the Journal</strong></p>
+         <hr style="margin-left:200px;margin-right:200px;">
+         <p class="msDesc"><span style="font-weight:bold;">MS Description. </span> ALS. 8 pp. 
+         </p>
+         <hr style="border:2px solid crimson;">
+         <div>
+            <h1>Explanatory Annotations</h1>
+            <hr>
+            <p class="hang15"><a name="nmote"></a>1.&nbsp;See Matt. 7: 3-5.<a href="#pmote" class="annotation">
+                  [Back]
+                  </a></p>
+            <p class="hang15"><a name="ndutch"></a>2.&nbsp;Note about <cite>The Dutch Republic</cite>.().<a href="#pdutch" class="annotation">
+                  [Back]
+                  </a></p>
+            <p class="hang15"><a name="ngalitzin"></a>3.&nbsp;
+               A fashionable district in the 19th century located in the 
+               center of Rome, just off the Tiber in Via della Scrofia #117 (ROM 208-209).<a href="#pgalitzin" class="annotation">
+                  [Back]
+                  </a></p>
+            <p class="hang15"><a name="nangels"></a>4.&nbsp;Presumably
+               Sophia's sister, Mary Tyler Peabody Mann.<a href="#pangels" class="annotation">
+                  [Back]
+                  </a></p>
+            <p class="hang15"><a name="nmargaret"></a>5.&nbsp;Presumably
+               Sophia's sister, Mary Tyler Peabody Mann.<a href="#pmargaret" class="annotation">
+                  [Back]
+                  </a></p>
+            <p class="hang15"><a name="nsandwich"></a>6.&nbsp;The Hawaiian Islands.().<a href="#psandwich" class="annotation">
+                  [Back]
+                  </a></p>
+            <p class="hang15"><a name="njoy"></a>7.&nbsp;Matt. 25:21.<a href="#pjoy" class="annotation">
+                  [Back]
+                  </a></p>
+            <p class="hang15"><a name="nfive"></a>8.&nbsp;Matt. 25:21.<a href="#pfive" class="annotation">
+                  [Back]
+                  </a></p>
+            <p class="hang15"><a name="nnotebooks"></a>9.&nbsp;Nathaniel Hawthorne's 
+               <cite>American Notebooks</cite>, published by Ticknor
+               and Fields, that Sophia felt she was not being properly compensated for.
+               (GALE 169).<a href="#pnotebooks" class="annotation">
+                  [Back]
+                  </a></p>
+         </div>
+         <hr style="border: 2px solid crimson;">
+         <h2 style="text-align:center;">
+            About this View of the Journal
+            
+         </h2>
          <p><a name="view"></a>
             The text of the journal is organized by manuscript pages. Line breaks
             and page breaks reflect those in the manuscript; paragraph breaks are not reported.
@@ -3985,10 +3980,8 @@
             of a tiled detail from a page of Doane's journal.
             
          </p>
-         <hr>
          <p align="left"><a href="#top" target="self">Top of Page</a><br><br><emph>Created: 2006-06-06</emph>
          </p>
          <p align="center"></p>
-      </div>
-   </body>
+      </div><script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script><script src="index.js"></script></body>
 </html>
