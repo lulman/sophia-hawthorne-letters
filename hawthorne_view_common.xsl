@@ -473,8 +473,8 @@
             <hr/>
             <!-- Insert link to home page, creation date, and licensing statement.-->
             <p align="left">
-               <a href="hawthorne_letters.html"
-                  target="self">Home</a>
+               <a href="#top"
+                  target="self">Top of Page</a>
                <br/>
                <br/>
                <emph>Created: <xsl:apply-templates
