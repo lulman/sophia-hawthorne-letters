@@ -444,21 +444,22 @@
             <xsl:apply-templates select="/tei:teiCorpus/tei:teiHeader/tei:encodingDesc/tei:projectDesc"/>
             <xsl:apply-templates select="/tei:teiCorpus/tei:teiHeader/tei:encodingDesc/tei:editorialDecl"/>
             <xsl:apply-templates select="/tei:teiCorpus/tei:teiHeader/tei:encodingDesc/tei:refsDecl"/>
-            <hr/>
-            <a name="WorksCited"/>
+      <hr style="border: 2px solid crimson;"/>
+      <a name="WorksCited"/>
             <h2 id="worksCited">List of Works Cited</h2>
+      <hr/>
             <xsl:apply-templates
                select="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:listBibl"/>
-            <hr/>
-            <h2>Appendices</h2>            
+      <hr style="border: 2px solid crimson;"/>
+      <h2>Appendices</h2>            
             <xsl:apply-templates
                select="/tei:teiCorpus/tei:teiHeader/tei:profileDesc/tei:particDesc/tei:listPerson"/>
       <xsl:apply-templates select="tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:listOrg"></xsl:apply-templates>
       <xsl:apply-templates
                select="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:listPlace"/>
             <xsl:apply-templates select="/tei:teiCorpus/tei:teiHeader/tei:revisionDesc"/>
-            <hr/>
-            <p>
+      <hr style="border: 2px solid crimson;"/>
+      <p>
                <strong>About this Editorial Introduction</strong>
             </p>
             <p><a name="view"/>Text on this page is derived from the
@@ -476,15 +477,17 @@
    <!-- Format the introductory notes. -->
    <xsl:template match="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:biblFull/tei:notesStmt/tei:note[@type='introductory']">
       <h2><xsl:attribute name="id"><xsl:value-of select="@xml:id"/></xsl:attribute>Introduction: Hawthorne Letters Intro Title</h2>
+      <hr/>
       <xsl:apply-templates/>
    </xsl:template>
    
    <!-- Format information about your source document. -->
    <xsl:template
       match="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:biblFull/tei:notesStmt/tei:note[@type='descriptive']">
-      <hr/>
+      <hr style="border: 2px solid crimson;"/>
       <a name="source"/>
       <h2 id="source">About the Source Documents</h2>
+      <hr/>
       <p>Title: "<xsl:value-of select="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:biblFull/tei:titleStmt/tei:title"/>" 
          <br/>Extent: <xsl:value-of select="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:biblFull/tei:extent"/>
       </p>
@@ -510,15 +513,18 @@
 
    <!-- Format information about your electronic document. -->
    <xsl:template match="/tei:teiCorpus/tei:teiHeader/tei:encodingDesc/tei:projectDesc">
-      <h3 id="projectDescription">Project Description</h3>
+      <hr style="border: 2px solid crimson;"/>
+      <h2 id="projectDescription">Project Description</h2>
+      <hr/>
       <p>
          <xsl:apply-templates/>
       </p>
    </xsl:template>
    <xsl:template match="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:titleStmt">
-      <hr/>
+      <hr style="border: 2px solid crimson;"/>
       <a name="edition"/>
       <h2 id="edition">About the Electronic Edition</h2>
+      <hr/>
       <p>Title: <xsl:value-of select="tei:title"/></p>
          <p>Editors: <xsl:for-each select="tei:editor/tei:persName">
             <xsl:choose>
@@ -543,7 +549,9 @@
       </xsl:for-each>
    </xsl:template>
    <xsl:template match="/tei:teiCorpus/tei:teiHeader/tei:encodingDesc/tei:editorialDecl">
-      <h3>Editorial Method</h3>
+      <hr style="border: 2px solid crimson;"/>
+      <h2>Editorial Method</h2>
+      <hr/>
       <xsl:apply-templates/>
    </xsl:template>
    
@@ -581,6 +589,7 @@
 <!-- New People mentioned template -->
    
    <xsl:template match="tei:listPerson[@type='mentioned']">
+      <hr/>
       <h3 id="peopleMentioned">List of People Mentioned</h3>
       <xsl:for-each select="tei:person">
          <xsl:sort select="tei:persName[1]"/>
@@ -606,6 +615,7 @@
    </xsl:template>
    
    <xsl:template match="tei:listOrg">
+      <hr/>
       <h3 id="organizationsMentioned">List of Organizations Mentioned</h3>
       <xsl:for-each select="tei:org">
          <xsl:sort select="tei:orgName[1]"/>
@@ -619,6 +629,7 @@
    
    <xsl:template match="tei:listPlace">
       <a name="placesMentioned"/>
+      <hr/>
       <h3>List of Places Mentioned in the Letters</h3>
       <xsl:for-each select="tei:place">
          <xsl:sort select="tei:geogName"/>
@@ -639,13 +650,15 @@
 
    <!-- Format information about the revision history of your document. -->
    <xsl:template match="/tei:teiCorpus/tei:teiHeader/tei:revisionDesc">
-         <p align="center">
+      <hr style="border: 2px solid crimson;"/>
+      <h2>License</h2>
+      <p>
             <xsl:value-of
                select="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:availability/tei:p[@xml:id='CreativeCommons']"
                disable-output-escaping="yes"/>
          </p>
-         <hr/>
-         <a name="revision"/>
+      <hr style="border: 2px solid crimson;"/>
+      <a name="revision"/>
          <h2 id="revision">Revision History</h2>
       <table width="90%">
          <tr>
@@ -678,6 +691,7 @@
             </tr>
          </xsl:for-each>
       </table>
+      <p><lb/></p>
    </xsl:template>
 
    <!-- Format miscellaneous elements -->
