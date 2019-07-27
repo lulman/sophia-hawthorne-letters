@@ -50,7 +50,7 @@
            </respStmt>
                
            <respStmt>
-             <resp>Conversion to TEI-conformant markup</resp>
+             <resp>Conversion to TEI-conformant markup: </resp>
              <persName ref="MA">Michael Albrecht</persName>
              <persName ref="KDA">Karen D. Anderson</persName>
              <persName ref="SC">Sue Carlson</persName>

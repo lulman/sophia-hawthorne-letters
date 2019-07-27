@@ -155,7 +155,7 @@
    <xsl:template match="tei:pb">
       <br/>
       <div class="pagebreak"> [Page&#xA0;-&#xA0;<xsl:number count="tei:pb" format="1"
-         level="any"/>&#xA0; (<a><xsl:attribute
+         level="any" from="tei:div[@type='letter']"/>&#xA0; (<a><xsl:attribute
             name="href"><xsl:value-of select="@facs"/>.jpg</xsl:attribute><xsl:attribute name="target">top</xsl:attribute>click to open page image in a new window</a>)]<br/>
          <a>
             <xsl:attribute

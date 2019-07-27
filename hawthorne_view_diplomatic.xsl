@@ -112,18 +112,21 @@
    
    <xsl:template match="tei:pb">
       <br/>
-      <span class="pagebreak">[Page&#xA0;-&#xA0;<xsl:number count="tei:pb" format="1" level="any"/>
+      <span class="pagebreak">[Page&#xA0;-&#xA0;<xsl:number count="tei:pb" format="1" level="any" from="tei:div[@type='letter']"/>
          &#xA0;(<a><xsl:attribute
             name="href"><xsl:value-of select="@facs"/>.jpg</xsl:attribute>
             <xsl:attribute name="target">_blank</xsl:attribute>click to open page image in a new window</a>)]</span>
       <br/>
-   </xsl:template>    
+   </xsl:template>
+   
    <xsl:template match="tei:lb"><br/><a><xsl:attribute name="name"><xsl:number count="tei:lb" format="0001" level="any" from="tei:div[@type='letter']"/></xsl:attribute>
    </a><xsl:number count="tei:lb" format="0001" level="any" from="tei:div[@type='letter']"/>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;
    </xsl:template>
+   
    <xsl:template match="tei:fileDesc/tei:titleStmt/tei:title/tei:lb">
       <br/><xsl:apply-templates/>
    </xsl:template>
+   
    <xsl:template match="tei:add[@place='supralinear']"> &#x2191; <xsl:apply-templates/> &#x2193; </xsl:template>
    <xsl:template match="tei:add[@place='infralinear']"> &#x2193; <xsl:apply-templates/> &#x2191; </xsl:template>
    <xsl:template match="tei:add[@place='inline']">&#x7c;<xsl:apply-templates/>&#x7c;</xsl:template>
@@ -133,8 +136,10 @@
    
    <xsl:template match="tei:seg[@type='softhyphen']">
       <xsl:apply-templates/>
-   </xsl:template>    
+   </xsl:template>  
+   
    <xsl:template match="tei:p"><xsl:apply-templates/></xsl:template>
+   
    <xsl:template match="tei:figure[@rend='embed']"/>
    
 </xsl:stylesheet>
