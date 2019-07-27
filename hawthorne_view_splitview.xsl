@@ -15,23 +15,19 @@
    <!-- Declare variables that will "localize" references to them in LCSmith-Common.xsl -->
    
    <xsl:variable name="View">Facsimile/Diplomatic View</xsl:variable>
-   <xsl:variable name="aboutView">
-      The text of the journal is organized by manuscript pages. Line breaks
-      and page breaks reflect those in the manuscript; paragraph breaks are not reported.
-      Spelling, punctuation, capitalization, and abbreviations are reported as they appear
-      in the manuscript. Text highlighted by Doane with an underscore is underscored in
-      this view. Recoverable text canceled by Doane is reported in red, strikethrough text;
-      unrecoverable text canceled by Cox is reported with an ellipsis in red, strikethrough
-      text. Text added by Cox between lines is reported between arrows (↑ ↓) indicating the
-      position of the addition; text added in the margin is reported between pipes (|). All
-      material added by the editor is surrounded by square brackets: uncertain readings are
-      enclosed in square brackets and followed by a question mark, errors in the manuscript
-      are indicated by sic, and text supplied by the editors for clarity is set in italics.
-      Gaps in the manuscript (e.g., tears) are noted by ellipses within square brackets.
-      Links to explanatory notes are numbered, colored, and underlined; links to textual
-      annotations are lettered, colored, and underlined. Finally, the background consists
-      of a tiled detail from a page of Doane's journal.
-   </xsl:variable>
+   <xsl:variable name="aboutView"> This presentation of the Hawthorne letters derives from the
+      project's main XML file, hawthorne_letters.xml, transformed with hawthorne_view_common.xsl and
+      hawthorne_view_splitview.xsl. Facsimiles of pages appear next to the edited text. In the text
+      of the letter, line and page breaks follow those in the manuscript; paragraph breaks are not
+      reported. Spelling, punctuation, capitalization, and abbreviations are reported as they appear
+      in the manuscript. Text highlighted by Hawthorne with an underscore is underscored. Text
+      canceled by Hawthorne is presented in a red, strikethrough font. Uncertain readings are
+      enclosed in square brackets and followed by a question mark. Text added by Hawthorne between
+      lines is preceded by an arrow indicating whether the addition is above or below the line and
+      followed by an arrow indicating the return to the line (&#x2191; &#x2193;); text added in the
+      margins is preceded and followed by a vertical bar (&#x007C;). Text added by Hawthorne in the
+      margins is surrounded by "pipe" characters (|) at the point in the main text that it appears
+      to follow. Links to external materials are colored and underlined.. </xsl:variable>
    <xsl:variable name="bodyRule">
       body {
       font-family: 'Fanwood Text',georgia, serif;

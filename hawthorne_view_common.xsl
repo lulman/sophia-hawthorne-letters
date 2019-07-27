@@ -345,7 +345,7 @@
             <!-- END THE VERTICAL IMAGE BAR -->
             <!-- START RIGHT MENU -->   
             <div id="viewMenu">
-               <p class="aboutView"><a href="#View">About this page.</a></p>
+               <p class="aboutView"><a href="#View">About this view.</a></p>
                <div class="container">
                   <p class="font-size-label">Font Size <button id="up">+</button> <button id="down">-</button></p>
                   <!--<p id="font-size"></p>-->
@@ -474,6 +474,7 @@
                <h2 style="text-align:center;">
                   About this View of the Journal
                </h2>
+               <hr/>
                <p><a name="view"/><xsl:value-of select="$aboutView"/></p>
             <!-- Insert link to home page, creation date, and licensing statement.-->
             <p align="left">
@@ -695,9 +696,9 @@
       <xsl:apply-templates/>
    </xsl:template>
 
-   <!-- Recoverable cancellations by the author or another hand -->
+   <!-- Recoverable cancellations by the author or another hand are handled in individual views.
    <xsl:template match="tei:del"/>
-
+   -->
    <!-- Unclear passages. -->
    <xsl:template match="tei:unclear"> [<xsl:apply-templates/>?] </xsl:template>
 
