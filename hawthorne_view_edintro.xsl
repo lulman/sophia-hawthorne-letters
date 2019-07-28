@@ -99,7 +99,7 @@
             </xsl:element>
             <title>
                <xsl:value-of
-                  select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/>
+                  select="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/>
             </title>
             
             <!-- LOCAL JS CALLS -->
@@ -443,7 +443,10 @@
             <xsl:apply-templates select="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:publicationStmt"/>
             <xsl:apply-templates select="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:titleStmt"/>
             <xsl:apply-templates select="/tei:teiCorpus/tei:teiHeader/tei:encodingDesc/tei:editorialDecl"/>
-            <xsl:apply-templates select="/tei:teiCorpus/tei:teiHeader/tei:encodingDesc/tei:refsDecl"/>
+
+<!--     THIS INFO COVERED IN EDITORIAL DECLARATION       
+         <xsl:apply-templates select="/tei:teiCorpus/tei:teiHeader/tei:encodingDesc/tei:refsDecl"/>
+-->      
       <hr style="border: 2px solid crimson;"/>
       <a name="WorksCited"/>
             <h2 id="worksCited">List of Works Cited</h2>
@@ -463,7 +466,8 @@
                <strong>About this Editorial Introduction</strong>
             </p>
             <p><a name="view"/>Text on this page is derived from the
-               edition's XML source document, hawthorne_letters.xml.</p>
+               edition's XML source document, hawthorne_letters.xml, transformed
+               via the hawthorne_view_edintro.xsl style sheet.</p>
             <hr/>
             <p>&#x2192; <a href="hawthorne_reading.html">Link to the text of the journal</a>.
             </p>
@@ -488,27 +492,31 @@
       <a name="source"/>
       <h2 id="source">About the Source Documents</h2>
       <hr/>
-      <p>Title: "<xsl:value-of select="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:biblFull/tei:titleStmt/tei:title"/>" 
-         <br/>Extent: <xsl:value-of select="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:biblFull/tei:extent"/>
+      <p><strong>Title</strong>: "<xsl:value-of select="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:biblFull/tei:titleStmt/tei:title"/>" 
+         <br/><strong>Extent</strong>: <xsl:value-of select="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:biblFull/tei:extent"/>
       </p>
+      <p>See individual letters (under "Views of the Letters") for physical descriptions of each letter.</p>
          <xsl:apply-templates/>
    </xsl:template>
+   
    <xsl:template match="/tei:teiCorpus/tei:teiHeader/tei:encodingDesc/refsDecl">
       <h3>Encoding Conventions</h3>
-      <xsl:apply-templates/>
+      <xsl:apply-templates/>      
    </xsl:template>
+   
+<!-- Format the availability statement -->      
    <xsl:template match="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:availability">
       <p>
-         <em>
             <xsl:apply-templates/>
-         </em>
       </p>
+<!--      
       <p>
          <em>
             <xsl:value-of select="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:pubPlace"/>, <xsl:value-of
                select="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:date"/>
          </em>
       </p>
+-->   
    </xsl:template>
 
    <!-- Format information about your electronic document. -->
@@ -525,7 +533,7 @@
       <a name="edition"/>
       <h2 id="edition">About the Electronic Edition</h2>
       <hr/>
-      <p><strong>Title</strong>: <xsl:value-of select="tei:title"/></p>
+      <p><strong>Title</strong>: "<xsl:value-of select="tei:title"/>"</p>
          <p><strong>Editors</strong>: <xsl:for-each select="tei:editor/tei:persName">
             <xsl:choose>
                <xsl:when test="current()=//tei:titleStmt/tei:editor[1]">
@@ -547,6 +555,12 @@
          </xsl:for-each>.
          </p>
       </xsl:for-each>
+      <p>
+         <xsl:value-of select="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:pubPlace"/>, <xsl:value-of
+            select="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:date"/>
+      </p>
+      
+
    </xsl:template>
    <xsl:template match="/tei:teiCorpus/tei:teiHeader/tei:encodingDesc/tei:editorialDecl">
       <hr style="border: 2px solid crimson;"/>
@@ -788,7 +802,8 @@
       <cite>
          <xsl:apply-templates/>
       </cite>
-   </xsl:template>   
+   </xsl:template> 
+   
    <xsl:template match="tei:date">
       <xsl:apply-templates/>
    </xsl:template>
@@ -831,5 +846,6 @@
    <xsl:template match="tei:idno"/>
    <xsl:template match="tei:publisher"/>
    <xsl:template match="tei:pubPlace"/>
+   <xsl:template match="tei:publicationStmt/tei:date"></xsl:template>
    <xsl:template match="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:availability/tei:p[@xml:id='CreativeCommons']"/>
 </xsl:stylesheet>

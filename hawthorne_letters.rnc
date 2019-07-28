@@ -6,7 +6,7 @@ default namespace tei = "http://www.tei-c.org/ns/1.0"
 namespace teix = "http://www.tei-c.org/ns/Examples"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2019-07-17T18:55:52Z. .
+# Schema generated from ODD source 2019-07-28T14:45:37Z. .
 # TEI Edition: Version 3.5.0. Last updated on
 #	29th January 2019, revision 3c0c64ec4
 # TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.5.0/
@@ -256,7 +256,7 @@ att.datable.w3c.attribute.to =
   }?
 sch:pattern [
   id =
-    "anderson_letters-att.datable.w3c-att-datable-w3c-when-constraint-rule-1"
+    "hawthorne_letters-att.datable.w3c-att-datable-w3c-when-constraint-rule-1"
   "\x{a}" ~
   "      "
   sch:rule [
@@ -276,7 +276,7 @@ sch:pattern [
 ]
 sch:pattern [
   id =
-    "anderson_letters-att.datable.w3c-att-datable-w3c-from-constraint-rule-2"
+    "hawthorne_letters-att.datable.w3c-att-datable-w3c-from-constraint-rule-2"
   "\x{a}" ~
   "      "
   sch:rule [
@@ -296,7 +296,7 @@ sch:pattern [
 ]
 sch:pattern [
   id =
-    "anderson_letters-att.datable.w3c-att-datable-w3c-to-constraint-rule-3"
+    "hawthorne_letters-att.datable.w3c-att-datable-w3c-to-constraint-rule-3"
   "\x{a}" ~
   "      "
   sch:rule [
@@ -326,7 +326,7 @@ att.datable.attribute.calendar =
   attribute calendar { xsd:anyURI }?
 sch:pattern [
   id =
-    "anderson_letters-att.datable-calendar-calendar-constraint-rule-4"
+    "hawthorne_letters-att.datable-calendar-calendar-constraint-rule-4"
   "\x{a}" ~
   "      "
   sch:rule [
@@ -762,7 +762,7 @@ att.typed.attribute.subtype =
     xsd:token { pattern = "(\p{L}|\p{N}|\p{P}|\p{S})+" }
   }?
 sch:pattern [
-  id = "anderson_letters-att.typed-subtypeTyped-constraint-rule-5"
+  id = "hawthorne_letters-att.typed-subtypeTyped-constraint-rule-5"
   "\x{a}" ~
   "      "
   sch:rule [
@@ -796,7 +796,7 @@ att.pointing.attribute.targetLang =
   }?
 sch:pattern [
   id =
-    "anderson_letters-att.pointing-targetLang-targetLang-constraint-rule-6"
+    "hawthorne_letters-att.pointing-targetLang-targetLang-constraint-rule-6"
   "\x{a}" ~
   "      "
   sch:rule [
@@ -874,7 +874,8 @@ att.spanning.attribute.spanTo =
   ## indicates the end of a span initiated by the element bearing this attribute.
   attribute spanTo { xsd:anyURI }?
 sch:pattern [
-  id = "anderson_letters-att.spanning-spanTo-spanTo-2-constraint-rule-7"
+  id =
+    "hawthorne_letters-att.spanning-spanTo-spanTo-2-constraint-rule-7"
   "\x{a}" ~
   "      "
   sch:rule [
@@ -960,12 +961,13 @@ model.hiLike_sequence = hi
 model.hiLike_sequenceOptional = hi?
 model.hiLike_sequenceOptionalRepeatable = hi*
 model.hiLike_sequenceRepeatable = hi+
-model.emphLike = foreign | term | title
-model.emphLike_alternation = foreign | term | title
-model.emphLike_sequence = foreign, term, title
-model.emphLike_sequenceOptional = foreign?, term?, title?
-model.emphLike_sequenceOptionalRepeatable = foreign*, term*, title*
-model.emphLike_sequenceRepeatable = foreign+, term+, title+
+model.emphLike = foreign | emph | term | title
+model.emphLike_alternation = foreign | emph | term | title
+model.emphLike_sequence = foreign, emph, term, title
+model.emphLike_sequenceOptional = foreign?, emph?, term?, title?
+model.emphLike_sequenceOptionalRepeatable =
+  foreign*, emph*, term*, title*
+model.emphLike_sequenceRepeatable = foreign+, emph+, term+, title+
 model.highlighted = model.hiLike | model.emphLike
 model.dateLike = date
 model.dateLike_alternation = date
@@ -1271,7 +1273,7 @@ p =
     macro.paraContent
     >> sch:pattern [
          id =
-           "anderson_letters-p-abstractModel-structure-p-constraint-report-5"
+           "hawthorne_letters-p-abstractModel-structure-p-constraint-report-5"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -1293,7 +1295,7 @@ p =
        ]
     >> sch:pattern [
          id =
-           "anderson_letters-p-abstractModel-structure-l-constraint-report-6"
+           "hawthorne_letters-p-abstractModel-structure-l-constraint-report-6"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -1323,6 +1325,10 @@ foreign =
   
   ## identifies a word or phrase as belonging to some language other than that of the surrounding text. [3.3.2.1. Foreign Words or Expressions]
   element foreign { macro.phraseSeq, att.global.attributes, empty }
+emph =
+  
+  ## (emphasized) marks words or phrases which are stressed or emphasized for linguistic or rhetorical effect. [3.3.2.2. Emphatic Words and Phrases 3.3.2. Emphasis, Foreign Words, and Unusual Language]
+  element emph { macro.paraContent, att.global.attributes, empty }
 hi =
   
   ## (highlighted) marks a word or phrase as graphically distinct from the surrounding text, for reasons concerning which no claim is made. [3.3.2.2. Emphatic Words and Phrases 3.3.2. Emphasis, Foreign Words, and Unusual Language]
@@ -1381,7 +1387,7 @@ desc =
     macro.limitedContent
     >> sch:pattern [
          id =
-           "anderson_letters-desc-deprecationInfo-only-in-deprecated-constraint-rule-9"
+           "hawthorne_letters-desc-deprecationInfo-only-in-deprecated-constraint-rule-9"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -1635,7 +1641,7 @@ ptr =
   element ptr {
     empty
     >> sch:pattern [
-         id = "anderson_letters-ptr-ptrAtts-constraint-report-7"
+         id = "hawthorne_letters-ptr-ptrAtts-constraint-report-7"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -1669,7 +1675,7 @@ ref =
   element ref {
     macro.paraContent
     >> sch:pattern [
-         id = "anderson_letters-ref-refAtts-constraint-report-8"
+         id = "hawthorne_letters-ref-refAtts-constraint-report-8"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -2266,7 +2272,7 @@ body =
       (model.divBottom, model.global*)*)?)
     >> sch:pattern [
          id =
-           "anderson_letters-div-abstractModel-structure-l-constraint-report-9"
+           "hawthorne_letters-div-abstractModel-structure-l-constraint-report-9"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -2287,7 +2293,7 @@ body =
        ]
     >> sch:pattern [
          id =
-           "anderson_letters-div-abstractModel-structure-p-constraint-report-10"
+           "hawthorne_letters-div-abstractModel-structure-p-constraint-report-10"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -2882,7 +2888,7 @@ ab =
     macro.paraContent
     >> sch:pattern [
          id =
-           "anderson_letters-ab-abstractModel-structure-ab-constraint-report-11"
+           "hawthorne_letters-ab-abstractModel-structure-ab-constraint-report-11"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -2904,7 +2910,7 @@ ab =
        ]
     >> sch:pattern [
          id =
-           "anderson_letters-ab-abstractModel-structure-l-constraint-report-12"
+           "hawthorne_letters-ab-abstractModel-structure-l-constraint-report-12"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -3029,7 +3035,7 @@ msIdentifier =
      empty*)
     >> sch:pattern [
          id =
-           "anderson_letters-msIdentifier-msId_minimal-constraint-report-13"
+           "hawthorne_letters-msIdentifier-msId_minimal-constraint-report-13"
          "\x{a}" ~
          "            "
          sch:rule [

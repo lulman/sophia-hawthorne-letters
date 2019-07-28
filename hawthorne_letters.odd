@@ -46,7 +46,7 @@
              -->
         <!-- The four required modules:
              core, tei, header, and textstructure. -->
-        <moduleRef key="core" include="abbr add address addrLine author bibl choice corr date del desc editor expan foreign gap graphic head hi label lb listBibl name note p pb ptr publisher pubPlace q ref resp respStmt rs sic street teiCorpus term title unclear"/>
+        <moduleRef key="core" include="abbr add address addrLine author bibl choice corr date del desc emph editor expan foreign gap graphic head hi label lb listBibl name note p pb ptr publisher pubPlace q ref resp respStmt rs sic street teiCorpus term title unclear"/>
         <moduleRef key="tei"/>
         <moduleRef key="header" include="availability biblFull change classDecl creation editionStmt editorialDecl encodingDesc extent fileDesc handNote idno keywords language langUsage notesStmt profileDesc projectDesc publicationStmt refsDecl revisionDesc sourceDesc taxonomy teiHeader textClass titleStmt"/>
         <moduleRef key="textstructure" include="body closer dateline div opener postscript salute signed TEI text"/>
