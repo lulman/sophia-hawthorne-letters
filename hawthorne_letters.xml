@@ -137,17 +137,17 @@
 	               </note>
 	               <note xml:id="HawthorneIntro" type="introductory">
 	                 <p>
-	                   <figure rend="embed" n="250">
-	                     <head>TEXT</head>
-	                     <graphic url="IMAGE.jpg"/>
+	                   <figure rend="embed">
+	                     <head>Salutation, 19 Nov. 1839</head>
+	                     <graphic url="image_my_dear_lizzie.png"/>
 	                     <figDesc>
-	                       CAPTION
+	                       My Dear Lizzie
 	                     </figDesc>
 	                   </figure>
 	                 </p>
 	                 
 	                 <p>
-	                   <!-- INTRODUCTORY NOTE -->
+	                   Introductory Note.
 	                 </p>
 	               </note>
 	             </notesStmt>
@@ -737,12 +737,6 @@
         <div type="letter" hand="#SPH" xml:id="SPH_18370808_let">
           <!-- REPLACE WITH FILENAME FOR FIRST PAGE OF THE LETTER -->
           <pb facs="Letter1_P1a"/>
-          <head type="letterhead"></head>
-          <figure rend="link">
-            <head></head>
-            <graphic url=""></graphic>
-            <figDesc></figDesc>
-          </figure>
           <lb/>
           <opener>
             <!-- REPLACE WITH INFO FROM NEW LETTER -->
@@ -1120,12 +1114,6 @@
         <div type="letter" xml:id="SPH_18391119_let">
           <!-- REPLACE WITH FILENAME FOR FIRST PAGE OF THE LETTER -->
           <pb facs="Letter2_P1"/>
-          <head type="letterhead"></head>
-          <figure rend="link">
-            <head></head>
-            <graphic url=""></graphic>
-            <figDesc></figDesc>
-          </figure>
           <lb/>
           <opener>
             <!-- REPLACE WITH INFO FROM NEW LETTER -->
@@ -1347,12 +1335,6 @@
         <div type="letter" xml:id="SPH_1859-01-08_let">
           <!-- REPLACE WITH FILENAME FOR FIRST PAGE OF THE LETTER -->
           <pb facs="Letter3_P1"/>
-          <head type="letterhead"></head>
-          <figure rend="link">
-            <head></head>
-            <graphic url=""></graphic>
-            <figDesc></figDesc>
-          </figure>
           <lb/>
           <opener>
             <!-- REPLACE WITH INFO FROM NEW LETTER -->
@@ -1555,12 +1537,6 @@
         <div type="letter" xml:id="SPH_1863_let">
           <!-- REPLACE WITH FILENAME FOR FIRST PAGE OF THE LETTER -->
           <pb facs="Letter4_P1"/>
-          <head type="letterhead"></head>
-          <figure rend="link">
-            <head>Stationer's mark</head>
-            <graphic url=""></graphic>
-            <figDesc></figDesc>
-          </figure>
           <lb/>
           <opener>
             <!-- REPLACE WITH INFO FROM NEW LETTER -->
@@ -2053,12 +2029,6 @@
         <div type="letter" xml:id="SPH_1868-12-04_let">
           <!-- REPLACE WITH FILENAME FOR FIRST PAGE OF THE LETTER -->
           <pb facs="Letter5_P1"/>
-          <head type="letterhead"></head>
-          <figure rend="link">
-            <head></head>
-            <graphic url=""></graphic>
-            <figDesc></figDesc>
-          </figure>
           <lb/>
           <opener>
             <!-- REPLACE WITH INFO FROM NEW LETTER -->
