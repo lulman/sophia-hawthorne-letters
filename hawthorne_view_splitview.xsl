@@ -15,7 +15,7 @@
    <!-- Declare variables that will "localize" references to them in LCSmith-Common.xsl -->
    
    <xsl:variable name="View">Facsimile/Diplomatic View</xsl:variable>
-   <xsl:variable name="aboutView"> This presentation of the Hawthorne letters derives from the
+   <xsl:variable name="aboutView">This presentation of the Hawthorne letters derives from the
       project's main XML file, hawthorne_letters.xml, transformed with hawthorne_view_common.xsl and
       hawthorne_view_splitview.xsl. Facsimiles of pages appear next to the edited text. In the text
       of the letter, line and page breaks follow those in the manuscript; paragraph breaks are not
@@ -27,7 +27,7 @@
       followed by an arrow indicating the return to the line (&#x2191; &#x2193;); text added in the
       margins is preceded and followed by a vertical bar (&#x007C;). Text added by Hawthorne in the
       margins is surrounded by "pipe" characters (|) at the point in the main text that it appears
-      to follow. Links to external materials are colored and underlined.. </xsl:variable>
+      to follow. Links to external materials are colored and underlined.</xsl:variable>
    <xsl:variable name="bodyRule">
       body {
       font-family: 'Fanwood Text',georgia, serif;
