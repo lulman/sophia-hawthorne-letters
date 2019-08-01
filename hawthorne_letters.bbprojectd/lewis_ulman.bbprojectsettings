@@ -5,7 +5,7 @@
 	<key>EmbeddedEditorHidden:lewis_ulman</key>
 	<false/>
 	<key>ExpandedEditorWidth:lewis_ulman:displays([(0, 0), (2048, 1152)]:[(2048, 0), (1440, 900)])</key>
-	<integer>1001</integer>
+	<integer>743</integer>
 	<key>ExpandedItems:lewis_ulman</key>
 	<array/>
 	<key>FileFilterMode:lewis_ulman</key>
@@ -374,7 +374,53 @@
 	<array>
 		<dict>
 			<key>Date</key>
-			<date>2019-07-29T14:32:36Z</date>
+			<date>2019-07-31T20:55:23Z</date>
+			<key>Location</key>
+			<dict>
+				<key>BookmarkData</key>
+				<data>
+				Ym9va5wDAAAAAAQQMAAAAIG++b35Br96v68V7+HHWTSA
+				52gruFPOHq1fJiyFHzv4jAIAAAQAAAADAwAAAAgAKAUA
+				AAABAQAAVXNlcnMAAAALAAAAAQEAAGxld2lzX3VsbWFu
+				AAkAAAABAQAARG9jdW1lbnRzAAAACAAAAAEBAABSZXNl
+				YXJjaBIAAAABAQAAUmVsaWFibGUgV2l0bmVzc2VzAAAY
+				AAAAAQEAAHNvcGhpYS1oYXd0aG9ybmUtbGV0dGVycyAA
+				AAABAQAAaGF3dGhvcm5lX2FwcGVuZGljZXNfbWFya3Vw
+				Lmh0bWwcAAAAAQYAABAAAAAgAAAANAAAAEgAAABYAAAA
+				dAAAAJQAAAAIAAAABAMAAHrQFQAAAAAACAAAAAQDAAB8
+				0BUAAAAAAAgAAAAEAwAAlNsVAAAAAAAIAAAABAMAAA4J
+				FwAAAAAACAAAAAQDAAA5ThcAAAAAAAgAAAAEAwAAXGsX
+				AAAAAAAIAAAABAMAAGf6hwAAAAAAHAAAAAEGAADgAAAA
+				8AAAAAABAAAQAQAAIAEAADABAABAAQAACAAAAAAEAABB
+				wVTb2QGV4hgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAA
+				AAAAAAAACAAAAAQDAAAFAAAAAAAAAAQAAAADAwAA9QEA
+				AAgAAAABCQAAZmlsZTovLy8EAAAAAQEAAEhMVTMIAAAA
+				BAMAAACwYG50AAAACAAAAAAEAABBuCIywwAAACQAAAAB
+				AQAAQ0NBNUNCNEMtRjRCRC00QTYwLTk3NjktRUQ1OUY1
+				OUZBNUExGAAAAAECAACBAAAAAQAAAO8TAAABAAAAAAAA
+				AAAAAAABAAAAAQEAAC8AAAAAAAAAAQUAABoAAAABAQAA
+				TlNVUkxEb2N1bWVudElkZW50aWZpZXJLZXkAAAQAAAAD
+				AwAAYgIAANgAAAD+////AQAAAAAAAAARAAAABBAAALwA
+				AAAAAAAABRAAAFABAAAAAAAAEBAAAIQBAAAAAAAAQBAA
+				AHQBAAAAAAAAAiAAAEgCAAAAAAAABSAAAMABAAAAAAAA
+				ECAAANABAAAAAAAAESAAAPwBAAAAAAAAEiAAANwBAAAA
+				AAAAEyAAAOwBAAAAAAAAICAAACgCAAAAAAAAMCAAAFQC
+				AAAAAAAAAcAAAKQBAAAAAAAAEcAAACAAAAAAAAAAEsAA
+				ALQBAAAAAAAAENAAAAQAAAAAAAAAXAIAgIACAAAAAAAA
+				</data>
+				<key>FileURL</key>
+				<string>file:///Users/lewis_ulman/Documents/Research/Reliable%20Witnesses/sophia-hawthorne-letters/hawthorne_appendices_markup.html</string>
+				<key>HasSecurityScope</key>
+				<true/>
+				<key>TypeID</key>
+				<string>_CFileLocator</string>
+				<key>Version</key>
+				<integer>1</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>Date</key>
+			<date>2019-07-31T20:55:23Z</date>
 			<key>Location</key>
 			<dict>
 				<key>BookmarkData</key>
@@ -421,7 +467,7 @@
 		</dict>
 		<dict>
 			<key>Date</key>
-			<date>2019-07-29T14:32:36Z</date>
+			<date>2019-07-31T20:55:23Z</date>
 			<key>Location</key>
 			<dict>
 				<key>BookmarkData</key>
@@ -468,7 +514,7 @@
 		</dict>
 		<dict>
 			<key>Date</key>
-			<date>2019-07-29T14:32:36Z</date>
+			<date>2019-07-31T20:55:23Z</date>
 			<key>Location</key>
 			<dict>
 				<key>BookmarkData</key>
@@ -514,7 +560,7 @@
 		</dict>
 		<dict>
 			<key>Date</key>
-			<date>2019-07-29T14:32:36Z</date>
+			<date>2019-07-31T20:55:23Z</date>
 			<key>Location</key>
 			<dict>
 				<key>BookmarkData</key>
@@ -558,7 +604,7 @@
 		</dict>
 		<dict>
 			<key>Date</key>
-			<date>2019-07-29T14:32:36Z</date>
+			<date>2019-07-31T20:55:23Z</date>
 			<key>Location</key>
 			<dict>
 				<key>BookmarkData</key>
@@ -605,7 +651,7 @@
 		</dict>
 		<dict>
 			<key>Date</key>
-			<date>2019-07-29T14:32:36Z</date>
+			<date>2019-07-31T20:55:23Z</date>
 			<key>Location</key>
 			<dict>
 				<key>BookmarkData</key>
@@ -651,7 +697,7 @@
 		</dict>
 		<dict>
 			<key>Date</key>
-			<date>2019-07-29T14:32:36Z</date>
+			<date>2019-07-31T20:55:23Z</date>
 			<key>Location</key>
 			<dict>
 				<key>BookmarkData</key>
@@ -698,7 +744,7 @@
 		</dict>
 		<dict>
 			<key>Date</key>
-			<date>2019-07-29T14:32:36Z</date>
+			<date>2019-07-31T20:55:23Z</date>
 			<key>Location</key>
 			<dict>
 				<key>BookmarkData</key>
@@ -743,52 +789,6 @@
 				<integer>1</integer>
 			</dict>
 		</dict>
-		<dict>
-			<key>Date</key>
-			<date>2019-07-29T14:32:36Z</date>
-			<key>Location</key>
-			<dict>
-				<key>BookmarkData</key>
-				<data>
-				Ym9va5wDAAAAAAQQMAAAAIG++b35Br96v68V7+HHWTSA
-				52gruFPOHq1fJiyFHzv4jAIAAAQAAAADAwAAAAgAKAUA
-				AAABAQAAVXNlcnMAAAALAAAAAQEAAGxld2lzX3VsbWFu
-				AAkAAAABAQAARG9jdW1lbnRzAAAACAAAAAEBAABSZXNl
-				YXJjaBIAAAABAQAAUmVsaWFibGUgV2l0bmVzc2VzAAAY
-				AAAAAQEAAHNvcGhpYS1oYXd0aG9ybmUtbGV0dGVycyAA
-				AAABAQAAaGF3dGhvcm5lX2FwcGVuZGljZXNfbWFya3Vw
-				Lmh0bWwcAAAAAQYAABAAAAAgAAAANAAAAEgAAABYAAAA
-				dAAAAJQAAAAIAAAABAMAAHrQFQAAAAAACAAAAAQDAAB8
-				0BUAAAAAAAgAAAAEAwAAlNsVAAAAAAAIAAAABAMAAA4J
-				FwAAAAAACAAAAAQDAAA5ThcAAAAAAAgAAAAEAwAAXGsX
-				AAAAAAAIAAAABAMAAGf6hwAAAAAAHAAAAAEGAADgAAAA
-				8AAAAAABAAAQAQAAIAEAADABAABAAQAACAAAAAAEAABB
-				wVTb2QGV4hgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAA
-				AAAAAAAACAAAAAQDAAAFAAAAAAAAAAQAAAADAwAA9QEA
-				AAgAAAABCQAAZmlsZTovLy8EAAAAAQEAAEhMVTMIAAAA
-				BAMAAACwYG50AAAACAAAAAAEAABBuCIywwAAACQAAAAB
-				AQAAQ0NBNUNCNEMtRjRCRC00QTYwLTk3NjktRUQ1OUY1
-				OUZBNUExGAAAAAECAACBAAAAAQAAAO8TAAABAAAAAAAA
-				AAAAAAABAAAAAQEAAC8AAAAAAAAAAQUAABoAAAABAQAA
-				TlNVUkxEb2N1bWVudElkZW50aWZpZXJLZXkAAAQAAAAD
-				AwAAYgIAANgAAAD+////AQAAAAAAAAARAAAABBAAALwA
-				AAAAAAAABRAAAFABAAAAAAAAEBAAAIQBAAAAAAAAQBAA
-				AHQBAAAAAAAAAiAAAEgCAAAAAAAABSAAAMABAAAAAAAA
-				ECAAANABAAAAAAAAESAAAPwBAAAAAAAAEiAAANwBAAAA
-				AAAAEyAAAOwBAAAAAAAAICAAACgCAAAAAAAAMCAAAFQC
-				AAAAAAAAAcAAAKQBAAAAAAAAEcAAACAAAAAAAAAAEsAA
-				ALQBAAAAAAAAENAAAAQAAAAAAAAAXAIAgIACAAAAAAAA
-				</data>
-				<key>FileURL</key>
-				<string>file:///Users/lewis_ulman/Documents/Research/Reliable%20Witnesses/sophia-hawthorne-letters/hawthorne_appendices_markup.html</string>
-				<key>HasSecurityScope</key>
-				<true/>
-				<key>TypeID</key>
-				<string>_CFileLocator</string>
-				<key>Version</key>
-				<integer>1</integer>
-			</dict>
-		</dict>
 	</array>
 	<key>ScratchpadItemsExpanded</key>
 	<true/>
@@ -799,8 +799,8 @@
 	<key>ToolbarVisible:lewis_ulman</key>
 	<false/>
 	<key>ViewSplitterPosition:lewis_ulman</key>
-	<real>0.23353752493858337</real>
+	<real>0.2145877331495285</real>
 	<key>WindowFrame:lewis_ulman:displays([(0, 0), (2048, 1152)]:[(2048, 0), (1440, 900)])</key>
-	<string>rect(140,312,1008,1618)</string>
+	<string>rect(214,611,1082,1557)</string>
 </dict>
 </plist>
