@@ -153,8 +153,10 @@
    <!-- Define templates required for the combined image/text view. -->
    
    <xsl:template match="tei:pb">
+      <xsl:choose>
+      <xsl:when test="ancestor::tei:TEI[@xml:id='SPH_18370808']">
       <br/>
-      <div class="pagebreak"> [Page&#xA0;-&#xA0;<xsl:number count="tei:pb" format="1"
+      <div class="pagebreak"> [Section&#xA0;-&#xA0;<xsl:number count="tei:pb" format="1"
          level="any" from="tei:div[@type='letter']"/>&#xA0; (<a><xsl:attribute
             name="href"><xsl:value-of select="@facs"/>.jpg</xsl:attribute><xsl:attribute name="target">top</xsl:attribute>click to open page image in a new window</a>)]<br/>
          <a>
@@ -167,6 +169,24 @@
             </img>
          </a>
       </div>
+         </xsl:when>
+         <xsl:otherwise>
+            <br/>
+            <div class="pagebreak"> [Page&#xA0;-&#xA0;<xsl:number count="tei:pb" format="1"
+               level="any" from="tei:div[@type='letter']"/>&#xA0; (<a><xsl:attribute
+                  name="href"><xsl:value-of select="@facs"/>.jpg</xsl:attribute><xsl:attribute name="target">top</xsl:attribute>click to open page image in a new window</a>)]<br/>
+               <a>
+                  <xsl:attribute
+                     name="href"><xsl:value-of select="@facs"/>.jpg</xsl:attribute>
+                  <xsl:attribute name="target">top</xsl:attribute>
+                  <img class="pageview">
+                     <xsl:attribute name="src"><xsl:value-of select="@facs"/>_small.jpg</xsl:attribute>
+                     <xsl:attribute name="width">425</xsl:attribute>
+                  </img>
+               </a>
+            </div>
+         </xsl:otherwise>
+      </xsl:choose>
    </xsl:template>
    
    <xsl:template match="tei:lb">
