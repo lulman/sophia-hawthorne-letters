@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-   xmlns:tei="http://www.tei-c.org/ns/1.0" version="2.0">
+<xsl:stylesheet xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+   version="2.0" exclude-result-prefixes="tei">
+   <xsl:output method="html" version="5.0" encoding="UTF-8" indent="yes"/>
    <xd:doc xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" scope="stylesheet">
       <xd:desc>
          <xd:p><xd:b>Created on:</xd:b> Feb 19, 2010</xd:p>
@@ -26,7 +27,8 @@
       places the entire contents enclosed within the text tags of your document into 
       the HTML of the Web page. 
    -->
-      <html>
+<!--      <xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text>
+-->    <html>
          <head>
             <!-- Creat the head of the HTML document -->
             <!-- First, populate meta element with keywords -->
