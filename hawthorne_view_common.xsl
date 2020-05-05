@@ -145,7 +145,7 @@
                
                <!-- BEGIN titleBar -->
                <div id="titleBar">
-                  <p align="center"><span class="projectTitle"><xsl:apply-templates
+                  <p style="text-align: center;"><span class="projectTitle"><xsl:apply-templates
                      select="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/></span><br/><br/></p>
                   <!-- Horizontal rule beneath page title -->
                   <hr style="border: 2px solid crimson;"/>
@@ -380,7 +380,7 @@
                </div> <!-- End div class "container" -->
             </div> <!-- End div id "View Menu" -->
             
-<!--            <p align="center">
+            <!--            <p style="text-align: center;">
                <span class="ProjectTitle">
                   <xsl:apply-templates
                      select="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/>
@@ -479,16 +479,16 @@
                <hr/>
                <p><a name="view"/><xsl:value-of select="$aboutView"/></p>
             <!-- Insert link to home page, creation date, and licensing statement.-->
-            <p align="left">
+               <p style="text-align: left;">
                <a href="#top"
                   target="self">Top of Page</a>
                <br/>
                <br/>
-               <emph>Created: <xsl:apply-templates
+               Created: <xsl:apply-templates
                      select="//tei:teiCorpus/tei:teiHeader/tei:profileDesc/tei:creation/tei:date"
-                  /></emph>
+                  />
             </p>
-            <p align="center">
+               <p style="text-align: center;">
                <xsl:value-of
                   select="//tei:teiCorpus/tei:teiHeader/tei:availability/tei:p[@id='CreativeCommons']"
                   disable-output-escaping="yes"/>
