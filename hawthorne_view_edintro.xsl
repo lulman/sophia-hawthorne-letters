@@ -136,7 +136,7 @@
                            <!-- 
                            <li><a href="./hawthorne_letters.html#letters">Letters and Letter Writing</a></li>
                            <li><a href="./hawthorne_letters.html#west">Tourism and Commerce</a></li>
--->                        
+                            -->                        
                         </ul>
                      </li>
                      <li class="link"><a class="main"  href="./hawthorne_letters.html#projectDescription">Editorial Introduction</a>
@@ -186,7 +186,7 @@
                </div> <!-- End div id navigation -->
                
                <div id="titleBar">
-                  <p align="center"><span class="projectTitle"><xsl:apply-templates
+                  <p style="text-align: center;"><span class="projectTitle"><xsl:apply-templates
                      select="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/></span><br/><br/></p>
                   <hr style="border: 2px solid crimson;"/>
                </div> <!-- END titleBar -->
@@ -507,9 +507,7 @@
    
 <!-- Format the availability statement -->      
    <xsl:template match="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:availability">
-      <p>
             <xsl:apply-templates/>
-      </p>
 <!--      
       <p>
          <em>
@@ -520,14 +518,12 @@
 -->   
    </xsl:template>
 
-   <!-- Format information about your electronic document. -->
+   <!-- Format information about your document. -->
    <xsl:template match="/tei:teiCorpus/tei:teiHeader/tei:encodingDesc/tei:projectDesc">
       <hr style="border: 2px solid crimson;"/>
       <h2 id="projectDescription">Project Description</h2>
       <hr/>
-      <p>
          <xsl:apply-templates/>
-      </p>
    </xsl:template>
    <xsl:template match="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:titleStmt">
       <hr style="border: 2px solid crimson;"/>
@@ -675,7 +671,7 @@
       <hr style="border: 2px solid crimson;"/>
       <a name="revision"/>
          <h2 id="revision">Revision History</h2>
-      <table width="90%">
+      <table style="width: 90%">
          <tr>
             <td>
                <h3>Date</h3>
@@ -693,11 +689,11 @@
             </td>
          </tr>
          <xsl:for-each select="tei:change">
-            <tr class="revTable" valign="top">
-               <td nowrap="nowrap">
+            <tr class="revTable" style="vertical-align:top">
+               <td style="white-space: nowrap">
                   <xsl:value-of select="@when"/>
             </td>
-            <td nowrap="nowrap">
+               <td style="white-space: nowrap">
                   <xsl:value-of select="tei:roleName"/>
             </td>
             <td>
@@ -706,7 +702,7 @@
             </tr>
          </xsl:for-each>
       </table>
-      <p><lb/></p>
+      <p><br/></p>
    </xsl:template>
 
    <!-- Format miscellaneous elements -->
