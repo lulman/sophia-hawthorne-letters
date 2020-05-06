@@ -68,7 +68,7 @@
             </script>
 -->            
             <!-- CALL VARIABLES (Needed here?) -->  
-            <style type="text/css">
+            <style>
                <xsl:value-of select="$maintextRule"/>
                <xsl:value-of select="$navBarRule"/>
                <xsl:value-of select="$bodyRule"/>
@@ -432,7 +432,7 @@
                <xsl:choose>
                   <xsl:when test="position()>=100">
                      <p class="hang35"><a>
-                        <xsl:attribute name="name">n<xsl:value-of select="@xml:id"/></xsl:attribute>
+                        <xsl:attribute name="id">n<xsl:value-of select="@xml:id"/></xsl:attribute>
                         </a>
                         <xsl:number count="//tei:TEI//tei:note[@resp='ed']" level="any"
                         />.&#xA0;<xsl:apply-templates/>
@@ -445,7 +445,7 @@
                   </xsl:when>
                   <xsl:when test="position()>=10">
                      <p class="hang25"><a>
-                        <xsl:attribute name="name">n<xsl:value-of select="@xml:id"/></xsl:attribute>
+                        <xsl:attribute name="id">n<xsl:value-of select="@xml:id"/></xsl:attribute>
                         </a>
                         <xsl:number count="//tei:TEI//tei:note[@resp='ed']" level="any"
                         />.&#xA0;<xsl:apply-templates/>
@@ -458,7 +458,7 @@
                   </xsl:when>
                   <xsl:otherwise>
                      <p class="hang15"><a>
-                           <xsl:attribute name="name">n<xsl:value-of select="@xml:id"/></xsl:attribute>
+                           <xsl:attribute name="id">n<xsl:value-of select="@xml:id"/></xsl:attribute>
                         </a>
                         <xsl:number count="//tei:TEI//tei:note[@resp='ed']" level="any"/>.&#xA0;<xsl:apply-templates/>
                         <a>
@@ -477,7 +477,7 @@
                   About this View of the Journal
                </h2>
                <hr/>
-               <p><a name="view"/><xsl:value-of select="$aboutView"/></p>
+               <p><a id="view"/><xsl:value-of select="$aboutView"/></p>
             <!-- Insert link to home page, creation date, and licensing statement.-->
                <p style="text-align: left;">
                <a href="#top"
@@ -564,7 +564,7 @@
    <xsl:template match="tei:div[@type='enclosure']"/>
    <xsl:template match="tei:div[@type='letter']">
       <a class="TOCtarget">
-         <xsl:attribute name="name"><xsl:value-of select="@xml:id"/></xsl:attribute>
+         <xsl:attribute name="id"><xsl:value-of select="@xml:id"/></xsl:attribute>
       </a>
       <div class="letter">
       <xsl:apply-templates/>
@@ -595,7 +595,7 @@
       <hr/>
       <br/>
       <a>
-         <xsl:attribute name="name">
+         <xsl:attribute name="id">
             <xsl:value-of select="@xml:id"/>
          </xsl:attribute>
       </a>
@@ -614,7 +614,7 @@
          <xsl:sort select="@n"/>
          <p class="hang25">
             <a>
-               <xsl:attribute name="name">
+               <xsl:attribute name="id">
                   <xsl:value-of select="@xml:id"/>
                </xsl:attribute>
             </a>
@@ -658,7 +658,7 @@
 
    <xsl:template match="tei:TEI//tei:ptr[@type='noteAnchor']">
       <a>
-         <xsl:attribute name="name">p<xsl:value-of select="@target"></xsl:value-of>
+         <xsl:attribute name="id">p<xsl:value-of select="@target"></xsl:value-of>
          </xsl:attribute>
          <xsl:attribute name="class">notePointer</xsl:attribute>
       </a>

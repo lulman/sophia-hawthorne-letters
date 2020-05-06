@@ -572,7 +572,7 @@
       <xsl:for-each select="tei:bibl">
          <xsl:sort select="@n"/>
          <p class="hang25"><a>
-            <xsl:attribute name="name"><xsl:value-of select="@xml:id"/></xsl:attribute></a>
+            <xsl:attribute name="id"><xsl:value-of select="@xml:id"/></xsl:attribute></a>
             <xsl:apply-templates/></p>
       </xsl:for-each>
    </xsl:template>
