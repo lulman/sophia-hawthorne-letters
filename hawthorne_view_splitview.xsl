@@ -164,6 +164,7 @@
                name="href"><xsl:value-of select="@facs"/>.jpg</xsl:attribute>
             <xsl:attribute name="target">top</xsl:attribute>
             <img class="pageview">
+               <xsl:attribute name="alt">Thumbnail view of page facsimile</xsl:attribute>
                <xsl:attribute name="src"><xsl:value-of select="@facs"/>_small.jpg</xsl:attribute>
                <xsl:attribute name="width">425</xsl:attribute>
             </img>
@@ -180,6 +181,7 @@
                      name="href"><xsl:value-of select="@facs"/>.jpg</xsl:attribute>
                   <xsl:attribute name="target">top</xsl:attribute>
                   <img class="pageview">
+                     <xsl:attribute name="alt">Thumbnail view of page facsimile</xsl:attribute>
                      <xsl:attribute name="src"><xsl:value-of select="@facs"/>_small.jpg</xsl:attribute>
                      <xsl:attribute name="width">425</xsl:attribute>
                   </img>
@@ -191,12 +193,15 @@
    
    <xsl:template match="tei:lb">
       <br/>
+<!-- We are no longer using links to individual line in this edition. -->
+<!--      
       <a>
          <xsl:attribute name="name">
             <xsl:number count="tei:lb" format="0001" level="any" from="tei:div[@type='letter']"/>
          </xsl:attribute>
       </a>
-      &#xA0;&#xA0;&#xA0;&#xA0;&#xA0;<xsl:number count="tei:lb" format="0001" level="any" from="tei:div[@type='letter']"/>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;
+-->
+   &#xA0;&#xA0;&#xA0;&#xA0;&#xA0;<xsl:number count="tei:lb" format="0001" level="any" from="tei:div[@type='letter']"/>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;
    </xsl:template>
    <xsl:template match="tei:fileDesc/tei:titleStmt/tei:title/tei:lb">
       <br/><xsl:apply-templates/>
