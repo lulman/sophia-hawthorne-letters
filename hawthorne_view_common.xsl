@@ -704,14 +704,22 @@
    <!-- Unclear passages. -->
    <xsl:template match="tei:unclear"> [<xsl:apply-templates/>?] </xsl:template>
 
-   <!-- Nonstandard or erroneous text for which you have encoded a correct or regularized alternative. -->
-   <xsl:template match="tei:choice/tei:orig">
+<!-- Nonstandard or erroneous text for which you have encoded a correct or regularized alternative. -->
+<!--   
+      <xsl:template match="tei:choice/tei:orig">
       <xsl:apply-templates/>
    </xsl:template>
    <xsl:template match="tei:choice/tei:reg"/>
    <xsl:template match="tei:distinct[@type='babyTalk']">
       <xsl:apply-templates/> [sic] 
    </xsl:template>
+-->   
+   <!-- Deal with sic/corr tags -->
+   <xsl:template match="tei:choice/tei:sic">
+      <xsl:apply-templates/> [<xsl:element name="span"><xsl:attribute name="style">font-style: italic;</xsl:attribute>sic</xsl:element>]
+   </xsl:template>
+   <xsl:template match="tei:choice/tei:corr"/>
+   
 
    <!--MISCELLANEOUS TEXTUAL FEATURES. -->
 

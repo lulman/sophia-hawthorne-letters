@@ -134,10 +134,12 @@
             <xsl:apply-templates/>
         </p>
     </xsl:template>
+    
+<!-- Sic / corr handled in common stylesheet
     <xsl:template match="tei:choice/tei:sic">
         <xsl:apply-templates/> [sic] </xsl:template>
     <xsl:template match="tei:choice/tei:corr"/>
-    
+-->    
     <!-- Recoverable cancellations by the author or another hand -->
     <xsl:template match="tei:del"/>
     

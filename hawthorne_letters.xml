@@ -741,34 +741,33 @@
         <div type="letter" hand="#SPH" xml:id="SPH_18370808_let">
           <!-- REPLACE WITH FILENAME FOR FIRST PAGE OF THE LETTER -->
           <pb facs="Letter1_P1a"/>
-          <lb/>
           <opener>
             <!-- REPLACE WITH INFO FROM NEW LETTER -->
             <lb/><dateline><date when="1837-08-08"></date>8th August</dateline>
-            <lb/><salute>My Dear<persName ref="#EPP">Elizabeth</persName>,</salute>
+            <lb/><salute>My Dear <persName ref="#EPP">Elizabeth</persName>,</salute>
           </opener>
           <p>
             <lb/> I have just read your long letter. 
             <lb/> I cannot wait a moment before disabusing you 
-            <lb/> of one entire<del hand="#SPH" type="overstrike">ly</del> mistake, which is your
+            <lb/> of one entire<del hand="#SPH" rend="overstrike">ly</del> mistake, which is your
             impres<seg type="softhyphen">‐
-            <lb/></seg>sion of my estimation of <name key="AMA" type="person">Mrs. Alcott</name>. You <hi rend="underline">never</hi>
-            <lb/> heard me express for her a want of respect 
-            <lb/> or love, for from the beginning &amp; through all 
+            <lb/></seg>sion of my estimation of <name key="AMA" type="person">Mrs. Alcott</name>. You <hi rend="underlined">never</hi>
+            <lb/> heard me express for her a want of respect or
+            <lb/> love; for from the beginning &amp; through all 
             <lb/> I have thought her a sort of sublime phe<seg type="softhyphen">‐</seg><lb/>nomenon — a terrible power made up of 
             <lb/>divinest tenderness— vast humanity — infinite
             <lb/> self sacrifice — a perfect juggernaut devotion 
             <lb/> to the Right. I have loved her dearly always.
-            <lb/> How can you think otherwise<choice><sic>.</sic><corr>?</corr></choice> Don't you remember 
-            <lb/> at that time my sympathy with her — &amp; afterwards 
+            <lb/> How can you think otherwise. Don't you remember 
+            <lb/> at th<del rend="overwritten">e</del>at time my sympathy with her — &amp; afterwards 
             <lb/> my writing often to her, &amp; ever since the affectionate 
-            <lb/> way in which we have ever met<choice><sic>.</sic><corr>?</corr></choice> I have always 
+            <lb/> way in which we have ever met. I have always 
             <lb/> felt the utmost tenderness for her. I scarcely 
             <lb/> ever saw a person who seemed to me so full 
             <lb/> of pathos — amounting to the fearful. I am at a
             <lb/> loss to imagine how you have such an idea in 
             <lb/> your mind. Does it not show what complete,
-            <lb/> misunderstandings may exist —<add hand="#SPH" place="supralinear"> I <hi rend="underline">never</hi> thought her deformed, </add> never moved by earthly passion.
+            <lb/> misunderstandings may exist —<add hand="#SPH" place="supralinear"> I <hi rend="underlined">never</hi> thought her deformed, </add> never moved by earthly passion.
           </p><p>
             <lb/> I had a long talk with <name key="MTPM" type="person">Mary</name> the other 
             <lb/> evening about this discussing of people's faults. 
@@ -777,7 +776,7 @@
             <lb/> It is not that I do not see people do wrong — &amp; that 
             <lb/> therefore I necessarily am unjust — but I have 
             <lb/> understood Christ to teach that if each one looked 
-            <lb/> only to his own errors, perhaps there would be <choice><sic>juster</sic><corr>more just</corr></choice>
+            <lb/> only to his own errors, <add place="supralinear"><unclear>perhaps</unclear></add> there would be <choice><sic>juster</sic><corr>more just</corr></choice>
             <lb/> judgment &amp; greater improvement in individuals. 
             <lb/> When he speaks plainly I prefer to understand 
             <lb/> him plainly, for I find it the most fruitful 
