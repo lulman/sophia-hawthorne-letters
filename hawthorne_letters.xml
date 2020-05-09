@@ -739,7 +739,7 @@
     <text>
       <body>
         <div type="letter" hand="#SPH" xml:id="SPH_18370808_let">
-          <!-- REPLACE WITH FILENAME FOR FIRST PAGE OF THE LETTER -->
+          <!-- Section 1 -->
           <pb facs="Letter1_P1a"/>
           <opener>
             <!-- REPLACE WITH INFO FROM NEW LETTER -->
@@ -785,7 +785,7 @@
             <lb/> but this general principle, which would make
             <lb/> me feel the same if a person I never knew
             
-            <!-- Page 2 -->
+            <!-- Section 2 -->
             <pb facs="Letter1_P2a"/>
             
             <lb/> were analysed &amp; decided upon. I know 
@@ -823,7 +823,7 @@
             <lb/>&amp; not acting with a rash confidence — but I
             <lb/> suspect I shall live forever &amp; not see good
             
-            <!-- Page 3 -->
+            <!-- Section 3 -->
             <pb facs="Letter1_P3a"/>
             
             <lb/>in dwelling upon personal faults. For my life
@@ -877,7 +877,7 @@
             as possible without <gap extent="one word" reason="cancelled and illegible" rend="overstrike"/> thinking
             <lb/>how I am— &amp; I never feel how I am except when I
             
-            <!-- Page 4 -->
+            <!-- Section 4 -->
             <pb facs="Letter1_P4a"/>
             
             <lb/>fall short as I often do of the mark. I am conscious
@@ -885,19 +885,19 @@
             <lb/>I feel myself — when I am unjust to others — or 
             <lb/>impatient — then I am smitten as with a rod — &amp; 
             <lb/>feel how much better others are then I — but the 
-            <lb/>contrary never occupies my thoughts. <del hand="#SPH" type="overstrike">I am</del>
+            <lb/>contrary never occupies my thoughts. <del hand="#SPH" rend="overstrike">I am</del>
             <lb/>If I have verged to either extreme it has been that
             <lb/>every body was better then I, <foreign xml:lang="lat">ceteris paribus.</foreign>
-            <lb/>Do not suppose I extend this fault finding face 
-            <lb/>to face. I think this is good &amp; productive of great benefit 
-            <lb/>— for then the two persons being all that 
+            <lb/>Do not suppose I extend this to fault finding face 
+            <lb/>to face. I think this is good &amp; productive of great
+            <lb/>benefit — for then the two persons being all that 
             <lb/>are concerned in the matter can take care of
             <lb/>themselves, &amp; be improved by each other's lights. 
-            <lb/><del hand="#SPH" type="overstrike">It is bad</del> But to talk &amp; judge of a person 
+            <lb/><del hand="#SPH" rend="overstrike">It is bad</del> But to talk &amp; judge of a person 
             <lb/>who is not present to have his or her dictum
-            <lb/><del hand="#SPH" type="overwritten">wi</del>may cause great harm &amp; wrong. But do not
+            <lb/><del hand="#SPH" rend="overwritten">wi</del>may cause great harm &amp; wrong. But do not
             
-            <!-- Page 4 continued on Letter1_P1b. -->
+            <!-- Section 5 continued on Letter1_P1b. -->
             <pb facs="Letter1_P1b"/>
             <handShift scribe="SPH"/>
             
@@ -936,14 +936,14 @@
             <lb/>Beauty 
             <lb/>I would
             
-            <!-- Page 4 continued on Letter1_P2b. -->
+            <!-- Section 6 continued on Letter1_P2b. -->
             <pb facs="Letter1_P2b"/>
             
             <lb/>never sacrifice one iota of goodness or truth to it as you might suppose —
-            <lb/>but Christ was even beautiful — &amp; my aim is to do so, as well as true &amp;
+            <lb/>but Christ was ever beautiful — &amp; my aim is to do so, as well as true &amp;
             <lb/>good — for I think Beauty is the result of the two. But I never was
             
-            <!-- Page 4 continued on Letter1_P3b. -->
+            <!-- Section 7 continued on Letter1_P3b. -->
             <pb facs="Letter1_P3b"/>
             
             <lb/> aware of seeking beauty in the first place. By keeping my heart
@@ -951,20 +951,20 @@
             <lb/> will flow. This is my order — not the contrary. I have scarcely
             <lb/> taken the first step; but I feel that this is
             <lb/> the way to go. 
-            <lb/>You say it is not my tas<gap extent="two words" reason="torn" rend="blank"/> <hi rend="underline">think</hi> of <name key="MRA" type="person">Mr. Alcott's</name>
+            <lb/>You say it is not my tas<gap extent="two words" reason="torn" rend="blank"/> <hi rend="underlined">think</hi> of <name key="MRA" type="person">Mr. Alcott's</name>
             failings — this I did not say
             <lb/>but it is my taste <gap extent="two words" reason="torn" rend="blank"/>
-            <hi rend="underline"> talk of any body </hi>'s failings. Don't you see why I do not
+            <hi rend="underlined"> talk of any body's</hi> failings. Don't you see why I do not
             <lb/>like to say anything. You misunderstand me
             
-            <!-- Page 4 continued on Letter1_P4b. -->
+            <!-- Section 8 continued on Letter1_P4b. -->
             <pb facs="Letter1_P4b"/>
             
             <lb/> almost always — or give it with 
             <lb/> your mind a little different
             <lb/>aspect. That saying <add hand="#SPH" place="infralinear">^</add>
-            <add hand="#SPH" place="supralinear">you repeat </add>about the imagination
-            <lb/> is <add hand="#SPH" place="infralinear">^</add><add hand="#SPH" place="supralinear">not </add> just as I meant it
+            <add hand="#SPH" place="supralinear">you repeat </add>about the 
+            <lb/>imagination is <add hand="#SPH" place="infralinear">^</add><add hand="#SPH" place="supralinear">not </add> just as I meant it
             <lb/> but no matter. I hate
             <lb/>to explain.
             </p>
@@ -984,7 +984,7 @@
               <lb/>  &amp; has been on the bed &amp; dizzy.
               <lb/> When she finished y<choice><abbr>r</abbr><expan>ou</expan></choice> letter she 
               <lb/>burst into tears. I told her I 
-              <lb/> hope that would give her
+              <lb/> hoped that would give her
               <lb/> pleasure — she said it did,
               <lb/> but she could not help crying —
               <lb/> &amp; that you did not understand
@@ -1005,8 +1005,8 @@
               <pb facs="Letter1_P5a"/>
               
               <lb/> *if you wish to have her tranquil, you must let her alone 
-              <lb/> more. I believe if you &amp; she have any more cryings 
-              <lb/> about each other I shall die. I have often wished you
+              <lb/> now. I believe if you &amp; she have any more cryings 
+              <lb/> about each other I shall die. I have often wished you <add place="inline">1st page</add>
               
               <!-- Page 4 continued on Letter1_P1b. -->
               <pb facs="Letter1_P1b"/>
@@ -1018,16 +1018,16 @@
               <lb/> it, for the word is the touchstone to
               <lb/> all this emotion. There is no temper
               <lb/> in her crying now if there ever was—it
-              <lb/> is pure <add hand="#SPH" place="supralinear">physical</add> agony — but she only apprehends now
+              <lb/> is pure <add hand="#MTPMann" place="infralinear">^</add> <add hand="#MTPMann" place="supralinear">physical</add> agony — but she only apprehends now
               <lb/> that it will be perhaps difficult to appear
               <lb/> natural, at least for a time &amp; that you
-              <lb/> will misconstrue that. I have assured
+              <lb/> will misconstrue that—I have assured
               <lb/> her that you will allow for that, and now
               <lb/> the rest must be left to you. My happiness waits upon 
               <lb/> your good judgment. y<choice><abbr>r</abbr><expan>ou</expan></choice> <rs type="person">M.</rs>
               <lb/> I'm going to send for Harriet &amp; <name key="MAB" type="person">Mrs
-              <lb/>Abbot</name> to come &amp; spend a day &amp; a night
-              <lb/> Monday or Tuesday —<del hand="#MTPM" rend="erased">before</del>
+              <lb/>Abbot</name> to come &amp; spend a day &amp; night
+              <lb/> Monday or Tuesday —<del hand="#MTPM" rend="erased"><unclear reason="erased"></unclear></del>
               <lb/><rs ref="#MTPM">M</rs>
             </p>
           </postscript>

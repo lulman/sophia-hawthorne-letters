@@ -743,9 +743,9 @@
 
    <!-- Passages in languages other than your document's base language. -->
    <xsl:template match="tei:foreign">
-      <em>
+      <span style="font-style:italic">
          <xsl:apply-templates/>
-      </em>
+      </span>
    </xsl:template>
 
    <!-- Names -->
