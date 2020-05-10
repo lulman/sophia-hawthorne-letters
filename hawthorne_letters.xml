@@ -721,7 +721,7 @@
             <physDesc>
               <p>
               <!-- PHYSICAL DESCRIPTION OF THE LETTER -->
-                ALS. 4 pp.
+                ALS. 4 pp. Cross-writing in two hands. Discussion of postal system.
               </p>
               <accMat></accMat>
             </physDesc>
@@ -1116,21 +1116,17 @@
         <div type="letter" xml:id="SPH_18391119_let">
           <!-- REPLACE WITH FILENAME FOR FIRST PAGE OF THE LETTER -->
           <pb facs="Letter2_P1"/>
-          <lb/>
           <opener>
             <!-- REPLACE WITH INFO FROM NEW LETTER -->
             <lb/><dateline><date when="1839-11-19">Tuesday 1/2 4. <choice><expan>November</expan><abbr>Nov</abbr></choice> 19th 
-              1839</date></dateline>
+              <add place="infralinear" hand="#Unknown">[1839]</add></date></dateline><ptr type="noteAnchor" target="date"/><note resp="ed" xml:id="date">The year was
+                added in pencil by an unknown hand.</note>
             <lb/><salute>My dear<persName type="nickname" ref="#EPP">Lizzie,</persName></salute>
           </opener>
           <p>
-            <lb/>I suppose that <name type="person" ref="Edward Thomson Taylor (1793-1871)" key="ETT">Mr. Taylor</name>
-            <seg>
-              <note target="n2">2</note>
-            </seg> has
-            <lb/>told you of <name type="person" ref="Peabody, George" key="GP">George</name>'s <seg>
-              <note target="n3">3</note>
-            </seg> perfect frame
+            <lb/>I suppose that <name type="person" ref="Edward Thomson Taylor (1793-1871)" key="ETT">Mr Taylor</name>
+             has
+            <lb/>told you of <name type="person" ref="Peabody, George" key="GP">George</name>'s perfect frame
             <lb/>of mind — of his experience of
             <lb/>that divine glow which was so
             <lb/>unaccountable — but so sweet &amp;
@@ -1150,36 +1146,23 @@
             <lb/>the spiritual world.  It was the
             <lb/>most fervid — the most affectionate,
             <lb/>tender &amp; divine uplifting of 
-            <lb/>soul to the infinite father —
+            <lb/>soul to the infinite Father —
             <lb/>that I ever heard.  He prayed for 
-            <lb/>each — for the <q>Mother, <seg>
-              <note target="n4">4</note>
-            </seg> the tender
+            <lb/>each — for the <q>Mother, the tender
               <lb/>Mother — who hung around her life</q>
-            <lb/>for the Father's <seg>
-              <note target="n5">5</note>
-            </seg> manly heart —
-            <lb/>for the sister <seg>
-              <note target="n6">6</note>
-            </seg> whose duty called
-            <lb/>her away — <q> &amp; oh bless — <hi rend="underline">our dear <name type="person">Mary</name></hi></q>
-              <seg>
-                <note target="n7">7</note>
-              </seg>
+            <lb/>for the Father's manly heart —
+            <lb/>for the sister whose duty called
+            <lb/>her away — <q> &amp; oh —  bless <hi rend="underlined">our dear <name type="person">Mary</name></hi></q>
+            
               <!-- Page 2 -->
               <pb facs="Letter2_P2"/>
               
               <lb/>he said — <q>let not that peaceful
-              <lb/>stream be disturbed — </q> " he prayed
-            <lb/>for the sister present<seg>
-              <note target="n8">8</note>
-            </seg>  — 'she with
+              <lb/>stream be disturbed — </q> he prayed
+            <lb/>for the sister present — 'she with
             <lb/>the delicate nerves —' For <name type="person">Aunt
-              <lb/>Pickman</name>
-            <seg>
-              <note target="n9">9</note>
-            </seg> too he petitioned
-            <lb/>heaven —     The tears were at
+              <lb/>Pickman</name> too he petitioned
+            <lb/>Heaven —     The tears were at
             <lb/>last loosened from my brain
             <lb/>which I had kept back so long
             <lb/>that I began to feel as if they
@@ -1188,7 +1171,7 @@
             <lb/>like a summer rain without
             <lb/>convulsion.  After he rose
             <lb/>from his knees, <name type="person">George</name> stretched 
-            <lb/>out his arms &amp; Mr. Taylor
+            <lb/>out his arms &amp; Mr Taylor
             <lb/>clasped him to his heart in
             <lb/>a long, long embrace — Every
             <lb/>moment ejaculating "The Lord
@@ -1204,13 +1187,13 @@
             
             <lb/>so firmly fastened round his neck
             <lb/>that I thought he would never
-            <lb/>let the angel go — even after he
+            <lb/>let the Angel go — even after he
             <lb/>had blessed him — but at last
             <lb/>he relaxed his hold. Then <name type="person"> Mr
               <lb/>Taylor</name> turned to me &amp; took both
             <lb/>hands. <q>Be strong</q> said he. <q>
-              <hi rend="underline">It is</hi>
-              <lb/><hi rend="underline">very pleasant on the other side</hi>. Be
+              <hi rend="underlined">It is</hi>
+              <lb/><hi rend="underlined">very pleasant on the other side</hi>—Be
               <lb/>quiet <del hand="SPH" type="overwritten">a</del>like a May morning.</q>
             <lb/>He came with me into my room.
             <lb/>
@@ -1227,8 +1210,7 @@
             <lb/>divinest spirit — is he not?
             <lb/>
             <name type="person">George</name> said there could not be such
-            <lb/>a prayer conceived of. <q>
-              <name type="person">Mr. Taylor</name>
+            <lb/>a prayer conceived of. <q><name type="person">Mr. Taylor</name>
               <lb/>is no sham</q> — he said.
             <lb/>
             <name type="person">George</name> is very much revived this
@@ -1256,11 +1238,9 @@
             <lb/>his arm, he was saying
             <lb/>something — &amp; then said something
             <lb/>I did not hear. <q>What did
-              <lb/>you say</q> I asked. <q>It <unclear reason="illegible">
-                <del type="overstrike" hand="SPH">belies</del>
-              </unclear>
+              <lb/>you say</q> I asked. <q>It <del type="overstrike" hand="SPH">believe</del>
                 <lb/>was nothing to the purpose, he
-                <lb/>replied. <hi rend="underline">I was wandering</hi>.</q>
+                <lb/>replied. <hi rend="underlined">I was wandering</hi>.</q>
             <lb/>I never saw such clearness. He
             <lb/>looks from some high place
             <lb/>even upon his aberrations.
@@ -1277,7 +1257,7 @@
           <!-- If there were a <postscript>, we have a tag for that. -->
           <postscript>
             <p>
-              <lb/> <add place="margin" hand="#SPH">My love to <persName>Connie</persName></add>
+              <lb/><add place="margin" hand="#SPH">My love to <persName>Connie</persName></add>
             </p>
           </postscript>
         </div>        
