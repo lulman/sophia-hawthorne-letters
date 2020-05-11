@@ -1518,11 +1518,10 @@
         <div type="letter" xml:id="SPH_1863_let">
           <!-- REPLACE WITH FILENAME FOR FIRST PAGE OF THE LETTER -->
           <pb facs="Letter4_P1"/>
-          <lb/>
           <opener>
             <!-- REPLACE WITH INFO FROM NEW LETTER -->
             <lb/><dateline><date when="1863" evidence="internal">Sunday</date></dateline>
-            <lb/><salute>My Dear <persName ref="#EPPeabody">Elizabeth</persName></salute>, I have
+            <lb/><salute>My dear <persName ref="#EPPeabody">Elizabeth</persName></salute>— I have
           </opener>
 <p>
 <lb/> become so occupied with 
@@ -1542,10 +1541,11 @@
 <lb/> advantage of the free
 <lb/> lessons of <persName>Dr. Kinner</persName>
 <lb/> for <persName ref="#UHawthorne">Una</persName>, on account
-<lb/> partly <del hand="#SPHawthorne" type="overwritten">and</del>of the expense 
+<lb/> partly <del hand="#SPHawthorne" rend="overwritten">and</del>of the expense 
 <lb/> of railroad fare — while 
 <lb/> there were other reasons 
-<lb/>less imperative. I am very sorry, but *
+<lb/>less imperative. I 
+<lb/>am very sorry, but
 
 <!-- Page 2 -->
 <pb facs="Letter4_P2"/>
