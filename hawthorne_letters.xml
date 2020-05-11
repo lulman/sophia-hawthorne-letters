@@ -1317,15 +1317,13 @@
         <div type="letter" xml:id="SPH_1859-01-08_let">
           <!-- REPLACE WITH FILENAME FOR FIRST PAGE OF THE LETTER -->
           <pb facs="Letter3_P1"/>
-          <lb/>
           <opener>
             <!-- REPLACE WITH INFO FROM NEW LETTER -->
-            <lb/><dateline><placeName>Rome</placeName> <date when="1859-01-08"></date>January 8th 1859</dateline>
-            <lb/><add hand="#Unknown" place="below">Mrs H</add>
-            <lb/><salute>My Dear <persName ref="#EPPeabody">Elizabeth</persName></salute>
-          </opener>
+            <lb/><dateline><placeName>Rome</placeName>. <date when="1859-01-08"></date>January 8th 1859</dateline>
+            <lb/><add hand="#Unknown" place="inline">[Mrs H]</add> <ptr type="noteAnchor" target="MrsH"/><note resp="ed" xml:id="MrsH">"Mrs H" was added in pencil by an unknown hand.</note>
+            <lb/><salute>My dear <persName ref="#EPPeabody">Elizabeth</persName>,</salute>
+          </opener> <ab>I am really</ab>
           <p>
-              <lb/>I am really
               <lb/>too tired to write a letter,
               <lb/>but cannot bear to let a
               <lb/>chance slip. <persName ref="#UHawthorne">Una</persName> has
@@ -1335,7 +1333,7 @@
               <lb/>heart ache. I am glad
               <lb/>to say that the Roman
               <lb/>fever seems to have been
-              <lb/>arrested in her —; for she
+              <lb/>arrested in her — for she
               <lb/>has had no chills for two
               <lb/>days. She is a lily now,
               <lb/>her lifelong roses snatched
@@ -1351,7 +1349,7 @@
               
               <lb/><persName ref="#AShephard">Ada</persName>'s fever is past. She
               <lb/>is well of that today, but has
-              <lb/>a very painful shoulder —;
+              <lb/>a very painful shoulder —
               <lb/>and lies in bed still.
               
               <!-- Page 2 -->
@@ -1359,16 +1357,17 @@
               
               <lb/> I have had no moment to 
               <lb/> write to you in all these 
-              <lb/> weeks —; having been ill 
+              <lb/> weeks — having been ill 
               <lb/> myself in the interval 
               <lb/> of nursing others.  No Rome 
               <lb/> this winter for us so far. 
               <lb/> My journal is left in the 
               <lb/> middle of a sentence, which 
               <lb/> can never be recalled 
-              <lb/> now, <del type="overstrike" hand="SPH">though,</del> and I am 
+              <lb/> now, <del rend="overstrike" hand="SPH">though</del> and I am 
               <lb/> sorry, because I had an 
-              <lb/> idea of the <unclear>Faun</unclear> at that moment. 
+              <lb/> idea of the Faun at that
+              <lb/>moment. 
             </p>
         
             <p>
@@ -1436,7 +1435,7 @@
               <lb/> her.  She draws with a 
               <lb/> wonderful expression. 
               <lb/> <placeName ref="#JHawthorne">Julian</placeName> copies <persName ref="#JFlaxman">Flaxman</persName>
-              <lb/> <foreign xml:lang="fr">a merveille</foreign>.
+              <lb/> <foreign xml:lang="fr">à merveille</foreign>.
             </p>
             
             <p>
@@ -1448,14 +1447,14 @@
               <lb/> lately.  I never got 
               <lb/> yours and Mary's letters 
               <lb/> directed to Florence.  Though 
-              <lb/> Mr. Browning has written 
-              <lb/> about <del type="overwritten" cert="medium">?</del>them to the Post Office 
+              <lb/> Mr Browning has written 
+              <lb/> about <del rend="overwritten" cert="medium">?</del>them to the Post Office 
               <lb/> they do not come.  I have 
               <lb/> lost all your account of dear 
               <lb/> <persName ref="#RWesselhoeft">Dr. Wesselhoeft</persName>. I endure 
               <lb/> astonishingly through all 
               <lb/> things.  Goodbye with 
-              <lb/> thousand blessings<unclear>.</unclear> 
+              <lb/> thousand blessings. 
             </p>
           <!-- REPLACE WITH CLOSER AND SIGNATURE INFORMATION FROM LETTER -->
           <closer>
