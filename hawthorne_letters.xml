@@ -1557,7 +1557,7 @@
 <lb/> is certainly a very plain 
 <lb/> duty not to spend other
 <lb/> peoples' money for 
-<lb/> accomplishments — <add hand="#SPHawthorne" place="infralinear">^</add><add hand="#SPHawthorne" place="supralinear">or any thing else</add>. And as 
+<lb/> accomplishments — <add hand="#SPHawthorne" place="infralinear">^</add><add hand="#SPHawthorne" place="supralinear">or any thing else.</add> And as 
 <lb/> we are very closely pressed 
 <lb/> this year — and feel it 
 <lb/> important not to grind 
@@ -1567,7 +1567,7 @@
 <lb/> at the best) — we must 
 <lb/> all sacrifice a great 
 <lb/> many pleasant things. 
-<lb/> If <persName ref="#NHawthorne">Mr Hawthorne</persName> did 
+<lb/> <add place="margin" hand="#Unknown">✓</add><ptr type="noteAnchor" target="check"/><note resp="ed" xml:id="check">This penciled check mark was added by an unknown hand.</note> If <persName ref="#NHawthorne">Mr Hawthorne</persName> did 
 <lb/> not write, we could by 
 <lb/> no means make our 
 <lb/> expenses come within 
@@ -1589,7 +1589,8 @@
 <lb/> same reason, they cannot 
 <lb/> go. It would cost at 
 <lb/> least thirty dollars for 
-<lb/> travel from our door to theirs, and 
+<lb/> travel from our 
+<lb/>door to theirs, and 
 <lb/><persName ref="#JHawthorne"> Julian</persName> would have to 
 <lb/> have a new suit of 
 <lb/> clothes — costing thirty
@@ -1620,24 +1621,26 @@
 <lb/> dollars at least. 
 <lb/> <persName ref="#EGurney">Professor Gurney</persName> says <q>this 
 <lb/> is one of the dirtiest 
-<lb/> of their dirty tricks</q> and 
+<lb/> of their dirty tricks,</q> and 
 <lb/> that there is no redress. 
 <lb/> <persName ref="#JHawthorne"> Julian</persName> gets along 
 <lb/> splendidly as a brave 
-<lb/> and gentle <add hand="#Unknown" place="supralinear" rend="upsidedown">Dear Sir</add> and stalwart 
+<lb/> and gentle <add hand="#Unknown" place="margin" rend="upsidedown">Dear Sir</add><ptr type="noteAnchor" target="DearSir"/><note resp="ed" xml:id="DearSir">"Dear Sir" is written, 
+  upside-down, in the center of this page in what appears to be Nathaniel Hathorne's hand, though the sample is too small too
+  identify with certainty.</note> and stalwart 
 <lb/> knight. A gentleman 
 <lb/> told me he was looked 
 <lb/> upon as a powerful 
 <lb/> lion — and one <add hand="SPH" place="supralinear" rend="caret">of</add> his 
-<lb/> <del hand="#SPHawthorne">a</del>names is <q>the Immortal 
+<lb/> <del hand="#SPHawthorne" rend="overwritten">a</del>names is <q>the Immortal 
 <lb/> Hawthorne.</q> He makes no
 
 <!-- Page 5 -->
 <pb facs="Letter4_P5"/>
  
-<fw place="top of the page" type="sig">2<hi rend="superscript">d</hi></fw>
+<lb/><fw place="top of the page" type="sig">2<hi rend="superscript">d</hi></fw>
 <lb/> aggression, but  
-<lb/>defends the weak              
+<lb/>defends the weak—              
 <lb/> and no one dares to
 <lb/> touch him — as they 
 <lb/> all know him strong —
@@ -1661,7 +1664,7 @@
 <lb/> him too much. It is a 
 <lb/> pity I cannot talk to
 <lb/> a sister without that
-<lb/> suspicion — is <choice><corr>not</corr><sic>n't</sic></choice> it?
+<lb/> suspicion — is n't it?
 
 <!-- Page 6 -->
 <pb facs="Letter4_P6"/>
