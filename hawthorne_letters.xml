@@ -1864,7 +1864,7 @@
 <!-- Page 13 -->
 <pb facs="Letter4_P13"/>
 
-<fw type="sig" place="top of the page">4<hi rend="superscript">th</hi></fw>
+<lb/><fw type="sig" place="top of the page">4<hi rend="superscript">th</hi></fw>
 <lb/> The reason I do not
 <lb/> fancy <persName ref="#Pugh">Mrs Pugh</persName> is because
 <lb/> she disenchanted herself
@@ -1917,9 +1917,6 @@
 
 <!-- Page 15 -->
 <pb facs="Letter4_P15"/>
-               <figure>
-                  <figDesc>stationer's mark.</figDesc>
-               </figure>
 <lb/> as their needs.</p><p>
 <lb/> I have the comfort of
 <lb/> a perfect peace and
@@ -1954,7 +1951,8 @@
 <closer>
    <lb/><salute>Ever yours,</salute>
    <lb/><signed><persName ref="#SPHawthorne">Sophia</persName></signed>
-            <add hand="#Unknown" place="margin">Mrs. Hawthorne</add>
+            <add hand="#Unknown" place="margin">Mrs. Hawthorne</add> <ptr type="noteAnchor" target="MrsHawthorne"/><note resp="ed" xml:id="MrsHawthorne">
+              This note was added in pencil by an unknown hand.</note>
 </closer>
           <!-- If there were a <postscript>, we have a tag for that. -->
         </div>
