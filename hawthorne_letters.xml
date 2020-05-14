@@ -2009,11 +2009,10 @@
         <div type="letter" xml:id="SPH_1868-12-04_let">
           <!-- REPLACE WITH FILENAME FOR FIRST PAGE OF THE LETTER -->
           <pb facs="Letter5_P1"/>
-          <lb/>
           <opener>
             <!-- REPLACE WITH INFO FROM NEW LETTER -->
             <lb/><dateline><date when="1868-12-04"></date>December 4<hi rend="superscript">th</hi> 1868
-            <lb/><address><street>46B, <add place="infralinear">^</add> <add place="supralinear">3<hi rend="superscript">d</hi> étage</add> Bautzner Strasse.</street> <name type="place">Dresden.</name></address></dateline>
+            <lb/><address><street>46<hi rend="superscript"><hi rend="underlined">B</hi></hi>, <add place="infralinear">^</add> <add place="supralinear">3<hi rend="superscript">d</hi> étage</add> Bautzner Strasse.</street> <name type="place">Dresden.</name></address></dateline>
           </opener>
           <p>
 <lb/> Oh <persName ref="#EPPeabody">Elisabeth</persName>, your letter of <choice><expan>November</expan><abbr>Nov</abbr></choice> 12 came 
@@ -2050,7 +2049,7 @@
 <lb/>change and observation of the gains 
 <lb/>of science here. He was so large in
 <lb/>his scope. When I asked him once
-<lb/>which branch of science he <hi rend="underscore">preferred</hi>
+<lb/>which branch of science he <hi rend="underlined">preferred</hi>
 
 <!-- Page 2 -->
 <pb facs="Letter5_P2"/>
@@ -2065,10 +2064,10 @@
 <lb/>magnificent purposes and hopes 
 <lb/>probably needed another sphere to 
 <lb/>be fulfilled, for oh <persName ref="#EPPeabody">Elisabeth</persName>, I
-    <hi rend="underscore">never</hi>
+    <hi rend="underlined">never</hi>
 <lb/>believed that <persName ref="#HMannjr">Horace</persName> would live to 
 <lb/>the prime of manhood in this world. 
-<lb/><hi rend="underscore">I was sure</hi> he would die young, and 
+<lb/><hi rend="underlined">I was sure</hi> he would die young, and 
 <lb/>so I am not surprised, however much 
 <lb/>I grieve. He had not robustness of 
 <lb/>constitution enough to bear such <unclear reason="obscured by ink stain">constant</unclear>
@@ -2084,7 +2083,7 @@
 <lb/> will and wish were so omnipotent—
 <lb/> not because he had bodily force 
 <lb/> enough. It was sublime and 
-<lb/> beautiful to a degree<del hand="#SPHawthorne" type="overstrike">hardly</del>
+<lb/> beautiful to a degree <del hand="#SPHawthorne" type="overwritten"><unclear>never</unclear></del>hardly
 <lb/> surpassed. I feel honored that I 
 <lb/> was related to him. I think there
 <lb/> never was a purer sacrifice offered 
@@ -2095,7 +2094,7 @@
 <!-- Page 3 -->
 <pb facs="Letter5_P3"/>
                
-<lb/> brow (as I <hi rend="underscore">know</hi>) it was astonishing to 
+<lb/> brow (as I <hi rend="underlined">knew.</hi>) it was astonishing to 
 <lb/> observe the fine beauty of his face—
 <lb/> the intellectual dignity suddenly
 <lb/>increased so much. <persName ref="#JHawthorne">Julian</persName> remarked 
@@ -2116,7 +2115,7 @@
 <lb/>mysterious laws and results of Nature. 
 <lb/>Also in living here among less
 <lb/>exalted persons <add hand="#SPHawthorne" place="supralinear">in his vocation</add> he might have 
-<lb/>finally<del hand="#SPHawthorne" type="overstrike"> merged </del>spirit in the matter 
+<lb/>finally <del hand="#SPHawthorne" type="overwritten"><unclear></unclear></del>merged  spirit in the matter 
 <lb/>that is <add hand="#SPHawthorne" place="supralinear"> also </add>so wonderful and fine. 
 <lb/>He was too susceptible of suffering for 
 <lb/>those who loved him vitally, to really 
@@ -2137,14 +2136,14 @@
 <lb/> for him in his <add place="supralinear" rend="caret" hand="#SPHawthorne">Heavenly</add> Father's House, living
 <lb/> and conscious through all his being. 
 <lb/> Were not the words he first heard 
-<lb/><q>well done, <add place="supralinear" rend="caret" hand="#SPHawthorne">Thou 
+<lb/><q>Well done, <add place="supralinear" rend="caret" hand="#SPHawthorne">Thou 
   good and </add>faithful servant. Thou hast 
 <lb/> been faithful over a few things. I will 
 <lb/> make thee ruler over many things!
-<lb/> Enter thou into the joy of thy Lord.<ptr type="noteAnchor" target="joy"/><note resp="ed" xml:id="joy">Matt. 25:21.</note>
+<lb/> Enter thou into the joy of thy Lord.</q><ptr type="noteAnchor" target="joy"/><note resp="ed" xml:id="joy">Matt. 25:21.</note>
 <lb/> For has not he gained five talents 
 <lb/> more than the five which the Lord 
-<lb/> delivered unto him?</q><ptr type="noteAnchor" target="five"/><note resp="ed" xml:id="five">Matt. 25:21.</note> Did he ever 
+<lb/> delivered unto him? Did he ever 
 <lb/> fold one in a napkin? When his 
 <lb/> mother's first agony of separation is 
 <lb/> over, his noble life will come back 
@@ -2154,18 +2153,18 @@
 <lb/> care and sympathy with him. One in 
 <lb/> a thousand mothers is she, and it 
 <lb/> would indeed be a pity to part such 
-<lb/> love. <hi rend="underscore">It is not parted</hi>— oh non —; His 
+<lb/> love. <hi rend="underlined">It is not parted</hi>— oh no —; His 
 <lb/> gratitude on earth to her could never
 <lb/> reach his gratitude to her in heaven 
-<lb/> where he can better appreciate it and 
-<lb/> understand her single devotion to 
+<lb/> where he can better appreciate <del rend="overwritten">it</del>and 
+<lb/> <del rend="overwritten">and</del>understand her single devotion to 
 <lb/> his highest good. And his father is 
 <lb/> there to receive and welcome him 
 <lb/> without a misgiving! For did not he 
 <lb/> rise to his father's most ardent 
 <lb/> prayers for him? I am comforting 
-<lb/> myself —; How I wish I could comfort 
-<lb/> Mary. God alone can speak to her. 
+<lb/> myself — How I wish I could comfort 
+<lb/> Mary. God alone can speak to her— 
 <lb/> I do not know what it is to lose a son. 
 <lb/> God bless and help her, as He surely will.
 
@@ -2195,12 +2194,12 @@
 <lb/> not to disappoint him, His Heavenly 
 <lb/> Father took him from earthly 
 <lb/> obstacles and constant suffering, 
-<lb/> where he can never more be cold 
+<lb/> where he can never more be <hi rend="underlined">cold</hi> 
 <lb/> nor weary nor interrupted in his 
 <lb/> immortal course of knowledge 
 <lb/> and aspiration. Two witnesses 
 <lb/> have <persName ref="#GMann">George</persName> and <persName ref="#BMann">Ben</persName> now 
-<lb/> in heaven —; Two angels to watch and 
+<lb/> in heaven — Two angels to watch and 
 <lb/> ward. I trust you have written 
 <lb/> again to tell me how they do and 
 <lb/> how they bear it. But of Mary 
@@ -2223,13 +2222,13 @@
 
 <p>
 <lb/> I think with satisfaction of what
-<lb/> is very trifling to others —; but not to 
+<lb/> is very trifling to others—but not to 
 <lb/> me. It is that <persName ref="#HMannjr">Horace</persName> was always
 <lb/> very affectionate and sweet to me 
 <lb/> I remember his grasp of hand 
 <lb/> and his smile whenever I met 
-<lb/> him —-; and whenever he said <q>Aunt
-<lb/> Sophia</q>—; was always moved, each 
+<lb/> him — and whenever he said <q>Aunt
+<lb/> Sophia</q> — I was always moved, each 
 <lb/> time, as if he first said it then. 
 <lb/> I also remember well what a respect 
 <lb/> and regard my husband had for 
@@ -2238,9 +2237,9 @@
 <lb/> he said. His sincerity, seriousness
 <lb/> of purpose and varied knowledge 
 <lb/> and intelligence made him 
-<lb/> so attractive to Mr. Hawthorne —; 
+<lb/> so attractive to Mr. Hawthorne— 
 <lb/> and in his presence there was such 
-<lb/> a modest dignity of manners —; 
+<lb/> a modest dignity of manners— 
 <lb/> so thoughtful an air of 
 <lb/> conscientious consideration as 
 <lb/> was truly beautiful.
@@ -2250,10 +2249,10 @@
                
 <lb/> I believe the last time I saw him 
 <lb/> in Concord was when he came in
-<lb/> loaded with lovely arethusas —; and 
+<lb/> loaded with lovely arethusas — and 
 <lb/> presented me with a radiant 
 <lb/> sheaf of them. I was always thankful 
-<lb/> to see him come —; but how seldom 
+<lb/> to see him come — but how seldom 
 <lb/> he came. I felt he could not waste 
 <lb/> his time, for seldom anyone so 
 <lb/> impressed me with the value of 
@@ -2262,7 +2261,7 @@
 <lb/> childhood, when he began to try 
 <lb/> chemic experiments. How thoroughly 
 <lb/> he obeyed the command<q>Work while 
-<lb/> it is day —</q>;</p>
+<lb/> it is day —</q></p>
 
 <p>
 <lb/> When he came home from the 
@@ -2271,16 +2270,16 @@
 <lb/> quite away till I saw the seal of
 <lb/> death take its place. I always 
 <lb/> wondered what had troubled him. 
-<lb/> Perhaps he has now told his mother —; 
+<lb/> Perhaps he has now told his mother — 
 <lb/> but I am sure he had some great 
 <lb/> trouble which he thought best to 
 <lb/> keep to himself. I sometimes 
 <lb/> thought I would ask him to tell 
 <lb/> me, as he might be reluctant to 
-<lb/> disturb his mother —; for I thought 
+<lb/> disturb his mother — for I thought 
 <lb/> he would feel better to relieve 
 <lb/> himself of it, whatever he was. 
-<lb/> It is no matter now —-; for when
+<lb/> It is no matter now —; for when
 <lb/> the golden gate turned <add place="supralinear" rend="caret">back</add> on its
 
 <!-- Page 8 -->
@@ -2288,11 +2287,11 @@
                
 <lb/><gap extent="one letter" reason="inkblot"/>inges, and shut him in from
 <lb/> the world, all cares were left
-<lb/> outside, and his brow now is <gap extent="one word" reason="cancelled and illegible" rend="overwritten"/>
- <add hand="#SPHawthorne" place="supralinear">smooth</add>
+<lb/> outside, and his brow now <gap extent="one word" reason="cancelled and illegible" rend="overwritten"/>
+ <add hand="#SPHawthorne" place="supralinear">is smooth</add>
 <lb/> with peace. I begin today to be
-<lb/> conscious of his peace —; I could think
-<lb/> of only Mary's loss and the loss of
+<lb/> conscious of his peace — I could think
+<lb/> of only Mary's loss and <gap reason="illegible" rend="overwritten"></gap>the loss of
 <lb/> us all at first. Today I have written
 <lb/> myself into an ecstasy with his gain
 <lb/> and relief and I wish I could know
@@ -2300,7 +2299,7 @@
 <lb/> is on its way to me now. This one
 <lb/> of yours may have been at Thode's
 <lb/> a few days. Do not send any more
-<lb/> to the Bankers. 46 <hi rend="underscore">B</hi>
+<lb/> to the Bankers. 46 <hi rend="underlined">B</hi>
  <foreign xml:lang="ger">Bautzner
 <lb/> Strasse</foreign> is my address. The Postman
 <lb/> is a nice man, and every thing is safe
@@ -2311,38 +2310,40 @@
 <lb/> I do not incline to write or think
 <lb/> of any thing but Horace and Mary.
 <lb/> You have received four letters from me
-<lb/> before this time —; the three last were
+<lb/> before this time — the three last were
 <lb/> announcements. I will write again
 <lb/> We are all well, and happy to be here.
 <lb/> I should like some money very much. I
 <lb/> was to have some from <orgName ref="#Ticknor">Ticknor &amp; Fields</orgName>
-  <lb/> in November for the former booksptr type="noteAnchor" target="notebooks"/><note resp="ed" xml:id="notebooks">Nathaniel Hawthorne's 
+  <lb/> in November for the former books<ptr type="noteAnchor" target="notebooks"/><note resp="ed" xml:id="notebooks">Nathaniel Hawthorne's 
     <title level="m">American Notebooks</title>, published by Ticknor
     and Fields, that Sophia felt she was not being properly compensated for.
-    <bibl>GALE 169</bibl>.</note>—; But I hear
+    <bibl>GALE 169</bibl>.</note>— But I hear
 <lb/> the firm is dissolved. If so, perhaps I
 <lb/> am without redress. I wish <persName ref="#GHillard">Mr Hillard</persName>
 <lb/> could send my January dividend so I
 <lb/> can have it by 1st January. What he
-<lb/> is <hi rend="underscore">sure</hi> of<unclear reason="unclear punctuation">.</unclear>he can advance me perhaps.
-<lb/> All send love and deep sympathy. We are at
+<lb/> is <hi rend="underlined">sure</hi> of he can advance me perhaps.
+<lb/> All send love and deep sympathy. We are at <add hand="#Unknown" place="margin">Sophia H.</add><ptr type="noteAnchor" target="SophiaH"/><note resp="ed" xml:id="SophiaH">"Sophia H." is written
+  in pencil in the margin by an unknown hand.</note>
 
 <!-- Page 8 continued. -->
-<pb facs="Letter5_P1"/>
+<pb facs="Letter5_P1"/> <ptr type="noteAnchor" target="marginalNote"/><note resp="ed" xml:id="marginalNote">Hawthorne continues her letter in the 
+  margins of the first page.</note>
                
 <lb/> <add hand="#SPHawthorne" place="margin">housekeeping since 19th November and taking German lessons. Goodbye</add>
 </p>
           <!-- REPLACE WITH CLOSER AND SIGNATURE INFORMATION FROM LETTER -->
           <closer>
-            <lb/><salute><add hand="#SPHawthorne" place="Left margin">Yours and Mary's loving sister</add></salute><signed> <persName ref="#SPHawthorne">Sophia</persName></signed>
+            <lb/><salute><add hand="#SPHawthorne" place="margin">Yours and Mary's loving sister</add></salute><signed> <persName ref="#SPHawthorne"><add hand="#SPHawthorne" place="margin">Sophia</add></persName></signed>
            </closer>
           <!-- If there were a <postscript>, we have a tag for that. -->
           <postscript>
             <p>
-              <lb/><add hand="#SPHawthorne" place="margin">Do not write the <hi rend="underscore">A</hi> in my name, because I write it here 
+              <lb/><add hand="#SPHawthorne" place="margin">Do not write the <hi rend="underlined">A</hi> in my name, because I write it here 
                 Sophia Hawthorne 
-              <lb/> only. <persName ref="#RHawthorne">Rose</persName> wrote to you last week. </add>
-              <lb/> <add hand="#SPHawthorne" place="margin">PS. The postage is 10 cents to Dresden</add> 
+              <lb/> only. <persName ref="#RHawthorne">Rose</persName> wrote to you last week. 
+              <lb/>PS. The postage is 10 cents to Dresden </add>
             </p>
           </postscript>
         </div>
