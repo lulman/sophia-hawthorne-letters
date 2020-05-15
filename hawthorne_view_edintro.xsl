@@ -105,20 +105,20 @@
             
             <!-- LOCAL JS CALLS -->
             <link rel="stylesheet" href="jquery-ui.css"/>
-            <link href="hawthorne_letters.css" rel="stylesheet" type="text/css" />
+            <link href="hawthorne_letters.css" rel="stylesheet"/>
             <script src="jquery-1.8.3.min.js"/>
             <script src="jquery-ui-1.9.2.custom.js"/>
                         
             <!-- CALL VARIABLES -->  
-            <style type="text/css">
+            <style>
                <xsl:value-of select="$maintextRule"/>
                <xsl:value-of select="$navBarRule"/>
                <xsl:value-of select="$bodyRule"/>
             </style>
             
             <!-- DECLARE FONTS-->
-            <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'/>
-            <link href='http://fonts.googleapis.com/css?family=Fanwood+Text' rel='stylesheet' type='text/css'/>
+            <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet'/>
+            <link href='http://fonts.googleapis.com/css?family=Fanwood+Text' rel='stylesheet'/>
             
          </head>
          
@@ -449,8 +449,8 @@
          <xsl:apply-templates select="/tei:teiCorpus/tei:teiHeader/tei:encodingDesc/tei:refsDecl"/>
 -->      
       <hr style="border: 2px solid crimson;"/>
-      <a name="WorksCited"/>
-            <h2 id="worksCited">List of Works Cited</h2>
+      <a id="worksCited"/>
+            <h2>List of Works Cited</h2>
       <hr/>
             <xsl:apply-templates
                select="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:listBibl"/>
@@ -466,7 +466,7 @@
       <p>
                <strong>About this Editorial Introduction</strong>
             </p>
-            <p><a name="view"/>Text on this page is derived from the
+            <p><a id="view"/>Text on this page is derived from the
                edition's XML source document, hawthorne_letters.xml, transformed
                via the hawthorne_view_edintro.xsl style sheet.</p>
             <hr/>
@@ -490,8 +490,8 @@
    <xsl:template
       match="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:biblFull/tei:notesStmt/tei:note[@type='descriptive']">
       <hr style="border: 2px solid crimson;"/>
-      <a name="source"/>
-      <h2 id="source">About the Source Documents</h2>
+      <a id="source"/>
+      <h2>About the Source Documents</h2>
       <hr/>
       <p><strong>Title</strong>: "<xsl:value-of select="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:biblFull/tei:titleStmt/tei:title"/>" 
          <br/><strong>Extent</strong>: <xsl:value-of select="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:biblFull/tei:extent"/>
@@ -521,14 +521,15 @@
    <!-- Format information about your document. -->
    <xsl:template match="/tei:teiCorpus/tei:teiHeader/tei:encodingDesc/tei:projectDesc">
       <hr style="border: 2px solid crimson;"/>
-      <h2 id="projectDescription">Project Description</h2>
+      <a id="projectDescription"></a>
+      <h2>Project Description</h2>
       <hr/>
          <xsl:apply-templates/>
    </xsl:template>
    <xsl:template match="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:titleStmt">
       <hr style="border: 2px solid crimson;"/>
-      <a name="edition"/>
-      <h2 id="edition">About the Electronic Edition</h2>
+      <a id="edition"/>
+      <h2>About the Electronic Edition</h2>
       <hr/>
       <p><strong>Title</strong>: "<xsl:value-of select="tei:title"/>"</p>
          <p><strong>Editors</strong>: <xsl:for-each select="tei:editor/tei:persName">
@@ -580,7 +581,7 @@
 <!-- OLD PEOPLE MENTIONED TEMPLATE -->
  
 <!--   <xsl:template match="tei:listPerson[@type='mentioned']">
-      <a name="PeopleMentioned"/>
+      <a id="PeopleMentioned"/>
       <h3>List of People Mentioned in the Letters</h3>
       <xsl:for-each select="tei:person">
          <xsl:sort select="tei:persName"/>
@@ -639,7 +640,7 @@
    
    
    <xsl:template match="tei:listPlace">
-      <a name="placesMentioned"/>
+      <a id="placesMentioned"/>
       <hr/>
       <h3>List of Places Mentioned in the Letters</h3>
       <xsl:for-each select="tei:place">
@@ -669,8 +670,8 @@
                disable-output-escaping="yes"/>
          </p>
       <hr style="border: 2px solid crimson;"/>
-      <a name="revision"/>
-         <h2 id="revision">Revision History</h2>
+      <a id="revision"/>
+         <h2>Revision History</h2>
       <table style="width: 90%">
          <tr>
             <td>

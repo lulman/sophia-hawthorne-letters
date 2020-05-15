@@ -26,7 +26,8 @@
       whether the addition is above or below the line and followed by an arrow indicating the return
       to the line (&#x2191; &#x2193;); text added in the margins is preceded and followed by a
       vertical bar (&#x007C;). Text added by Hawthorne in the margins is surrounded by "pipe"
-      characters (|) at the point in the main text that it appears to follow. Links to external
+      characters (|) at the point in the main text that it appears to follow. Often, Hawthorne precedes an addition above the line with a caret below the line,
+      but to aid readability, the carets are suppressed in this transcription. Links to external
       materials are colored and underlined.</xsl:variable>
    <xsl:variable name="bodyRule">
       body {

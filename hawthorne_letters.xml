@@ -962,9 +962,8 @@
             
             <lb/> almost always — or give it with 
             <lb/> your mind a little different
-            <lb/>aspect. That saying <add hand="#SPH" place="infralinear">^</add>
-            <add hand="#SPH" place="supralinear">you repeat </add>about the 
-            <lb/>imagination is <add hand="#SPH" place="infralinear">^</add><add hand="#SPH" place="supralinear">not </add> just as I meant it
+            <lb/>aspect. That saying <add hand="#SPH" place="supralinear" rend="caret">you repeat </add>about the 
+            <lb/>imagination is <add hand="#SPH" place="supralinear" rend="caret">not </add> just as I meant it
             <lb/> but no matter. I hate
             <lb/>to explain.
             </p>
@@ -978,7 +977,7 @@
             <p>
               <lb/><persName ref="#SPH">Sophy</persName> has given me this to read
               <lb/> and send, &amp; I hope it is the
-              <lb/> last document <add hand="#SPH" place="infralinear">^</add> <add hand="#SPH" place="supralinear">of the sort</add> that will pas<gap extent="presumably one letter" reason="edge of page"/>
+              <lb/> last document <add hand="#SPH" place="supralinear" rend="caret">of the sort</add> that will pas<gap extent="presumably one letter" reason="edge of page"/>
               <lb/> She wrote it with difficulty
               <lb/> for she had a raging headache 
               <lb/>  &amp; has been on the bed &amp; dizzy.
@@ -1018,7 +1017,7 @@
               <lb/> it, for the word is the touchstone to
               <lb/> all this emotion. There is no temper
               <lb/> in her crying now if there ever was—it
-              <lb/> is pure <add hand="#MTPMann" place="infralinear">^</add> <add hand="#MTPMann" place="supralinear">physical</add> agony — but she only apprehends now
+              <lb/> is pure <add hand="#MTPMann" place="supralinear" rend="caret">physical</add> agony — but she only apprehends now
               <lb/> that it will be perhaps difficult to appear
               <lb/> natural, at least for a time &amp; that you
               <lb/> will misconstrue that—I have assured
@@ -1121,7 +1120,7 @@
             <lb/><dateline><date when="1839-11-19">Tuesday 1/2 4. <choice><expan>November</expan><abbr>Nov</abbr></choice> 19th 
               <add place="infralinear" hand="#Unknown">[1839]</add></date></dateline><ptr type="noteAnchor" target="date"/><note resp="ed" xml:id="date">The year was
                 added in pencil by an unknown hand.</note>
-            <lb/><salute>My dear<persName type="nickname" ref="#EPP">Lizzie,</persName></salute>
+            <lb/><salute>My dear <persName type="nickname" ref="#EPP">Lizzie,</persName></salute>
           </opener>
           <p>
             <lb/>I suppose that <name type="person" ref="Edward Thomson Taylor (1793-1871)" key="ETT">Mr Taylor</name>
@@ -1322,8 +1321,8 @@
             <lb/><dateline><placeName>Rome</placeName>. <date when="1859-01-08"></date>January 8th 1859</dateline>
             <lb/><add hand="#Unknown" place="inline">[Mrs H]</add> <ptr type="noteAnchor" target="MrsH"/><note resp="ed" xml:id="MrsH">"Mrs H" was added in pencil by an unknown hand.</note>
             <lb/><salute>My dear <persName ref="#EPPeabody">Elizabeth</persName>,</salute>
-          </opener> <ab>I am really</ab>
-          <p>
+          </opener> 
+          <p> I am really
               <lb/>too tired to write a letter,
               <lb/>but cannot bear to let a
               <lb/>chance slip. <persName ref="#UHawthorne">Una</persName> has
@@ -1557,7 +1556,7 @@
 <lb/> is certainly a very plain 
 <lb/> duty not to spend other
 <lb/> peoples' money for 
-<lb/> accomplishments — <add hand="#SPHawthorne" place="infralinear">^</add><add hand="#SPHawthorne" place="supralinear">or any thing else.</add> And as 
+<lb/> accomplishments — <add hand="#SPHawthorne" place="supralinear" rend="caret">or any thing else.</add> And as 
 <lb/> we are very closely pressed 
 <lb/> this year — and feel it 
 <lb/> important not to grind 
@@ -2012,7 +2011,7 @@
           <opener>
             <!-- REPLACE WITH INFO FROM NEW LETTER -->
             <lb/><dateline><date when="1868-12-04"></date>December 4<hi rend="superscript">th</hi> 1868
-            <lb/><address><street>46<hi rend="superscript"><hi rend="underlined">B</hi></hi>, <add place="infralinear">^</add> <add place="supralinear">3<hi rend="superscript">d</hi> étage</add> Bautzner Strasse.</street> <name type="place">Dresden.</name></address></dateline>
+            <lb/><address><street>46<hi rend="superscript"><hi rend="underlined">B</hi></hi>, <add place="supralinear" rend="caret">3<hi rend="superscript">d</hi> étage</add> Bautzner Strasse.</street> <name type="place">Dresden.</name></address></dateline>
           </opener>
           <p>
 <lb/> Oh <persName ref="#EPPeabody">Elisabeth</persName>, your letter of <choice><expan>November</expan><abbr>Nov</abbr></choice> 12 came 
