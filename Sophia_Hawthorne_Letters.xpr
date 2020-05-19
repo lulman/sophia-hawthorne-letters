@@ -532,6 +532,13 @@
     </meta>
     <projectTree name="Sophia_Hawthorne_Letters.xpr">
         <folder masterFiles="true" name="Master Files">
+            <file name="hawthorne_appendices_acknowledgements.html"/>
+            <file name="hawthorne_appendices_editors.html"/>
+            <file name="hawthorne_appendices_hand.html"/>
+            <file name="hawthorne_appendices_maps.html"/>
+            <file name="hawthorne_appendices_markup.html"/>
+            <file name="hawthorne_appendices_msimages.html"/>
+            <file name="hawthorne_appendices_template.html"/>
             <file name="hawthorne_view_diplomatic.xsl"/>
             <file name="hawthorne_view_reading.xsl"/>
             <file name="hawthorne_view_splitview.xsl"/>

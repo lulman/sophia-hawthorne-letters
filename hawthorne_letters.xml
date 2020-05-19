@@ -720,9 +720,23 @@
             </msContents>
             <physDesc>
               <p>
-              <!-- PHYSICAL DESCRIPTION OF THE LETTER -->
-                ALS. 4 pp. Cross-writing in two hands. Discussion of postal system.
-              </p>
+                <!-- PHYSICAL DESCRIPTION OF THE LETTER --> ALS [Postmarked Salem, Mass. Aug. 9] no
+                year [1837], 4 pp., 4to, with 2 pp. crossed, and folded, to make an address sheet.
+                With palimsestic postcript by "M" (Sophia Hawthorne's sister, Mary). Because of the
+                complexity of cross-writing and marginal continuations that sometimes spread across different pages
+                of the bifolium, the "By MS Page" and "Facsimile/Text" views of this edition
+                organize the letter by sequential sections rather than pages, "sections" defined as blocks of text oriented 
+                similarly on the page. To help readers envision the complex layout of
+                the text, we provide the following diagrams of the front and back of the bifolium: 
+                <figure rend="link">
+                  <head>[Letter 1 Sections, Pages 1 and 4]</head>
+                  <graphic url="./Letter1_Diagram_Front.jpg"/>
+                  <figDesc> Letter 1 Sections, Pages 1 and 4 </figDesc>
+                </figure> and <figure rend="link">
+                  <head>[Letter 1 Sections, Pages 2 and 3]</head>
+                  <graphic url="./Letter1_Diagram_Back.jpg"/>
+                  <figDesc> Letter 1 Sections, Pages 2 and 3 </figDesc>
+                </figure>. </p>
               <accMat></accMat>
             </physDesc>
             <additional>

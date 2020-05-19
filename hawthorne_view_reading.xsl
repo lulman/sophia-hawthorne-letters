@@ -122,6 +122,7 @@
         <br/><xsl:apply-templates/>
     </xsl:template>
     
+    
     <xsl:template match="tei:postscript/tei:p/tei:lb"/>
 <!-- DO NOT INCLUDE LINE BREAKS IN MARY'S POSTSCRIPT
     <xsl:template match="tei:postscript/tei:p/tei:lb">

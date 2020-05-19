@@ -30,7 +30,7 @@
 <!--      <xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text>
 -->    <html>
          <head>
-            <!-- Creat the head of the HTML document -->
+            <!-- Create the head of the HTML document -->
             <!-- First, populate meta element with keywords -->
             <xsl:element name="meta">
                <xsl:attribute name="name">keywords</xsl:attribute>
@@ -571,10 +571,10 @@
       </div>
       <!-- Horizontal rule between body of letter and ms description -->
       <hr style="margin-left:200px;margin-right:200px;"/>
-      <p class="msDesc">
-         <span style="font-weight:bold;">MS Description. </span><xsl:value-of
+      <div class="msDesc">
+         <span style="font-weight:bold;">MS Description. </span><xsl:apply-templates
          select="ancestor::tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:p"/>
-      </p>
+      </div>
     </xsl:template>
 
    <!-- PAGE, COLUMN, AND LINE BREAKS; Page Layout: These template rules determine how page breaks and
@@ -606,9 +606,7 @@
          <xsl:apply-templates/>
       </h1>
    </xsl:template>
-
-   <!-- SORTING AND FORMATTING LISTS OF WORKS CITED, PLACES, ORGANIZATIONS, AND SO ON. -->
-
+   
    <xsl:template match="//tei:listBibl">
       <xsl:for-each select="tei:bibl">
          <xsl:sort select="@n"/>
@@ -778,18 +776,20 @@
 
    <!-- LINK OR EMBED IMAGES AND OTHER NON-TEXTUAL MATERIALS -->
 
-   <xsl:template match="tei:figure[@rend='link']"> [<a>
+
+   <xsl:template match="//tei:teiCorpus//tei:figure[@rend='link']"> 
+      <xsl:element name="a">
          <xsl:attribute name="HREF">
             <xsl:value-of select="tei:graphic/@url"/>
          </xsl:attribute>
-         <xsl:attribute name="alt">
+<!--         <xsl:attribute name="alt">
             <xsl:value-of select="tei:figDesc"/>
          </xsl:attribute>
-         <xsl:attribute name="target">blank</xsl:attribute>
+-->         <xsl:attribute name="target">blank</xsl:attribute>
          <xsl:value-of select="tei:head"/>
-      </a>]. </xsl:template>
-
-   <xsl:template match="tei:figure[@rend='embed']">
+      </xsl:element></xsl:template>
+   
+   <xsl:template match="//tei:teiCorpus//tei:figure[@rend='embed']">
       <div class="fl_img_right">
          <img>
             <xsl:attribute name="src">
