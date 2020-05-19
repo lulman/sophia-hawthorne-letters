@@ -507,6 +507,7 @@
       <hr/>
       <xsl:apply-templates select="tei:div[@type='letter']"/>
       <xsl:apply-templates select="tei:postscript"/>
+      <xsl:apply-templates select="tei:div[@type='address_and_postmarks']"/>
       <xsl:apply-templates select="tei:div[@type='enclosure']"/>
       <xsl:apply-templates select="tei:div[@type='envelope']"/>
    </xsl:template>
@@ -671,7 +672,26 @@
       </a>
    </xsl:template>
    <xsl:template match="tei:note[@xml:id]"/>
-
+   
+   <!-- Address and Postmarks -->
+   
+   <xsl:template match="tei:div[@type='address_and_postmarks']">
+       <strong><xsl:apply-templates select="tei:figure[@rend='link']"/></strong>
+      <p><strong>Mailing Address</strong>:
+             <br/><xsl:apply-templates select="tei:ab[@type='postalAddress']"/>
+      </p>
+      <p><strong>Postmarks</strong>: 
+               <xsl:apply-templates select="tei:ab/tei:stamp[@type='postmark']"/>
+      </p>      
+    </xsl:template>
+   
+   <xsl:template match="tei:ab/tei:stamp[@type='postmark']">
+      <br/><xsl:apply-templates/>
+   </xsl:template>
+   <xsl:template match="tei:ab/tei:stamp[@type='cancellation']">
+      <br/><xsl:apply-templates/>
+   </xsl:template>
+   
    <!-- MSS ITEMS: These rules process various tags particularly relevant to 
       transcriptions of primary handwritten materials. -->
 

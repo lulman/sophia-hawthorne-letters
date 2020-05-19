@@ -1047,32 +1047,23 @@
           </postscript>
         </div>
         <div type="address_and_postmarks">
-          <pb facs="Letter1_P5b"/>
+          <figure rend="link">
+            <head><emph>Address and Postmarks</emph></head>
+            <graphic url="./Letter1_P5b.jpg"></graphic>
+            <figDesc>Address and Postmarks on letter of 8 August 1837</figDesc>
+          </figure>
           <ab type="postalAddress">
             <address>
-              <addrLine>charge no 85</addrLine>
-              <addrLine>Miss E. P. Peabody</addrLine>
+              <persName>Miss E. P. Peabody</persName>
               <addrLine>Care of Rev. Theodore Parker</addrLine>
               <addrLine>West Roxbury</addrLine>
             </address>
           </ab>
-          <ab type="returnAddress">
-            <address>
-              <addrLine></addrLine>
-              <addrLine></addrLine>
-            </address>
-          </ab>
           <ab>
-            <stamp type="date"></stamp>
+            <stamp type="postmark">charge no 85</stamp>
             <stamp type="postmark">SALEM, MASS | AUG 8</stamp>
             <stamp type="postmark">SALEM, MASS | AUG 8</stamp>
             <stamp type="cancellation">PAID</stamp>
-            <stamp type="seal">
-              <figure></figure>
-            </stamp>
-          </ab>
-          <ab>
-            <figure></figure>
           </ab>
         </div>
       </body>
