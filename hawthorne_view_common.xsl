@@ -676,7 +676,7 @@
    <!-- Address and Postmarks -->
    
    <xsl:template match="tei:div[@type='address_and_postmarks']">
-       <strong><xsl:apply-templates select="tei:figure[@rend='link']"/></strong>
+       <p><strong><xsl:apply-templates select="tei:figure[@rend='link']"/></strong></p>
       <p><strong>Mailing Address</strong>:
              <br/><xsl:apply-templates select="tei:ab[@type='postalAddress']"/>
       </p>
