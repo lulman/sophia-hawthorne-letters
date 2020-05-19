@@ -23,7 +23,8 @@
         punctuation, capitalization, and abbreviations are reported as they appear in the
         manuscript. Text highlighted by the correspondents with an underscore is underscored in this
         view. Canceled text is suppressed. Text added between lines or in the margins is silently
-        incorporated into the reading text. Uncertain readings are enclosed in square brackets and followed by a
+        incorporated into the reading text, except in the case of notes added by an unknown hand;  for clarity, those
+        are reported between pipe characters (|). Uncertain readings are enclosed in square brackets and followed by a
         question mark, and text supplied by the editor for clarity is set in italics and surrounded
         by square brackets. Links to notes and external materials are superscripted and colored.
     </xsl:variable>
@@ -121,6 +122,8 @@
     <xsl:template match="tei:closer/tei:lb">
         <br/><xsl:apply-templates/>
     </xsl:template>
+    <xsl:template match="tei:add[@place='margin']"> | <xsl:apply-templates/> | </xsl:template>
+    
     
     
     <xsl:template match="tei:postscript/tei:p/tei:lb"/>
