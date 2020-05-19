@@ -736,7 +736,8 @@
                   <head>[Letter 1 Sections, Pages 2 and 3]</head>
                   <graphic url="./Letter1_Diagram_Back.jpg"/>
                   <figDesc> Letter 1 Sections, Pages 2 and 3 </figDesc>
-                </figure>. The unlined, cream-colored paper bears a </p>
+                </figure>. The unlined, cream-colored paper bears an embossed watermark near the fold. A red, broken wax seal
+              has torn the page where it was folded over for mailing, resulting in gaps in the text in sections 3 and 7.</p>
               <accMat></accMat>
             </physDesc>
             <additional>
@@ -1063,7 +1064,8 @@
           </ab>
           <ab>
             <stamp type="date"></stamp>
-            <stamp type="postmark">SALEM, MASS / AUG 8</stamp>
+            <stamp type="postmark">SALEM, MASS | AUG 8</stamp>
+            <stamp type="postmark">SALEM, MASS | AUG 8</stamp>
             <stamp type="cancellation">PAID</stamp>
             <stamp type="seal">
               <figure></figure>
@@ -1639,8 +1641,7 @@
 <lb/> <persName ref="#JHawthorne"> Julian</persName> gets along 
 <lb/> splendidly as a brave 
 <lb/> and gentle <add hand="#Unknown" place="margin" rend="upsidedown">Dear Sir</add><ptr type="noteAnchor" target="DearSir"/><note resp="ed" xml:id="DearSir">"Dear Sir" is written, 
-  upside-down, in the center of this page in what appears to be Nathaniel Hathorne's hand, though the sample is too small too
-  identify with certainty.</note> and stalwart 
+  upside-down, in the center of this page in an unknown hand.</note> and stalwart 
 <lb/> knight. A gentleman 
 <lb/> told me he was looked 
 <lb/> upon as a powerful 
