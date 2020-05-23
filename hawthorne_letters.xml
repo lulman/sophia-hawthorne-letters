@@ -186,6 +186,9 @@
              <!-- FOR EACH LETTER, UPDATE BIBLIOGRAPHY -->
              <listBibl>
                <head>Works Cited in Notes</head>
+               <bibl xml:id="Dunlavy" n="Dunlavy">
+                 Valenti, Patricia Dunlavy. <title level="m">Sophia Peabody Hawthorne: A life</title>. University of Missouri Press, 2004.
+               </bibl>               
                <bibl xml:id="Pennell" n="Pennell">
                  Pennell, Melissa McFarland. <title level="a">Hawthorne, Sophia Peabody.</title> <title level="a">American National Biography</title>. Oxford: Oxford UP, 2000.
                  https://www-anb-org
@@ -691,7 +694,7 @@
     <teiHeader>
       <fileDesc>
         <titleStmt>
-          <title>Letter from Sophia Peabody Hawthorne to Her Sister, Elizabeth Palmer Peabody, 8 August 1837</title>
+          <title>Letter from Sophia Peabody Hawthorne to Her Sister, Elizabeth Palmer Peabody, 8 August [1837]</title>
           <author>Hawthorne, Sophia Peabody</author>
         </titleStmt>
         <publicationStmt>
@@ -764,7 +767,7 @@
           <pb facs="Letter1_P1a"/>
           <opener>
             <!-- REPLACE WITH INFO FROM NEW LETTER -->
-            <lb/><dateline><date when="1837-08-08"></date>8th August</dateline>
+            <lb/><dateline><date when="1837-08-08"></date>8th August</dateline><ptr type="noteAnchor" target="1837"/><note resp="ed" xml:id="1837">Evidence for dating of letter <bibl><ref target=""></ref></bibl>.</note>
             <lb/><salute>My Dear <persName ref="#EPP">Elizabeth</persName>,</salute>
           </opener>
           <p>
