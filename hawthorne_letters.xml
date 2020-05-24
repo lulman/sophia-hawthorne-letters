@@ -767,7 +767,9 @@
           <pb facs="Letter1_P1a"/>
           <opener>
             <!-- REPLACE WITH INFO FROM NEW LETTER -->
-            <lb/><dateline><date when="1837-08-08"></date>8th August</dateline><ptr type="noteAnchor" target="1837"/><note resp="ed" xml:id="1837">Evidence for dating of letter <bibl><ref target=""></ref></bibl>.</note>
+            <lb/><dateline><date when="1837-08-08"></date>8th August</dateline><ptr type="noteAnchor" target="Date1837"/><note resp="ed" xml:id="Date1837">The letter is undated. We report the
+              date of 1837 as listed in the manuscript description provided to Ohio State University Libraries by the seller. Other external evidence supporting that date
+              include <bibl></bibl>.</note>
             <lb/><salute>My Dear <persName ref="#EPP">Elizabeth</persName>,</salute>
           </opener>
           <p>
