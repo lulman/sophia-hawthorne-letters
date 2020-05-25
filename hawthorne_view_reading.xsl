@@ -124,7 +124,7 @@
     </xsl:template>
     <xsl:template match="tei:add[@place='margin']"> | <xsl:apply-templates/> | </xsl:template>
     
-    
+    <xsl:template match="tei:ptr[@type='asterisk']"/>
     
     <xsl:template match="tei:postscript/tei:p/tei:lb"/>
 <!-- DO NOT INCLUDE LINE BREAKS IN MARY'S POSTSCRIPT

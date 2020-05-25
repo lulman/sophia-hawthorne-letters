@@ -151,7 +151,9 @@
    
    <xsl:template match="tei:seg[@type='softhyphen']">
       <xsl:apply-templates/>
-   </xsl:template>  
+   </xsl:template>
+   
+   <xsl:template match="tei:ptr[@type='asterisk']"><xsl:text>*</xsl:text></xsl:template>
    
    <xsl:template match="tei:p"><xsl:apply-templates/></xsl:template>
    
