@@ -186,7 +186,7 @@
              <!-- FOR EACH LETTER, UPDATE BIBLIOGRAPHY -->
              <listBibl>
                <head>Works Cited in Notes</head>
-               <bibl xml:id="Dunlavy" n="Dunlavy">
+               <bibl xml:id="Dunlavy" n="Valenti">
                  Valenti, Patricia Dunlavy. <title level="m">Sophia Peabody Hawthorne: A life</title>. University of Missouri Press, 2004.
                </bibl>               
                <bibl xml:id="Pennell" n="Pennell">
@@ -209,28 +209,28 @@
                  <title level="m">Roma: Guida D'Italia</title>. Touring Club Italiano. Milan:
                  Settima Edizone, 1977.
                </bibl>
-               <bibl xml:id="mcneil" n="Mcneil">
+               <bibl xml:id="mcneil" n="McNeil">
                  <author>McNeil, Russell</author>. <title level="a">Biography of John Flaxman</title>. 
                  <title level="m">John Flaxman Biography site</title>. 1998–1999. 10 Mar 2003.
                  http://www.malaspina.com/site/person_482.asp?period_id=none&amp;category_id=none
                </bibl>
-               <bibl xml:id="BASSAN_HS">
+               <bibl xml:id="Bassan" n="Bassan">
                  <author>Bassan, Maurice</author>
                  <title level="m">Hawthorne's Son</title>
                  <pubPlace>Columbus, Ohio</pubPlace>
                  <publisher>Ohio State University Press</publisher>
                  <date>1970</date>
                </bibl>
-               <bibl xml:id="RUSSEL_ANB">
+               <bibl xml:id="Russel" n="Russel">
                  Russel, Henry. <title level="a">Hawthorne, Julian</title>. 
                  <title level="m">American National Biography Online</title>.http://www.anb.org/
                  2000. 21 Feb 2003.
                </bibl>
-               <bibl xml:id="FIESER_DIOGENES">
-                 Fieser, James.ed. <title level="a">Diogenes of Sinope.</title> <title level="m">Internet 
+               <bibl xml:id="Fieser" n="Fieser">
+                 Fieser, James, ed. <title level="a">Diogenes of Sinope.</title> <title level="m">Internet 
                    Encyclopedia of Philosophy</title>. 2001. 03 Feb 2003. http://www.utm.edu/research
                </bibl>
-               <bibl xml:id="HUA_RDHC">
+               <bibl xml:id="Records" n="Records">
                  <title level="a">Records of the Dean of Harvard College, 1889-1995.</title>
                  <title level="m">Harvard University Archives</title>. 2000. 14 Feb 2003. http://oasis.harvard.edu/html/hua04000.html
                </bibl>
@@ -243,11 +243,7 @@
                </bibl>
                <bibl xml:id="Bowden" n="Bowden">
                  Bowden, Henry Warner. <title level="a">Parker, Theodore.</title> <title level="m">American National Biography. 2000.</title>
-               </bibl>
-               <bibl xml:id="Russel" n="Russel">
-                 Russell, Henry. <title level="a">Hawthorne, Julian.</title> <title level="m">American National Biography</title>. 2000.
-               </bibl>
-               
+               </bibl>               
                
              </listBibl>
              
