@@ -196,7 +196,7 @@
                <bibl xml:id="Shuman" n="Shuman">Shuman, R. Baird.<title level="a">Peabody, Elizabeth Palmer.</title>
                  <title level="m">American National Biography</title>. Oxford: Oxford UP, 2000. https://www-anb-org
                </bibl>
-               <bibl xml:id="CEN" n="hawthorne_nathaniel">
+               <bibl xml:id="CEN" n="Hawthorne_nathaniel">
                  Hawthorne, Nathaniel. <title level="m">The Centenary Edition of the Works of Nathaniel Hawthorne</title>.
                  Ed. William Charvat, et al. Columbus, Ohio: The Ohio State University Press, 1962.
                </bibl>
@@ -205,11 +205,11 @@
                  <title level="a" >Taylor, Edward Thompson</title>
                  <title level="m" >American National Biography</title>. Oxford: Oxford UP, 2000.
                </bibl>
-               <bibl xml:id="roma" n="roma">
+               <bibl xml:id="roma" n="Roma">
                  <title level="m">Roma: Guida D'Italia</title>. Touring Club Italiano. Milan:
                  Settima Edizone, 1977.
                </bibl>
-               <bibl xml:id="mcneil" n="mcneil">
+               <bibl xml:id="mcneil" n="Mcneil">
                  <author>McNeil, Russell</author>. <title level="a">Biography of John Flaxman</title>. 
                  <title level="m">John Flaxman Biography site</title>. 1998–1999. 10 Mar 2003.
                  http://www.malaspina.com/site/person_482.asp?period_id=none&amp;category_id=none
@@ -234,10 +234,20 @@
                  <title level="a">Records of the Dean of Harvard College, 1889-1995.</title>
                  <title level="m">Harvard University Archives</title>. 2000. 14 Feb 2003. http://oasis.harvard.edu/html/hua04000.html
                </bibl>
-               <bibl xml:id="Ritchie" n="ritchie">
+               <bibl xml:id="Ritchie" n="Ritchie">
                  Ritchie, Susan. 
                  <title level="a">The Peabody Sisters.</title> <title level="m">Dictionary of Unitarian &amp; Universalist Biography</title>. 2002. 17 Feb. 2003. http://www.uua.org/uuhs/duub/articles/peabodysisters.html
                </bibl>
+               <bibl xml:id="Stamps" n="Stamps">
+                 <title level="a">Stamps and Postcards.</title> <title level="m">United States Postal Service</title>. https://about.usps.com/who-we-are/postal-history/stamps-postcards.htm.
+               </bibl>
+               <bibl xml:id="Bowden" n="Bowden">
+                 Bowden, Henry Warner. <title level="a">Parker, Theodore.</title> <title level="m">American National Biography. 2000.</title>
+               </bibl>
+               <bibl xml:id="Russel" n="Russel">
+                 Russell, Henry. <title level="a">Hawthorne, Julian.</title> <title level="m">American National Biography</title>. 2000.
+               </bibl>
+               
                
              </listBibl>
              
@@ -731,8 +741,7 @@
                 edition organize the letter by sequential sections rather than pages, "sections"
                 defined as blocks of text oriented similarly on the page. To help readers envision
                 the complex layout of the text, we provide the following diagrams of the front and
-                back of the bifolium: 
-                <figure rend="link">
+                back of the bifolium: <figure rend="link">
                   <head>[Letter 1 Sections, Pages 1 and 4]</head>
                   <graphic url="./Letter1_Diagram_Front.jpg"/>
                   <figDesc> Letter 1 Sections, Pages 1 and 4 </figDesc>
@@ -742,11 +751,11 @@
                   <figDesc> Letter 1 Sections, Pages 2 and 3 </figDesc>
                 </figure>. The sisters presumably employed cross-writing and filled the sheet
                 edge-to-edge by writing in the margins in part because at the time, postage rates
-                were based on the number of sheets and the distance a letter would travel.  The
+                were based on the number of sheets and the distance a letter would travel—the U.S.
+                Postal Service adopted stamps in 1847 <bibl>"Stamps and Postcards"</bibl>. The
                 unlined, cream-colored paper bears an embossed watermark near the fold. A red,
                 broken wax seal has torn the page where it was folded over for mailing, resulting in
-                gaps in the text in sections 3 and 7.
-              </p>
+                gaps in the text in sections 3 and 7. </p>
               <accMat></accMat>
             </physDesc>
             <additional>
@@ -767,9 +776,12 @@
           <pb facs="Letter1_P1a"/>
           <opener>
             <!-- REPLACE WITH INFO FROM NEW LETTER -->
-            <lb/><dateline><date when="1837-08-08"></date>8th August</dateline><ptr type="noteAnchor" target="Date1837"/><note resp="ed" xml:id="Date1837">The letter is undated. We report the
-              date of 1837 as listed in the manuscript description provided to Ohio State University Libraries by the seller. Other external evidence supporting that date
-              include <bibl></bibl>.</note>
+            <lb/><dateline><date when="1837-08-08"/>8th August</dateline><ptr type="noteAnchor"
+              target="Date1837"/><note resp="ed" xml:id="Date1837">The dateline does not include a
+              year. We report 1837 here, as listed in the manuscript description provided to Ohio
+              State University Libraries by the seller. The letter is addressed care of Rev.
+              Theodore Parker, Roxbury, Massachusetts, where he began serving as pastor in 1837
+                <bibl>Bowden</bibl>. </note>
             <lb/><salute>My Dear <persName ref="#EPP">Elizabeth</persName>,</salute>
           </opener>
           <p>
@@ -1135,9 +1147,14 @@
           <pb facs="Letter2_P1"/>
           <opener>
             <!-- REPLACE WITH INFO FROM NEW LETTER -->
-            <lb/><dateline><date when="1839-11-19">Tuesday 1/2 4. <choice><expan>November</expan><abbr>Nov</abbr></choice> 19th 
-              <add place="infralinear" hand="#Unknown">[1839]</add></date></dateline><ptr type="noteAnchor" target="date"/><note resp="ed" xml:id="date">The year was
-                added in pencil by an unknown hand.</note>
+            <lb/><dateline><date when="1839-11-19">Tuesday 1/2 4. <choice>
+                  <expan>November</expan>
+                  <abbr>Nov</abbr>
+                </choice> 19th <add place="infralinear" hand="#Unknown"
+              >[1839]</add></date></dateline><ptr type="noteAnchor" target="date"/><note resp="ed"
+              xml:id="date">The year was added in pencil by an unknown hand. The year is certain, however,
+              because the letter concerns Sophia's brother George's final illness. He died 25 November 1839, less than a
+              week after the letter was written.</note>
             <lb/><salute>My dear <persName type="nickname" ref="#EPP">Lizzie,</persName></salute>
           </opener>
           <p>
@@ -1537,7 +1554,10 @@
           <pb facs="Letter4_P1"/>
           <opener>
             <!-- REPLACE WITH INFO FROM NEW LETTER -->
-            <lb/><dateline><date when="1863" evidence="internal">Sunday</date></dateline>
+            <lb/><dateline><date when="1863" evidence="internal">Sunday</date></dateline><ptr type="noteAnchor" target="Julian"/><note resp="ed" xml:id="Julian">The dateline
+              does not identify the month or date, but references to Sophia Hathorne's son Julian's experiences at Harvard suggest the fall of
+              1863, when he matriculated. Given Sophia's references to her husband, the letter could not have been written 
+              any later than May, 1864, when Nathaniel Hawthorne, died <bibl><ref target="Russell">Russell</ref></bibl>.</note>
             <lb/><salute>My dear <persName ref="#EPPeabody">Elizabeth</persName></salute>— I have
           </opener>
 <p>
