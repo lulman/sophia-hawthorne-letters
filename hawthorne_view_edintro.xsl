@@ -640,9 +640,8 @@
    
    
    <xsl:template match="tei:listPlace">
-      <a id="placesMentioned"/>
       <hr/>
-      <h3>List of Places Mentioned in the Letters</h3>
+      <h3 id="placesMentioned">List of Places Mentioned in the Letters</h3>
       <xsl:for-each select="tei:place">
          <xsl:sort select="tei:geogName"/>
          <xsl:sort select="tei:placeName[1]"/>
