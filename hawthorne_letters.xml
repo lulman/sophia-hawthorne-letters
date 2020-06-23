@@ -175,6 +175,15 @@
     <geo>-23.5000 -165.0000</geo>
   </location>
 </place>
+               <place type="City" xml:id="RFerry" source="#TGN">
+                 <placeName>Rock Ferry</placeName>
+                 <desc>The Hawthornes lived in Rock Ferry during Nathaniel Hawthorne's consulship in Liverpool.</desc>
+                 <country>England</country>
+                 <location>
+                   <geo>53.3667 -3.0000</geo>
+                 </location>
+               </place>
+               
                
              </listPlace>
              
@@ -585,7 +594,7 @@
              <person xml:id="RWesselhoeft" source="CEN">
                <persName>Wesselhoeft, Dr. Robert</persName>
                <note type="biographical">lived in same village as 
-                 Nathaniel Hawthorne, West Rosbury, in the summer of 1842. Homeopathic doctor, used 
+                 Nathaniel Hawthorne, West Roxbury, in the summer of 1842. Homeopathic doctor, used 
                  "the healing powers of water."</note>
                <birth when="1838"><placeName>Weimar, Germany</placeName></birth>
                <death when="1920-08-17"><placeName>Cambridge, Massachusetts</placeName></death>
@@ -2314,7 +2323,7 @@
 <lb/> time! What a marvel! Not since 
 <lb/> childhood, when he began to try 
 <lb/> chemic experiments. How thoroughly 
-<lb/> he obeyed the command<q>Work while 
+<lb/> he obeyed the command <q>Work while 
 <lb/> it is day —</q></p>
 
 <p>
