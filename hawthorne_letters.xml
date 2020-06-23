@@ -9,19 +9,19 @@
                <editor><persName ref="KDA">Karen D. Anderson</persName></editor>
                <editor><persName ref="SC">Sue Carlson</persName></editor>
                <editor><persName ref="DC">David Carrino</persName></editor>
-               <editor><persName ref="HLU">H. Lewis Ulman</persName></editor>
                <editor><persName ref="JDi">John DiCamillo</persName></editor>
                <editor><persName ref="ADi">Anthony DiCola</persName></editor>
                <editor><persName ref="TJF">Thomas J. Firestone</persName></editor>
                <editor><persName ref="JPF">Joseph P. Frazee</persName></editor>
                <editor><persName ref="KLH">Krista L. Havrilla</persName></editor>
                <editor><persName ref="SRH">Stacy R. Haynes</persName></editor>
+               <editor><persName ref="MJ">Marianne Johnson</persName></editor>
                <editor><persName ref="JAO">Jose A. Orozco</persName></editor>
                <editor><persName ref="SOR">Sean O'Reilly</persName></editor>
                <editor><persName ref="CRBP">Christopher R. B. Pinner</persName></editor>
                <editor><persName ref="MRS">Michelle R. Soell</persName></editor>
                <editor><persName ref="CS">Chris Stull</persName></editor>
-               <editor><persName ref="MJ">Marianne Johnson</persName></editor>
+               <editor><persName ref="HLU">H. Lewis Ulman</persName></editor>
                
            <respStmt>
              <resp>Creation of digital scans of manuscript pages: </resp>
@@ -34,19 +34,19 @@
              <persName ref="KDA">Karen D. Anderson</persName>
              <persName ref="SC">Sue Carlson</persName>
              <persName ref="DC">David Carrino</persName>
-             <persName ref="HLU">H. Lewis Ulman</persName>
              <persName ref="JDi">John DiCamillo</persName>
              <persName ref="ADi">Anthony DiCola</persName>
              <persName ref="TJF">Thomas J. Firestone</persName>
              <persName ref="JPF">Joseph P. Frazee</persName>
              <persName ref="KLH">Krista L. Havrilla</persName>
              <persName ref="SRH">Stacy R. Haynes</persName>
+             <persName ref="MJ">Marianne Johnson</persName>
              <persName ref="JAO">Jose A. Orozco</persName>
              <persName ref="SOR">Sean O'Reilly</persName>
              <persName ref="CRBP">Christopher R. B. Pinner</persName>
              <persName ref="MRS">Michelle R. Soell</persName>
              <persName ref="CS">Chris Stull</persName>
-             <persName ref="MJ">Marianne Johnson</persName>
+             <persName ref="HLU">H. Lewis Ulman</persName>
            </respStmt>
                
            <respStmt>
@@ -55,19 +55,19 @@
              <persName ref="KDA">Karen D. Anderson</persName>
              <persName ref="SC">Sue Carlson</persName>
              <persName ref="DC">David Carrino</persName>
-             <persName ref="HLU">H. Lewis Ulman</persName>
              <persName ref="JDi">John DiCamillo</persName>
              <persName ref="ADi">Anthony DiCola</persName>
              <persName ref="TJF">Thomas J. Firestone</persName>
              <persName ref="JPF">Joseph P. Frazee</persName>
              <persName ref="KLH">Krista L. Havrilla</persName>
              <persName ref="SRH">Stacy R. Haynes</persName>
+             <persName ref="MJ">Marianne Johnson</persName>
              <persName ref="JAO">Jose A. Orozco</persName>
              <persName ref="SOR">Sean O'Reilly</persName>
              <persName ref="CRBP">Christopher R. B. Pinner</persName>
              <persName ref="MRS">Michelle R. Soell</persName>
              <persName ref="CS">Chris Stull</persName>
-             <persName ref="MJ">Marianne Johnson</persName>
+             <persName ref="HLU">H. Lewis Ulman</persName>
            </respStmt>    
            
          </titleStmt>
@@ -289,9 +289,8 @@
           series of collaboratively produced electronic editions of previously unpublished
           nineteenth-century American manuscripts held in the Rare Books and Manuscripts Library
           (RBMS) at The Ohio State University Libraries. Other editions include "Selected Entries
-          from the Lucius Clark Smith Diaries, 30 July 1862 to 31 December 1862"; "My Dear
-          Elizabeth," five letters written by Sophia Peabody Hawthorne to her sister Elizabeth
-          Palmer Peabody between ca. 1837 and 1868; "Journal of a Tour to Europe," by Samuel
+          from the Lucius Clark Smith Diaries, 30 July 1862 to 31 December 1862"; "Selected Letters from the Ivan S. Gilbert Collection of 
+          Stephens Family Travel Letters and Ephemera"; "William B. Anderson's Civil War Correspondence, 1862-1864"; "Journal of a Tour to Europe," by Samuel
           Sullivan Cox; and Louisa A. Doane's "Journal of Two Ocean Voyages (1852-1853)."</p>
            
            <p>Each text was initially edited in connection with an undergraduate or graduate course
@@ -310,7 +309,7 @@
              explored four threads inextricably woven into the work of electronic textual editing:
              the lives and historical milieu evoked by the texts; the history, characteristics,
              and preservation of physical and digital texts; the editorial processes and decisions
-             that shape particular interpretations and presentations texts; and the mediation of
+             that shape particular interpretations and presentations of texts; and the mediation of
              electronic delivery systems.</p>
            
            <p>These conceptual focuses, along with the time constraints of academic terms and the
@@ -327,19 +326,13 @@
              matters also informed the choice of materials, including the possibility of scanning
              the source documents before the class so that students could work with both the
              original documents and high-resolutions facsimiles as they transcribed and encoded
-             the source texts.</p>
+             the source texts. In the case of the Hawthorne letters, we have edited all five of
+             Sophia Hawthorne's letters in the RBMS collection.</p>
            
            <p>Thus, the editions in this series are documentary editions—interpretations and
              representations of single documents—designed to provide wider exposure and access to
              manuscript materials that might otherwise be overlooked, and to provide users with a
              variety of tools for studying those texts.</p>
-           
-           <p>While providing a reliable textual edition is a <foreign xml:lang="lat"><hi
-             style="font-style:italic;">sine qua non</hi></foreign>, the Stephens edition also
-             explores ways of telling four stories inextricably woven into our work: the lives and
-             historical milieu evoked by the texts, the history of the physical documents, the
-             editorial process that gave rise to this particular interpretation of the texts, and the
-             mediation of our electronic delivery system. </p>
            
            <p> Over the course of several years following the classes in which students worked on
              the editions, Professor Ulman revised the introductory materials to ensure stylistic

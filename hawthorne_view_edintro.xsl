@@ -553,11 +553,11 @@
          </xsl:for-each>.
          </p>
       </xsl:for-each>
-      <p>
+<!--      <p>
          <xsl:value-of select="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:pubPlace"/>, <xsl:value-of
             select="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:date"/>
       </p>
-      
+-->      
 
    </xsl:template>
    <xsl:template match="/tei:teiCorpus/tei:teiHeader/tei:encodingDesc/tei:editorialDecl">
