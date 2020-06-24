@@ -347,8 +347,8 @@
             <!-- END THE VERTICAL IMAGE BAR -->
             <!-- START RIGHT MENU -->   
             <div id="viewMenu">
-               <p class="aboutView"><a href="#View">About this view.</a></p>
                <div class="container">
+               <p class="aboutView"><a href="#View">About this view.</a></p>              
                   <p class="font-size-label">Font Size <button id="up">+</button> <button id="down">-</button></p>
                   <!--<p id="font-size"></p>-->
 <!--                  <p><button>Switch between Cox's original pencilled text and overwritten and altered inked text.</button></p>
@@ -477,7 +477,7 @@
                   About this View of the Journal
                </h2>
                <hr/>
-               <p><a id="view"/><xsl:value-of select="$aboutView"/></p>
+               <p><a id="View"/><xsl:value-of select="$aboutView"/></p>
             <!-- Insert link to home page, creation date, and licensing statement.-->
                <p style="text-align: left;">
                <a href="#top"

@@ -37,13 +37,18 @@
       top:120px;
       float : left;
       text-align : left;
-      /* margin-left: 10px; */
+      
       margin-top:0px;
       background-color: rgba(255, 255, 255, 1);
       }
+      .nav {
+      position:absolute;
+      visibility:hidden;
+      margin-left: 125px;
+      }
       #viewMenu {
       position: fixed;
-      top:120px;
+      top:140px;
       left: 1115px;
       width:150px;
       margin-top: 0px;
@@ -94,7 +99,7 @@
       .masthead {
       vertical-align: top;
       text-align:center;
-      width:1050px;
+      width:1200px;
       top:0;
       position: fixed;
       background-color: rgba(255, 255, 255, 1);
@@ -103,7 +108,7 @@
       }
       #titleBar {
       vertical-align: top;
-      width:1050px;
+      width:1200px;
       position: relative;
       background-color: rgba(255, 255, 255, 1);
       color: rgba(1, 1, 1, 0.8);
@@ -282,8 +287,8 @@
                   }
                </script></div>
       <div id="viewMenu">
-         <p class="aboutView"><a href="#View">About this view.</a></p>
          <div class="container">
+            <p class="aboutView"><a href="#View">About this view.</a></p>
             <p class="font-size-label">Font Size <button id="up">+</button><button id="down">-</button></p>
             <form method="get" style="font-size-adjust:none;font-style:normal;font-variant:normal;font-weight:normal;line-height:1.231;color:#000000;" action="http://www.nines.org/search">
                <div style="background:url(image-widget_tower_white.jpg) no-repeat scroll left top;height:56px;width:157px;font-size:12px;margin:0;padding:125px 0 0 22px;text-align:left;font-family:'Times New Roman',Times,serif;font-size-adjust:none;font-style:normal;font-variant:normal;font-weight:normal;line-height:1.231;color:#000000;"><a href="http://nines.org" style="text-decoration:none; float:left; margin-top:-125px; height:120px; width:120px;">&nbsp;</a><input type="text" name="q" onclick="this.form.target='_blank';return true;" size="16" maxlength="255" value="" style="width:100px;-x-system-font:none;font-family:arial,helvetica,clean,sans-serif;font-size-adjust:none;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;line-height:normal;margin:0;margin-top:3px;margin-bottom:5px;padding:0;text-align:left;color:#000000;"><input type="submit" value="Search NINES" style="width:100px;padding:1px;-x-system-font:none;font-family:arial,helvetica,clean,sans-serif;font-size:99%;font-size-adjust:none;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;line-height:normal;margin:0;margin-left:7px;text-align:left;color:#000000;"></div>
@@ -5726,7 +5731,7 @@
             
             
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0219&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             he obeyed the command<q>Work while 
+             he obeyed the command <q>Work while 
                <br>
                
                
@@ -6121,7 +6126,7 @@
             About this View of the Journal
             </h2>
          <hr>
-         <p><a id="view"></a>This presentation of the Hawthorne letters derives from the
+         <p><a id="View"></a>This presentation of the Hawthorne letters derives from the
             project's main XML file, hawthorne_letters.xml, transformed with hawthorne_view_common.xsl
             and
             hawthorne_view_splitview.xsl. Facsimiles of pages appear next to the edited text.

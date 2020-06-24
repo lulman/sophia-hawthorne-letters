@@ -51,7 +51,7 @@
         }
         #viewMenu {
         position: fixed;
-        top:120px;
+        top:140px;
         left: 865px;
         width:150px;
         margin-top: 0px;

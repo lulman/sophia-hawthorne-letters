@@ -42,7 +42,7 @@
       .masthead {
       vertical-align: top;
       text-align:center;
-      width:1050px;
+      width:1200px;
       top:0;
       position: fixed;
       background-color: rgba(255, 255, 255, 1);
@@ -51,7 +51,7 @@
       }
       #titleBar {
       vertical-align: top;
-      width:1050px;
+      width:1200px;
       position: relative;
       background-color: rgba(255, 255, 255, 1);
       color: rgba(1, 1, 1, 0.8);
@@ -73,13 +73,18 @@
       top:120px;
       float : left;
       text-align : left;
-      /* margin-left: 10px; */
+      <!--margin-left: 25px;-->
       margin-top:0px;
       background-color: rgba(255, 255, 255, 1);
       }
+      .nav {
+      position:absolute;
+      visibility:hidden;
+      margin-left: 125px;
+      }
       #viewMenu {
       position: fixed;
-      top:120px;
+      top:140px;
       left: 1115px;
       width:150px;
       margin-top: 0px;
@@ -146,7 +151,7 @@
    </xsl:variable>
    
    
-   <!-- Include common style sheet for Lucius Clark Smith Diaries. -->
+   <!-- Include common style sheet for Hawthorne Diaries. -->
    
    <xsl:include href="hawthorne_view_common.xsl"/>
    
