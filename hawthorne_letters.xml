@@ -204,7 +204,9 @@
              
              <!-- FOR EACH LETTER, UPDATE BIBLIOGRAPHY -->
              <listBibl>
-               <head>Works Cited in Notes</head>
+               <head>
+                 Works Cited in Notes
+               </head>
                <bibl xml:id="Dunlavy" n="Valenti">
                  Valenti, Patricia Dunlavy. <title level="m">Sophia Peabody Hawthorne: A life</title>. University of Missouri Press, 2004.
                </bibl>               
@@ -477,7 +479,7 @@
              <person xml:id="ETTaylor" source="CEN">
                <persName>Taylor, Edward Thompson</persName>
                <note type="biographical">A Methodist preacher and minister for nearly forty years at the 
-                 Seamen's Bethel, Boston, Massachusetts.</note>
+                 Seamen's Bethel, Boston, Massachusetts</note>
                <birth when="1793"><placeName></placeName></birth>
                <death when="1871"><placeName></placeName></death>
                <bibl>CEN 15:421-22; Mott</bibl>

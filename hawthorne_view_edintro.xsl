@@ -451,6 +451,11 @@
       <hr style="border: 2px solid crimson;"/>
       <a id="worksCited"/>
             <h2>List of Works Cited</h2>
+      <h3>Abbreviations Used in Notes</h3>
+      <ul>
+         <li>ANB <span style="font-style:italic">American National Biography</span> </li>
+         <li>CEN <span style="font-style:italic">The Centenary Edition of the Works of Nathaniel Hawthorne</span></li>
+      </ul>
       <hr/>
             <xsl:apply-templates
                select="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:listBibl"/>
@@ -622,6 +627,7 @@
                   <xsl:when test="tei:death[@when]">d. <xsl:value-of select="tei:death/@when"/></xsl:when>
                   <xsl:otherwise></xsl:otherwise></xsl:choose>)</xsl:if>.
             <xsl:apply-templates select="tei:note[@type='biographical']"/>
+            <xsl:if test="tei:bibl"> (<xsl:apply-templates select="tei:bibl"/>)</xsl:if>.
          </p>
       </xsl:for-each>
    </xsl:template>
