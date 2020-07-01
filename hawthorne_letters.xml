@@ -275,6 +275,14 @@
                  <title level="a">3994. Harriet Beecher Stowe to EBB.</title> <title level="m">The Brownings' Correspondence: An Online Edition></title>. Wedgestone Press, 2020. 
                  https://www.browningscorrespondence.com/correspondence/4363/?rsId=11773#D-00C0003. 23 June 2020.
                </bibl>
+              <bibl xml:id="Mitchell" n="Mitchell">
+                Mitchell, Stewart. <title level="a">Henry Adams and Some of His Students.</title> <title level="m">Proceedings of the Massachusetts Historical Society</title>, 
+                vol. 66, 1936, pp. 294–312. JSTOR, www.jstor.org/stable/25080330. Accessed 1 July 2020.
+              </bibl>
+               <bibl xml:id="Symmons" n="Symmons">
+                 Symmons, Sarah. <title level="a">Flaxman, John (1755–1826), sculptor, decorative designer, and illustrator.</title> 
+                 <title level="m">Oxford Dictionary of National Biography</title>.  September 25, 2014. Oxford University Press. Date of access 1 Jul. 2020.
+               </bibl>
                
              </listBibl>
              
@@ -427,16 +435,17 @@
              <head>People Mentioned in Sophia Hawthorne's Letters</head>
              <person xml:id="SPHawthorne" source="ANB">
                <persName>Hawthorne, Sophia Peabody</persName>
-               <note type="biographical">Married to Nathaniel Hawthorn</note>
+               <note type="biographical">American painter and illustrator, married to Nathaniel Hawthorne</note>
                <birth when="1809-09-21"><placeName>Salem, Massachusetts</placeName></birth>
                <death when="1871-02-26"><placeName>London, England</placeName></death>
                <state from="1842-07-09" to="1864-05-19"><label>
                  Married to Nathaniel Hawthorne.
                </label></state>
-               <bibl>Pennell</bibl>
+               <bibl>Pennell; ANB</bibl>
              </person>
              <person xml:id="EPPeabody" source="ANB">
                <persName>Peabody, Elizabeth Palmer</persName>
+               <note type="biographical"></note>
                <birth when="1804-05-16"><placeName>Billerica, Massachusetts</placeName></birth>
                <death when="1894-01-03"></death>
                <bibl>Shuman</bibl>
@@ -450,10 +459,11 @@
              </person>
              <person xml:id="AMAlcott" source="CEN">
                <persName>Alcott, Abigail May</persName>
-               <note type="biographical"></note>
+               <note type="biographical">Wife of Bronson Alcott, with whom Elizabeth Peabody ran the Temple School. Both 
+                 Elizabeth and Sophia Peabody had a strained relationship with Mrs. Alcott</note>
                <birth when="1800"><placeName></placeName></birth>
                <death when="1877"><placeName></placeName></death>
-               <bibl><ref target="#CEN">18: 481</ref></bibl>
+               <bibl><ref target="#CEN">CEN 18: 481; ANB; Marshall 324-325</ref></bibl>
              </person>
              <person xml:id="MTPMann" source="CEN">
                <persName>Mann, Mary Tyler Peabody</persName>
@@ -464,17 +474,19 @@
              </person>
              <person xml:id="ABAlcott" source="ANB">
                <persName>Alcott, Amos Bronson</persName>
-               <note type="biographical"></note>
+               <note type="biographical">Religious and educational reformer. Founded the Temple School, 
+                 which he ran with Elizabeth Palmer Peabody, who documented his work in <title level="m">Record of a School</title> (1835)</note>
                <birth when="1799"><placeName></placeName></birth>
                <death when="1888"><placeName></placeName></death>
-               <bibl><ref target="#ANB"></ref></bibl>
+               <bibl><ref target="#ANB"></ref>ANB</bibl>
              </person>
              <person xml:id="TParker" source="ANB">
                <persName>Parker, Rev. Theodore</persName>
-               <note type="biographical"></note>
+               <note type="biographical">Unitarian clergyman. The letter of 8 August [1837] is addressed to Elizabeth Peabody care of 
+               Reverend Parker in West Roxbury, where he had recently begun serving as pastor</note>
                <birth when="1810"><placeName></placeName></birth>
                <death when="1860"><placeName></placeName></death>
-               <bibl><ref target="#ANB"></ref></bibl>
+               <bibl><ref target="#ANB"></ref>ANB</bibl>
              </person>
              <person xml:id="ETTaylor" source="CEN">
                <persName>Taylor, Edward Thompson</persName>
@@ -486,7 +498,7 @@
              </person>
              <person xml:id="GPeabody" source="CEN">
                <persName>Peabody, George Francis</persName>
-               <note type="biographical">Sophia's brother, who suffered from spinal tuberculosis, died in Elizabeth's care on November 25, 1839, six days after the writing of this letter.</note>
+               <note type="biographical">Sophia's brother, who suffered from spinal tuberculosis and died in Elizabeth's care on November 25, 1839</note>
                <birth when="1813"><placeName></placeName></birth>
                <death when="1839"><placeName></placeName></death>
                <bibl>CEN 15:360-375</bibl>
@@ -507,14 +519,14 @@
              </person>
              <person xml:id="AHBWard" source="CEN">
                <persName>Ward, Anna Hazard Barker</persName>
-               <note type="biographical"></note>
+               <note type="biographical">Wife of Samuel Gray Ward and member of the Peabody sisters' social circle in Boston</note>
                <birth when="1813"><placeName></placeName></birth>
                <death when="1900"><placeName></placeName></death>
                <bibl>CEN 16:298</bibl>
              </person>
              <person xml:id="EBBrowning" source="CEN">
                <persName>Browning, Elizabeth Barrett</persName>
-               <note type="biographical">Poet, wrote <title level="m">Sonnets from the Portugese</title> published in 1850, wife to Robert Browning.</note>
+               <note type="biographical">Poet, author of <title level="m">Sonnets from the Portugese</title> (1850), wife of poet Robert Browning</note>
                <birth when="1806"><placeName></placeName></birth>
                <death when="1861"><placeName></placeName></death>
                <state from="1846" to="1861"><p>Married to Robert Browning</p></state>
@@ -522,59 +534,59 @@
              </person>
              <person xml:id="RBrowning" source="CEN">
                <persName>Browning, Robert</persName>
-               <note type="biographical">Poet, husband to poet Elizabeth Browning.</note>
+               <note type="biographical">Poet, husband of poet Elizabeth Barret Browning</note>
                <birth when="1812-05-07"><placeName></placeName></birth>
                <death when="1889-12-12"><placeName></placeName></death>
                <state from="1846" to="1861"><p>Married to Elizabeth Barrett Browning</p></state>
                <bibl>CEN 15:87</bibl>
              </person>
              <person xml:id="MMotley" source="CEN">
-               <persName>Motley, Mary</persName>
+               <persName>Motley, Mary Benjamin</persName>
                <note type="biographical">Wife of John Lothrop Motley</note>
                <birth when="1814"><placeName></placeName></birth>
                <death when="1877"><placeName></placeName></death>
                <bibl>CEN 18:174</bibl>
              </person>
              <person xml:id="JLMotley" source="RDR">
-               <persName>Motley, John Robert</persName>
-               <note type="biographical">Diplomat and author of <title level="a">The Rise
-               of the Dutch Republic</title> (1855).</note>
+               <persName>Motley, John Lothrop</persName>
+               <note type="biographical">Historian and diplomat, author of <title level="a">The Rise
+               of the Dutch Republic</title> (1855)</note>
                <birth when="1814-04-15"><placeName></placeName></birth>
                <death when="1877-05-29"><placeName></placeName></death>
-               <bibl></bibl>
+               <bibl>ANB</bibl>
              </person>
              <person xml:id="CSCushman" source="CEN">
                <persName>Cushman, Charlotte Saunders</persName>
                <note type="biographical">Actress, the first of her 
-                 profession to be elected to the Hall of Fame for Great Americans in 1915.</note>
+                 profession to be elected to the Hall of Fame for Great Americans in 1915</note>
                <birth when="1816"><placeName></placeName></birth>
                <death when="1876"><placeName></placeName></death>
-               <bibl>CEN 16:532</bibl>
+               <bibl>CEN 16:532; ANB</bibl>
              </person>
              <person xml:id="JHawthorne" source="CEN">
                <persName>Hawthorne, Julian</persName>
-               <note type="biographical">Sophia and Nathaniel Hawthorne's son.</note>
+               <note type="biographical">Sophia and Nathaniel Hawthorne's son</note>
                <birth when="1816"><placeName></placeName></birth>
                <death when="1876"><placeName></placeName></death>
                <bibl>CEN 15:33</bibl>
              </person>
              <person xml:id="UHawthorne" source="CEN">
                <persName>Hawthorne, Una</persName>
-               <note type="biographical">Sophia and Nathaniel Hawthorne's daughter.</note>
+               <note type="biographical">Sophia and Nathaniel Hawthorne's daughter</note>
                <birth when="1844"><placeName></placeName></birth>
                <death when="1877"><placeName></placeName></death>
                <bibl>CEN 15:33</bibl>
              </person>
              <person xml:id="AShephard" source="CEN">
                <persName>Shepard Ada</persName>
-               <note type="biographical">The Hawthorne children's governess.</note>
+               <note type="biographical">The Hawthorne children's governess</note>
                <birth when="1835"><placeName></placeName></birth>
                <death when="1874"><placeName></placeName></death>
                <bibl>CEN 16:298</bibl>
              </person>
              <person xml:id="RHawthorne" source="CEN">
                <persName>Hawthorne, Rose</persName>
-               <note type="biographical">Sophia and Nathaniel Hawthorne's daughter.</note>
+               <note type="biographical">Sophia and Nathaniel Hawthorne's daughter</note>
                <birth when="1851"><placeName></placeName></birth>
                <death when="1926"><placeName></placeName></death>
                <bibl>CEN 15:33</bibl>
@@ -582,19 +594,19 @@
              <person xml:id="JFlaxman" source="MGB">
                <persName>Flaxman, John</persName>
                <note type="biographical">The principal representative 
-                 of the classical tendency in English sculpture.</note>
+                 of the classical tendency in English sculpture</note>
                <birth when="1755"><placeName></placeName></birth>
                <death when="1826"><placeName></placeName></death>
-               <bibl></bibl>
+               <bibl>Symmons</bibl>
              </person>
              <person xml:id="RWesselhoeft" source="CEN">
                <persName>Wesselhoeft, Dr. Robert</persName>
-               <note type="biographical">lived in same village as 
+               <note type="biographical">Lived in same village as 
                  Nathaniel Hawthorne, West Roxbury, in the summer of 1842. Homeopathic doctor, used 
-                 "the healing powers of water."</note>
+                 "the healing powers of water"</note>
                <birth when="1838"><placeName>Weimar, Germany</placeName></birth>
                <death when="1920-08-17"><placeName>Cambridge, Massachusetts</placeName></death>
-               <bibl>CEN 16:71</bibl>
+               <bibl>CEN 16:71; ANB</bibl>
              </person>
              <person xml:id="NHawthorne">
                <persName>Hawthorne, Nathaniel</persName>
@@ -615,35 +627,35 @@
              </person>
              <person xml:id="EGurney" source="source">
                <persName>Gurney, Ephraim Whitney</persName>
-               <note type="biographical">First Dean of Harvard though the position was not yet officially established.</note>
+               <note type="biographical">Professor of ancient history at Harvard University</note>
                <birth when="1829"><placeName></placeName></birth>
                <death when="1886"><placeName></placeName></death>
-               <bibl></bibl>
+               <bibl>Mitchell 295–296</bibl>
              </person>
              <person xml:id="HMannjr" source="source">
                <persName>Mann, Horace Jr.</persName>
-               <note type="biographical">Son of Horace and Mary Peabody Mann.</note>
+               <note type="biographical">Son of Horace and Mary Peabody Mann</note>
                <birth when="1844"><placeName></placeName></birth>
                <death when="1868"><placeName></placeName></death>
                <bibl></bibl>
              </person>
              <person xml:id="BMann" source="source">
                <persName>Mann, Benjamin</persName>
-               <note type="biographical">Son of Horace and Mary Peabody Mann.</note>
+               <note type="biographical">Son of Horace and Mary Peabody Mann</note>
                <birth when="1800"><placeName></placeName></birth>
                <death when="1800"><placeName></placeName></death>
                <bibl></bibl>
              </person>
              <person xml:id="GMann" source="source">
                <persName>Mann, George</persName>
-               <note type="biographical">Son of Horace and Mary Peabody Mann.</note>
+               <note type="biographical">Son of Horace and Mary Peabody Mann</note>
                <birth when="1800"><placeName></placeName></birth>
                <death when="1800"><placeName></placeName></death>
                <bibl></bibl>
              </person>
              <person xml:id="GHillard" source="source">
                <persName>Hillard, George</persName>
-               <note type="biographical">Family friend and executor of Nathaniel Hawthorne's estate.</note>
+               <note type="biographical">Family friend and executor of Nathaniel Hawthorne's estate</note>
                <birth when="1808"><placeName></placeName></birth>
                <death when="1879"><placeName></placeName></death>
                <bibl></bibl>
