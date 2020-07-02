@@ -616,6 +616,7 @@
                <xsl:choose>
                   <xsl:when test="tei:birth[@notAfter]"> (b. not before <xsl:value-of select="tei:birth/@notAfter"/></xsl:when>
                   <xsl:when test="tei:birth[@when]"> (b. <xsl:value-of select="tei:birth/@when"/></xsl:when>
+                  <xsl:when test="tei:birth[@when-custom]"> (b. <xsl:value-of select="tei:birth/@when-custom"/></xsl:when>
                   <xsl:otherwise> (</xsl:otherwise></xsl:choose>
                <xsl:choose>
                   <xsl:when test="not(tei:birth)"></xsl:when>
@@ -625,6 +626,7 @@
                <xsl:choose>
                   <xsl:when test="tei:death[@notBefore]">d. not before <xsl:value-of select="tei:death/@notBefore"/></xsl:when>
                   <xsl:when test="tei:death[@when]">d. <xsl:value-of select="tei:death/@when"/></xsl:when>
+                  <xsl:when test="tei:death[@when-custom]">d. <xsl:value-of select="tei:death/@when-custom"/></xsl:when>
                   <xsl:otherwise></xsl:otherwise></xsl:choose>)</xsl:if>.
             <xsl:apply-templates select="tei:note[@type='biographical']"/>
             <xsl:if test="tei:bibl"> (<xsl:apply-templates select="tei:bibl"/>)</xsl:if>.

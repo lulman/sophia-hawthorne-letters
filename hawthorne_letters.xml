@@ -247,9 +247,9 @@
                  <title level="m">American National Biography Online</title>.http://www.anb.org/
                  2000. 21 Feb 2003.
                </bibl>
-               <bibl xml:id="Fieser" n="Fieser">
-                 Fieser, James, ed. <title level="a">Diogenes of Sinope.</title> <title level="m">Internet 
-                   Encyclopedia of Philosophy</title>. 2001. 03 Feb 2003. http://www.utm.edu/research
+               <bibl xml:id="Piering" n="Piering">
+                 Piering, Julie. <title level="a">Diogenes of Sinope.</title> <title level="m">Internet 
+                   Encyclopedia of Philosophy</title>. 2001. 02 July 2020. https://www.iep.utm.edu/diogsino/
                </bibl>
                <bibl xml:id="Records" n="Records">
                  <title level="a">Records of the Dean of Harvard College, 1889-1995.</title>
@@ -620,10 +620,12 @@
              </person>
              <person xml:id="Diogenes" source="source">
                <persName>Diogenes of Sinope</persName>
-               <note type="biographical">Bio note for Diogenes</note>
-               <birth when-custom="c. 412 BC"><placeName>Sinope</placeName></birth>
-               <death when-custom="323 BC"><placeName>Corinth</placeName></death>
-               <bibl></bibl>
+               <note type="biographical">Sophia's reference to Nathaniel as "a perfect Diogenes or a god — about going 
+                 without things" probably refers to a story about Diogenes living in a tub when he was unable to procure
+                 housing in Athens</note>
+               <birth when-custom="c. 404 BCE"><placeName>Sinope</placeName></birth>
+               <death when-custom="323 BCE"><placeName>Corinth</placeName></death>
+               <bibl>Piering</bibl>
              </person>
              <person xml:id="EGurney" source="source">
                <persName>Gurney, Ephraim Whitney</persName>
@@ -635,36 +637,50 @@
              <person xml:id="HMannjr" source="source">
                <persName>Mann, Horace Jr.</persName>
                <note type="biographical">Son of Horace and Mary Peabody Mann</note>
-               <birth when="1844"><placeName></placeName></birth>
+               <birth when="1844-02-24"><placeName></placeName></birth>
                <death when="1868"><placeName></placeName></death>
                <bibl></bibl>
              </person>
              <person xml:id="BMann" source="source">
-               <persName>Mann, Benjamin</persName>
+               <persName>Mann, Benjamin Pickman</persName>
                <note type="biographical">Son of Horace and Mary Peabody Mann</note>
-               <birth when="1800"><placeName></placeName></birth>
-               <death when="1800"><placeName></placeName></death>
+               <birth when="1848-04-30"><placeName></placeName></birth>
+               <death when="1926"><placeName></placeName></death>
                <bibl></bibl>
              </person>
              <person xml:id="GMann" source="source">
-               <persName>Mann, George</persName>
+               <persName>Mann, George Combe</persName>
                <note type="biographical">Son of Horace and Mary Peabody Mann</note>
-               <birth when="1800"><placeName></placeName></birth>
-               <death when="1800"><placeName></placeName></death>
+               <birth when="1845-12-27"><placeName></placeName></birth>
+               <death when="1921"><placeName></placeName></death>
                <bibl></bibl>
              </person>
              <person xml:id="GHillard" source="source">
-               <persName>Hillard, George</persName>
+               <persName>Hillard, George Stillman</persName>
                <note type="biographical">Family friend and executor of Nathaniel Hawthorne's estate</note>
-               <birth when="1808"><placeName></placeName></birth>
-               <death when="1879"><placeName></placeName></death>
-               <bibl></bibl>
+               <birth when="1808-09-22"><placeName></placeName></birth>
+               <death when="1879-01-21"><placeName></placeName></death>
+               <bibl>ANB</bibl>
              </person>
-             <person xml:id="Weiss" source="Weiss">
+             <person xml:id="Weiss" source="source">
                <persName>Weiss, Adelaide</persName>
                <note type="biographical">Unidentified. Presumably, "the unhappy Weis[s] also referred to in the letter is a member of her family,
                perhaps her husband</note>
              </person>
+             <person xml:id="Hoar" source="ANB">
+               <persName>Hoars</persName>
+               <note type="biographical">Presumably, the family of Judge and Attorney General Ebenezer Rockwood Hoar (1816–1895), his wife Caroline, 
+                 and their seven children</note>
+               <bibl>ANB</bibl>
+             </person>
+             <person xml:id="Westons" source="source">
+               <persName>Westons</persName>
+               <note type="biographical">Presumably, Sophia refers a family of five sisters, one of whom, Lucia, 
+                 lived as an invalid in Rome from 1853 until her death and was attended by one or more of her sisters. 
+                 Lucia lived at Palazzo Galitzín, located in the center of Rome, just off the Tiber in Via della Scrofia #117</note>
+               <bibl>"3994. Harriet Beecher Stowe to EBB"</bibl>
+             </person>
+             
              
              
            </listPerson>
@@ -1502,13 +1518,10 @@
               <lb/> only slight nose cold. 
               <lb/> <persName ref="#RHawthorne">Rose</persName> has today gone to 
               <lb/> the <placeName>Palazzo Galitzin</placeName> to see 
-              <lb/><persName>the Westons</persName>,<ptr type="noteAnchor" target="galitzin"/><note resp="ed" xml:id="galitzin">
-                Presumably, Sophia refers a family of five sisters, one of whom, Lucia, lived as an invalid in Rome
-                from 1853 until her death and was attended by one or more of her sisters. Lucia lived at Palazzo Galitzín,
-                located in the center of Rome, just off the Tiber in Via della Scrofia #117 <bibl><title level="a">3994. Harriet Beecher Stowe to EBB</title></bibl>.</note> who delight in 
+              <lb/><persName>the Westons</persName>, who delight in 
               <lb/> her. She draws with a 
               <lb/> wonderful expression. 
-              <lb/> <placeName ref="#JHawthorne">Julian</placeName> copies <persName ref="#JFlaxman">Flaxman</persName>
+              <lb/> <persName ref="#JHawthorne">Julian</persName> copies <persName ref="#JFlaxman">Flaxman</persName>
               <lb/> <foreign xml:lang="fr">à merveille</foreign>.
             </p>
             
