@@ -236,11 +236,11 @@
                  http://www.malaspina.com/site/person_482.asp?period_id=none&amp;category_id=none
                </bibl>
                <bibl xml:id="Bassan" n="Bassan">
-                 <author>Bassan, Maurice</author>
-                 <title level="m">Hawthorne's Son</title>
+                 <author>Bassan, Maurice</author>.
+                 <title level="m">Hawthorne's Son</title>.
                  <pubPlace>Columbus, Ohio</pubPlace>
                  <publisher>Ohio State University Press</publisher>
-                 <date>1970</date>
+                 <date>1970</date>.
                </bibl>
                <bibl xml:id="Russel" n="Russel">
                  Russel, Henry. <title level="a">Hawthorne, Julian</title>. 
@@ -662,8 +662,8 @@
              </person>
              <person xml:id="Weiss" source="Weiss">
                <persName>Weiss, Adelaide</persName>
-               <note type="biographical">Unidentified. Presumably, "the unhappy Weis[s] also referred to in the letter is Adelaide Weiss's husband.</note>
-               <bibl><ref target=""></ref></bibl>
+               <note type="biographical">Unidentified. Presumably, "the unhappy Weis[s] also referred to in the letter is a member of her family,
+               perhaps her husband</note>
              </person>
              
              
