@@ -660,7 +660,13 @@
                <death when="1879"><placeName></placeName></death>
                <bibl></bibl>
              </person>
-              
+             <person xml:id="Weiss" source="Weiss">
+               <persName>Weiss, Adelaide</persName>
+               <note type="biographical">Unidentified. Presumably, "the unhappy Weis[s] also referred to in the letter is Adelaide Weiss's husband.</note>
+               <bibl><ref target=""></ref></bibl>
+             </person>
+             
+             
            </listPerson>
            
            <listPerson type="editors">
