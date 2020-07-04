@@ -153,39 +153,82 @@
              <!-- SEE STEPHENS FOR OTHER LIST TYPES -->
              <!-- FOR EACH LETTER, UPDATE LIST OF PLACES -->
              
-             <listPlace>
-               <head>Places Mentioned in the Text</head>
-               <place type="neighborhood" xml:id="WRoxbury" source="#TGN">
-                 <placeName>West Roxbury</placeName>
-                 <desc>Sophia's letter of 8 August 1837 bears a West Roxbury postal stamp.</desc>
-                 <country>United States</country>
-                 <region type="state">Massachusetts</region>
-                 <region type="county">sufolk</region>
-                 <region type="city">Boston</region>
-                 <location>
-                   <geo>42.2667 -71.1500</geo>
-                 </location>
-               </place>
-<place type="islands" xml:id="Sandwich" source="#TGN">
-  <placeName>Sandwich Islands</placeName>
-  <desc>The name given by James Cook in 1778 to the Hawaiian Islands.</desc>
-  <country>United States</country>
-  <region type="state"></region>
-  <location>
-    <geo>-23.5000 -165.0000</geo>
-  </location>
-</place>
-               <place type="City" xml:id="RFerry" source="#TGN">
-                 <placeName>Rock Ferry</placeName>
-                 <desc>The Hawthornes lived in Rock Ferry during Nathaniel Hawthorne's consulship in Liverpool.</desc>
-                 <country>England</country>
-                 <location>
-                   <geo>53.3667 -3.0000</geo>
-                 </location>
-               </place>
-               
-               
-             </listPlace>
+        <listPlace>
+          <head>Places Mentioned in the Text</head>
+          <place type="neighborhood" xml:id="WRoxbury" source="#TGN">
+            <placeName>West Roxbury</placeName>
+            <desc>Sophia's letter of 8 August 1837 bears a West Roxbury postal stamp.</desc>
+            <country>United States</country>
+            <region type="state">Massachusetts</region>
+            <region type="county">sufolk</region>
+            <region type="city">Boston</region>
+            <location>
+              <geo>42.2667 -71.1500</geo>
+            </location>
+          </place>
+          <place type="islands" xml:id="Sandwich" source="#TGN">
+            <placeName>Sandwich Islands</placeName>
+            <desc>The name given by James Cook in 1778 to the Hawaiian Islands.</desc>
+            <country>United States</country>
+            <region type="state"/>
+            <location>
+              <geo>-23.5000 -165.0000</geo>
+            </location>
+          </place>
+          <place type="City" xml:id="RFerry" source="#TGN">
+            <placeName>Rock Ferry</placeName>
+            <desc>The Hawthornes lived in Rock Ferry during Nathaniel Hawthorne's consulship in
+              Liverpool.</desc>
+            <country>England</country>
+            <location>
+              <geo>53.3667 -3.0000</geo>
+            </location>
+          </place>
+          <place type="City" xml:id="Dresden" source="#TGN">
+            <placeName>Dresden</placeName>
+            <desc>Dresden, Germany is located about 100 miles south of Berlin.</desc>
+            <country>Germany</country>
+            <location>
+              <geo>51.0500 13.7500</geo>
+            </location>
+          </place>
+          <place type="City" xml:id="Rome" source="#TGN">
+            <placeName>Rome</placeName>
+            <desc>Large expatriate community in nineteenth century?</desc>
+            <country>Italy</country>
+            <location>
+              <geo>41.9000 12.4833</geo>
+            </location>
+          </place>
+          <place type="City" xml:id="Concord" source="#TGN">
+            <placeName>Concord</placeName>
+            <desc>When did Hawthornes move there?</desc>
+            <country>United States</country>
+            <region type="state"></region>
+            <region type="county"></region>
+            <location>
+              <geo>42.4500 -71.3333</geo>
+            </location>
+          </place>
+          <place type="State" xml:id="California" source="#TGN">
+            <placeName>California</placeName>
+            <desc>California was admitted ot the Union in 1850, two years after the beginning of the storied 
+            California Gold Rush that led to a massive increase in population and an economic boom. </desc>
+            <country>United States</country>
+            <location>
+              <geo>37.0000 -119.0000</geo>
+            </location>
+          </place>
+          <place type="Address" xml:id="Palazzo" source="#TGN">
+            <placeName>Palazzo Galitzin</placeName>
+            <desc>Via della Scrofa</desc>
+            <country>Italy</country>
+            <location>
+              <geo>41.903158, 12.475100</geo>
+            </location>
+          </place>
+          
+        </listPlace>
              
              <listOrg>
                <head>List of Organizations Mentioned</head>
@@ -283,6 +326,11 @@
                  Symmons, Sarah. <title level="a">Flaxman, John (1755–1826), sculptor, decorative designer, and illustrator.</title> 
                  <title level="m">Oxford Dictionary of National Biography</title>.  September 25, 2014. Oxford University Press. Date of access 1 Jul. 2020.
                </bibl>
+               <bibl xml:id="PrichardHoar" n="PrichardHoar">
+                 <title level="a">Prichard, Hoar, and Related Family Papers, 1799–1948.</title> Concord Public Library. Concord, MA: 2012.
+                 https://concordlibrary.org/special-collections/fin_aids/prichard. 4 July 2020.
+               </bibl>
+               
                
              </listBibl>
              
@@ -511,8 +559,8 @@
                <bibl>Turner 103</bibl>
              </person>
              <person xml:id="SPickman" source="CEN">
-               <persName>Pickman, Sophia Palmer</persName>
-               <note type="biographical"></note>
+               <persName>Pickman, Sophia Palmer (Aunt Pickman)</persName>
+               <note type="biographical">The Peabody sisters' aunt on their mother's side.</note>
                <birth when="1786"><placeName></placeName></birth>
                <death when="1862"><placeName></placeName></death>
                <bibl>CEN 16:14</bibl>
@@ -680,7 +728,50 @@
                  Lucia lived at Palazzo Galitzín, located in the center of Rome, just off the Tiber in Via della Scrofia #117</note>
                <bibl>"3994. Harriet Beecher Stowe to EBB"</bibl>
              </person>
-             
+             <person xml:id="Simpson" source="source">
+               <persName>Simpson, Dr.</persName>
+               <note type="biographical">Unidentified</note>
+               <bibl></bibl>
+             </person>
+              <person xml:id="Kinner" source="source">
+                <persName>Kinner, Dr.</persName>
+                <note type="biographical">Unidentified</note>
+                <bibl></bibl>
+              </person>
+             <person xml:id="Emersons" source="source">
+               <persName>Emersons</persName>
+               <note type="biographical">Ralph Waldo Emerson (1803–1882)</note>
+               <bibl>ANB</bibl>
+             </person>
+             <person xml:id="Prichards" source="source">
+               <persName>Prichards</persName>
+               <note type="biographical">William MacKay Prichard</note>
+               <bibl></bibl>
+             </person>
+             <person xml:id="MacKays" source="source">
+               <persName>MacKays</persName>
+               <note type="biographical">Tristram B. Mackay?</note>
+               <bibl></bibl>
+             </person>
+             <person xml:id="Allbutt" source="source">
+               <persName>Allbutt, Mrs.</persName>
+               <note type="biographical">Unidentified</note>
+               <bibl></bibl>
+             </person>
+             <person xml:id="Pugh" source="source">
+               <persName>Pugh, Mrs.</persName>
+               <note type="biographical">Unidentified</note>
+               <birth when="1800"><placeName></placeName></birth>
+               <death when="1800"><placeName></placeName></death>
+               <bibl></bibl>
+             </person>
+             <person xml:id="Turner" source="source">
+               <persName>Turner, Mr. and Mrs.</persName>
+               <note type="biographical">Unidentified</note>
+               <birth when="1800"><placeName></placeName></birth>
+               <death when="1800"><placeName></placeName></death>
+               <bibl></bibl>
+             </person>
              
              
            </listPerson>
@@ -1817,7 +1908,10 @@
 <lb/> as no one else maligns 
 <lb/> her. <persName>Mrs Emerson</persName>, all
 <lb/> the <persName>Emersons</persName>, the 
-<lb/> <persName>Pritchards</persName>, the <persName>MacKays</persName>,
+<lb/> <persName>Prichards</persName>,<ptr type="noteAnchor" target="Prichard"/><note resp="ed" xml:id="Prichard">Although Hawthorne's
+  handwriting is unclear—she appears to have written "Pritchards"—the context suggests
+  that she is referring to the Prichards, an extended family in Concord that was part of the Hawthorne's 
+  social circle <bibl>"Prichard, Hoar, and Related Family Papers, 1799–1948"</bibl>.</note> the <persName>MacKays</persName>,
 <lb/> the <persName>Hoars</persName>, the all
 <lb/> the world of <placeName>Concord</placeName>
 <lb/> agree in love to her.
