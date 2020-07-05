@@ -194,7 +194,9 @@
           </place>
           <place type="City" xml:id="Rome" source="#TGN">
             <placeName>Rome</placeName>
-            <desc>Large expatriate community in nineteenth century?</desc>
+            <desc>The Hawthornes lived in Rome from October 1853 through May 1859. Sophia Hawthorne especially valued the large community 
+              of expatriate artists she interacted with regularly during
+            the family's stay in Rome (Wright 272; Valenti 153–155).</desc>
             <country>Italy</country>
             <location>
               <geo>41.9000 12.4833</geo>
@@ -251,7 +253,7 @@
                  Works Cited in Notes
                </head>
                <bibl xml:id="Dunlavy" n="Valenti">
-                 Valenti, Patricia Dunlavy. <title level="m">Sophia Peabody Hawthorne: A life</title>. University of Missouri Press, 2004.
+                 Valenti, Patricia Dunlavy. <title level="m">Sophia Peabody Hawthorne: A Life</title>. University of Missouri Press, 2004.
                </bibl>               
                <bibl xml:id="Pennell" n="Pennell">
                  Pennell, Melissa McFarland. <title level="a">Hawthorne, Sophia Peabody.</title> <title level="a">American National Biography</title>. Oxford: Oxford UP, 2000.
@@ -329,6 +331,9 @@
                <bibl xml:id="PrichardHoar" n="PrichardHoar">
                  <title level="a">Prichard, Hoar, and Related Family Papers, 1799–1948.</title> Concord Public Library. Concord, MA: 2012.
                  https://concordlibrary.org/special-collections/fin_aids/prichard. 4 July 2020.
+               </bibl>
+               <bibl xml:id="Wright" n="Wright">
+                 Wright, Sarah Bird. <title level="m">Critical Companion to Nathaniel Hawthorne: A Literary Reference to His Life and Work.</title>. New York: Facts On File, 2007.
                </bibl>
                
                
@@ -614,8 +619,8 @@
              <person xml:id="JHawthorne" source="CEN">
                <persName>Hawthorne, Julian</persName>
                <note type="biographical">Sophia and Nathaniel Hawthorne's son</note>
-               <birth when="1816"><placeName></placeName></birth>
-               <death when="1876"><placeName></placeName></death>
+               <birth when="1846-06-22"><placeName></placeName></birth>
+               <death when="1934-07-21"><placeName></placeName></death>
                <bibl>CEN 15:33</bibl>
              </person>
              <person xml:id="UHawthorne" source="CEN">
