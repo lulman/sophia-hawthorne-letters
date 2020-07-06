@@ -157,7 +157,8 @@
           <head>Places Mentioned in the Text</head>
           <place type="neighborhood" xml:id="WRoxbury" source="#TGN">
             <placeName>West Roxbury</placeName>
-            <desc>Sophia's letter of 8 August 1837 bears a West Roxbury postal stamp.</desc>
+            <desc>Sophia's letter of 8 August 1837 bears a West Roxbury postal stamp and is addressed to Elizabeth Peabody
+              care of Rev. Theodore Parker, West Roxbury.</desc>
             <country>United States</country>
             <region type="state">Massachusetts</region>
             <region type="county">sufolk</region>
@@ -168,7 +169,8 @@
           </place>
           <place type="islands" xml:id="Sandwich" source="#TGN">
             <placeName>Sandwich Islands</placeName>
-            <desc>The name given by James Cook in 1778 to the Hawaiian Islands.</desc>
+            <desc>The name given by James Cook in 1778 to the Hawaiian Islands. In her letter
+            of 4 December 1868, Hawthorne refers to Horace Mann, Jr.'s biological research trip to Hawaii in 1864.</desc>
             <country>United States</country>
             <region type="state"/>
             <location>
@@ -177,8 +179,8 @@
           </place>
           <place type="City" xml:id="RFerry" source="#TGN">
             <placeName>Rock Ferry</placeName>
-            <desc>The Hawthornes lived in Rock Ferry during Nathaniel Hawthorne's consulship in
-              Liverpool.</desc>
+            <desc>The Hawthornes lived in Rock Ferry during a portion of Nathaniel Hawthorne's consulship in
+              Liverpool (Valenti 100–101).</desc>
             <country>England</country>
             <location>
               <geo>53.3667 -3.0000</geo>
@@ -186,7 +188,11 @@
           </place>
           <place type="City" xml:id="Dresden" source="#TGN">
             <placeName>Dresden</placeName>
-            <desc>Dresden, Germany is located about 100 miles south of Berlin.</desc>
+            <desc>Sophia Hawthorne arrived in Dresden on November 5, 1868, just one month before penning
+            the letter included in this collection. Upon her sister Elizabeth's recommendation—Elizabeth had been
+            studying German kindergartens—Sophia was hoping to find an affordable place to live with 
+            her children following Nathaniel Hawthorne's death in 1864, and an opportunity for her son
+            Julian to pursue an engineering degree (Valenti 259–263).</desc>
             <country>Germany</country>
             <location>
               <geo>51.0500 13.7500</geo>
@@ -194,9 +200,9 @@
           </place>
           <place type="City" xml:id="Rome" source="#TGN">
             <placeName>Rome</placeName>
-            <desc>The Hawthornes lived in Rome from October 1853 through May 1859. Sophia Hawthorne especially valued the large community 
+            <desc>The Hawthornes lived in Rome from January 1858 through May 1859. Sophia Hawthorne especially valued the large community 
               of expatriate artists she interacted with regularly during
-            the family's stay in Rome (Wright 272; Valenti 153–155).</desc>
+            the family's stay in Rome (Alba 13–14; Valenti 153–155).</desc>
             <country>Italy</country>
             <location>
               <geo>41.9000 12.4833</geo>
@@ -204,7 +210,8 @@
           </place>
           <place type="City" xml:id="Concord" source="#TGN">
             <placeName>Concord</placeName>
-            <desc>When did Hawthornes move there?</desc>
+            <desc>Nathaniel and Sophia Hawthorne lived in Concord, Massachusetts during three periods of their lives: as newlyweds, from 1842–1845;
+              briefly in 1852–1853; and finally from 1860 after returning from an extended residence in Europe (McFarland).</desc>
             <country>United States</country>
             <region type="state"></region>
             <region type="county"></region>
@@ -214,8 +221,9 @@
           </place>
           <place type="State" xml:id="California" source="#TGN">
             <placeName>California</placeName>
-            <desc>California was admitted ot the Union in 1850, two years after the beginning of the storied 
-            California Gold Rush that led to a massive increase in population and an economic boom. </desc>
+            <desc>California was admitted to the Union in 1850, two years after the beginning of the storied 
+            California Gold Rush that led to a massive increase in population and an economic boom. See note 12 regarding
+            Hawthorne's mention of the state in this edition.</desc>
             <country>United States</country>
             <location>
               <geo>37.0000 -119.0000</geo>
@@ -223,7 +231,7 @@
           </place>
           <place type="Address" xml:id="Palazzo" source="#TGN">
             <placeName>Palazzo Galitzin</placeName>
-            <desc>Via della Scrofa</desc>
+            <desc>Hawthorne refers to Palazzo Galitzin, on the Via della Scrofa, Rome as the residence of Weston sisters.</desc>
             <country>Italy</country>
             <location>
               <geo>41.903158, 12.475100</geo>
@@ -334,6 +342,15 @@
                </bibl>
                <bibl xml:id="Wright" n="Wright">
                  Wright, Sarah Bird. <title level="m">Critical Companion to Nathaniel Hawthorne: A Literary Reference to His Life and Work.</title>. New York: Facts On File, 2007.
+               </bibl>
+               <bibl xml:id="McFarland" n="McFarland">
+                 McFarland, Philip James. <title level="m">Hawthorne in Concord</title>. Grove Press, 2004.
+               </bibl>
+               <bibl xml:id="Alba" n="Alba">
+                 Amoia, Alba. <title level="a">Hawthorne’s Rome: Then and Now.</title> <title level="j">Nathaniel Hawthorne Review</title>, vol. 24, no. 1, 1998, pp. 1-35.
+               </bibl>
+               <bibl xml:id="Tarnoff" n="Tarnoff">
+                 Tarnoff, Ben. <title level="m">The Bohemians Mark Twain and the San Francisco Writers Who Reinvented American Literature</title>. The Penguin Press, 2014.
                </bibl>
                
                
@@ -565,7 +582,7 @@
              </person>
              <person xml:id="SPickman" source="CEN">
                <persName>Pickman, Sophia Palmer (Aunt Pickman)</persName>
-               <note type="biographical">The Peabody sisters' aunt on their mother's side.</note>
+               <note type="biographical">The Peabody sisters' aunt on their mother's side</note>
                <birth when="1786"><placeName></placeName></birth>
                <death when="1862"><placeName></placeName></death>
                <bibl>CEN 16:14</bibl>
@@ -734,14 +751,12 @@
                <bibl>"3994. Harriet Beecher Stowe to EBB"</bibl>
              </person>
              <person xml:id="Simpson" source="source">
-               <persName>Simpson, Dr.</persName>
+               <persName>Simpson, Dr</persName>
                <note type="biographical">Unidentified</note>
-               <bibl></bibl>
              </person>
               <person xml:id="Kinner" source="source">
-                <persName>Kinner, Dr.</persName>
+                <persName>Kinner, Dr</persName>
                 <note type="biographical">Unidentified</note>
-                <bibl></bibl>
               </person>
              <person xml:id="Emersons" source="source">
                <persName>Emersons</persName>
@@ -759,23 +774,16 @@
                <bibl></bibl>
              </person>
              <person xml:id="Allbutt" source="source">
-               <persName>Allbutt, Mrs.</persName>
+               <persName>Allbutt, Mrs</persName>
                <note type="biographical">Unidentified</note>
-               <bibl></bibl>
              </person>
              <person xml:id="Pugh" source="source">
-               <persName>Pugh, Mrs.</persName>
+               <persName>Pugh, Mrs</persName>
                <note type="biographical">Unidentified</note>
-               <birth when="1800"><placeName></placeName></birth>
-               <death when="1800"><placeName></placeName></death>
-               <bibl></bibl>
              </person>
              <person xml:id="Turner" source="source">
-               <persName>Turner, Mr. and Mrs.</persName>
+               <persName>Turner, Mr. and Mrs</persName>
                <note type="biographical">Unidentified</note>
-               <birth when="1800"><placeName></placeName></birth>
-               <death when="1800"><placeName></placeName></death>
-               <bibl></bibl>
              </person>
              
              
@@ -2114,7 +2122,11 @@
 <lb/> thankful — for I
 <lb/> dreaded <persName ref="#Ann">Ann's</persName> going
 <lb/> to <placeName ref="#California">California</placeName>— away
-<lb/> from me. There are
+<lb/> from me.<ptr type="noteAnchor" target="Ann"/><note resp="ed" xml:id="Ann">Possibly Annie Adams Fields
+  (1834–1881), wife of Nathaniel Hawthorne's publisher, James T. Fields, and a close friend of Sophia Hawthorne <bibl>Valenti 214–216</bibl>.
+  If she indeed is referring to Annie Fields, Hawthorne's reference to California may be related to James Fields's publishing 
+  Bret Harte's first short story in the <title level="j">Atlantic
+  Monthly</title> in October 1863 <bibl>Tarnoff 16, cited in Wikipedia, "Bret Harte"</bibl>.</note> There are
 <lb/> other treasures, I
 <lb/> find among the
 <lb/> Irish besides her.
