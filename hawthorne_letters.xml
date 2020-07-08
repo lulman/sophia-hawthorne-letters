@@ -161,8 +161,6 @@
               care of Rev. Theodore Parker, West Roxbury.</desc>
             <country>United States</country>
             <region type="state">Massachusetts</region>
-            <region type="county">sufolk</region>
-            <region type="city">Boston</region>
             <location>
               <geo>42.2667 -71.1500</geo>
             </location>
@@ -172,7 +170,6 @@
             <desc>The name given by James Cook in 1778 to the Hawaiian Islands. In her letter
             of 4 December 1868, Hawthorne refers to Horace Mann, Jr.'s biological research trip to Hawaii in 1864.</desc>
             <country>United States</country>
-            <region type="state"/>
             <location>
               <geo>-23.5000 -165.0000</geo>
             </location>
@@ -213,17 +210,17 @@
             <desc>Nathaniel and Sophia Hawthorne lived in Concord, Massachusetts during three periods of their lives: as newlyweds, from 1842–1845;
               briefly in 1852–1853; and finally from 1860 after returning from an extended residence in Europe (McFarland).</desc>
             <country>United States</country>
-            <region type="state"></region>
-            <region type="county"></region>
+            <region type="state">Massachusetts</region>
             <location>
               <geo>42.4500 -71.3333</geo>
             </location>
           </place>
           <place type="State" xml:id="California" source="#TGN">
             <placeName>California</placeName>
-            <desc>California was admitted to the Union in 1850, two years after the beginning of the storied 
-            California Gold Rush that led to a massive increase in population and an economic boom. See note 12 regarding
-            Hawthorne's mention of the state in this edition.</desc>
+            <desc>In her letter written in the fall of 1863, Hawthorne writes, "I dreaded Ann's going to California— away 
+              from me." She is presumably referring to Annie Adams Fields, wife of Nathaniel Hawthorne's publisher, James T. Fields, 
+              and a close friend of Sophia Hawthorne (Valenti 214–216). If that is the case, Hawthorne's reference to California 
+              may be related to James Fields publishing Bret Harte's first short story in the <title level="m">Atlantic Monthly</title> in October 1863 (Tarnoff 16, cited in Wikipedia, "Bret Harte").</desc>
             <country>United States</country>
             <location>
               <geo>37.0000 -119.0000</geo>
@@ -290,7 +287,7 @@
                </bibl>
                <bibl xml:id="Bassan" n="Bassan">
                  <author>Bassan, Maurice</author>.
-                 <title level="m">Hawthorne's Son</title>.
+                 <title level="m">Hawthorne's Son: The Life and Literary Career of Julian Hawthorne</title>.
                  <pubPlace>Columbus, Ohio</pubPlace>
                  <publisher>Ohio State University Press</publisher>
                  <date>1970</date>.
@@ -505,7 +502,8 @@
              <head>People Mentioned in Sophia Hawthorne's Letters</head>
              <person xml:id="SPHawthorne" source="ANB">
                <persName>Hawthorne, Sophia Peabody</persName>
-               <note type="biographical">American painter and illustrator, married to Nathaniel Hawthorne</note>
+               <note type="biographical">American painter and illustrator, married to author Nathaniel Hawthorne. Youngest of the
+               Peabody sisters.</note>
                <birth when="1809-09-21"><placeName>Salem, Massachusetts</placeName></birth>
                <death when="1871-02-26"><placeName>London, England</placeName></death>
                <state from="1842-07-09" to="1864-05-19"><label>
@@ -515,32 +513,25 @@
              </person>
              <person xml:id="EPPeabody" source="ANB">
                <persName>Peabody, Elizabeth Palmer</persName>
-               <note type="biographical"></note>
+               <note type="biographical">American educator and author. Oldest of the Sophia Peabody Hawthorne's sisters.</note>
                <birth when="1804-05-16"><placeName>Billerica, Massachusetts</placeName></birth>
                <death when="1894-01-03"></death>
                <bibl>Shuman</bibl>
              </person>
              <person xml:id="EPPelder" source="CEN">
                <persName>Peabody, Elizabeth Palmer</persName>
-               <note type="biographical">Sophia's mother.</note>
+               <note type="biographical">Sophia Peabody Hawthorne's mother.</note>
                <birth when="1778"><placeName></placeName></birth>
                <death when="1853"><placeName></placeName></death>
                <bibl>Turner 103</bibl>
              </person>
              <person xml:id="AMAlcott" source="CEN">
                <persName>Alcott, Abigail May</persName>
-               <note type="biographical">Wife of Bronson Alcott, with whom Elizabeth Peabody ran the Temple School. Both 
+               <note type="biographical">Wife of American educator Bronson Alcott, with whom Elizabeth Peabody ran the Temple School. Both 
                  Elizabeth and Sophia Peabody had a strained relationship with Mrs. Alcott</note>
                <birth when="1800"><placeName></placeName></birth>
                <death when="1877"><placeName></placeName></death>
                <bibl><ref target="#CEN">CEN 18: 481; ANB; Marshall 324-325</ref></bibl>
-             </person>
-             <person xml:id="MTPMann" source="CEN">
-               <persName>Mann, Mary Tyler Peabody</persName>
-               <note type="biographical"></note>
-               <birth when="1807"><placeName></placeName></birth>
-               <death when="1887"><placeName></placeName></death>
-               <bibl><ref target="CEN">15: 25</ref></bibl>
              </person>
              <person xml:id="ABAlcott" source="ANB">
                <persName>Alcott, Amos Bronson</persName>
@@ -549,6 +540,34 @@
                <birth when="1799"><placeName></placeName></birth>
                <death when="1888"><placeName></placeName></death>
                <bibl><ref target="#ANB"></ref>ANB</bibl>
+             </person>
+             <person xml:id="MTPMann" source="CEN">
+               <persName>Mann, Mary Tyler Peabody</persName>
+               <note type="biographical">American writer, educator, and translator. Sophia Hawthorne's middle sister.</note>
+               <birth when="1807"><placeName></placeName></birth>
+               <death when="1887"><placeName></placeName></death>
+               <bibl><ref target="CEN">15: 25</ref></bibl>
+             </person>
+             <person xml:id="HMannjr" source="source">
+               <persName>Mann, Horace Jr.</persName>
+               <note type="biographical">Eldest son of Horace and Mary Peabody Mann</note>
+               <birth when="1844-02-24"><placeName></placeName></birth>
+               <death when="1868"><placeName></placeName></death>
+               <bibl></bibl>
+             </person>
+             <person xml:id="BMann" source="source">
+               <persName>Mann, Benjamin Pickman</persName>
+               <note type="biographical">Youngest son of Horace and Mary Peabody Mann</note>
+               <birth when="1848-04-30"><placeName></placeName></birth>
+               <death when="1926"><placeName></placeName></death>
+               <bibl></bibl>
+             </person>
+             <person xml:id="GMann" source="source">
+               <persName>Mann, George Combe</persName>
+               <note type="biographical">Middle son of Horace and Mary Peabody Mann</note>
+               <birth when="1845-12-27"><placeName></placeName></birth>
+               <death when="1921"><placeName></placeName></death>
+               <bibl></bibl>
              </person>
              <person xml:id="TParker" source="ANB">
                <persName>Parker, Rev. Theodore</persName>
@@ -575,7 +594,7 @@
              </person>
              <person xml:id="NPeabody" source="CEN">
                <persName>Peabody, Dr. Nathaniel</persName>
-               <note type="biographical">Sophia's father.</note>
+               <note type="biographical">Sophia Peabody Hawthorne's father.</note>
                <birth when="1774"><placeName></placeName></birth>
                <death when="1855"><placeName></placeName></death>
                <bibl>Turner 103</bibl>
@@ -596,19 +615,25 @@
              </person>
              <person xml:id="EBBrowning" source="CEN">
                <persName>Browning, Elizabeth Barrett</persName>
-               <note type="biographical">Poet, author of <title level="m">Sonnets from the Portugese</title> (1850), wife of poet Robert Browning</note>
+               <note type="biographical">Poet, author of <title level="m">Sonnets from the Portugese</title> (1850), wife of poet Robert Browning. The 
+               Brownings lived in Italy on and off throughout their marriage, from 1846 until Elizabeth's death in 1861. They were in Rome
+               during the winter of 1859–1860 hoping to improve Elizabeth's health, as reflected in Sophia Hawthorne's report that
+               "Mrs Browning does not make visits"</note>
                <birth when="1806"><placeName></placeName></birth>
                <death when="1861"><placeName></placeName></death>
                <state from="1846" to="1861"><p>Married to Robert Browning</p></state>
-               <bibl>CEN 16:520</bibl>
+               <bibl>CEN 16:520; DNB</bibl>
              </person>
              <person xml:id="RBrowning" source="CEN">
                <persName>Browning, Robert</persName>
-               <note type="biographical">Poet, husband of poet Elizabeth Barret Browning</note>
+               <note type="biographical">Poet, husband of poet Elizabeth Barret Browning. The 
+                 Brownings lived in Italy on and off throughout their marriage, from 1846 until Elizabeth's death in 1861. They were in Rome
+                 during the winter of 1859–1860 hoping to improve Elizabeth's health, as reflected in Sophia Hawthorne's report that
+                 "Mrs Browning does not make visits"</note>
                <birth when="1812-05-07"><placeName></placeName></birth>
                <death when="1889-12-12"><placeName></placeName></death>
                <state from="1846" to="1861"><p>Married to Elizabeth Barrett Browning</p></state>
-               <bibl>CEN 15:87</bibl>
+               <bibl>CEN 15:87; DNB</bibl>
              </person>
              <person xml:id="MMotley" source="CEN">
                <persName>Motley, Mary Benjamin</persName>
@@ -628,35 +653,40 @@
              <person xml:id="CSCushman" source="CEN">
                <persName>Cushman, Charlotte Saunders</persName>
                <note type="biographical">Actress, the first of her 
-                 profession to be elected to the Hall of Fame for Great Americans in 1915</note>
+                 profession to be elected to the Hall of Fame for Great Americans in 1915. Cushman maintained a home
+               in Rome that served as a "social center for expatriate English and Americans," including the Hawthornes</note>
                <birth when="1816"><placeName></placeName></birth>
                <death when="1876"><placeName></placeName></death>
                <bibl>CEN 16:532; ANB</bibl>
              </person>
              <person xml:id="JHawthorne" source="CEN">
                <persName>Hawthorne, Julian</persName>
-               <note type="biographical">Sophia and Nathaniel Hawthorne's son</note>
+               <note type="biographical">Sophia and Nathaniel Hawthorne's son. Julian matriculated at Harvard in the fall of 1863
+               but did not graduate. From 1869–1870, Julian Hawthorne lived in Dresden, Germany with his mother
+               and sisters and studied engineering at Dresden's Realschule</note>
                <birth when="1846-06-22"><placeName></placeName></birth>
                <death when="1934-07-21"><placeName></placeName></death>
                <bibl>CEN 15:33</bibl>
              </person>
              <person xml:id="UHawthorne" source="CEN">
                <persName>Hawthorne, Una</persName>
-               <note type="biographical">Sophia and Nathaniel Hawthorne's daughter</note>
+               <note type="biographical">Sophia and Nathaniel Hawthorne's older daughter. While living in Rome with her 
+                 parents and siblings during the early months of 1859, Una contracted malaria</note>
                <birth when="1844"><placeName></placeName></birth>
                <death when="1877"><placeName></placeName></death>
-               <bibl>CEN 15:33</bibl>
+               <bibl>CEN 15:33; Valenti 176</bibl>
              </person>
              <person xml:id="AShephard" source="CEN">
                <persName>Shepard Ada</persName>
-               <note type="biographical">The Hawthorne children's governess</note>
+               <note type="biographical">The Hawthorne children's governess, who also was gravely ill during the family's
+               stay in Rome early in 1859, probably with typhoid</note>
                <birth when="1835"><placeName></placeName></birth>
                <death when="1874"><placeName></placeName></death>
-               <bibl>CEN 16:298</bibl>
+               <bibl>CEN 16:298; Valenti 177</bibl>
              </person>
              <person xml:id="RHawthorne" source="CEN">
                <persName>Hawthorne, Rose</persName>
-               <note type="biographical">Sophia and Nathaniel Hawthorne's daughter</note>
+               <note type="biographical">Sophia and Nathaniel Hawthorne's younger daughter</note>
                <birth when="1851"><placeName></placeName></birth>
                <death when="1926"><placeName></placeName></death>
                <bibl>CEN 15:33</bibl>
@@ -680,7 +710,7 @@
              </person>
              <person xml:id="NHawthorne">
                <persName>Hawthorne, Nathaniel</persName>
-               <note type="biographical"></note>
+               <note type="biographical">American author, married to Sophia Peabody Hawthorne from 1842 until his death in 1864</note>
                <birth when="1804-07-04"></birth>
                <death when="1864-05-19"></death>
                <state from="1842-07-09" to="1864-05-19"><label>
@@ -699,31 +729,10 @@
              </person>
              <person xml:id="EGurney" source="source">
                <persName>Gurney, Ephraim Whitney</persName>
-               <note type="biographical">Professor of ancient history at Harvard University</note>
+               <note type="biographical">Professor of ancient history and Julian Hawthorne's sponsor and mentor at Harvard University</note>
                <birth when="1829"><placeName></placeName></birth>
                <death when="1886"><placeName></placeName></death>
                <bibl>Mitchell 295–296</bibl>
-             </person>
-             <person xml:id="HMannjr" source="source">
-               <persName>Mann, Horace Jr.</persName>
-               <note type="biographical">Son of Horace and Mary Peabody Mann</note>
-               <birth when="1844-02-24"><placeName></placeName></birth>
-               <death when="1868"><placeName></placeName></death>
-               <bibl></bibl>
-             </person>
-             <person xml:id="BMann" source="source">
-               <persName>Mann, Benjamin Pickman</persName>
-               <note type="biographical">Son of Horace and Mary Peabody Mann</note>
-               <birth when="1848-04-30"><placeName></placeName></birth>
-               <death when="1926"><placeName></placeName></death>
-               <bibl></bibl>
-             </person>
-             <person xml:id="GMann" source="source">
-               <persName>Mann, George Combe</persName>
-               <note type="biographical">Son of Horace and Mary Peabody Mann</note>
-               <birth when="1845-12-27"><placeName></placeName></birth>
-               <death when="1921"><placeName></placeName></death>
-               <bibl></bibl>
              </person>
              <person xml:id="GHillard" source="source">
                <persName>Hillard, George Stillman</persName>
@@ -740,7 +749,7 @@
              <person xml:id="Hoar" source="ANB">
                <persName>Hoars</persName>
                <note type="biographical">Presumably, the family of Judge and Attorney General Ebenezer Rockwood Hoar (1816–1895), his wife Caroline, 
-                 and their seven children</note>
+                 and their seven children, members of the Hawthorne's social circle in Concord</note>
                <bibl>ANB</bibl>
              </person>
              <person xml:id="Westons" source="source">
@@ -748,7 +757,7 @@
                <note type="biographical">Presumably, Sophia refers a family of five sisters, one of whom, Lucia, 
                  lived as an invalid in Rome from 1853 until her death and was attended by one or more of her sisters. 
                  Lucia lived at Palazzo Galitzín, located in the center of Rome, just off the Tiber in Via della Scrofia #117</note>
-               <bibl>"3994. Harriet Beecher Stowe to EBB"</bibl>
+               <bibl>"3994. Harriet Beecher Stowe to EBB," note 3</bibl>
              </person>
              <person xml:id="Simpson" source="source">
                <persName>Simpson, Dr</persName>
@@ -785,6 +794,11 @@
                <persName>Turner, Mr. and Mrs</persName>
                <note type="biographical">Unidentified</note>
              </person>
+             <person xml:id="Smiths" source="source">
+               <persName>Smiths</persName>
+               <note type="biographical">Unidentified</note>
+             </person>
+             
              
              
            </listPerson>
