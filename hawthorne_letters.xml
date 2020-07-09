@@ -239,11 +239,6 @@
              
              <listOrg>
                <head>List of Organizations Mentioned</head>
-               <org xml:id="MCVA" source="WVE">
-                 <orgName>Mount de Chantal Visitation Academy</orgName>
-                 <state type="school" from="1848" to="2008"></state>
-                 <desc>A private catholic women's school in Wheeling, WV established in 1848.</desc>
-               </org>
                <org xml:id="ticknor" source="source">
                  <orgName>Ticknor and Fields</orgName>
                  <state type="company"></state>
@@ -349,7 +344,9 @@
                <bibl xml:id="Tarnoff" n="Tarnoff">
                  Tarnoff, Ben. <title level="m">The Bohemians Mark Twain and the San Francisco Writers Who Reinvented American Literature</title>. The Penguin Press, 2014.
                </bibl>
-               
+               <bibl xml:id="Horace" n="Horace">
+                 <title level="a">Horace Mann, Jr. Manuscripts.</title> Harvard Library. N.d. https://hollisarchives.lib.harvard.edu/repositories/22/resources/1227. 8 Jan. 2020. 
+               </bibl>               
                
              </listBibl>
              
@@ -503,7 +500,7 @@
              <person xml:id="SPHawthorne" source="ANB">
                <persName>Hawthorne, Sophia Peabody</persName>
                <note type="biographical">American painter and illustrator, married to author Nathaniel Hawthorne. Youngest of the
-               Peabody sisters.</note>
+               Peabody sisters</note>
                <birth when="1809-09-21"><placeName>Salem, Massachusetts</placeName></birth>
                <death when="1871-02-26"><placeName>London, England</placeName></death>
                <state from="1842-07-09" to="1864-05-19"><label>
@@ -543,31 +540,32 @@
              </person>
              <person xml:id="MTPMann" source="CEN">
                <persName>Mann, Mary Tyler Peabody</persName>
-               <note type="biographical">American writer, educator, and translator. Sophia Hawthorne's middle sister.</note>
+               <note type="biographical">American writer, educator, and translator. Sophia Hawthorne's middle sister. Married to 
+               American educator and reformer Horace Mann</note>
                <birth when="1807"><placeName></placeName></birth>
                <death when="1887"><placeName></placeName></death>
                <bibl><ref target="CEN">15: 25</ref></bibl>
              </person>
              <person xml:id="HMannjr" source="source">
                <persName>Mann, Horace Jr.</persName>
-               <note type="biographical">Eldest son of Horace and Mary Peabody Mann</note>
+               <note type="biographical">Eldest son of Horace and Mary Peabody Mann. Student of Louis Agassiz and Asa Gray at
+                 Lawrence Scientific School (later part of Harvard University). Wrote "Enumeration of Hawaiian Plants," published
+                 in <title level="j">Proceedings of the American Academy of Arts and Sciences</title> in 1866</note>
                <birth when="1844-02-24"><placeName></placeName></birth>
                <death when="1868"><placeName></placeName></death>
-               <bibl></bibl>
+               <bibl>"Horace Mann, Jr. Manuscripts"</bibl>
              </person>
              <person xml:id="BMann" source="source">
                <persName>Mann, Benjamin Pickman</persName>
                <note type="biographical">Youngest son of Horace and Mary Peabody Mann</note>
                <birth when="1848-04-30"><placeName></placeName></birth>
                <death when="1926"><placeName></placeName></death>
-               <bibl></bibl>
              </person>
              <person xml:id="GMann" source="source">
                <persName>Mann, George Combe</persName>
                <note type="biographical">Middle son of Horace and Mary Peabody Mann</note>
                <birth when="1845-12-27"><placeName></placeName></birth>
                <death when="1921"><placeName></placeName></death>
-               <bibl></bibl>
              </person>
              <person xml:id="TParker" source="ANB">
                <persName>Parker, Rev. Theodore</persName>
@@ -594,7 +592,7 @@
              </person>
              <person xml:id="NPeabody" source="CEN">
                <persName>Peabody, Dr. Nathaniel</persName>
-               <note type="biographical">Sophia Peabody Hawthorne's father.</note>
+               <note type="biographical">Sophia Peabody Hawthorne's father</note>
                <birth when="1774"><placeName></placeName></birth>
                <death when="1855"><placeName></placeName></death>
                <bibl>Turner 103</bibl>
@@ -644,8 +642,8 @@
              </person>
              <person xml:id="JLMotley" source="RDR">
                <persName>Motley, John Lothrop</persName>
-               <note type="biographical">Historian and diplomat, author of <title level="a">The Rise
-               of the Dutch Republic</title> (1855)</note>
+               <note type="biographical">American historian and diplomat. Following research in Europe for his history <title level="a">The Rise
+               of the Dutch Republic</title> (1855), Motley returned to Boston, where he was a member of the . The Motleys returned to Europe </note>
                <birth when="1814-04-15"><placeName></placeName></birth>
                <death when="1877-05-29"><placeName></placeName></death>
                <bibl>ANB</bibl>
@@ -661,7 +659,7 @@
              </person>
              <person xml:id="JHawthorne" source="CEN">
                <persName>Hawthorne, Julian</persName>
-               <note type="biographical">Sophia and Nathaniel Hawthorne's son. Julian matriculated at Harvard in the fall of 1863
+               <note type="biographical">Sophia and  Hawthorne's son. Julian matriculated at Harvard in the fall of 1863
                but did not graduate. From 1869–1870, Julian Hawthorne lived in Dresden, Germany with his mother
                and sisters and studied engineering at Dresden's Realschule</note>
                <birth when="1846-06-22"><placeName></placeName></birth>
@@ -670,7 +668,7 @@
              </person>
              <person xml:id="UHawthorne" source="CEN">
                <persName>Hawthorne, Una</persName>
-               <note type="biographical">Sophia and Nathaniel Hawthorne's older daughter. While living in Rome with her 
+               <note type="biographical">Sophia and  Hawthorne's older daughter. While living in Rome with her 
                  parents and siblings during the early months of 1859, Una contracted malaria</note>
                <birth when="1844"><placeName></placeName></birth>
                <death when="1877"><placeName></placeName></death>
@@ -678,15 +676,15 @@
              </person>
              <person xml:id="AShephard" source="CEN">
                <persName>Shepard Ada</persName>
-               <note type="biographical">The Hawthorne children's governess, who also was gravely ill during the family's
-               stay in Rome early in 1859, probably with typhoid</note>
+               <note type="biographical">The Hawthorne children's governess, who was gravely ill, probably with typhoid, during the family's
+               stay in Rome early in 1859</note>
                <birth when="1835"><placeName></placeName></birth>
                <death when="1874"><placeName></placeName></death>
                <bibl>CEN 16:298; Valenti 177</bibl>
              </person>
              <person xml:id="RHawthorne" source="CEN">
                <persName>Hawthorne, Rose</persName>
-               <note type="biographical">Sophia and Nathaniel Hawthorne's younger daughter</note>
+               <note type="biographical">Sophia and  Hawthorne's younger daughter</note>
                <birth when="1851"><placeName></placeName></birth>
                <death when="1926"><placeName></placeName></death>
                <bibl>CEN 15:33</bibl>
@@ -702,7 +700,7 @@
              <person xml:id="RWesselhoeft" source="CEN">
                <persName>Wesselhoeft, Dr. Robert</persName>
                <note type="biographical">Lived in same village as 
-                 Nathaniel Hawthorne, West Roxbury, in the summer of 1842. Homeopathic doctor, used 
+                  Hawthorne, West Roxbury, in the summer of 1842. Homeopathic doctor, used 
                  "the healing powers of water"</note>
                <birth when="1838"><placeName>Weimar, Germany</placeName></birth>
                <death when="1920-08-17"><placeName>Cambridge, Massachusetts</placeName></death>
@@ -716,7 +714,6 @@
                <state from="1842-07-09" to="1864-05-19"><label>
                  Married to Sophia Peabody Hawthorne.
                </label></state>
-               <bibl></bibl>
              </person>
              <person xml:id="Diogenes" source="source">
                <persName>Diogenes of Sinope</persName>
@@ -750,7 +747,7 @@
                <persName>Hoars</persName>
                <note type="biographical">Presumably, the family of Judge and Attorney General Ebenezer Rockwood Hoar (1816–1895), his wife Caroline, 
                  and their seven children, members of the Hawthorne's social circle in Concord</note>
-               <bibl>ANB</bibl>
+               <bibl>ANB; "Prichard, Hoar, and Related Family Papers, 1799-1948"</bibl>
              </person>
              <person xml:id="Westons" source="source">
                <persName>Westons</persName>
@@ -769,18 +766,20 @@
               </person>
              <person xml:id="Emersons" source="source">
                <persName>Emersons</persName>
-               <note type="biographical">Ralph Waldo Emerson (1803–1882)</note>
+               <note type="biographical">American author and lecturer Ralph Waldo Emerson (1803–1882) and his wife, Lydia Jackson Emerson (1802–1892) 
+               were part of the Hawthornes' social and intellectual circle in Concord</note>
                <bibl>ANB</bibl>
              </person>
              <person xml:id="Prichards" source="source">
                <persName>Prichards</persName>
-               <note type="biographical">William MacKay Prichard</note>
-               <bibl></bibl>
+               <note type="biographical">The Prichards were a prominent and extended family who were part of the Hawthornes' social circle. Sophia and
+                 Nathaniel's contemporaries would have been the children of Moses Prichard (1789–1865) and Jane Hallett Prichard (1790–1860)</note>
+               <bibl>"Prichard, Hoar, and Related Family Papers, 1799-1948"</bibl>
              </person>
              <person xml:id="MacKays" source="source">
                <persName>MacKays</persName>
-               <note type="biographical">Tristram B. Mackay?</note>
-               <bibl></bibl>
+               <note type="biographical">An extended Boston family, apparently related to the Prichards through marriage</note>
+               <bibl>"Prichard, Hoar, and Related Family Papers, 1799-1948"</bibl>
              </person>
              <person xml:id="Allbutt" source="source">
                <persName>Allbutt, Mrs</persName>
