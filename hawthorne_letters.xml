@@ -252,101 +252,92 @@
                <head>
                  Works Cited in Notes
                </head>
-               <bibl xml:id="Dunlavy" n="Valenti">
-                 Valenti, Patricia Dunlavy. <title level="m">Sophia Peabody Hawthorne: A Life</title>. University of Missouri Press, 2004.
-               </bibl>               
-               <bibl xml:id="Pennell" n="Pennell">
-                 Pennell, Melissa McFarland. <title level="a">Hawthorne, Sophia Peabody.</title> <title level="a">American National Biography</title>. Oxford: Oxford UP, 2000.
-                 https://www-anb-org
-               </bibl>
-               <bibl xml:id="Shuman" n="Shuman">Shuman, R. Baird.<title level="a">Peabody, Elizabeth Palmer.</title>
-                 <title level="m">American National Biography</title>. Oxford: Oxford UP, 2000. https://www-anb-org
-               </bibl>
-               <bibl xml:id="CEN" n="Hawthorne_nathaniel">
-                 Hawthorne, Nathaniel. <title level="m">The Centenary Edition of the Works of Nathaniel Hawthorne</title>.
-                 Ed. William Charvat, et al. Columbus, Ohio: The Ohio State University Press, 1962.
-               </bibl>
-               <bibl xml:id="Mott" n="Mott">
-                 <author >Mott, Wesley, T.</author>
-                 <title level="a" >Taylor, Edward Thompson</title>
-                 <title level="m" >American National Biography</title>. Oxford: Oxford UP, 2000.
-               </bibl>
-               <bibl xml:id="roma" n="Roma">
-                 <title level="m">Roma: Guida D'Italia</title>. Touring Club Italiano. Milan:
-                 Settima Edizone, 1977.
-               </bibl>
-               <bibl xml:id="mcneil" n="McNeil">
-                 <author>McNeil, Russell</author>. <title level="a">Biography of John Flaxman</title>. 
-                 <title level="m">John Flaxman Biography site</title>. 1998–1999. 10 Mar 2003.
-                 http://www.malaspina.com/site/person_482.asp?period_id=none&amp;category_id=none
-               </bibl>
-               <bibl xml:id="Bassan" n="Bassan">
-                 <author>Bassan, Maurice</author>.
-                 <title level="m">Hawthorne's Son: The Life and Literary Career of Julian Hawthorne</title>.
-                 <pubPlace>Columbus, Ohio</pubPlace>
-                 <publisher>Ohio State University Press</publisher>
-                 <date>1970</date>.
-               </bibl>
-               <bibl xml:id="Russel" n="Russel">
-                 Russel, Henry. <title level="a">Hawthorne, Julian</title>. 
-                 <title level="m">American National Biography Online</title>.http://www.anb.org/
-                 2000. 21 Feb 2003.
-               </bibl>
-               <bibl xml:id="Piering" n="Piering">
-                 Piering, Julie. <title level="a">Diogenes of Sinope.</title> <title level="m">Internet 
-                   Encyclopedia of Philosophy</title>. 2001. 02 July 2020. https://www.iep.utm.edu/diogsino/
-               </bibl>
-               <bibl xml:id="Records" n="Records">
-                 <title level="a">Records of the Dean of Harvard College, 1889-1995.</title>
-                 <title level="m">Harvard University Archives</title>. 2000. 14 Feb 2003. http://oasis.harvard.edu/html/hua04000.html
-               </bibl>
-               <bibl xml:id="Ritchie" n="Ritchie">
-                 Ritchie, Susan. 
-                 <title level="a">The Peabody Sisters.</title> <title level="m">Dictionary of Unitarian &amp; Universalist Biography</title>. 2002. 17 Feb. 2003. http://www.uua.org/uuhs/duub/articles/peabodysisters.html
-               </bibl>
-               <bibl xml:id="Stamps" n="Stamps">
-                 <title level="a">Stamps and Postcards.</title> <title level="m">United States Postal Service</title>. https://about.usps.com/who-we-are/postal-history/stamps-postcards.htm.
-               </bibl>
-               <bibl xml:id="Bowden" n="Bowden">
-                 Bowden, Henry Warner. <title level="a">Parker, Theodore.</title> <title level="m">American National Biography. 2000.</title>
-               </bibl>               
-               <bibl xml:id="Grodzins" n="Grodzins">
-                 Grodzins, Dean. <title level="m">American Heretic: Theodore Parker and Transcendentalism</title>. University of North Carolina Press, 2002.
-               </bibl>
-               <bibl xml:id="Motley" n="Motley">
-                 Motley, John Lothrop. <title level="m">The rise of the Dutch Republic: A history</title>. J. Chapman, 1856.
-               </bibl>
-               <bibl xml:id="Harriet" n="Harriet">
-                 <title level="a">3994. Harriet Beecher Stowe to EBB.</title> <title level="m">The Brownings' Correspondence: An Online Edition></title>. Wedgestone Press, 2020. 
-                 https://www.browningscorrespondence.com/correspondence/4363/?rsId=11773#D-00C0003. 23 June 2020.
-               </bibl>
-              <bibl xml:id="Mitchell" n="Mitchell">
-                Mitchell, Stewart. <title level="a">Henry Adams and Some of His Students.</title> <title level="m">Proceedings of the Massachusetts Historical Society</title>, 
-                vol. 66, 1936, pp. 294–312. JSTOR, www.jstor.org/stable/25080330. Accessed 1 July 2020.
-              </bibl>
-               <bibl xml:id="Symmons" n="Symmons">
-                 Symmons, Sarah. <title level="a">Flaxman, John (1755–1826), sculptor, decorative designer, and illustrator.</title> 
-                 <title level="m">Oxford Dictionary of National Biography</title>.  September 25, 2014. Oxford University Press. Date of access 1 Jul. 2020.
-               </bibl>
-               <bibl xml:id="PrichardHoar" n="PrichardHoar">
-                 <title level="a">Prichard, Hoar, and Related Family Papers, 1799–1948.</title> Concord Public Library. Concord, MA: 2012.
-                 https://concordlibrary.org/special-collections/fin_aids/prichard. 4 July 2020.
-               </bibl>
-               <bibl xml:id="Wright" n="Wright">
-                 Wright, Sarah Bird. <title level="m">Critical Companion to Nathaniel Hawthorne: A Literary Reference to His Life and Work.</title>. New York: Facts On File, 2007.
-               </bibl>
-               <bibl xml:id="McFarland" n="McFarland">
-                 McFarland, Philip James. <title level="m">Hawthorne in Concord</title>. Grove Press, 2004.
-               </bibl>
-               <bibl xml:id="Alba" n="Alba">
-                 Amoia, Alba. <title level="a">Hawthorne’s Rome: Then and Now.</title> <title level="j">Nathaniel Hawthorne Review</title>, vol. 24, no. 1, 1998, pp. 1-35.
-               </bibl>
-               <bibl xml:id="Tarnoff" n="Tarnoff">
-                 Tarnoff, Ben. <title level="m">The Bohemians Mark Twain and the San Francisco Writers Who Reinvented American Literature</title>. The Penguin Press, 2014.
-               </bibl>
-               <bibl xml:id="Horace" n="Horace">
-                 <title level="a">Horace Mann, Jr. Manuscripts.</title> Harvard Library. N.d. https://hollisarchives.lib.harvard.edu/repositories/22/resources/1227. 8 Jan. 2020. 
-               </bibl>               
+          <bibl xml:id="Dunlavy" n="Valenti">Valenti, Patricia Dunlavy. <title level="m">Sophia
+              Peabody Hawthorne: A Life</title>. University of Missouri Press, 2004. </bibl>               
+          <bibl xml:id="Pennell" n="Pennell">Pennell, Melissa McFarland. <title level="a">Hawthorne,
+              Sophia Peabody.</title>
+            <title level="m">American National Biography</title>. Oxford: Oxford UP, 2000.
+            https://www-anb-org </bibl>
+          <bibl xml:id="Shuman" n="Shuman">Shuman, R. Baird. <title level="a">Peabody, Elizabeth
+              Palmer.</title>
+            <title level="m">American National Biography</title>. Oxford: Oxford UP, 2000.
+            https://www-anb-org </bibl>
+          <bibl xml:id="CEN" n="Hawthorne_nathaniel">Hawthorne, Nathaniel. <title level="m">The
+              Centenary Edition of the Works of Nathaniel Hawthorne</title>. Ed. William Charvat, et
+            al. Columbus, Ohio: The Ohio State University Press, 1962. </bibl>
+          <bibl xml:id="Mott" n="Mott"><author>Mott, Wesley, T.</author>
+            <title level="a">Taylor, Edward Thompson.</title>
+            <title level="m">American National Biography</title>. Oxford: Oxford UP, 2000. </bibl>
+          <bibl xml:id="mcneil" n="McNeil"><author>McNeil, Russell</author>. <title level="a"
+              >Biography of John Flaxman.</title>
+            <title level="m">John Flaxman Biography site</title>. 1998–1999. 10 Mar 2003.
+            http://www.malaspina.com/site/person_482.asp?period_id=none&amp;category_id=none </bibl>
+          <bibl xml:id="Bassan" n="Bassan"><author>Bassan, Maurice</author>. <title level="m"
+              >Hawthorne's Son: The Life and Literary Career of Julian Hawthorne</title>.
+              <pubPlace>Columbus, Ohio</pubPlace>
+            <publisher>Ohio State University Press</publisher>
+            <date>1970</date>. </bibl>
+          <bibl xml:id="Russel" n="Russel">Russel, Henry. <title level="a">Hawthorne,
+              Julian.</title>
+            <title level="m">American National Biography Online</title>. 21 Feb 2003.
+            http://www.anb.org. </bibl>
+          <bibl xml:id="Piering" n="Piering">Piering, Julie. <title level="a">Diogenes of
+              Sinope.</title>
+            <title level="m">Internet Encyclopedia of Philosophy</title>. 2001. 02 July 2020.
+            https://www.iep.utm.edu/diogsino/ </bibl>
+          <bibl xml:id="Records" n="Records"><title level="a">Records of the Dean of Harvard
+              College, 1889-1995.</title>
+            <title level="m">Harvard University Archives</title>. 2000. 14 Feb 2003.
+            http://oasis.harvard.edu/html/hua04000.html </bibl>
+          <bibl xml:id="Ritchie" n="Ritchie">Ritchie, Susan. <title level="a">The Peabody
+              Sisters.</title>
+            <title level="m">Dictionary of Unitarian &amp; Universalist Biography</title>. 2002. 17
+            Feb. 2003. http://www.uua.org/uuhs/duub/articles/peabodysisters.html </bibl>
+          <bibl xml:id="Stamps" n="Stamps"><title level="a">Stamps and Postcards.</title>
+            <title level="m">United States Postal Service</title>.
+            https://about.usps.com/who-we-are/postal-history/stamps-postcards.htm. </bibl>
+          <bibl xml:id="Bowden" n="Bowden">Bowden, Henry Warner. <title level="a">Parker,
+              Theodore.</title>
+            <title level="m">American National Biography. 2000.</title>
+          </bibl>               
+          <bibl xml:id="Grodzins" n="Grodzins">Grodzins, Dean. <title level="m">American Heretic:
+              Theodore Parker and Transcendentalism</title>. University of North Carolina Press,
+            2002. </bibl>
+          <bibl xml:id="Motley" n="Motley">Motley, John Lothrop. <title level="m">The Rise of the
+              Dutch Republic: A History</title>. J. Chapman, 1856. </bibl>
+          <bibl xml:id="Harriet" n="Harriet"><title level="a">3994. Harriet Beecher Stowe to
+              EBB.</title>
+            <title level="m">The Brownings' Correspondence: An Online Edition></title>. Wedgestone
+            Press, 2020.
+            https://www.browningscorrespondence.com/correspondence/4363/?rsId=11773#D-00C0003. 23
+            June 2020. </bibl>
+          <bibl xml:id="Mitchell" n="Mitchell">Mitchell, Stewart. <title level="a">Henry Adams and
+              Some of His Students.</title>
+            <title level="m">Proceedings of the Massachusetts Historical Society</title>, vol. 66,
+            1936, pp. 294–312. JSTOR, www.jstor.org/stable/25080330. Accessed 1 July 2020. </bibl>
+          <bibl xml:id="Symmons" n="Symmons">Symmons, Sarah. <title level="a">Flaxman, John
+              (1755–1826), sculptor, decorative designer, and illustrator.</title>
+            <title level="m">Oxford Dictionary of National Biography</title>. September 25, 2014.
+            Oxford University Press. Date of access 1 Jul. 2020. </bibl>
+          <bibl xml:id="PrichardHoar" n="PrichardHoar"><title level="a">Prichard, Hoar, and Related
+              Family Papers, 1799–1948.</title> Concord Public Library. Concord, MA: 2012. 4 July
+            2020. https://concordlibrary.org/special-collections/fin_aids/prichard. </bibl>
+          <bibl xml:id="Wright" n="Wright">Wright, Sarah Bird. <title level="m">Critical Companion
+              to Nathaniel Hawthorne: A Literary Reference to His Life and Work</title>. New York:
+            Facts On File, 2007. </bibl>
+          <bibl xml:id="McFarland" n="McFarland">McFarland, Philip James. <title level="m">Hawthorne
+              in Concord</title>. Grove Press, 2004. </bibl>
+          <bibl xml:id="Alba" n="Alba">Amoia, Alba. <title level="a">Hawthorne’s Rome: Then and
+              Now.</title>
+            <title level="j">Nathaniel Hawthorne Review</title>, vol. 24, no. 1, 1998, pp. 1-35.
+          </bibl>
+          <bibl xml:id="Tarnoff" n="Tarnoff">Tarnoff, Ben. <title level="m">The Bohemians: Mark Twain
+              and the San Francisco Writers Who Reinvented American Literature</title>. The Penguin
+            Press, 2014. </bibl>
+          <bibl xml:id="Horace" n="Horace"><title level="a">Horace Mann, Jr. Manuscripts.</title>
+            Harvard Library. N.d.
+            https://hollisarchives.lib.harvard.edu/repositories/22/resources/1227. 8 Jan. 2020.
+          </bibl>               
                
              </listBibl>
              
@@ -544,7 +535,7 @@
                American educator and reformer Horace Mann</note>
                <birth when="1807"><placeName></placeName></birth>
                <death when="1887"><placeName></placeName></death>
-               <bibl><ref target="CEN">15: 25</ref></bibl>
+               <bibl><ref target="CEN">CEN 15: 25</ref></bibl>
              </person>
              <person xml:id="HMannjr" source="source">
                <persName>Mann, Horace Jr.</persName>
@@ -643,7 +634,8 @@
              <person xml:id="JLMotley" source="RDR">
                <persName>Motley, John Lothrop</persName>
                <note type="biographical">American historian and diplomat. Following research in Europe for his history <title level="a">The Rise
-               of the Dutch Republic</title> (1855), Motley returned to Boston, where he was a member of the . The Motleys returned to Europe </note>
+               of the Dutch Republic</title> (1855), Motley returned to Boston, where he was a member of the Hawthornes' social circle. 
+                 The Motleys returned to Europe in 1858.</note>
                <birth when="1814-04-15"><placeName></placeName></birth>
                <death when="1877-05-29"><placeName></placeName></death>
                <bibl>ANB</bibl>
@@ -659,12 +651,12 @@
              </person>
              <person xml:id="JHawthorne" source="CEN">
                <persName>Hawthorne, Julian</persName>
-               <note type="biographical">Sophia and  Hawthorne's son. Julian matriculated at Harvard in the fall of 1863
+               <note type="biographical">Sophia and Nathaniel Hawthorne's son. Julian matriculated at Harvard in the fall of 1863
                but did not graduate. From 1869–1870, Julian Hawthorne lived in Dresden, Germany with his mother
                and sisters and studied engineering at Dresden's Realschule</note>
                <birth when="1846-06-22"><placeName></placeName></birth>
                <death when="1934-07-21"><placeName></placeName></death>
-               <bibl>CEN 15:33</bibl>
+               <bibl>CEN 15:33; Valenti 260, 266</bibl>
              </person>
              <person xml:id="UHawthorne" source="CEN">
                <persName>Hawthorne, Una</persName>
@@ -700,7 +692,7 @@
              <person xml:id="RWesselhoeft" source="CEN">
                <persName>Wesselhoeft, Dr. Robert</persName>
                <note type="biographical">Lived in same village as 
-                  Hawthorne, West Roxbury, in the summer of 1842. Homeopathic doctor, used 
+                  Hawthorne, West Roxbury, in the summer of 1842. Homeopathic doctor who employed 
                  "the healing powers of water"</note>
                <birth when="1838"><placeName>Weimar, Germany</placeName></birth>
                <death when="1920-08-17"><placeName>Cambridge, Massachusetts</placeName></death>
@@ -740,13 +732,13 @@
              </person>
              <person xml:id="Weiss" source="source">
                <persName>Weiss, Adelaide</persName>
-               <note type="biographical">Unidentified. Presumably, "the unhappy Weis[s] also referred to in the letter is a member of her family,
+               <note type="biographical">Unidentified. Presumably, "the unhappy Weis[s]" to who Sophia Hawthorne refers is a member of Adelaide's family,
                perhaps her husband</note>
              </person>
              <person xml:id="Hoar" source="ANB">
                <persName>Hoars</persName>
-               <note type="biographical">Presumably, the family of Judge and Attorney General Ebenezer Rockwood Hoar (1816–1895), his wife Caroline, 
-                 and their seven children, members of the Hawthorne's social circle in Concord</note>
+               <note type="biographical">Presumably, the family of Judge and Attorney General Ebenezer Rockwood Hoar (1816–1895) and his wife Caroline, 
+                 including their seven children, members of the Hawthorne's social circle in Concord</note>
                <bibl>ANB; "Prichard, Hoar, and Related Family Papers, 1799-1948"</bibl>
              </person>
              <person xml:id="Westons" source="source">
