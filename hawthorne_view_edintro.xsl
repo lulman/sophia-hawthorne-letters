@@ -459,7 +459,10 @@
       </ul>
       <hr/>
             <xsl:apply-templates
-               select="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:listBibl"/>
+               select="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:listBibl[@type='workscited']"/>
+      <h3>Collections of Sophia Peabody Hawthorne's Correspondence</h3>
+      <xsl:apply-templates
+         select="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:listBibl[@type='manuscripts']"/>
       <hr style="border: 2px solid crimson;"/>
       <h2>Appendices</h2>            
             <xsl:apply-templates
@@ -575,7 +578,7 @@
    
    <!-- SORTING AND FORMATTING LISTS OF WORKS CITED, PLACES, ORGANIZATIONS, AND SO ON. -->
    
-   <xsl:template match="tei:listBibl">
+   <xsl:template match="tei:listBibl[@type='workscited']">
       <xsl:for-each select="tei:bibl">
          <xsl:sort select="@n"/>
          <p class="hang25"><a>
@@ -583,7 +586,13 @@
             <xsl:apply-templates/></p>
       </xsl:for-each>
    </xsl:template>
- 
+   <xsl:template match="tei:listBibl[@type='manuscripts']">
+         <xsl:for-each select="tei:bibl">
+            <p class="hang25">
+               <xsl:apply-templates/></p>
+         </xsl:for-each>
+   </xsl:template>
+   
 <!-- OLD PEOPLE MENTIONED TEMPLATE -->
  
 <!--   <xsl:template match="tei:listPerson[@type='mentioned']">

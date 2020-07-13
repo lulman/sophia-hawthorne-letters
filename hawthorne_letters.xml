@@ -248,7 +248,7 @@
              </listOrg>
              
              <!-- FOR EACH LETTER, UPDATE BIBLIOGRAPHY -->
-             <listBibl>
+             <listBibl type="workscited">
                <head>
                  Works Cited in Notes
                </head>
@@ -337,9 +337,23 @@
           <bibl xml:id="Horace" n="Horace"><title level="a">Horace Mann, Jr. Manuscripts.</title>
             Harvard Library. N.d.
             https://hollisarchives.lib.harvard.edu/repositories/22/resources/1227. 8 Jan. 2020.
-          </bibl>               
-               
-             </listBibl>
+          </bibl>                             
+         </listBibl>
+             
+         <listBibl type="manuscripts">
+          <bibl>Sophia Hawthorne Collection of Autograph Letters Signed (15): Various Locations in
+            England and Scotland, to Her Daughter Una, 1857 May 22-July 7. The Morgan Library &amp;
+            Museum, New York. Literary and Historical Manuscripts.
+            https://www.themorgan.org/literary-historical/103667 </bibl>
+          <bibl>Sophia Hawthorne Correspondence with James and Annie Fields, 1851-1904. Digital
+            Commonwealth: Massachusetts Collections Online. Boston Public Library.
+            https://www.digitalcommonwealth.org/collections/commonwealth:wh247f69h </bibl>
+          <bibl>Sophia Peabody Hawthorne Collection of Papers 1775-1949. The New York Public
+            Library. Archives and Manuscripts. http://archives.nypl.org/brg/19171</bibl>
+          <bibl>Hawthorne Family Papers, ca. 1800–1926. Stanford University. Libraries. Dept. of
+            Special Collections and University Archives.
+            https://oac.cdlib.org/findaid/ark:/13030/tf487003nz/</bibl>
+         </listBibl>
              
 	        </sourceDesc>
            
