@@ -217,10 +217,9 @@
           </place>
           <place type="State" xml:id="California" source="#TGN">
             <placeName>California</placeName>
-            <desc>In her letter written in the fall of 1863, Hawthorne writes, "I dreaded Ann's going to California— away 
-              from me." She is presumably referring to Annie Adams Fields, wife of Nathaniel Hawthorne's publisher, James T. Fields, 
-              and a close friend of Sophia Hawthorne (Valenti 214–216). If that is the case, Hawthorne's reference to California 
-              may be related to James Fields publishing Bret Harte's first short story in the <title level="m">Atlantic Monthly</title> in October 1863 (Tarnoff 16, cited in Wikipedia, "Bret Harte").</desc>
+            <desc>In her letter written in the fall of 1863, Hawthorne writes, "I dreaded Ann's [Ann O'Gara] going to California— away 
+              from me." California was admitted to the Union in 1850, one year after the storied Gold Rush of 1849, which
+            resulted in a wave of emigration to the state.</desc>
             <country>United States</country>
             <location>
               <geo>37.0000 -119.0000</geo>
@@ -337,8 +336,13 @@
           <bibl xml:id="Horace" n="Horace"><title level="a">Horace Mann, Jr. Manuscripts.</title>
             Harvard Library. N.d.
             https://hollisarchives.lib.harvard.edu/repositories/22/resources/1227. 8 Jan. 2020.
-          </bibl>                             
-         </listBibl>
+          </bibl> 
+          <bibl xml:id="Woodson" n="Woodson"> Woodson, Thomas, James A. Rubino, and Jamie Barlowe
+              Kayes<title level="a">With Hawthorne in Wartime Concord: Sophia Hawthorne's 1862
+              Diary.</title>
+            <title level="j">Studies in the American Renaissance</title> 1988: 281–359. http://www.jstor.com/stable/30227567</bibl>
+               
+             </listBibl>
              
          <listBibl type="manuscripts">
           <bibl>Sophia Hawthorne Collection of Autograph Letters Signed (15): Various Locations in
@@ -803,8 +807,12 @@
                <persName>Smiths</persName>
                <note type="biographical">Unidentified</note>
              </person>
-             
-             
+             <person xml:id="OGara" source="source">
+               <persName>O'Gara, Ann</persName>
+               <note type="biographical">The Hawthorne's Irish servant in Concord during the early 1860s</note>
+               <birth when="1833"><placeName></placeName></birth>
+               <bibl>Woodson 353</bibl>
+             </person>
              
            </listPerson>
            
@@ -2141,11 +2149,8 @@
 <lb/> thankful — for I
 <lb/> dreaded <persName ref="#Ann">Ann's</persName> going
 <lb/> to <placeName ref="#California">California</placeName>— away
-<lb/> from me.<ptr type="noteAnchor" target="Ann"/><note resp="ed" xml:id="Ann">Possibly Annie Adams Fields
-  (1834–1881), wife of Nathaniel Hawthorne's publisher, James T. Fields, and a close friend of Sophia Hawthorne <bibl>Valenti 214–216</bibl>.
-  If she indeed is referring to Annie Fields, Hawthorne's reference to California may be related to James Fields's publishing 
-  Bret Harte's first short story in the <title level="j">Atlantic
-  Monthly</title> in October 1863 <bibl>Tarnoff 16, cited in Wikipedia, "Bret Harte"</bibl>.</note> There are
+<lb/> from me.<ptr type="noteAnchor" target="Ann"/><note resp="ed" xml:id="Ann">Ann O'Gara, the Hawthorne's Irish servant who did
+  eventually leave Concord to live in California in 1863 <bibl>Woodson 353</bibl>.</note> There are
 <lb/> other treasures, I
 <lb/> find among the
 <lb/> Irish besides her.
