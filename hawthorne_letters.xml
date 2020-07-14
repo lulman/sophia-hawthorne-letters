@@ -251,9 +251,11 @@
                <head>
                  Works Cited in Notes
                </head>
-          <bibl xml:id="Dunlavy" n="Valenti">Valenti, Patricia Dunlavy. <title level="m">Sophia
-              Peabody Hawthorne: A Life</title>. University of Missouri Press, 2004. </bibl>               
-          <bibl xml:id="Pennell" n="Pennell">Pennell, Melissa McFarland. <title level="a">Hawthorne,
+          <bibl xml:id="Dunlavy1" n="Valenti1">Valenti, Patricia Dunlavy. <title level="m">Sophia
+              Peabody Hawthorne: A Life, Volumen 1, 1809–1847</title>. Columbia, MO: U of Missouri P, 2004.</bibl>               
+               <bibl xml:id="Dunlavy2" n="Valenti2">Valenti, Patricia Dunlavy. <title level="m">Sophia
+                 Peabody Hawthorne: A Life, Volume 2, 1848–1871</title>. Columbia, MO: U of Missouri P, 2014.</bibl>               
+               <bibl xml:id="Pennell" n="Pennell">Pennell, Melissa McFarland. <title level="a">Hawthorne,
               Sophia Peabody.</title>
             <title level="m">American National Biography</title>. Oxford: Oxford UP, 2000.
             https://www-anb-org </bibl>
@@ -341,8 +343,11 @@
               Kayes<title level="a">With Hawthorne in Wartime Concord: Sophia Hawthorne's 1862
               Diary.</title>
             <title level="j">Studies in the American Renaissance</title> 1988: 281–359. http://www.jstor.com/stable/30227567</bibl>
+          <bibl xml:id="Dall" n="Dall">Dall, Caroline Wells Healey, and Helen Deese. <title
+              level="m">Daughter of Boston: The Extraordinary Diary of a Nineteenth-Century
+              Woman</title>. Boston, MA: Beacon Press, 2005.</bibl>            
                
-             </listBibl>
+           </listBibl>
              
          <listBibl type="manuscripts">
           <bibl>Sophia Hawthorne Collection of Autograph Letters Signed (15): Various Locations in
@@ -813,6 +818,14 @@
                <birth when="1833"><placeName></placeName></birth>
                <bibl>Woodson 353</bibl>
              </person>
+             <person xml:id="Park" source="source">
+               <persName>Park, Cornelia "Connie" Hall</persName>
+               <note type="biographical">Connie Park was a mesmerist and long-time friend of Sophia Hawthorne who treated her for
+               headaches in 1841 and attended the Hawthornes' wedding. The Hawthornes met Margaret Fuller at one of 
+               Connie Parks's parties in 1839</note>
+               <birth when="1807"><placeName></placeName></birth>
+               <bibl>Dall 382n44; Valenti, Vol.1, 154; McFarland 136–137</bibl>
+             </person>            
              
            </listPerson>
            
