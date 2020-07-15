@@ -136,6 +136,8 @@
 	                 </p>
 	               </note>
 	               <note xml:id="HawthorneIntro" type="introductory">
+	                 <p rend="epigraph">I recieved [sic] a blessed refreshment yesterday P.M. beside Mr Taylor, a long — closely written letter
+	                   <lb/>&#160;&#160;&#160;&#160;— Sophia Peabody to Elizabeth Peabody, 19 Nov. 1839</p>
 	                   <figure rend="embed">
 	                     <head>Salutation, 19 Nov. 1839</head>
 	                     <graphic url="image_my_dear_lizzie.png"/>
@@ -143,10 +145,13 @@
 	                       My Dear Lizzie
 	                     </figDesc>
 	                   </figure>	                 
-	                 <p>
-	                   Introductory Note.
-	                 </p>
-	               </note>
+	                 <p>Begin the Introductory note.</p>
+	                 <p><q>I had discovered early on that, even if I’d wanted to write about only one sister,
+                I couldn’t have done a good job of it without reading everything written by all
+                three. Their letters intertwined, so that reading only Sophia’s side of a
+                correspondence, for example, would give only a partial view</q> (Marshall, "Epilogue" 249).</p>
+              <p>Continue Intro</p>
+	             </note>
 	             </notesStmt>
 	           </biblFull>
              
@@ -346,6 +351,9 @@
           <bibl xml:id="Dall" n="Dall">Dall, Caroline Wells Healey, and Helen Deese. <title
               level="m">Daughter of Boston: The Extraordinary Diary of a Nineteenth-Century
               Woman</title>. Boston, MA: Beacon Press, 2005.</bibl>            
+          <bibl xml:id="Marshall" n="Marshall"> Marshall, Megan. <title level="m">The Peabody
+              Sisters: Three Women Who Ignited American Romanticism</title>. New York: Houghton
+            Mifflin, 2005. </bibl>
                
            </listBibl>
              

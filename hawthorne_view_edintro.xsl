@@ -490,7 +490,7 @@
    
    <!-- Format the introductory notes. -->
    <xsl:template match="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:biblFull/tei:notesStmt/tei:note[@type='introductory']">
-      <h2><xsl:attribute name="id"><xsl:value-of select="@xml:id"/></xsl:attribute>Introduction: Hawthorne Letters Intro Title</h2>
+      <h2><xsl:attribute name="id"><xsl:value-of select="@xml:id"/></xsl:attribute>Introduction: "A long—closely written letter"</h2>
       <hr/>
       <xsl:apply-templates/>
    </xsl:template>
