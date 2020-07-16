@@ -351,9 +351,15 @@
           <bibl xml:id="Dall" n="Dall">Dall, Caroline Wells Healey, and Helen Deese. <title
               level="m">Daughter of Boston: The Extraordinary Diary of a Nineteenth-Century
               Woman</title>. Boston, MA: Beacon Press, 2005.</bibl>            
-          <bibl xml:id="Marshall" n="Marshall"> Marshall, Megan. <title level="m">The Peabody
+          <bibl xml:id="Marshall" n="Marshall1"> Marshall, Megan. <title level="m">The Peabody
               Sisters: Three Women Who Ignited American Romanticism</title>. New York: Houghton
             Mifflin, 2005. </bibl>
+          <bibl xml:id="Elbert" n="Elbert"> Elbert, Monika M. et al., editors. <title level="m">Reinventing
+              the Peabody Sisters</title>. University of Iowa Press, 2006.</bibl>
+               <bibl xml:id="Marshall2" n="Marshall2">
+                 Marshall, Megan. <title level="a">Epilogue: The Peabody Sisters as Sisters.</title> Elbert, et al., pp. 248–258.
+               </bibl>
+               
                
            </listBibl>
              
