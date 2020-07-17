@@ -347,7 +347,8 @@
           <bibl xml:id="Woodson" n="Woodson"> Woodson, Thomas, James A. Rubino, and Jamie Barlowe
               Kayes<title level="a">With Hawthorne in Wartime Concord: Sophia Hawthorne's 1862
               Diary.</title>
-            <title level="j">Studies in the American Renaissance</title> 1988: 281–359. http://www.jstor.com/stable/30227567</bibl>
+            <title level="j">Studies in the American Renaissance</title>. 1988: pp. 281–359. JSTOR
+            http://www.jstor.com/stable/30227567 </bibl>
           <bibl xml:id="Dall" n="Dall">Dall, Caroline Wells Healey, and Helen Deese. <title
               level="m">Daughter of Boston: The Extraordinary Diary of a Nineteenth-Century
               Woman</title>. Boston, MA: Beacon Press, 2005.</bibl>            
@@ -359,7 +360,13 @@
                <bibl xml:id="Marshall2" n="Marshall2">
                  Marshall, Megan. <title level="a">Epilogue: The Peabody Sisters as Sisters.</title> Elbert, et al., pp. 248–258.
                </bibl>
-               
+               <bibl xml:id="Marshall3" n="Marshall3">
+                 Marshall, Megan. E-mail. 16 July 2020.</bibl>
+               <bibl xml:id="Hurst" n="Hurst">
+                 Hurst, Nancy Luanne Jenkins. <title level="m">Selected Literary Letters of Sophia Peabody Hawthorne, 1842-1853</title>.
+                 1992. The Ohio State University, PhD dissertation. University Microfilms International.
+               </bibl>
+          <bibl xml:id="Marshall4" n="Marshall4"> Marshall, Megan. E-mail. 17 July 2020. </bibl>
                
            </listBibl>
              
@@ -2064,9 +2071,8 @@
 <lb/> But I will stop this 
 <lb/> talk — whether or no. 
 <lb/> Who told the <rs>Queen of 
-<lb/> the Angels</rs><ptr type="noteAnchor" target="angels"/><note resp="ed" xml:id="angels">Possibly a reference to
-  Sophia's sister, Mary Tyler Peabody Mann, given that "Queen of Angels" (and <foreign xml:lang="lat">Regina angelorum</foreign>—see below)
-  is a devotional title for Mary, mother of Jesus. However, Hawthorne subsequently refers to the person as "Margaret."</note> that I 
+<lb/> the Angels</rs><ptr type="noteAnchor" target="angels"/><note resp="ed" xml:id="angels">Probably a reference to 
+Margaret Corlies (mentioned on the subsequent page of this letter by her first name), who cared </note> that I 
 <lb/> complained about the 
 <lb/> injury of the books? I 
 <lb/> did not — and I never 
