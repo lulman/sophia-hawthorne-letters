@@ -831,7 +831,10 @@
              </person>
              <person xml:id="Smiths" source="source">
                <persName>Smiths</persName>
-               <note type="biographical">Unidentified</note>
+               <note type="biographical">Perhaps Anna and Putnam Smith. In her 1862 journal, Sophia Hawthorne mentions
+                 on July 25 that the Smiths are coming to Concord, and on August 1 that "Una has gone to take tea with Anna Smith at Mary's"
+               </note>
+               <bibl>Woodson et al. 307, 308</bibl>
              </person>
              <person xml:id="OGara" source="source">
                <persName>O'Gara, Ann</persName>
@@ -846,7 +849,14 @@
                Connie Parks's parties in 1839</note>
                <birth when="1807"><placeName></placeName></birth>
                <bibl>Dall 382n44; Valenti, Vol.1, 154; McFarland 136–137</bibl>
-             </person>            
+             </person> 
+             <person xml:id="Corlies" source="Corlies">
+               <persName>Corlies, Margaret D</persName>
+               <note type="biographical">A friend of the Peabodys who help care for Sophia's parents in the early 1850s when they were ill and infirm,
+               and assisted Elizabeth Peabody in 1861 with her Kindergarten in Boston</note>
+               <bibl>Hurst 131n2, 281n5; Woodson et al., 348</bibl>
+             </person>
+             
              
            </listPerson>
            
@@ -2072,7 +2082,13 @@
 <lb/> talk — whether or no. 
 <lb/> Who told the <rs>Queen of 
 <lb/> the Angels</rs><ptr type="noteAnchor" target="angels"/><note resp="ed" xml:id="angels">Probably a reference to 
-Margaret Corlies (mentioned on the subsequent page of this letter by her first name), who cared </note> that I 
+Margaret Corlies (mentioned on the next page of this letter by her first name), who assisted Elizabeth Peabody
+in her kindergarten at 24 1/2 Winter Street, Boston, beginning in October 1861 <bibl>Woodson et al. 348</bibl>. In her 1862 diary, Sophia 
+  Hawthorne twice mentions meeting Margaret Corlies socially <bibl>Woodson et al. 306, 313</bibl>. Corlies also cared
+  for Sophia Hawthorne's parents in the early 1850s (Hurst 281n5), which may explain the sobriquet 
+  "Queen of Angels"/"<foreign xml:lang="lat">Regina angelorum</foreign>"—in a letter to Elizabeth written in May
+  1851, when their mother was very ill, Sophia writes, "Margaret Corlis is of the angelic order" <bibl>Hurst 254</bibl>.
+</note> that I 
 <lb/> complained about the 
 <lb/> injury of the books? I 
 <lb/> did not — and I never 
