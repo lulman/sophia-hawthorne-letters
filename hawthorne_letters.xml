@@ -136,7 +136,7 @@
 	                 </p>
 	               </note>
 	               <note xml:id="HawthorneIntro" type="introductory">
-	                 <p rend="epigraph">I recieved [sic] a blessed refreshment yesterday P.M. beside Mr Taylor, a long — closely written letter
+	                 <p rend="epigraph">I recieved [sic] a blessed refreshment yesterday P.M. . . . a long — closely written letter
 	                   <lb/>&#160;&#160;&#160;&#160;— Sophia Peabody to Elizabeth Peabody, 19 Nov. 1839</p>
 	                   <figure rend="embed">
 	                     <head>Salutation, 19 Nov. 1839</head>
@@ -2063,9 +2063,10 @@
 <lb/> tastes that are ignoble. 
 <lb/> But I will stop this 
 <lb/> talk — whether or no. 
-<lb/> Who told the <rs ref="#MTPMann">Queen of 
-<lb/> the Angels</rs><ptr type="noteAnchor" target="angels"/><note resp="ed" xml:id="angels">Presumably
-  Sophia's sister, Mary Tyler Peabody Mann.</note> that I 
+<lb/> Who told the <rs>Queen of 
+<lb/> the Angels</rs><ptr type="noteAnchor" target="angels"/><note resp="ed" xml:id="angels">Possibly a reference to
+  Sophia's sister, Mary Tyler Peabody Mann, given that "Queen of Angels" (and <foreign xml:lang="lat">Regina angelorum</foreign>—see below)
+  is a devotional title for Mary, mother of Jesus. However, Hawthorne subsequently refers to the person as "Margaret."</note> that I 
 <lb/> complained about the 
 <lb/> injury of the books? I 
 <lb/> did not — and I never 
@@ -2087,8 +2088,7 @@
 <!-- Page 12 -->
 <pb facs="Letter4_P12"/>
                
-<lb/> <persName ref="#MTPMann">Margaret</persName><ptr type="noteAnchor" target="margaret"/><note resp="ed" xml:id="margaret">Presumably
-    Sophia's sister, Mary Tyler Peabody Mann.</note> allowed
+<lb/> <persName>Margaret</persName> allowed
 <lb/> it or knew of it.
 <lb/> She will not be so
 <lb/> angry therefore with
@@ -2101,11 +2101,11 @@
 <lb/> me, so innocent, by
 <lb/> never borrowing
 <lb/> another book from me!
-<lb/> And she too, the <persName ref="#MTPMann">Queen
-<lb/> of the Angels</persName>! Tell
+<lb/> And she too, the <rs>Queen
+<lb/> of the Angels</rs>! Tell
 <lb/> her then to lay off her
 <lb/> crown, for she is not
-<lb/> the <foreign xml:lang="lat">Regina angelorum</foreign>
+<lb/> the <rs><foreign xml:lang="lat">Regina angelorum</foreign></rs>
 <lb/> any longer. I wish
 <lb/> folk would leave me
 <lb/> to do my own fault-<lb/>finding — my own duty, in
