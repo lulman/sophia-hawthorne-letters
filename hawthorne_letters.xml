@@ -136,11 +136,11 @@
 	                 </p>
 	               </note>
 	               <note xml:id="HawthorneIntro" type="introductory">
-	                 <p rend="epigraph">I recieved [sic] a blessed refreshment yesterday P.M. . . . a long — closely written letter
+	                 <p rend="epigraph">I <choice><sic>recieved</sic><corr>received</corr></choice> a blessed refreshment yesterday P.M. . . . a long — closely written letter
 	                   <lb/>&#160;&#160;&#160;&#160;— Sophia Peabody to Elizabeth Peabody, 19 Nov. 1839</p>
 	                   <figure rend="embed">
-	                     <head>Salutation, 19 Nov. 1839</head>
-	                     <graphic url="image_my_dear_lizzie.png"/>
+	                     <head>Salutation [1863]</head>
+	                     <graphic url="image_my_dear_elizabeth_1863.jpg"/>
 	                     <figDesc>
 	                       My Dear Lizzie
 	                     </figDesc>
@@ -259,7 +259,11 @@
           <bibl xml:id="Dunlavy1" n="Valenti1">Valenti, Patricia Dunlavy. <title level="m">Sophia
               Peabody Hawthorne: A Life, Volumen 1, 1809–1847</title>. Columbia, MO: U of Missouri P, 2004.</bibl>               
                <bibl xml:id="Dunlavy2" n="Valenti2">Valenti, Patricia Dunlavy. <title level="m">Sophia
-                 Peabody Hawthorne: A Life, Volume 2, 1848–1871</title>. Columbia, MO: U of Missouri P, 2014.</bibl>               
+                 Peabody Hawthorne: A Life, Volume 2, 1848–1871</title>. Columbia, MO: U of Missouri P, 2014.</bibl>
+               <bibl xml:id="Valenti3" n="Valenti3">
+                 Valenti, Patricia Dunlavy. Email. 22 July 2020.
+               </bibl>
+               
                <bibl xml:id="Pennell" n="Pennell">Pennell, Melissa McFarland. <title level="a">Hawthorne,
               Sophia Peabody.</title>
             <title level="m">American National Biography</title>. Oxford: Oxford UP, 2000.
@@ -344,7 +348,7 @@
             Harvard Library. N.d.
             https://hollisarchives.lib.harvard.edu/repositories/22/resources/1227. 8 Jan. 2020.
           </bibl> 
-          <bibl xml:id="Woodson" n="Woodson"> Woodson, Thomas, James A. Rubino, and Jamie Barlowe
+          <bibl xml:id="Woodson" n="Woodson">Woodson, Thomas, James A. Rubino, and Jamie Barlowe
               Kayes<title level="a">With Hawthorne in Wartime Concord: Sophia Hawthorne's 1862
               Diary.</title>
             <title level="j">Studies in the American Renaissance</title>. 1988: pp. 281–359. JSTOR
@@ -352,22 +356,18 @@
           <bibl xml:id="Dall" n="Dall">Dall, Caroline Wells Healey, and Helen Deese. <title
               level="m">Daughter of Boston: The Extraordinary Diary of a Nineteenth-Century
               Woman</title>. Boston, MA: Beacon Press, 2005.</bibl>            
-          <bibl xml:id="Marshall" n="Marshall1"> Marshall, Megan. <title level="m">The Peabody
+          <bibl xml:id="Marshall" n="Marshall1">Marshall, Megan. <title level="m">The Peabody
               Sisters: Three Women Who Ignited American Romanticism</title>. New York: Houghton
             Mifflin, 2005. </bibl>
-          <bibl xml:id="Elbert" n="Elbert"> Elbert, Monika M. et al., editors. <title level="m">Reinventing
+          <bibl xml:id="Elbert" n="Elbert">Elbert, Monika M. et al., editors. <title level="m">Reinventing
               the Peabody Sisters</title>. University of Iowa Press, 2006.</bibl>
-               <bibl xml:id="Marshall2" n="Marshall2">
-                 Marshall, Megan. <title level="a">Epilogue: The Peabody Sisters as Sisters.</title> Elbert, et al., pp. 248–258.
-               </bibl>
-               <bibl xml:id="Marshall3" n="Marshall3">
-                 Marshall, Megan. E-mail. 16 July 2020.</bibl>
-               <bibl xml:id="Hurst" n="Hurst">
-                 Hurst, Nancy Luanne Jenkins. <title level="m">Selected Literary Letters of Sophia Peabody Hawthorne, 1842-1853</title>.
-                 1992. The Ohio State University, PhD dissertation. University Microfilms International.
-               </bibl>
-          <bibl xml:id="Marshall4" n="Marshall4"> Marshall, Megan. E-mail. 17 July 2020. </bibl>
-          <bibl xml:id="Miller" n="Miller"> Miller, Edwin Haviland. <title level="a">A Calendar of
+          <bibl xml:id="Marshall2" n="Marshall2"> Marshall, Megan. <title level="a">Epilogue: The
+              Peabody Sisters as Sisters.</title> Elbert, et al., pp. 248–258. </bibl>
+          <bibl xml:id="Marshall3" n="Marshall3"> Marshall, Megan. E-mail. 16 July 2020.</bibl>
+          <bibl xml:id="Hurst" n="Hurst"> Hurst, Nancy Luanne Jenkins. <title level="m">Selected
+              Literary Letters of Sophia Peabody Hawthorne, 1842-1853</title>. 1992. The Ohio State
+            University, PhD dissertation. University Microfilms International. </bibl>
+          <bibl xml:id="Miller" n="Miller">Miller, Edwin Haviland. <title level="a">A Calendar of
               the Letters of Sophia Peabody Hawthorne.</title>
             <title level="j">Studies in the American Renaissance</title>, 1986: pp. 199–281. JSTOR
             http://www.jstor.com/stable/30227548. Accessed 20 July 2020. </bibl>
@@ -858,7 +858,7 @@
                <persName>Corlies, Margaret D</persName>
                <note type="biographical">A friend of the Peabodys who help care for Sophia's parents in the early 1850s when they were ill and infirm,
                and assisted Elizabeth Peabody in 1861 with her Kindergarten in Boston</note>
-               <bibl>Hurst 131n2, 281n5; Woodson et al., 348</bibl>
+               <bibl>Hurst 131n2, 281n5; Woodson et al., 348; Marshall, Email; Valenti, Email</bibl>
              </person>
              
              

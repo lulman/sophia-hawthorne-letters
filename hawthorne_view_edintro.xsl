@@ -734,7 +734,7 @@
          <xsl:apply-templates/>
       </xsl:element>
    </xsl:template>
-   <xsl:template match="//tei:p[not(@xml:id='CreativeCommons') and not(@rend='h3') and not(@class='epigraph')]">
+   <xsl:template match="//tei:p[not(@xml:id='CreativeCommons') and not(@rend='h3') and not(@class='epigraph') and not(@rend='epigraph')]">
       <p>
          <xsl:apply-templates/>
       </p>
@@ -849,6 +849,13 @@
          <xsl:value-of select="tei:head"/>
       </div>
    </xsl:template> 
+   
+   <!-- Deal with sic/corr tags -->
+   <xsl:template match="tei:choice/tei:sic">
+      <xsl:apply-templates/> [<xsl:element name="span"><xsl:attribute name="style">font-style: italic;</xsl:attribute>sic</xsl:element>]
+   </xsl:template>
+   <xsl:template match="tei:choice/tei:corr"/>
+   
   
    <!-- Suppress some unused elements in the XML file. -->
    <xsl:template match="tei:text"/>
