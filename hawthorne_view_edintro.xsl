@@ -741,7 +741,6 @@
    </xsl:template>
    <xsl:template match="tei:q[@rend='block']">
       <br/>
-      <br/>
       <div class="blockquote">
          <xsl:apply-templates/>
          <br/>
