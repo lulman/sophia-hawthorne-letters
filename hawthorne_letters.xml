@@ -260,10 +260,9 @@
               Peabody Hawthorne: A Life, Volumen 1, 1809–1847</title>. Columbia, MO: U of Missouri P, 2004.</bibl>               
                <bibl xml:id="Dunlavy2" n="Valenti2">Valenti, Patricia Dunlavy. <title level="m">Sophia
                  Peabody Hawthorne: A Life, Volume 2, 1848–1871</title>. Columbia, MO: U of Missouri P, 2014.</bibl>
-               <bibl xml:id="Valenti3" n="Valenti3">
-                 Valenti, Patricia Dunlavy. Email. 22 July 2020.
-               </bibl>
-               
+          <bibl xml:id="Valenti3" n="Valenti3">Valenti, Patricia Dunlavy. Email. 22 July 2020.</bibl>
+            <bibl xml:id="Valenti4" n="Valenti4">Valenti, Patricia Dunlavy. Email. 30 July 2020.
+            </bibl>
                <bibl xml:id="Pennell" n="Pennell">Pennell, Melissa McFarland. <title level="a">Hawthorne,
               Sophia Peabody.</title>
             <title level="m">American National Biography</title>. Oxford: Oxford UP, 2000.
@@ -272,7 +271,7 @@
               Palmer.</title>
             <title level="m">American National Biography</title>. Oxford: Oxford UP, 2000.
             https://www-anb-org </bibl>
-          <bibl xml:id="CEN" n="Hawthorne_nathaniel">Hawthorne, Nathaniel. <title level="m">The
+          <bibl xml:id="CEN" n="HawthorneNaCe">Hawthorne, Nathaniel. <title level="m">The
               Centenary Edition of the Works of Nathaniel Hawthorne</title>. Ed. William Charvat, et
             al. Columbus, Ohio: The Ohio State University Press, 1962. </bibl>
           <bibl xml:id="Mott" n="Mott"><author>Mott, Wesley, T.</author>
@@ -349,7 +348,7 @@
             https://hollisarchives.lib.harvard.edu/repositories/22/resources/1227. 8 Jan. 2020.
           </bibl> 
           <bibl xml:id="Woodson" n="Woodson">Woodson, Thomas, James A. Rubino, and Jamie Barlowe
-              Kayes<title level="a">With Hawthorne in Wartime Concord: Sophia Hawthorne's 1862
+              Kayes. <title level="a">With Hawthorne in Wartime Concord: Sophia Hawthorne's 1862
               Diary.</title>
             <title level="j">Studies in the American Renaissance</title>. 1988: pp. 281–359. JSTOR
             http://www.jstor.com/stable/30227567 </bibl>
@@ -361,17 +360,73 @@
             Mifflin, 2005. </bibl>
           <bibl xml:id="Elbert" n="Elbert">Elbert, Monika M. et al., editors. <title level="m">Reinventing
               the Peabody Sisters</title>. University of Iowa Press, 2006.</bibl>
-          <bibl xml:id="Marshall2" n="Marshall2"> Marshall, Megan. <title level="a">Epilogue: The
+          <bibl xml:id="Marshall2" n="Marshall2">Marshall, Megan. <title level="a">Epilogue: The
               Peabody Sisters as Sisters.</title> Elbert, et al., pp. 248–258. </bibl>
-          <bibl xml:id="Marshall3" n="Marshall3"> Marshall, Megan. E-mail. 16 July 2020.</bibl>
-          <bibl xml:id="Hurst" n="Hurst"> Hurst, Nancy Luanne Jenkins. <title level="m">Selected
+          <bibl xml:id="Marshall3" n="Marshall3">Marshall, Megan. E-mail. 16 July 2020.</bibl>
+          <bibl xml:id="Hurst" n="Hurst">Hurst, Nancy Luanne Jenkins. <title level="m">Selected
               Literary Letters of Sophia Peabody Hawthorne, 1842-1853</title>. 1992. The Ohio State
             University, PhD dissertation. University Microfilms International. </bibl>
           <bibl xml:id="Miller" n="Miller">Miller, Edwin Haviland. <title level="a">A Calendar of
               the Letters of Sophia Peabody Hawthorne.</title>
             <title level="j">Studies in the American Renaissance</title>, 1986: pp. 199–281. JSTOR
             http://www.jstor.com/stable/30227548. Accessed 20 July 2020. </bibl>
-                
+          <bibl xml:id="ValentiWhat" n="ValentiSophia"> Valenti, Patricia Dunlavy. <title level="a"
+              >Sophia Peabody Hawthorne and 'The—What?': Creative Copies in Art and
+              Literature.</title>
+            <title level="j">Nathaniel Hawthorne Review</title>, vol. 37, no. 2, 2011, pp.
+              48-72.</bibl>
+          <bibl xml:id="NathanielAm" n="HawthorneNaAm">Hawthorne, Nathaniel. <title level="m"
+              >Passages From the American Note-Books of Nathaniel Hawthorne</title>. Ticknor and
+            Fields, 1868. </bibl> 
+          <bibl xml:id="NathanielEn" n="HawthorneNaEn">Hawthorne, Nathaniel. <title level="m"
+              >Passages From the English Note-Books of Nathaniel Hawthorne.</title> Fields, Osgood,
+            &amp; co., 1870. </bibl>
+          <bibl xml:id="SophiaEn" n="HawthorneSoEn">Hawthorne, Sophia Peabody. <title level="m"
+              >Notes in England and Italy</title>. G. P. Putnam &amp; son, 1869. </bibl>
+          <bibl xml:id="Responses" n="Responses"><title level="a">Responses to Death in Nineteenth Century America.</title>
+            <title level="m">Digital History</title>, 2019,
+            http://www.digitalhistory.uh.edu/topic_display.cfm?tcid=73. Accessed 18 August
+            2020.</bibl>
+          <bibl xml:id="PeabodyUn" n="PeabodyElUn">Peabody, Elizabeth Palmer. <title level="m"
+              >Universal History; Arranged to Illustrate Bem’s Charts of Chronology</title>. Pub.
+            for the author by Sheldon and co., 1859. </bibl>
+          <bibl xml:id="Baylor" n="Baylor">Baylor, Ruth M. <title level="m">Elizabeth Palmer
+              Peabody: Kindergarten Pioneer</title>. University of Pennsylvania Press, 1965.</bibl>
+          <bibl xml:id="RondaEli" n="RondaEli">Ronda, Bruce A. <title level="m">Elizabeth Palmer
+              Peabody: A Reformer on Her Own Terms</title>. Harvard University Press, 1999. </bibl>
+          <bibl xml:id="TharpUn" n="TharpUn">Tharp, Louise Hall. <title level="m">Until Victory:
+              Horace Mann and Mary Peabody</title>. Little, Brown, 1953. </bibl>
+          <bibl xml:id="TharpPe" n="TharpPe">
+            Tharp, Louise Hall. <title level="m">The Peabody Sisters of Salem</title>. Little, Brown, 1988.
+          </bibl>
+          <bibl xml:id="MannLi" n="MannLi">Mann, Mary Tyler Peabody. <title level="m">Life of
+              Horace Mann</title>. Walker, Fuller, and company, 1865.</bibl>
+          <bibl xml:id="MannCh" n="MannCh">Mann, Mary Tyler Peabody. <title level="m">Christianity
+              in the Kitchen. A Physiological Cook-Book</title>. Ticknor and Fields, 1858. </bibl>
+          <bibl xml:id="HawthorneNaMa" n="HawthorneNaMa">Hawthorne, Nathaniel. <title level="m">The Marble Faun; or,
+            the Romance of Monte Beni</title>. Ticknor and Fields, 1860. </bibl>
+          <bibl xml:id="HallAt" n="HallAt">Hall, Julie E. <title level="a">At the Crisis of Our Fate: Sophia
+            Peabody Hawthorne’s Civil War Correspondence.</title> <title level="m">Reinventing the Peabody Sisters</title>, edited
+            by Monika M. Elbert et al., University of Iowa Press, 2006, pp. 61–76. </bibl>
+          <bibl xml:id="HallWr" n="HallWr">Hall, Julie E. <title level="a">Writing at the crossroads: Sophia
+            Hawthorne’s Civil War letters to Annie Fields.</title> <title level="j">Legacy: A Journal of American Women
+            Writers</title>, vol. 25, 2008, pp. 251. </bibl>
+          <bibl xml:id="StewartFin" n="StewartFin">Stewart, Randall. <title level="a">Mrs. Hawthorne’s Financial
+            Difficulties: Selections From Her Letters to James T. Fields, 1865–1868.</title> <title level="j">More Books:
+            The Bulletin of the Boston Public Library</title>, vol. 21.2, 1946, pp. 43-52. </bibl>
+          <bibl xml:id="StewartQu" n="StewartQu">Stewart, Randall. <title level="a">Mrs. Hawthorne’s Quarrel with
+            James T. Fields: Selections from Letters to Fields by Mrs. Hawthorne and Elizabeth
+            Peabody.</title> <title level="j">More Books: The Bulletin of the Boston Public Library</title>, vol. 21.7, 1946, pp.
+            254-63. </bibl>
+          <bibl xml:id="MannMo" n="MannMo">Mann, Mary Tyler Peabody, and Elizabeth Palmer Peabody.
+              <title level="m">Moral Culture of Infancy, and Kindergarten Guide</title>. T.O.H.P.
+            Burnham, 1863. </bibl>
+          <bibl xml:id="MannHo" n="MannHo">Mann, Horace. <title level="a">Enumeration of Hawaian
+              Plants.</title>
+            <title level="j">Proceedings of the American Academy of Arts and sciences</title>, vol.
+            7, 1866, pp. 143-235. Biodiversity Heritage Library,
+            https://www.biodiversitylibrary.org/page/4534831. Accessed 19 August 2020. </bibl>
+               
            </listBibl>
              
          <listBibl type="manuscripts">
