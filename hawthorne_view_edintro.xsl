@@ -777,9 +777,9 @@
       </strong>
    </xsl:template>
    <xsl:template match="tei:hi[@rend='italics']">
-      <em>
+      <span style="font-style:italic">
          <xsl:apply-templates/>
-      </em>
+      </span>
    </xsl:template>
    <xsl:template match="tei:emph[@rend='bold']">
       <strong>
@@ -787,9 +787,9 @@
       </strong>
    </xsl:template>
    <xsl:template match="emph[@rend='italics']">
-      <I>
+      <span style="font-style:italic">
          <xsl:apply-templates/>
-      </I>
+      </span>
    </xsl:template>
    <xsl:template match="emph[@rend='italic']">
       <I>
