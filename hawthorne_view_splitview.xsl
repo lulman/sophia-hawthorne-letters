@@ -31,7 +31,7 @@
       but to aid readability, the carets are suppressed in this transcription. Links to external materials are colored and underlined.</xsl:variable>
    <xsl:variable name="bodyRule">
       body {
-      font-family: 'Fanwood Text',georgia, serif;
+      font-family: Times, Times New Roman, serif;
       font-size: 1em;
       <!-- Expand body width to 1050 -->
       width: 1050px;
