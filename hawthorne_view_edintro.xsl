@@ -157,7 +157,7 @@
                      <li class="link"><a class="main"  href="">Appendices</a>
                         <ul class="sub">
                            <li><a href="./hawthorne_appendices_markup.html">Markup Guidelines</a></li>
-                           <li><a href="./hawthorne_appendices_hand.html">Guide to Hawthorne's Hand</a></li>
+                           <li><a href="./hawthorne_appendices_hand.html">Hawthorne's Hand</a></li>
                            <li><a href="./hawthorne_appendices_msimages.html">Images of the MS Pages</a></li>
                            <li><a href="./hawthorne_appendices_maps.html">Maps</a></li>
                            <li><a href="./hawthorne_letters.html#worksCited">Works Cited</a></li>
