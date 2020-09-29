@@ -562,6 +562,12 @@
          </xsl:for-each>.
          </p>
       </xsl:for-each>
+      <p>
+         <xsl:value-of
+            select="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:availability/tei:p[@xml:id='CreativeCommons']"
+            disable-output-escaping="yes"/>
+      </p>
+      
 <!--      <p>
          <xsl:value-of select="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:pubPlace"/>, <xsl:value-of
             select="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:date"/>
@@ -679,13 +685,17 @@
 
    <!-- Format information about the revision history of your document. -->
    <xsl:template match="/tei:teiCorpus/tei:teiHeader/tei:revisionDesc">
-      <hr style="border: 2px solid crimson;"/>
+      
+<!-- Moved to the section describing the electronic edition
+         
+         <hr style="border: 2px solid crimson;"/>
       <h2>License</h2>
       <p>
             <xsl:value-of
                select="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:availability/tei:p[@xml:id='CreativeCommons']"
                disable-output-escaping="yes"/>
          </p>
+-->  
       <hr style="border: 2px solid crimson;"/>
       <a id="revision"/>
          <h2>Revision History</h2>
