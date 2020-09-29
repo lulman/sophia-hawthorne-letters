@@ -34,7 +34,7 @@
       }
       #viewMenu {
       position: fixed;
-      top:120px;
+      top:140px;
       left: 865px;
       width:150px;
       margin-top: 0px;
@@ -387,8 +387,8 @@
             <!-- END THE VERTICAL IMAGE BAR -->
             <!-- START RIGHT MENU -->   
             <div id="viewMenu">
-               <p class="aboutView"><a href="./hawthorne_letters.html#view">About this page.</a></p>
                <div class="container">
+               <p class="aboutView"><a href="#view">About this page.</a></p>
                   <p class="font-size-label">Font Size <button id="up">+</button> <button id="down">-</button></p>
                   <!--<p id="font-size"></p>-->
                   <p style="font-size:smaller">
