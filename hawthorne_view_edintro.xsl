@@ -139,7 +139,7 @@
                             -->                        
                         </ul>
                      </li>
-                     <li class="link"><a class="main"  href="./hawthorne_letters.html#projectDescription">Editorial Introduction</a>
+                     <li class="link"><a class="main"  href="">Editorial Introduction</a>
                         <ul class="sub">
                            <li><a href="./hawthorne_letters.html#projectDescription">Project Description</a></li>
                            <li><a href="./hawthorne_letters.html#source">The Source Document</a></li>
