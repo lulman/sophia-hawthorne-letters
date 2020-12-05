@@ -770,6 +770,13 @@
          <br/>
      </p>
    </xsl:template>
+   
+   <xsl:template match="//tei:p[@rend='namenote']">
+      <p style="border-top:1px solid;border-bottom:1px solid;padding-top:5px;padding-bottom:5px">
+         <xsl:apply-templates/>
+      </p>
+   </xsl:template>
+   
    <xsl:template match="tei:name">
       <xsl:apply-templates/>
    </xsl:template>
@@ -791,6 +798,11 @@
          <xsl:apply-templates/>
       </span>
    </xsl:template>
+   <xsl:template match="tei:hi[@rend='underline']">
+      <span style="text-decoration:underline">
+         <xsl:apply-templates/>
+      </span>
+   </xsl:template>
    <xsl:template match="tei:emph[@rend='bold']">
       <strong>
          <xsl:apply-templates/>
@@ -807,9 +819,9 @@
       </I>
    </xsl:template>
    <xsl:template match="emph[@rend='underline']">
-      <U>
+      <span style="text-decoration:underline;">
          <xsl:apply-templates/>
-      </U>
+      </span>
    </xsl:template>
    <xsl:template match="emph[@rend='sup']">
       <sup>
