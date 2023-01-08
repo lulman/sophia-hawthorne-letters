@@ -542,6 +542,8 @@
             <title level="a">Taylor, Edward Thompson (1793-1871), Methodist Preacher.</title>
             <title level="m">American National Biography</title>. Oxford UP, February 2000.
             doi.org/10.1093/anb/9780198606697.article.0801505.</bibl>
+          <bibl xml:id="Darnell" n="Darnell">Darnell, Donald. <title level="a">Motley, John
+            Lothrop.</title> <title level="m">CEN</title>. February 2000. doi-org.proxy.lib.ohio-state.edu/10.1093/anb/9780198606697.article.1400428.</bibl>
           <bibl xml:id="mcneil" n="McNeil"><author>McNeil, Russell</author>. <title level="a"
               >Biography of John Flaxman.</title>
             <title level="m">John Flaxman Biography Site</title>. 1998–1999. 10 Mar 2003.
@@ -871,21 +873,21 @@
                <state from="1842-07-09" to="1864-05-19"><label>
                  Married to Nathaniel Hawthorne.
                </label></state>
-               <bibl>Pennell; ANB</bibl>
+               <bibl><ref target="#Pennell">Pennell</ref></bibl>
              </person>
              <person xml:id="EPPeabody" source="ANB">
                <persName>Peabody, Elizabeth Palmer</persName>
                <note type="biographical">American educator and author. Oldest of the Sophia Peabody Hawthorne's sisters.</note>
                <birth when="1804-05-16"><placeName>Billerica, Massachusetts</placeName></birth>
                <death when="1894-01-03"></death>
-               <bibl>Shuman</bibl>
+               <bibl><ref target="#Shuman">Shuman</ref></bibl>
              </person>
              <person xml:id="EPPelder" source="CEN">
                <persName>Peabody, Elizabeth Palmer</persName>
                <note type="biographical">Sophia Peabody Hawthorne's mother.</note>
                <birth when="1778"><placeName></placeName></birth>
                <death when="1853"><placeName></placeName></death>
-               <bibl>Turner 103</bibl>
+               <bibl></bibl>
              </person>
              <person xml:id="AMAlcott" source="CEN">
                <persName>Alcott, Abigail May</persName>
@@ -918,7 +920,7 @@
                  in <title level="j">Proceedings of the American Academy of Arts and Sciences</title> in 1866</note>
                <birth when="1844-02-24"><placeName></placeName></birth>
                <death when="1868"><placeName></placeName></death>
-               <bibl>"Horace Mann, Jr. Manuscripts"</bibl>
+               <bibl><ref target="#Horace">"Horace Mann, Jr. Manuscripts"</ref></bibl>
              </person>
              <person xml:id="BMann" source="source">
                <persName>Mann, Benjamin Pickman</persName>
@@ -946,35 +948,35 @@
                  Seamen's Bethel, Boston, Massachusetts</note>
                <birth when="1793"><placeName></placeName></birth>
                <death when="1871"><placeName></placeName></death>
-               <bibl>CEN 15:421-22; Mott</bibl>
+               <bibl><ref target="#CEN">CEN 15:421-22</ref>; <ref target="#Mott">Mott</ref></bibl>
              </person>
              <person xml:id="GPeabody" source="CEN">
                <persName>Peabody, George Francis</persName>
                <note type="biographical">Sophia's brother, who suffered from spinal tuberculosis and died in Elizabeth's care on November 25, 1839</note>
                <birth when="1813"><placeName></placeName></birth>
                <death when="1839"><placeName></placeName></death>
-               <bibl>CEN 15:360-375</bibl>
+               <bibl><ref target="#CEN">CEN 15:360-375</ref></bibl>
              </person>
              <person xml:id="NPeabody" source="CEN">
                <persName>Peabody, Dr. Nathaniel</persName>
                <note type="biographical">Sophia Peabody Hawthorne's father</note>
                <birth when="1774"><placeName></placeName></birth>
                <death when="1855"><placeName></placeName></death>
-               <bibl>Turner 103</bibl>
+               <bibl></bibl>
              </person>
              <person xml:id="SPickman" source="CEN">
                <persName>Pickman, Sophia Palmer (Aunt Pickman)</persName>
                <note type="biographical">The Peabody sisters' aunt on their mother's side</note>
                <birth when="1786"><placeName></placeName></birth>
                <death when="1862"><placeName></placeName></death>
-               <bibl>CEN 16:14</bibl>
+               <bibl><ref target="#CEN">CEN 16:14</ref></bibl>
              </person>
              <person xml:id="AHBWard" source="CEN">
                <persName>Ward, Anna Hazard Barker</persName>
                <note type="biographical">Wife of Samuel Gray Ward and member of the Peabody sisters' social circle in Boston</note>
                <birth when="1813"><placeName></placeName></birth>
                <death when="1900"><placeName></placeName></death>
-               <bibl>CEN 16:298</bibl>
+               <bibl><ref target="#CEN">CEN 16:298</ref></bibl>
              </person>
              <person xml:id="EBBrowning" source="CEN">
                <persName>Browning, Elizabeth Barrett</persName>
@@ -985,7 +987,7 @@
                <birth when="1806"><placeName></placeName></birth>
                <death when="1861"><placeName></placeName></death>
                <state from="1846" to="1861"><p>Married to Robert Browning</p></state>
-               <bibl>CEN 16:520; DNB</bibl>
+               <bibl><ref target="#CEN">CEN 16:520</ref>; DNB</bibl>
              </person>
              <person xml:id="RBrowning" source="CEN">
                <persName>Browning, Robert</persName>
@@ -996,23 +998,23 @@
                <birth when="1812-05-07"><placeName></placeName></birth>
                <death when="1889-12-12"><placeName></placeName></death>
                <state from="1846" to="1861"><p>Married to Elizabeth Barrett Browning</p></state>
-               <bibl>CEN 15:87; DNB</bibl>
+               <bibl><ref target="#CEN">CEN 15:87</ref></bibl>
              </person>
              <person xml:id="MMotley" source="CEN">
                <persName>Motley, Mary Benjamin</persName>
                <note type="biographical">Wife of John Lothrop Motley</note>
                <birth when="1814"><placeName></placeName></birth>
                <death when="1877"><placeName></placeName></death>
-               <bibl>CEN 18:174</bibl>
+               <bibl><ref target="#CEN">CEN 18:174</ref></bibl>
              </person>
-             <person xml:id="JLMotley" source="RDR">
+             <person xml:id="JLMotley" source="#Darnell">
                <persName>Motley, John Lothrop</persName>
                <note type="biographical">American historian and diplomat. Following research in Europe for his history <title level="a">The Rise
                of the Dutch Republic</title> (1855), Motley returned to Boston, where he was a member of the Hawthornes' social circle. 
                  The Motleys returned to Europe in 1858.</note>
                <birth when="1814-04-15"><placeName></placeName></birth>
                <death when="1877-05-29"><placeName></placeName></death>
-               <bibl>ANB</bibl>
+               <bibl><ref target="#Darnell"></ref></bibl>
              </person>
              <person xml:id="CSCushman" source="CEN">
                <persName>Cushman, Charlotte Saunders</persName>
@@ -1021,7 +1023,7 @@
                in Rome that served as a "social center for expatriate English and Americans," including the Hawthornes</note>
                <birth when="1816"><placeName></placeName></birth>
                <death when="1876"><placeName></placeName></death>
-               <bibl>CEN 16:532; ANB</bibl>
+               <bibl><ref target="#CEN">CEN 16:532</ref>; ANB</bibl>
              </person>
              <person xml:id="JHawthorne" source="CEN">
                <persName>Hawthorne, Julian</persName>
@@ -1030,7 +1032,7 @@
                and sisters and studied engineering at Dresden's Realschule</note>
                <birth when="1846-06-22"><placeName></placeName></birth>
                <death when="1934-07-21"><placeName></placeName></death>
-               <bibl>CEN 15:33; Valenti 260, 266</bibl>
+               <bibl><ref target="#CEN">CEN 15:33</ref>; <ref target="#ValentiWhat">Valenti 260, 266</ref></bibl>
              </person>
              <person xml:id="UHawthorne" source="CEN">
                <persName>Hawthorne, Una</persName>
@@ -1038,7 +1040,7 @@
                  parents and siblings during the early months of 1859, Una contracted malaria</note>
                <birth when="1844"><placeName></placeName></birth>
                <death when="1877"><placeName></placeName></death>
-               <bibl>CEN 15:33; Valenti 176</bibl>
+               <bibl><ref target="#CEN">CEN 15:33</ref>; <ref target="#Dunlavy1">Valenti 176</ref></bibl>
              </person>
              <person xml:id="AShephard" source="CEN">
                <persName>Shepard Ada</persName>
@@ -1046,14 +1048,14 @@
                stay in Rome early in 1859</note>
                <birth when="1835"><placeName></placeName></birth>
                <death when="1874"><placeName></placeName></death>
-               <bibl>CEN 16:298; Valenti 177</bibl>
+               <bibl><ref target="#CEN">CEN 16:298</ref>; <ref target="#Dunlavy1">Valenti 177</ref></bibl>
              </person>
              <person xml:id="RHawthorne" source="CEN">
                <persName>Hawthorne, Rose</persName>
                <note type="biographical">Sophia and  Hawthorne's younger daughter</note>
                <birth when="1851"><placeName></placeName></birth>
                <death when="1926"><placeName></placeName></death>
-               <bibl>CEN 15:33</bibl>
+               <bibl><ref target="#CEN">CEN 15:33</ref></bibl>
              </person>
              <person xml:id="JFlaxman" source="MGB">
                <persName>Flaxman, John</persName>
@@ -1061,7 +1063,7 @@
                  of the classical tendency in English sculpture</note>
                <birth when="1755"><placeName></placeName></birth>
                <death when="1826"><placeName></placeName></death>
-               <bibl>Symmons</bibl>
+               <bibl><ref target="#Symmons">Symmons</ref></bibl>
              </person>
              <person xml:id="RWesselhoeft" source="CEN">
                <persName>Wesselhoeft, Dr. Robert</persName>
@@ -1070,7 +1072,7 @@
                  "the healing powers of water"</note>
                <birth when="1838"><placeName>Weimar, Germany</placeName></birth>
                <death when="1920-08-17"><placeName>Cambridge, Massachusetts</placeName></death>
-               <bibl>CEN 16:71; ANB</bibl>
+               <bibl><ref target="#CEN">CEN 16:71</ref>; ANB</bibl>
              </person>
              <person xml:id="NHawthorne">
                <persName>Hawthorne, Nathaniel</persName>
@@ -1088,14 +1090,14 @@
                  housing in Athens</note>
                <birth when-custom="c. 404 BCE"><placeName>Sinope</placeName></birth>
                <death when-custom="323 BCE"><placeName>Corinth</placeName></death>
-               <bibl>Piering</bibl>
+               <bibl><ref target="#Piering">Piering</ref></bibl>
              </person>
              <person xml:id="EGurney" source="source">
                <persName>Gurney, Ephraim Whitney</persName>
                <note type="biographical">Professor of ancient history and Julian Hawthorne's sponsor and mentor at Harvard University</note>
                <birth when="1829"><placeName></placeName></birth>
                <death when="1886"><placeName></placeName></death>
-               <bibl>Mitchell 295–296</bibl>
+               <bibl><ref target="#Mitchell">Mitchell 295–296</ref></bibl>
              </person>
              <person xml:id="GHillard" source="source">
                <persName>Hillard, George Stillman</persName>
@@ -1113,14 +1115,14 @@
                <persName>Hoars</persName>
                <note type="biographical">Presumably, the family of Judge and Attorney General Ebenezer Rockwood Hoar (1816–1895) and his wife Caroline, 
                  including their seven children, members of the Hawthorne's social circle in Concord</note>
-               <bibl>ANB; "Prichard, Hoar, and Related Family Papers, 1799-1948"</bibl>
+               <bibl>ANB; <ref target="#PrichardHoar">"Prichard, Hoar, and Related Family Papers, 1799-1948"</ref></bibl>
              </person>
              <person xml:id="Westons" source="source">
                <persName>Westons</persName>
                <note type="biographical">Presumably, Sophia refers a family of five sisters, one of whom, Lucia, 
                  lived as an invalid in Rome from 1853 until her death and was attended by one or more of her sisters. 
                  Lucia lived at Palazzo Galitzín, located in the center of Rome, just off the Tiber in Via della Scrofia #117</note>
-               <bibl>"3994. Harriet Beecher Stowe to EBB," note 3</bibl>
+               <bibl><ref target="#Harriet">"3994. Harriet Beecher Stowe to EBB,"</ref> note 3</bibl>
              </person>
              <person xml:id="Simpson" source="source">
                <persName>Simpson, Dr</persName>
@@ -1140,12 +1142,12 @@
                <persName>Prichards</persName>
                <note type="biographical">The Prichards were a prominent and extended family who were part of the Hawthornes' social circle. Sophia and
                  Nathaniel's contemporaries would have been the children of Moses Prichard (1789–1865) and Jane Hallett Prichard (1790–1860)</note>
-               <bibl>"Prichard, Hoar, and Related Family Papers, 1799-1948"</bibl>
+               <bibl><ref target="#PrichardHoar">"Prichard, Hoar, and Related Family Papers, 1799-1948"</ref></bibl>
              </person>
              <person xml:id="MacKays" source="source">
                <persName>MacKays</persName>
                <note type="biographical">An extended Boston family, apparently related to the Prichards through marriage</note>
-               <bibl>"Prichard, Hoar, and Related Family Papers, 1799-1948"</bibl>
+               <bibl><ref target="#PrichardHoar">"Prichard, Hoar, and Related Family Papers, 1799-1948"</ref></bibl>
              </person>
              <person xml:id="Allbutt" source="source">
                <persName>Allbutt, Mrs</persName>
@@ -1164,13 +1166,13 @@
                <note type="biographical">Perhaps Anna and Putnam Smith. In her 1862 journal, Sophia Hawthorne mentions
                  on July 25 that the Smiths are coming to Concord, and on August 1 that "Una has gone to take tea with Anna Smith at Mary's"
                </note>
-               <bibl>Woodson et al. 307, 308</bibl>
+               <bibl><ref target="#Woodson">Woodson et al. 307, 308</ref></bibl>
              </person>
              <person xml:id="OGara" source="source">
                <persName>O'Gara, Ann</persName>
                <note type="biographical">The Hawthorne's Irish servant in Concord during the early 1860s</note>
                <birth when="1833"><placeName></placeName></birth>
-               <bibl>Woodson 353</bibl>
+               <bibl><ref target="#Woodson">Woodson 353</ref></bibl>
              </person>
              <person xml:id="Park" source="source">
                <persName>Park, Cornelia "Connie" Hall</persName>
@@ -1178,13 +1180,13 @@
                headaches in 1841 and attended the Hawthornes' wedding. The Hawthornes met Margaret Fuller at one of 
                Connie Parks's parties in 1839</note>
                <birth when="1807"><placeName></placeName></birth>
-               <bibl>Dall 382n44; Valenti, Vol.1, 154; McFarland 136–137</bibl>
+               <bibl><ref target="#Dall">Dall 382n44</ref>; <ref target="#Dunlavy1">Valenti, Vol.1, 154</ref>; <ref target="#McFarland">McFarland 136–137</ref></bibl>
              </person> 
              <person xml:id="Corlies" source="Corlies">
                <persName>Corlies, Margaret D</persName>
                <note type="biographical">A friend of the Peabodys who help care for Sophia's parents in the early 1850s when they were ill and infirm,
                and assisted Elizabeth Peabody in 1861 with her Kindergarten in Boston</note>
-               <bibl>Hurst 131n2, 281n5; Woodson et al., 348; Marshall, Email; Valenti, Email</bibl>
+               <bibl><ref target="#Hurst">Hurst 131n2, 281n5</ref>; <ref target="#Woodson">Woodson et al., 348</ref>; <ref target="#Marshall3">Marshall, Email</ref>; <ref target="#Valenti3">Valenti, Email</ref></bibl>
              </person>
              
              
@@ -1340,8 +1342,8 @@
               target="Date1837"/><note resp="ed" xml:id="Date1837">The dateline does not include a
               year. We report 1837 here, as listed in the manuscript description provided to Ohio
               State University Libraries by the seller, in part because the letter is addressed care of Rev.
-              Theodore Parker, Roxbury, Massachusetts, where Parker began serving as pastor in 1837 <bibl>Bowden</bibl>, and
-              where Elizabeth Peabody visited him in the summer of 1837 <bibl>Grodzins, 105</bibl>.</note>
+              Theodore Parker, Roxbury, Massachusetts, where Parker began serving as pastor in 1837 <bibl><ref target="#Bowden">Bowden</ref></bibl>, and
+              where Elizabeth Peabody visited him in the summer of 1837 <bibl><ref target="#Grodzins">Grodzins, 105</ref></bibl>.</note>
             <lb/><salute>My Dear <persName ref="#EPP">Elizabeth</persName>,</salute>
           </opener>
           <p>
@@ -2325,7 +2327,7 @@
 <lb/> <persName ref="#Prichards">Prichards</persName>,<ptr type="noteAnchor" target="Prichard"/><note resp="ed" xml:id="Prichard">Although Hawthorne's
   handwriting is unclear—she appears to have written "Pritchards"—the context suggests
   that she is referring to the Prichards, an extended family in Concord that was part of the Hawthorne's 
-  social circle <bibl>"Prichard, Hoar, and Related Family Papers, 1799–1948"</bibl>.</note> the <persName ref="#MacKays">MacKays</persName>,
+  social circle <bibl><ref target="#PrichardHoar">"Prichard, Hoar, and Related Family Papers, 1799–1948"</ref></bibl>.</note> the <persName ref="#MacKays">MacKays</persName>,
 <lb/> the <persName ref="#Hoar">Hoars</persName>, the all
 <lb/> the world of <placeName>Concord</placeName>
 <lb/> agree in love to her.
@@ -2413,11 +2415,11 @@
 <lb/> Who told the <rs>Queen of 
 <lb/> the Angels</rs><ptr type="noteAnchor" target="angels"/><note resp="ed" xml:id="angels">Probably a reference to 
 Margaret Corlies (mentioned on the next page of this letter by her first name), who assisted Elizabeth Peabody
-in her kindergarten at 24 1/2 Winter Street, Boston, beginning in October 1861 <bibl>Woodson et al. 348</bibl>. In her 1862 diary, Sophia 
-  Hawthorne twice mentions meeting Margaret Corlies socially <bibl>Woodson et al. 306, 313</bibl>. Corlies also cared
+in her kindergarten at 24 1/2 Winter Street, Boston, beginning in October 1861 <bibl><ref target="#Woodson">Woodson et al. 348</ref></bibl>. In her 1862 diary, Sophia 
+  Hawthorne twice mentions meeting Margaret Corlies socially <bibl><ref target="#Woodson">Woodson et al. 306, 313</ref></bibl>. Corlies also cared
   for Sophia Hawthorne's parents in the early 1850s (Hurst 281n5), which may explain the sobriquet 
   "Queen of Angels"/"<foreign xml:lang="lat">Regina angelorum</foreign>"—in a letter to Elizabeth written in May
-  1851, when their mother was very ill, Sophia writes, "Margaret Corlis is of the angelic order" <bibl>Hurst 254</bibl>.
+  1851, when their mother was very ill, Sophia writes, "Margaret Corlis is of the angelic order" <bibl><ref target="#Hurst">Hurst 254</ref></bibl>.
 </note> that I 
 <lb/> complained about the 
 <lb/> injury of the books? I 
@@ -2529,7 +2531,7 @@ in her kindergarten at 24 1/2 Winter Street, Boston, beginning in October 1861 <
 <lb/> dreaded <persName ref="#Ann">Ann's</persName> going
 <lb/> to <placeName ref="#California">California</placeName>— away
 <lb/> from me.<ptr type="noteAnchor" target="Ann"/><note resp="ed" xml:id="Ann">Ann O'Gara, the Hawthorne's Irish servant who did
-  eventually leave Concord to live in California in 1863 <bibl>Woodson 353</bibl>.</note> There are
+  eventually leave Concord to live in California in 1863 <bibl><ref target="#Woodson">Woodson 353</ref></bibl>.</note> There are
 <lb/> other treasures, I
 <lb/> find among the
 <lb/> Irish besides her.
@@ -2922,7 +2924,7 @@ in her kindergarten at 24 1/2 Winter Street, Boston, beginning in October 1861 <
   <lb/> in November for the former books<ptr type="noteAnchor" target="notebooks"/><note resp="ed" xml:id="notebooks">Nathaniel Hawthorne's 
     <title level="m">American Notebooks</title>, published by Ticknor
     and Fields, that Sophia felt she was not being properly compensated for.
-    <bibl>GALE 169</bibl>.</note>— But I hear
+    </note>— But I hear
 <lb/> the firm is dissolved. If so, perhaps I
 <lb/> am without redress. I wish <persName ref="#GHillard">Mr Hillard</persName>
 <lb/> could send my January dividend so I
