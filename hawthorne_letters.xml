@@ -1637,7 +1637,7 @@
           </figure>
           <ab type="postalAddress">
             <address>
-              <persName>Miss E. P. Peabody</persName>
+              <persName ref="#EPPeabody">Miss E. P. Peabody</persName>
               <addrLine>Care of Rev. Theodore Parker</addrLine>
               <addrLine>West Roxbury</addrLine>
             </address>
@@ -1851,7 +1851,7 @@
           <!-- If there were a <postscript>, we have a tag for that. -->
           <postscript>
             <p>
-              <lb/><add place="margin" hand="#SPH">My love to <persName>Connie</persName></add>
+              <lb/><add place="margin" hand="#SPH">My love to <persName ref="#Park">Connie</persName></add>
             </p>
           </postscript>
         </div>        
@@ -1990,7 +1990,7 @@
               <lb/> d'Angleterre — <q>with no cares, no 
               <lb/> anxieties, only hopes</q> she says. 
               <lb/> She suffered terribly from the 
-              <lb/> severe treatment of <persName>Dr Simpson</persName>
+              <lb/> severe treatment of <persName ref="#Simpson">Dr Simpson</persName>
               <lb/> but expects to feel benefit 
               <lb/> next summer from it. 
               <lb/> Neither have I been able to see 
@@ -2023,7 +2023,7 @@
               <lb/> only slight nose cold. 
               <lb/> <persName ref="#RHawthorne">Rose</persName> has today gone to 
               <lb/> the <placeName>Palazzo Galitzin</placeName> to see 
-              <lb/><persName>the Westons</persName>, who delight in 
+              <lb/><persName ref="#Westons">the Westons</persName>, who delight in 
               <lb/> her. She draws with a 
               <lb/> wonderful expression. 
               <lb/> <persName ref="#JHawthorne">Julian</persName> copies <persName ref="#JFlaxman">Flaxman</persName>
@@ -2134,7 +2134,7 @@
 <lb/> take some <add hand="#SPHawthorne" place="supralinear" rend="caret">time</add> for you. 
 <lb/> We could not take 
 <lb/> advantage of the free
-<lb/> lessons of <persName>Dr. Kinner</persName>
+<lb/> lessons of <persName ref="#Kinner">Dr. Kinner</persName>
 <lb/> for <persName ref="#UHawthorne">Una</persName>, on account
 <lb/> partly <del hand="#SPHawthorne" rend="overwritten">and</del>of the expense 
 <lb/> of railroad fare — while 
@@ -2320,13 +2320,13 @@
                
 <lb/> from the <persName ref="#Alcott">Alcotts</persName> probably,
 <lb/> as no one else maligns 
-<lb/> her. <persName>Mrs Emerson</persName>, all
-<lb/> the <persName>Emersons</persName>, the 
-<lb/> <persName>Prichards</persName>,<ptr type="noteAnchor" target="Prichard"/><note resp="ed" xml:id="Prichard">Although Hawthorne's
+<lb/> her. <persName ref="#Emersons">Mrs Emerson</persName>, all
+<lb/> the <persName ref="#Emersons">Emersons</persName>, the 
+<lb/> <persName ref="#Prichards">Prichards</persName>,<ptr type="noteAnchor" target="Prichard"/><note resp="ed" xml:id="Prichard">Although Hawthorne's
   handwriting is unclear—she appears to have written "Pritchards"—the context suggests
   that she is referring to the Prichards, an extended family in Concord that was part of the Hawthorne's 
-  social circle <bibl>"Prichard, Hoar, and Related Family Papers, 1799–1948"</bibl>.</note> the <persName>MacKays</persName>,
-<lb/> the <persName>Hoars</persName>, the all
+  social circle <bibl>"Prichard, Hoar, and Related Family Papers, 1799–1948"</bibl>.</note> the <persName ref="#MacKays">MacKays</persName>,
+<lb/> the <persName ref="#Hoar">Hoars</persName>, the all
 <lb/> the world of <placeName>Concord</placeName>
 <lb/> agree in love to her.
 <lb/> They call her <q>loveliest</q>
@@ -2440,7 +2440,7 @@ in her kindergarten at 24 1/2 Winter Street, Boston, beginning in October 1861 <
 <!-- Page 12 -->
 <pb facs="Letter4_P12"/>
                
-<lb/> <persName>Margaret</persName> allowed
+<lb/> <persName ref="#Corlies">Margaret</persName> allowed
 <lb/> it or knew of it.
 <lb/> She will not be so
 <lb/> angry therefore with
