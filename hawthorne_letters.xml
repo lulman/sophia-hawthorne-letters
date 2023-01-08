@@ -5,23 +5,23 @@
            <!-- For each letter, add editor, scanner, and initial markup -->
              <titleStmt>
                <title>My Dear Elizabeth: Letters from Sophia Peabody Hawthorne to Elizabeth Palmer Peabody, 1837-1868</title>
-               <editor><persName ref="MA">Michael Albrecht</persName></editor>
-               <editor><persName ref="KDA">Karen D. Anderson</persName></editor>
-               <editor><persName ref="SC">Sue Carlson</persName></editor>
-               <editor><persName ref="DC">David Carrino</persName></editor>
-               <editor><persName ref="JDi">John DiCamillo</persName></editor>
-               <editor><persName ref="ADi">Anthony DiCola</persName></editor>
-               <editor><persName ref="TJF">Thomas J. Firestone</persName></editor>
-               <editor><persName ref="JPF">Joseph P. Frazee</persName></editor>
-               <editor><persName ref="KLH">Krista L. Havrilla</persName></editor>
-               <editor><persName ref="SRH">Stacy R. Haynes</persName></editor>
-               <editor><persName ref="MJ">Marianne Johnson</persName></editor>
-               <editor><persName ref="JAO">Jose A. Orozco</persName></editor>
-               <editor><persName ref="SOR">Sean O'Reilly</persName></editor>
-               <editor><persName ref="CRBP">Christopher R. B. Pinner</persName></editor>
-               <editor><persName ref="MRS">Michelle R. Soell</persName></editor>
-               <editor><persName ref="CS">Chris Stull</persName></editor>
-               <editor><persName ref="HLU">H. Lewis Ulman</persName></editor>
+               <editor><persName ref="#MA">Michael Albrecht</persName></editor>
+               <editor><persName ref="#KDA">Karen D. Anderson</persName></editor>
+               <editor><persName ref="#SC">Sue Carlson</persName></editor>
+               <editor><persName ref="#DC">David Carrino</persName></editor>
+               <editor><persName ref="#JDi">John DiCamillo</persName></editor>
+               <editor><persName ref="#ADi">Anthony DiCola</persName></editor>
+               <editor><persName ref="#TJF">Thomas J. Firestone</persName></editor>
+               <editor><persName ref="#JPF">Joseph P. Frazee</persName></editor>
+               <editor><persName ref="#KLH">Krista L. Havrilla</persName></editor>
+               <editor><persName ref="#SRH">Stacy R. Haynes</persName></editor>
+               <editor><persName ref="#MJ">Marianne Johnson</persName></editor>
+               <editor><persName ref="#JAO">Jose A. Orozco</persName></editor>
+               <editor><persName ref="#SOR">Sean O'Reilly</persName></editor>
+               <editor><persName ref="#CRBP">Christopher R. B. Pinner</persName></editor>
+               <editor><persName ref="#MRS">Michelle R. Soell</persName></editor>
+               <editor><persName ref="#CS">Chris Stull</persName></editor>
+               <editor><persName ref="#HLU">H. Lewis Ulman</persName></editor>
                
            <respStmt>
              <resp>Creation of digital scans of manuscript pages: </resp>
@@ -30,44 +30,44 @@
            
            <respStmt>
              <resp>Creation of initial machine-readable transcript: </resp>
-             <persName ref="MA">Michael Albrecht</persName>
-             <persName ref="KDA">Karen D. Anderson</persName>
-             <persName ref="SC">Sue Carlson</persName>
-             <persName ref="DC">David Carrino</persName>
-             <persName ref="JDi">John DiCamillo</persName>
-             <persName ref="ADi">Anthony DiCola</persName>
-             <persName ref="TJF">Thomas J. Firestone</persName>
-             <persName ref="JPF">Joseph P. Frazee</persName>
-             <persName ref="KLH">Krista L. Havrilla</persName>
-             <persName ref="SRH">Stacy R. Haynes</persName>
-             <persName ref="MJ">Marianne Johnson</persName>
-             <persName ref="JAO">Jose A. Orozco</persName>
-             <persName ref="SOR">Sean O'Reilly</persName>
-             <persName ref="CRBP">Christopher R. B. Pinner</persName>
-             <persName ref="MRS">Michelle R. Soell</persName>
-             <persName ref="CS">Chris Stull</persName>
-             <persName ref="HLU">H. Lewis Ulman</persName>
+             <persName ref="#MA">Michael Albrecht</persName>
+             <persName ref="#KDA">Karen D. Anderson</persName>
+             <persName ref="#SC">Sue Carlson</persName>
+             <persName ref="#DC">David Carrino</persName>
+             <persName ref="#JDi">John DiCamillo</persName>
+             <persName ref="#ADi">Anthony DiCola</persName>
+             <persName ref="#TJF">Thomas J. Firestone</persName>
+             <persName ref="#JPF">Joseph P. Frazee</persName>
+             <persName ref="#KLH">Krista L. Havrilla</persName>
+             <persName ref="#SRH">Stacy R. Haynes</persName>
+             <persName ref="#MJ">Marianne Johnson</persName>
+             <persName ref="#JAO">Jose A. Orozco</persName>
+             <persName ref="#SOR">Sean O'Reilly</persName>
+             <persName ref="#CRBP">Christopher R. B. Pinner</persName>
+             <persName ref="#MRS">Michelle R. Soell</persName>
+             <persName ref="#CS">Chris Stull</persName>
+             <persName ref="#HLU">H. Lewis Ulman</persName>
            </respStmt>
                
            <respStmt>
              <resp>Conversion to TEI-conformant markup: </resp>
-             <persName ref="MA">Michael Albrecht</persName>
-             <persName ref="KDA">Karen D. Anderson</persName>
-             <persName ref="SC">Sue Carlson</persName>
-             <persName ref="DC">David Carrino</persName>
-             <persName ref="JDi">John DiCamillo</persName>
-             <persName ref="ADi">Anthony DiCola</persName>
-             <persName ref="TJF">Thomas J. Firestone</persName>
-             <persName ref="JPF">Joseph P. Frazee</persName>
-             <persName ref="KLH">Krista L. Havrilla</persName>
-             <persName ref="SRH">Stacy R. Haynes</persName>
-             <persName ref="MJ">Marianne Johnson</persName>
-             <persName ref="JAO">Jose A. Orozco</persName>
-             <persName ref="SOR">Sean O'Reilly</persName>
-             <persName ref="CRBP">Christopher R. B. Pinner</persName>
-             <persName ref="MRS">Michelle R. Soell</persName>
-             <persName ref="CS">Chris Stull</persName>
-             <persName ref="HLU">H. Lewis Ulman</persName>
+             <persName ref="#MA">Michael Albrecht</persName>
+             <persName ref="#KDA">Karen D. Anderson</persName>
+             <persName ref="#SC">Sue Carlson</persName>
+             <persName ref="#DC">David Carrino</persName>
+             <persName ref="#JDi">John DiCamillo</persName>
+             <persName ref="#ADi">Anthony DiCola</persName>
+             <persName ref="#TJF">Thomas J. Firestone</persName>
+             <persName ref="#JPF">Joseph P. Frazee</persName>
+             <persName ref="#KLH">Krista L. Havrilla</persName>
+             <persName ref="#SRH">Stacy R. Haynes</persName>
+             <persName ref="#MJ">Marianne Johnson</persName>
+             <persName ref="#JAO">Jose A. Orozco</persName>
+             <persName ref="#SOR">Sean O'Reilly</persName>
+             <persName ref="#CRBP">Christopher R. B. Pinner</persName>
+             <persName ref="#MRS">Michelle R. Soell</persName>
+             <persName ref="#CS">Chris Stull</persName>
+             <persName ref="#HLU">H. Lewis Ulman</persName>
            </respStmt>    
            
          </titleStmt>
@@ -1192,23 +1192,23 @@
            
            <listPerson type="editors">
              <head>Editors</head>
-             <person><persName ref="MA">Michael Albrecht</persName></person>
-             <person><persName ref="KDA">Karen D. Anderson</persName></person>
-             <person><persName ref="SC">Sue Carlson</persName></person>
-             <person><persName ref="DC">David Carrino</persName></person>
-             <person><persName ref="HLU">H. Lewis Ulman</persName></person>
-             <person><persName ref="JDi">John DiCamillo</persName></person>
-             <person><persName ref="ADi">Anthony DiCola</persName></person>
-             <person><persName ref="TJF">Thomas J. Firestone</persName></person>
-             <person><persName ref="JPF">Joseph P. Frazee</persName></person>
-             <person><persName ref="KLH">Krista L. Havrilla</persName></person>
-             <person><persName ref="SRH">Stacy R. Haynes</persName></person>
-             <person><persName ref="JAO">Jose A. Orozco</persName></person>
-             <person><persName ref="SOR">Sean O'Reilly</persName></person>
-             <person><persName ref="CRBP">Christopher R. B. Pinner</persName></person>
-             <person><persName ref="MRS">Michelle R. Soell</persName></person>
-             <person><persName ref="CS">Chris Stull</persName></person>
-             <person><persName ref="MJ">Marianne Johnson</persName></person>
+             <person><persName xml:id="MA">Michael Albrecht</persName></person>
+             <person><persName xml:id="KDA">Karen D. Anderson</persName></person>
+             <person><persName xml:id="SC">Sue Carlson</persName></person>
+             <person><persName xml:id="DC">David Carrino</persName></person>
+             <person><persName xml:id="HLU">H. Lewis Ulman</persName></person>
+             <person><persName xml:id="JDi">John DiCamillo</persName></person>
+             <person><persName xml:id="ADi">Anthony DiCola</persName></person>
+             <person><persName xml:id="TJF">Thomas J. Firestone</persName></person>
+             <person><persName xml:id="JPF">Joseph P. Frazee</persName></person>
+             <person><persName xml:id="KLH">Krista L. Havrilla</persName></person>
+             <person><persName xml:id="SRH">Stacy R. Haynes</persName></person>
+             <person><persName xml:id="JAO">Jose A. Orozco</persName></person>
+             <person><persName xml:id="SOR">Sean O'Reilly</persName></person>
+             <person><persName xml:id="CRBP">Christopher R. B. Pinner</persName></person>
+             <person><persName xml:id="MRS">Michelle R. Soell</persName></person>
+             <person><persName xml:id="CS">Chris Stull</persName></person>
+             <person><persName xml:id="MJ">Marianne Johnson</persName></person>
            </listPerson>
          </particDesc>
          
