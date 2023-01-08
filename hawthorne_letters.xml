@@ -505,7 +505,7 @@
              
              <listOrg>
                <head>List of Organizations Mentioned</head>
-               <org xml:id="ticknor" source="source">
+               <org xml:id="Ticknor" source="source">
                  <orgName>Ticknor and Fields</orgName>
                  <state type="company"></state>
                  <desc>American publisher of Nathaniel Hawthorne's books.</desc>
@@ -703,16 +703,16 @@
            </listBibl>
              
          <listBibl type="manuscripts">
-          <bibl>Sophia Hawthorne Collection of Autograph Letters Signed (15): Various Locations in
+          <bibl xml:id="MorganLibrary">Sophia Hawthorne Collection of Autograph Letters Signed (15): Various Locations in
             England and Scotland, to Her Daughter Una, 1857 May 22-July 7. The Morgan Library &amp;
             Museum, New York. Literary and Historical Manuscripts.
             https://www.themorgan.org/literary-historical/103667 </bibl>
-          <bibl>Sophia Hawthorne Correspondence with James and Annie Fields, 1851-1904. Digital
+          <bibl xml:id="DigitalCommonwealth">Sophia Hawthorne Correspondence with James and Annie Fields, 1851-1904. Digital
             Commonwealth: Massachusetts Collections Online. Boston Public Library.
             https://www.digitalcommonwealth.org/collections/commonwealth:wh247f69h </bibl>
-          <bibl>Sophia Peabody Hawthorne Collection of Papers 1775-1949. The New York Public
+          <bibl xml:id="NYPL">Sophia Peabody Hawthorne Collection of Papers 1775-1949. The New York Public
             Library. Archives and Manuscripts. http://archives.nypl.org/brg/19171</bibl>
-          <bibl>Hawthorne Family Papers, ca. 1800–1926. Stanford University. Libraries. Dept. of
+          <bibl xml:id="Stanford">Hawthorne Family Papers, ca. 1800–1926. Stanford University Libraries. Dept. of
             Special Collections and University Archives.
             https://oac.cdlib.org/findaid/ark:/13030/tf487003nz/</bibl>
          </listBibl>
@@ -1915,7 +1915,7 @@
           <pb facs="Letter3_P1"/>
           <opener>
             <!-- REPLACE WITH INFO FROM NEW LETTER -->
-            <lb/><dateline><placeName>Rome</placeName>. <date when="1859-01-08"></date>January 8th 1859</dateline>
+            <lb/><dateline><placeName ref="#Rome">Rome</placeName>. <date when="1859-01-08"></date>January 8th 1859</dateline>
             <lb/><add hand="#Unknown" place="inline">[Mrs H]</add> <ptr type="noteAnchor" target="MrsH"/><note resp="ed" xml:id="MrsH">"Mrs H" was added in pencil by an unknown hand.</note>
             <lb/><salute>My dear <persName ref="#EPPeabody">Elizabeth</persName>,</salute>
           </opener> 
@@ -2024,7 +2024,7 @@
               <lb/> <persName ref="#JHawthorne">Julian</persName> also is well with 
               <lb/> only slight nose cold. 
               <lb/> <persName ref="#RHawthorne">Rose</persName> has today gone to 
-              <lb/> the <placeName>Palazzo Galitzin</placeName> to see 
+              <lb/> the <placeName ref="#Palazzo">Palazzo Galitzin</placeName> to see 
               <lb/><persName ref="#Westons">the Westons</persName>, who delight in 
               <lb/> her. She draws with a 
               <lb/> wonderful expression. 
@@ -2329,7 +2329,7 @@
   that she is referring to the Prichards, an extended family in Concord that was part of the Hawthorne's 
   social circle <bibl><ref target="#PrichardHoar">"Prichard, Hoar, and Related Family Papers, 1799–1948"</ref></bibl>.</note> the <persName ref="#MacKays">MacKays</persName>,
 <lb/> the <persName ref="#Hoar">Hoars</persName>, the all
-<lb/> the world of <placeName>Concord</placeName>
+<lb/> the world of <placeName ref="#Concord">Concord</placeName>
 <lb/> agree in love to her.
 <lb/> They call her <q>loveliest</q>
 <lb/> <q>the most devoted</q> <q>the
