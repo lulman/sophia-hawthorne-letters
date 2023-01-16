@@ -141,8 +141,7 @@
                
                <!-- BEGIN titleBar -->
                <div id="titleBar">
-                  <p style="text-align: center;"><span class="projectTitle"><xsl:apply-templates
-                     select="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/></span><br/><br/></p>
+                  <p style="text-align: center"><span class="projectTitle">My Dear Elizabeth:<br/>Letters from Sophia Peabody Hawthorne to Elizabeth Palmer Peabody, 1837-1868</span></p>
                   <!-- Horizontal rule beneath page title -->
                   <hr style="border: 2px solid crimson;"/>
                </div> <!-- END titleBar -->
