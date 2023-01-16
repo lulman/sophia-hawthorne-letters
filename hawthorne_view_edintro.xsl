@@ -133,10 +133,6 @@
                   <ul class="nav">
                      <li class="link"><a class="main"  href="./hawthorne_letters.html#HawthorneIntro">Historical Introduction</a>
                         <ul class="sub">
-                           <!-- 
-                           <li><a href="./hawthorne_letters.html#letters">Letters and Letter Writing</a></li>
-                           <li><a href="./hawthorne_letters.html#west">Tourism and Commerce</a></li>
-                            -->                        
                         </ul>
                      </li>
                      <li class="link"><a class="main"  href="">Editorial Introduction</a>
@@ -148,8 +144,6 @@
                            <li><a href="./hawthorne_letters.html#peopleMentioned">People Mentioned</a></li>
                            <li><a href="./hawthorne_letters.html#organizationsMentioned">Organizations Mentioned</a></li>
                            <li><a href="./hawthorne_letters.html#placesMentioned">Places Mentioned</a></li>
-                           <li><a href="./hawthorne_letters.html#revision">Revision History</a></li>
-                           
                            <li><a href="./hawthorne_letters.html#revision">Revision History</a></li>
                         </ul>
                      </li>
