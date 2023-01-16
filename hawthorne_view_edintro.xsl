@@ -496,7 +496,7 @@
       <a id="source"/>
       <h2>About the Source Documents</h2>
       <hr/>
-      <p><strong>Title</strong>: "<xsl:value-of select="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:biblFull/tei:titleStmt/tei:title"/>" 
+      <p><strong>Title</strong>: <xsl:value-of select="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:biblFull/tei:titleStmt/tei:title"/> 
          <br/><strong>Extent</strong>: <xsl:value-of select="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:biblFull/tei:extent"/>
       </p>
       <p>See individual letters (under "Views of the Letters") for physical descriptions of each letter.</p>
@@ -534,7 +534,7 @@
       <a id="edition"/>
       <h2>About the Electronic Edition</h2>
       <hr/>
-      <p><strong>Title</strong>: "<xsl:value-of select="tei:title"/>"</p>
+      <p><strong>Preferred Citation</strong>: <xsl:value-of select="tei:title"/></p>
          <p><strong>Editors</strong>: <xsl:for-each select="tei:editor/tei:persName">
             <xsl:choose>
                <xsl:when test="current()=//tei:titleStmt/tei:editor[1]">
